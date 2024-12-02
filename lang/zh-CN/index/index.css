@@ -1,0 +1,116 @@
+@import url("./rwd.css");
+
+html[lang="zh-CN"] {
+  .cancel-body span::before {
+    content: "此地震速报已取消";
+  }
+
+  .no-eew.rts-trigger-low .info-unit::after {
+    content: "弱反应 " !important;
+  }
+
+  .no-eew.rts-trigger-middle .info-unit::after {
+    content: "震动检测 " !important;
+  }
+
+  .no-eew.rts-trigger-high .info-unit::after {
+    content: "强震检测 " !important;
+  }
+
+  .eew-warn .info-unit::before {
+    content: "地震速报 ";
+  }
+
+  .eew-alert .info-unit::before {
+    content: "紧急地震速报 ";
+  }
+
+  .info-number-last::after {
+    content: "报(最终报)" !important;
+  }
+
+  .no-eew .info-unit::after {
+    content: "暂无生效中的地震预警";
+  }
+
+  .info-intensity::after {
+    content: "预估最大震度";
+  }
+
+  .info-nsspe span::before {
+    content: "NSSPE 无震源参数推算";
+  }
+
+  .info-time::after {
+    content: "发震";
+  }
+
+  .info-mag-text::after,
+  .report-box-item-wrapper:first-child .report-mag-text::after {
+    content: "规模";
+  }
+
+  .intensity-report::before {
+    content: "震度速报";
+  }
+  .source-report::before {
+    content: "震源速报";
+  }
+  .earthquake-report::before {
+    content: "地震报告";
+  }
+  .tsunami-warning::before {
+    content: "海啸警报";
+  }
+  .earthquake-warning::before {
+    content: "地震速报";
+  }
+
+  .report-intensity-text {
+    font-size: 12px;
+  }
+  .report-intensity-text::before {
+    content: "观测最大震度";
+  }
+  .web-detection::before {
+    content: "检知";
+  }
+  .web-report::before {
+    content: "报告";
+  }
+  .report-replay::before {
+    content: "重播";
+  }
+
+  .report-box-items .survey .report-loc:before {
+    content: "震源调查中";
+  }
+  .max-intensity-text::before {
+    content: "最大观测震度";
+  }
+  .internet-error .title:before {
+    content: "网路异常";
+  }
+
+  .unstable .title:before {
+    content: "不稳定";
+  }
+
+  .unstable .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "受地震活动的影响";
+    }
+    &:nth-child(2)::before {
+      content: "观测点可能不稳定";
+    }
+  }
+
+  .internet-error .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "网路连线异常";
+    }
+    &:nth-child(2)::before {
+      content: "请待稍后重试";
+    }
+  }
+}

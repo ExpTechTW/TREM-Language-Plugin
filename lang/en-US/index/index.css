@@ -1,0 +1,155 @@
+@import url("./rwd.css");
+
+html[lang="en-US"] {
+  .version-check-text::before {
+    content: "New version";
+  }
+
+  .info-number {
+    &:not(:empty)::before {
+      content: "#";
+    }
+    &:not(:empty)::after {
+      content: "";
+    }
+  }
+
+  .cancel-title span::before {
+    content: "Cancel";
+  }
+
+  .cancel-body span::before {
+    content: "This earthquake warning canceled.";
+  }
+
+  .no-eew.rts-trigger-low .info-unit::after {
+    content: "Low " !important;
+  }
+
+  .no-eew.rts-trigger-middle .info-unit::after {
+    content: "Earthquake weak response " !important;
+  }
+
+  .no-eew.rts-trigger-high .info-unit::after {
+    content: "Strong earthquake detection " !important;
+  }
+
+  .eew-warn .info-unit::before {
+    content: "Warning ";
+  }
+
+  .eew-alert .info-unit::before {
+    content: "Warning alert ";
+  }
+
+  .info-number-last::after {
+    content: "(last)" !important;
+  }
+
+  .no-eew .info-unit::after {
+    content: "No earthquake warning";
+  }
+
+  .info-intensity::after {
+    content: "Est. maximum intensity";
+  }
+
+  .info-nsspe span::before {
+    content: "NSSPE";
+  }
+
+  .info-mag-text::after,
+  .report-box-item-wrapper:first-child .report-mag-text::after {
+    content: "Mag.";
+  }
+
+  .info-depth-text::after,
+  .report-depth-text::after {
+    content: "Depth";
+  }
+
+  .current-station-intensity-text::before {
+    content: "Intensity";
+  }
+  .current-station-pga-text::before {
+    content: "PGA";
+  }
+
+  .intensity-report::before {
+    content: "Intensity report";
+  }
+
+  .source-report::before {
+    content: "Earthquake hypocenter report";
+  }
+
+  .earthquake-report::before {
+    content: "Earthquake report";
+  }
+
+  .tsunami-warning::before {
+    content: "Tsunami warning";
+  }
+
+  .earthquake-warning::before {
+    content: "Earthquake warning";
+  }
+
+  .report-intensity-text::before {
+    content: "Max Intensity";
+  }
+
+  .web-detection::before {
+    content: "Detection";
+  }
+
+  .web-report::before {
+    content: "Report";
+  }
+
+  .report-replay::before {
+    content: "Replay";
+  }
+
+  .report-box-items .survey .report-loc:before {
+    content: "Epiccenter under assessment";
+  }
+
+  .rts-intenisty-list-text::before {
+    content: "Intensity ranking by seismicity";
+  }
+
+  .max-intensity-text::before {
+    content: "Max Intensity";
+  }
+
+  .max-pga-text::before {
+    content: "Max PGA";
+  }
+
+  .internet-error .title:before {
+    content: "Network connection error";
+  }
+
+  .unstable .title:before {
+    content: "Unstable";
+  }
+
+  .unstable .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Observation points may be";
+    }
+    &:nth-child(2)::before {
+      content: "unstable due to seismic activity";
+    }
+  }
+
+  .internet-error .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Network connection error";
+    }
+    &:nth-child(2)::before {
+      content: "please try again later";
+    }
+  }
+}

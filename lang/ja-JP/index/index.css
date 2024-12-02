@@ -1,0 +1,101 @@
+@import url("./rwd.css");
+
+html[lang="ja-JP"] {
+  .cancel-body span::before {
+    content: "この地震速報はキャンセルとなりました。";
+  }
+
+  .no-eew.rts-trigger-low .info-unit::after {
+    content: "弱い反応 " !important;
+  }
+
+  .no-eew.rts-trigger-middle .info-unit::after {
+    content: "揺れ検知 " !important;
+  }
+
+  .no-eew.rts-trigger-high .info-unit::after {
+    content: "強い揺れ検知 " !important;
+  }
+
+  .no-eew .info-unit::after {
+    content: "緊急地震速報は発表されでいません";
+  }
+
+  .info-intensity::after {
+    content: "予想最大震度";
+  }
+
+  .info-nsspe span::before {
+    content: "NSSPE 震源パラメータ推定なし";
+  }
+
+  .info-time::after {
+    content: "発生";
+  }
+
+  .info-mag-text::after,
+  .report-box-item-wrapper:first-child .report-mag-text::after {
+    content: "規模";
+    width: 3.5rem;
+  }
+
+  .info-depth-text::after,
+  .report-depth-text::after {
+    content: "深さ";
+  }
+
+  .earthquake-report::before {
+    content: "地震レポート";
+  }
+
+  .tsunami-warning::before {
+    content: "津波警報";
+  }
+
+  .report-intensity-text {
+    font-size: 12px;
+  }
+  .report-intensity-text::before {
+    content: "最大震度";
+  }
+  .web-detection::before {
+    content: "検知";
+  }
+  .web-report::before {
+    content: "レポート";
+  }
+  .report-replay::before {
+    content: "再生";
+  }
+  .rts-intenisty-list-text::before {
+    content: "場所別震度ランキング";
+  }
+  .max-intensity-text::before {
+    content: "最大震度";
+  }
+  .internet-error .title:before {
+    content: "ネットワーク異常";
+  }
+
+  .unstable .title:before {
+    content: "不安定";
+  }
+
+  .unstable .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "地震活動の影響を受け";
+    }
+    &:nth-child(2)::before {
+      content: "観測点が不安定になる可能性がある";
+    }
+  }
+
+  .internet-error .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "ネットワーク接続エラー";
+    }
+    &:nth-child(2)::before {
+      content: "後でもう一度お試しください。";
+    }
+  }
+}

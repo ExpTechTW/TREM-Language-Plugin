@@ -1,0 +1,303 @@
+html[lang="en-US"] {
+  .button[for="general"]:before,
+  .general .setting-page-header-title::before {
+    content: "General";
+  }
+  .button[for="graphics"]:before,
+  .graphics-header-title:before {
+    content: "Graphics";
+  }
+  .button[for="sound-effects"]:before,
+  .sound-effects-header-title::before {
+    content: "Sound Effects";
+  }
+  .button[for="extended"]:before,
+  .extended-header-title:before {
+    content: "Extended";
+  }
+  .button[for="info"]:before,
+  .info-header-title::before {
+    content: "Info";
+  }
+  .location-title::before {
+    content: "Location";
+  }
+  .location-description::before {
+    content: "Setting the location allows you to estimate the intensity of an earthquake in your area when it occurs.";
+  }
+  .rts-station-title::before {
+    content: "Real-Time Station";
+  }
+  .rts-station-description::before {
+    content: "The real-time station that appears at the top left of the main screen.";
+  }
+  .warning-title::before {
+    content: "Early Warning Conditions";
+  }
+  .warning-description::before {
+    content: "The immediate station (any station) is the intensity threshold of any station at the time of triggering, and the estimated intensity (location) is the intensity threshold of the location at the time of the earthquake warning, and the software will emit a sound effect and pop up a window when any of the following conditions are met.";
+  }
+  .current-realtime-station::before {
+    content: "Real-Time Station (any station) ";
+  }
+  .current-estimate-intensity::before {
+    content: "Estimated Intensity (location)";
+  }
+  .show-window-title::before {
+    content: "Show Window";
+  }
+  .show-window-description::before {
+    content: "Automatic program display window";
+  }
+  .trem-eew-title::before {
+    content: "TREM EEW";
+  }
+  .trem-eew-description::before {
+    content: "TREM-EEW is an earthquake early warning message calculated by using TREM-Net observation network. The real-time data is non-public, and the general users can see the effect in the replay (5 minutes after the earthquake) after opening it.";
+  }
+  .other-function-title::before {
+    content: "Other Function";
+  }
+  .other-function-description::before {
+    content: "The little features that TREM Lite doesn't use often are here.";
+  }
+  .auto-start::before {
+    content: "Auto Start (Windows)";
+  }
+  .tts::before {
+    content: "Text-to-Speech (Traditional Chinese)";
+  }
+  .earthquake-eew::before {
+    content: "Earthquake Warning";
+  }
+  .earthquake-report::before {
+    content: "Earthquake Report";
+  }
+  .earthquake-detect::before {
+    content: "Earthquake Detect";
+  }
+  .rts-intensity::before {
+    content: "Real-Time Intensity";
+  }
+  .get-trem-eew::before {
+    content: "Receive TREM EEW";
+  }
+  .reset-button::before,
+  .reset-setting-title::before {
+    content: "Reset";
+  }
+  .reset-setting::before {
+    content: "Reset All Settings";
+  }
+  .auto-zoom-title::before {
+    content: "Map Auto-zoom";
+  }
+  .auto-zoom-description::before {
+    content: "The default map auto-zoom is disabled.";
+  }
+  .block-auto-zoom::before {
+    content: "Disable Map Auto-zoom";
+  }
+  .show-fault-title::before,
+  .show-fault::before {
+    content: "Show Fault";
+  }
+  .show-fault-description::before {
+    content: "The map shows the distribution of faults on the main island of Taiwan.";
+  }
+  .effects-dong-title::before {
+    content: "Early Warning";
+  }
+  .effects-dong-description::before {
+    content: "When an earthquake occurs, it broadcasts the estimated magnitude of the location and the number of seconds remaining for the earthquake wave to arrive.";
+  }
+  .dong-dong::before {
+    content: "sound Effect (only works if there is a countdown)";
+  }
+  .sound-effects-list-title::before {
+    content: "Sound Effects List";
+  }
+  .sound-effects-list-description::before {
+    content: "Turning specific sound effects on or off";
+  }
+  .extended-list-title:empty::before {
+    content: "Expanded List";
+  }
+  .extended-list-description:empty::before,
+  .extended-list-description:empty::before {
+    content: "Use of extensions from unknown or untrusted sources may jeopardize the security of your personal information, so please use caution.";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "Select the enabled extensions, the extensions will be loaded at program startup.";
+  }
+  .extended-setting-button::before {
+    content: "Setting";
+  }
+  .extended-info
+    span:empty:not(
+      .verified-badge,
+      .unverified-badge,
+      .loaded-badge,
+      .unloaded-badge
+    )::before {
+    content: "Use of extensions from unknown or untrusted sources may jeopardize the security of your personal information, so please use caution.";
+  }
+  .verified-badge::before {
+    content: "Verified";
+  }
+  .unverified-badge::before {
+    content: "Unverified";
+  }
+  .loaded-badge::before {
+    content: "loaded";
+  }
+  .unloaded-badge::before {
+    content: "Unloaded";
+  }
+  .success.message-box:before {
+    content: "Success!";
+  }
+  .failed.message-box:before {
+    content: "Failed!";
+  }
+  .p-alert::before {
+    content: "P-Alert (receiving near real-time intensity)";
+  }
+  .report::after {
+    content: "Report (earthquake report is received)";
+  }
+  .update::before {
+    content: "Update (when earthquake warning is corrected)";
+  }
+  .info-trem-lite::before {
+    content: "About TREM Lite";
+  }
+  .info-trem-description::before {
+    content: "TREM-Lite is an open-source earthquake quick-reporting software that provides you with real-time earthquake information, utilizing self-developed earthquake stations to display real-time seismicity of various places, and obtaining real-time warning messages of strong earthquakes released by various channels at the first time of an earthquake.";
+  }
+  .app-version-title::before {
+    content: "Program Version";
+  }
+  .system-os-title::before {
+    content: "System Version";
+  }
+  .source-title::before {
+    content: "Data Source";
+  }
+  .source-eew::before {
+    content: "Earthquake Alert";
+  }
+  .source-cwa::before {
+    content: "Central Weather Administration (CWA)";
+  }
+  .source-shindo::before {
+    content: "Intensity";
+  }
+  .source-sinica::before {
+    content: "Academia Sinica (SINICA)";
+  }
+  .source-trem::before {
+    content: "Taiwan Real-time Earthquake Monitor (TREM)";
+  }
+  .contributor-title::before {
+    content: "Contributor";
+  }
+  .contributor-description::before {
+    content: "Thank you to the following contributors for making TREM Lite possible.";
+  }
+  .reset .confirm-title::before {
+    content: "Are you sure you want to reset the settings? You will not be able to return after resetting.";
+  }
+  .extendedOpen .confirm-title::before {
+    content: "Are you sure you want to enable the ";
+  }
+  .extendedOpen .confirm-title::after {
+    content: " extension? Using extensions from unknown or untrusted sources may jeopardize the security of your personal information.";
+  }
+  .confirm-sure:empty::before {
+    content: "Sure";
+  }
+  .confirm-sure:not(:empty)::after {
+    content: "s";
+  }
+  .confirm-cancel::before {
+    content: "Cancel";
+  }
+  .current:empty:before {
+    content: "Unset";
+  }
+
+  .eew-1::before {
+    content: "EEW (plays when an earthquake warning is received)";
+  }
+  .eew-2 {
+    &::before {
+      content: "EEW2 (when estimated intensity is ";
+    }
+    .special-text:before {
+      content: "5 lower";
+    }
+    &::after {
+      content: " or higher)";
+    }
+  }
+  .pga-1 {
+    &::before {
+      content: "PGA1 (when PGA is ";
+    }
+    .special-text:before {
+      content: "8 gal";
+    }
+    &::after {
+      content: " or higher)";
+    }
+  }
+  .pga-2 {
+    &::before {
+      content: "PGA2 (when PGA is ";
+    }
+    .special-text:before {
+      content: "200gal";
+    }
+    &::after {
+      content: " or higher)";
+    }
+  }
+  .shindo-0 {
+    &::before {
+      content: "Shindo0 (when detection intensity is ";
+    }
+    .special-text:before {
+      content: "0";
+    }
+    &::after {
+      content: " or higher)";
+    }
+  }
+  .shindo-1 {
+    &::before {
+      content: "Shindo1 (when detection intensity is ";
+    }
+    .special-text:before {
+      content: "2";
+    }
+    &::after {
+      content: " or higher)";
+    }
+  }
+  .shindo-2 {
+    &::before {
+      content: "Shindo2 (when detection intensity is ";
+    }
+    .special-text:before {
+      content: "4";
+    }
+    &::after {
+      content: " or higher)";
+    }
+  }
+
+  .setting-option span {
+    font-weight: unset;
+  }
+}

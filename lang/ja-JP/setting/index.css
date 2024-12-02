@@ -1,0 +1,278 @@
+html[lang="ja-JP"] {
+  .button[for="graphics"]:before,
+  .graphics-header-title:before {
+    content: "グラフィックス";
+  }
+  .button[for="sound-effects"]:before,
+  .sound-effects-header-title::before {
+    content: "効果音";
+  }
+  .button[for="extended"]:before,
+  .extended-header-title:before {
+    content: "拡張";
+  }
+  .button[for="info"]:before,
+  .info-header-title::before {
+    content: "について";
+  }
+  .location-description::before {
+    content: "所在地を設定することで、地震が発生したときに、その所在地の震度を推定することができる。";
+  }
+  .rts-station-title::before {
+    content: "リアルタイム観測点";
+  }
+  .rts-station-description::before {
+    content: "リアルタイム観測点はメイン画面の左上に表示される。";
+  }
+  .warning-title::before {
+    content: "早期警報条件";
+  }
+  .warning-description::before {
+    content: "観測点（任意の観測点）はトリガー時の任意の観測点の震度しきい値、推定震度（地点）は地震警報時の地点の震度しきい値で、以下のいずれかの条件を満たすと、ソフトが効果音を発し、ウィンドウをポップアップします。";
+  }
+  .current-realtime-station::before {
+    content: "リアルタイム観測点（任意の観測点）";
+  }
+  .current-estimate-intensity::before {
+    content: "推定震度（所在地）";
+  }
+  .show-window-title::before {
+    content: "ウィンドウをポップアップ";
+  }
+  .show-window-description::before {
+    content: "ウィンドウをポップアップに時機";
+  }
+  .trem-eew-title::before {
+    content: "TREM EEW";
+  }
+  .trem-eew-description::before {
+    content: "TREM-EEW は、 TREM-Net の観測網を利用して算出される緊急地震速報である。リアルタイムのデータは公開されていないが、公開後のリプレイ（地震発生から5分後）でその効果を見ることができる。";
+  }
+  .other-function-title::before {
+    content: "その他の機能";
+  }
+  .other-function-description::before {
+    content: "TREM Lite 使用頻度の低い機能。";
+  }
+  .auto-start::before {
+    content: "自動で起動（Windows）";
+  }
+  .tts::before {
+    content: "音声合成（繁体字中国語）";
+  }
+  .earthquake-eew::before {
+    content: "緊急地震速報";
+  }
+  .earthquake-report::before {
+    content: "レポート";
+  }
+  .earthquake-detect::before {
+    content: "地震検知";
+  }
+  .rts-intensity::before {
+    content: "リアルタイム震度";
+  }
+  .get-trem-eew::before {
+    content: "TREM EEWの受信";
+  }
+  .reset-button::before,
+  .reset-setting-title::before {
+    content: "リセット";
+  }
+  .reset-setting::before {
+    content: "すべての設定をリセット";
+  }
+  .auto-zoom-title::before {
+    content: "地図自動ズーム";
+  }
+  .auto-zoom-description::before {
+    content: "デフォルトの地図自動ズームは無効です。";
+  }
+  .block-auto-zoom::before {
+    content: "地図自動ズームを無効にする";
+  }
+  .show-fault-title::before,
+  .show-fault::before {
+    content: "ショー断層";
+  }
+  .show-fault-description::before {
+    content: "地図は台湾本島の断層分布を示している。";
+  }
+  .effects-dong-title::before {
+    content: "早期警報";
+  }
+  .effects-dong-description::before {
+    content: "地震が発生すると、その場所の推定震度と地震波が到達するまでの残り秒数を再生される。";
+  }
+  .dong-dong::before {
+    content: "サウンドエフェクト（カウントダウンがある場合のみ有効）";
+  }
+  .sound-effects-list-title::before {
+    content: "効果音リスト";
+  }
+  .sound-effects-list-description::before {
+    content: "特定の効果音のオン／オフ";
+  }
+  .extended-list-title:empty::before {
+    content: "拡張リスト";
+  }
+  .extended-list-description:empty::before,
+  .extended-list-description:empty::before {
+    content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "有効な拡張機能を選択すると、プログラム起動時に拡張機能がロードされます。";
+  }
+  .extended-info
+    span:empty:not(
+      .verified-badge,
+      .unverified-badge,
+      .loaded-badge,
+      .unloaded-badge
+    )::before {
+    content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。";
+  }
+  .verified-badge::before {
+    content: "Verified";
+  }
+  .unverified-badge::before {
+    content: "Unverified";
+  }
+  .loaded-badge::before {
+    content: "loaded";
+  }
+  .unloaded-badge::before {
+    content: "Unloaded";
+  }
+  .success.message-box:before {
+    content: "Success!";
+  }
+  .failed.message-box:before {
+    content: "Failed!";
+  }
+  .p-alert::before {
+    content: "P-Alert（リアルタイムの震度を受信した）";
+  }
+  .report::after {
+    content: "Report（地震レポートを受信した）";
+  }
+  .update::before {
+    content: "Update（緊急地震速報が訂正された際に）";
+  }
+  .info-trem-lite::before {
+    content: "TREM Lite について";
+  }
+  .info-trem-description::before {
+    content: "TREM-Lite は、オープンソースの地震速報ソフトウェアで、自社開発した地震観測点を活用し、様々な場所の地震発生状況をリアルタイムで表示し、地震発生時に様々なチャンネルから発表される強い地震の警告メッセージをリアルタイムで取得することができます。";
+  }
+  .app-version-title::before {
+    content: "プログラムバージョン";
+  }
+  .system-os-title::before {
+    content: "システムバージョン";
+  }
+  .source-title::before {
+    content: "データソース";
+  }
+  .source-eew::before {
+    content: "緊急地震速報";
+  }
+  .source-cwa::before {
+    content: "中央氣象署 (CWA)";
+  }
+  .source-trem::before {
+    content: "台湾リアルタイム地震モニター（TREM）";
+  }
+  .contributor-title::before {
+    content: "貢献者";
+  }
+  .contributor-description::before {
+    content: "TREM Liteを可能にしてくれた以下の貢献者に感謝する。";
+  }
+  .reset .confirm-title::before {
+    content: "本当にリセットしますか？リセットすると戻れなくなります。";
+  }
+
+  .eew-1::before {
+    content: "EEW（緊急地震速報を受信した）";
+  }
+  .eew-2 {
+    &::before {
+      content: "EEW2（推定震度が ";
+    }
+    .special-text:before {
+      content: "５弱";
+    }
+    &::after {
+      content: " 以上）";
+    }
+  }
+  .pga-1 {
+    &::before {
+      content: "PGA1（最大加速度が ";
+    }
+    .special-text:before {
+      content: "8 gal";
+    }
+    &::after {
+      content: "以上）";
+    }
+  }
+  .pga-2 {
+    &::before {
+      content: "PGA2（最大加速度が ";
+    }
+    .special-text:before {
+      content: "200 gal";
+    }
+    &::after {
+      content: "以上）";
+    }
+  }
+  .shindo-0 {
+    &::before {
+      content: "Shindo0（検出震度が ";
+    }
+    .special-text:before {
+      content: "０";
+    }
+    &::after {
+      content: "以上）";
+    }
+  }
+  .shindo-1 {
+    &::before {
+      content: "Shindo1（検出震度が ";
+    }
+    .special-text:before {
+      content: "２";
+    }
+    &::after {
+      content: "以上）";
+    }
+  }
+  .shindo-2 {
+    &::before {
+      content: "Shindo2（検出震度が ";
+    }
+    .special-text:before {
+      content: "４";
+    }
+    &::after {
+      content: "以上）";
+    }
+  }
+
+  .intensity-0::after {
+    content: "0" !important;
+    font-size: unset !important;
+  }
+
+  .reset-setting + .switch {
+    width: auto;
+  }
+
+  .reset-button {
+    width: auto;
+  }
+}
