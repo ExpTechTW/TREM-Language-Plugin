@@ -133,22 +133,22 @@ html[lang="ja-JP"] {
     content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。";
   }
   .verified-badge::before {
-    content: "Verified";
+    content: "認証済み";
   }
   .unverified-badge::before {
-    content: "Unverified";
+    content: "未認証";
   }
   .loaded-badge::before {
-    content: "loaded";
+    content: "ロード";
   }
   .unloaded-badge::before {
-    content: "Unloaded";
+    content: "アンロード";
   }
   .success.message-box:before {
-    content: "Success!";
+    content: "成功した！";
   }
   .failed.message-box:before {
-    content: "Failed!";
+    content: "失敗した！";
   }
   .p-alert::before {
     content: "P-Alert（リアルタイムの震度を受信した）";
