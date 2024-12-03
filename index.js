@@ -71,18 +71,20 @@ class Plugin {
 
   addDropDown() {
     const thisElement = document.querySelector('#plugin-language .extended-list-buttons');
-    const box = document.createElement('div');
-    box.className = 'select-language-box';
-    const select = document.createElement('select');
-    select.className = 'select-language-dropdown';
-    this.supportLanguages.forEach(({ value, text }) => {
-      const option = document.createElement('option');
-      option.value = value;
-      option.textContent = text;
-      select.append(option);
-    });
-    box.append(select);
-    thisElement.append(box);
+    if(thisElement) {
+      const box = document.createElement('div');
+      box.className = 'select-language-box';
+      const select = document.createElement('select');
+      select.className = 'select-language-dropdown';
+      this.supportLanguages.forEach(({ value, text }) => {
+        const option = document.createElement('option');
+        option.value = value;
+        option.textContent = text;
+        select.append(option);
+      });
+      box.append(select);
+      thisElement.append(box);
+    }
   }
 
   changeEvent() {
