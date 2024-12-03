@@ -70,21 +70,24 @@ class Plugin {
   }
 
   addDropDown() {
-    const list = document.querySelector('.extended-list-buttons');
-    if (list) {
-      const box = document.createElement('div');
-      box.className = 'select-language-box';
-      const select = document.createElement('select');
-      select.className = 'select-language-dropdown';
-      this.supportLanguages.forEach(({ value, text }) => {
-        const option = document.createElement('option');
-        option.value = value;
-        option.textContent = text;
-        select.append(option);
-      });
-      box.append(select);
-      list.append(box);
-    }
+    const list = document.querySelectorAll('.extended-list-buttons');
+    list.forEach((item) => {
+      const input = item.querySelector('input[data-name="language"]');
+      if (input) {
+        const box = document.createElement('div');
+        box.className = 'select-language-box';
+        const select = document.createElement('select');
+        select.className = 'select-language-dropdown';
+        this.supportLanguages.forEach(({ value, text }) => {
+          const option = document.createElement('option');
+          option.value = value;
+          option.textContent = text;
+          select.append(option);
+        });
+        box.append(select);
+        item.append(box);
+      }
+    })
   }
 
   changeEvent() {
