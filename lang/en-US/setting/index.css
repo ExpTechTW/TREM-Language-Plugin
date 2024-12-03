@@ -164,13 +164,13 @@ html[lang="en-US"] {
     content: "TREM Expanded Store";
   }
   .p-alert::before {
-    content: "P-Alert (receiving near real-time intensity)";
+    content: "P-Alert (when an receiving near real-time intensity)";
   }
   .report::after {
-    content: "Report (earthquake report is received)";
+    content: "Report (when an earthquake report is received)";
   }
   .update::before {
-    content: "Update (when earthquake warning is corrected)";
+    content: "Update (when an earthquake warning is corrected)";
   }
   .info-trem-lite::before {
     content: "About TREM Lite";
@@ -231,11 +231,11 @@ html[lang="en-US"] {
   }
 
   .eew-1::before {
-    content: "EEW (plays when an earthquake warning is received)";
+    content: "EEW (when an earthquake warning is received)";
   }
   .eew-2 {
     &::before {
-      content: "EEW2 (when estimated intensity is ";
+      content: "EEW2 (when an estimated intensity is ";
     }
     .special-text:before {
       content: "5 lower";
@@ -246,7 +246,7 @@ html[lang="en-US"] {
   }
   .pga-1 {
     &::before {
-      content: "PGA1 (when PGA is ";
+      content: "PGA1 (when an PGA is ";
     }
     .special-text:before {
       content: "8 gal";
@@ -257,7 +257,7 @@ html[lang="en-US"] {
   }
   .pga-2 {
     &::before {
-      content: "PGA2 (when PGA is ";
+      content: "PGA2 (when an PGA is ";
     }
     .special-text:before {
       content: "200gal";
@@ -268,7 +268,7 @@ html[lang="en-US"] {
   }
   .shindo-0 {
     &::before {
-      content: "Shindo0 (when detection intensity is ";
+      content: "Shindo0 (when an detection intensity is ";
     }
     .special-text:before {
       content: "0";
@@ -279,7 +279,7 @@ html[lang="en-US"] {
   }
   .shindo-1 {
     &::before {
-      content: "Shindo1 (when detection intensity is ";
+      content: "Shindo1 (when an detection intensity is ";
     }
     .special-text:before {
       content: "2";
@@ -290,7 +290,7 @@ html[lang="en-US"] {
   }
   .shindo-2 {
     &::before {
-      content: "Shindo2 (when detection intensity is ";
+      content: "Shindo2 (when an detection intensity is ";
     }
     .special-text:before {
       content: "4";
