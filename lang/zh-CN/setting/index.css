@@ -123,16 +123,11 @@ html[lang="zh-CN"] {
   .extended-list-title:empty::before {
     content: "扩充列表";
   }
-  .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before {
-    content: "使用来源不明或无法信任的扩充可能危及您的个人信息安全，请谨慎使用。";
-  }
-  .extended-list-description:empty::before {
-    content: "选择启用的扩充，扩充将在软件启动时加载。";
-  }
   .extended-setting-button::before {
     content: "设置";
   }
+  .extended-list-description:empty::before,
+  .extended-info .extended-info-warning:empty::before,
   .extended-info
     span:empty:not(
       .verified-badge,
