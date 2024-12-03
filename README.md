@@ -7,11 +7,11 @@
 
 ## 簡介
 
-TREM-Language-Plugin 適用於TREM-Lite 3.1.0-rc.2 以上版本，目前支援六種語言 (繁體中文、簡體中文、英語、韓語、日本語、越南語)。
+TREM-Language-Plugin 適用於 TREM-Lite 3.1.0-rc.2 以上版本，目前支援六種語言 (繁體中文、簡體中文、英語、韓語、日本語、越南語)。
 
 ### 安裝方式
 
-- 首先至 [TREM擴充](https://exptechtw.github.io/trem-plugins/) 或從TREM-Lite > 設定 > 擴充 > 擴充商店內進行下載
+- 首先至 [TREM擴充](https://exptechtw.github.io/trem-plugins/) 或從 TREM-Lite > 設定 > 擴充 > 擴充商店內進行下載
 - 下載完成後，重新開啟設定頁面
 - 在擴充列表的 language 進行勾選，再次重新開啟設定頁面
 - 點擊擴充列表的 language 右方下拉選單，選擇語言後即可立即套用
