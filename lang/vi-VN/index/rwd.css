@@ -10,7 +10,7 @@ html[lang="vi-VN"] {
     }
   }
   .station-pga-wrapper {
-    left: 7.1rem;
+    left: 8.1rem;
   }
   .info-wrapper {
     & .info-title-wrapper {
@@ -29,6 +29,19 @@ html[lang="vi-VN"] {
         }
       }
     }
+  }
+  .current-station-pga {
+    width: 206px;
+  }
+
+  .current-station-info {
+    margin-right: -4px;
+  }
+  .current-station-loc {
+    font-size: 15px;
+  }
+  .current-station-intensity-pga {
+    font-size: 12px;
   }
   @media (max-width: 980px) {
     .info-intensity::after {
