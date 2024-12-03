@@ -120,21 +120,14 @@ html[lang="zh-CN"] {
   .sound-effects-list-description::before {
     content: "开启或关闭特定的音效";
   }
-  .extended-list-title:empty::before {
-    content: "扩充列表";
-  }
   .extended-setting-button::before {
     content: "设置";
   }
+  .extended-list-title:before {
+    content: "扩充功能";
+  }
   .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before,
-  .extended-info
-    span:empty:not(
-      .verified-badge,
-      .unverified-badge,
-      .loaded-badge,
-      .unloaded-badge
-    )::before {
+  .extended-info .extended-info-warning:empty::before {
     content: "使用来源不明或无法信任的扩充可能危及您的个人信息安全，请谨慎使用。";
   }
   .verified-badge::before {
@@ -157,6 +150,12 @@ html[lang="zh-CN"] {
   }
   .extended-store:before {
     content: "TREM 扩充商店";
+  }
+  .extended-download-button:before {
+    content: "下载";
+  }
+  .extended-none-button:before {
+    content: "无";
   }
   .eew-1::before {
     content: "EEW（收到地震预警时播放）";
@@ -216,6 +215,12 @@ html[lang="zh-CN"] {
   }
   .current:empty:before {
     content: "未设置";
+  }
+  .extended-list-button[for="extended-installed-list"]:before {
+    content: "扩充列表";
+  }
+  .extended-list-button[for="extended-store-list"]:before {
+    content: "扩充商店";
   }
 
   .eew-2 {

@@ -120,18 +120,11 @@ html[lang="vi-VN"] {
   .sound-effects-list-description::before {
     content: "Bật hoặc tắt các hiệu ứng âm thanh cụ thể";
   }
-  .extended-list-title:empty::before {
-    content: "Danh sách mở rộng";
+  .extended-list-title:before {
+    content: "Chức năng mở rộng";
   }
   .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before,
-  .extended-info
-    span:empty:not(
-      .verified-badge,
-      .unverified-badge,
-      .loaded-badge,
-      .unloaded-badge
-    )::before {
+  .extended-info .extended-info-warning:empty::before {
     content: "Việc sử dụng tiện ích mở rộng từ các nguồn không xác định hoặc không đáng tin cậy có thể gây nguy hiểm cho tính bảo mật thông tin cá nhân của bạn, vì vậy hãy thận trọng.";
   }
   .extended-list-descriptions:empty::before {
@@ -160,6 +153,15 @@ html[lang="vi-VN"] {
   }
   .extended-store:before {
     content: "Cửa hàng mở rộng TREM";
+  }
+  .extended-download-button:before {
+    content: "Tải về";
+  }
+  .extended-update-button:before {
+    content: "Cập nhật";
+  }
+  .extended-none-button:before {
+    content: "Không có";
   }
   .p-alert::before {
     content: "P-Alert (Khi nhận được cường độ gần thời gian thực)";
@@ -227,7 +229,12 @@ html[lang="vi-VN"] {
   .current:empty:before {
     content: "Chưa thiết lập";
   }
-
+  .extended-list-button[for="extended-installed-list"]:before {
+    content: "Danh sách mở rộng";
+  }
+  .extended-list-button[for="extended-store-list"]:before {
+    content: "Cửa hàng mở rộng";
+  }
   .eew-1::before {
     content: "EEW (Khi nhận được cảnh báo động đất)";
   }

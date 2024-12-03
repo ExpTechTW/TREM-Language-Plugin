@@ -120,18 +120,11 @@ html[lang="en-US"] {
   .sound-effects-list-description::before {
     content: "Turning specific sound effects on or off";
   }
-  .extended-list-title:empty::before {
-    content: "Expanded List";
+  .extended-list-title:before {
+    content: "Extensions";
   }
   .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before,
-  .extended-info
-    span:empty:not(
-      .verified-badge,
-      .unverified-badge,
-      .loaded-badge,
-      .unloaded-badge
-    )::before {
+  .extended-info .extended-info-warning:empty::before {
     content: "Use of extensions from unknown or untrusted sources may jeopardize the security of your personal information, so please use caution.";
   }
   .extended-list-descriptions:empty::before {
@@ -160,6 +153,15 @@ html[lang="en-US"] {
   }
   .extended-store:before {
     content: "TREM Expanded Store";
+  }
+  .extended-download-button:before {
+    content: "Download";
+  }
+  .extended-update-button:before {
+    content: "Update";
+  }
+  .extended-none-button:before {
+    content: "None";
   }
   .p-alert::before {
     content: "P-Alert (when an receiving near real-time intensity)";
@@ -227,7 +229,12 @@ html[lang="en-US"] {
   .current:empty:before {
     content: "Not set";
   }
-
+  .extended-list-button[for="extended-installed-list"]:before {
+    content: "Extended List";
+  }
+  .extended-list-button[for="extended-store-list"]:before {
+    content: "Extended Store";
+  }
   .eew-1::before {
     content: "EEW (when an earthquake warning is received)";
   }

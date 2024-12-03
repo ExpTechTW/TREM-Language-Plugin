@@ -113,17 +113,11 @@ html[lang="ja-JP"] {
   .sound-effects-list-description::before {
     content: "特定の効果音のオン／オフ";
   }
-  .extended-list-title:empty::before {
-    content: "拡張リスト";
+  .extended-list-title:before {
+    content: "拡張機能";
   }
   .extended-list-description:empty::before,
-  .extended-info
-    span:empty:not(
-      .verified-badge,
-      .unverified-badge,
-      .loaded-badge,
-      .unloaded-badge
-    )::before {
+  .extended-info .extended-info-warning:empty::before {
     content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。";
   }
   .extended-list-descriptions:empty::before {
@@ -149,6 +143,15 @@ html[lang="ja-JP"] {
   }
   .extended-store:before {
     content: "TREM 拡張ストア";
+  }
+  .extended-download-button:before {
+    content: "ダウンロード";
+  }
+  .extended-update-button:before {
+    content: "更新";
+  }
+  .extended-none-button:before {
+    content: "なし";
   }
   .p-alert::before {
     content: "P-Alert（リアルタイムの震度を受信した）";
@@ -204,7 +207,12 @@ html[lang="ja-JP"] {
   .confirm-cancel::before {
     content: "取り消";
   }
-
+  .extended-list-button[for="extended-installed-list"]:before {
+    content: "拡張機能リスト";
+  }
+  .extended-list-button[for="extended-store-list"]:before {
+    content: "拡張機能ストア";
+  }
   .eew-1::before {
     content: "EEW（緊急地震速報を受信した）";
   }
