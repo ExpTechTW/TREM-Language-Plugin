@@ -160,8 +160,8 @@ html[lang="en-US"] {
   .extended-update-button:before {
     content: "Update";
   }
-  .extended-none-button:before {
-    content: "None";
+  .extended-latest-button:before {
+    content: "latest version";
   }
   .p-alert::before {
     content: "P-Alert (when an receiving near real-time intensity)";

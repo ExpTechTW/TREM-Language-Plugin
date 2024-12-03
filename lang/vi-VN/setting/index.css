@@ -160,8 +160,9 @@ html[lang="vi-VN"] {
   .extended-update-button:before {
     content: "Cập nhật";
   }
-  .extended-none-button:before {
-    content: "Không có";
+  .extended-latest-button:before {
+    content: "Phiên bản mới nhất";
+    font-size: 14px;
   }
   .p-alert::before {
     content: "P-Alert (Khi nhận được cường độ gần thời gian thực)";

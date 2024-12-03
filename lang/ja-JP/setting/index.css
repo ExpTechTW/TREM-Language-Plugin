@@ -150,8 +150,8 @@ html[lang="ja-JP"] {
   .extended-update-button:before {
     content: "更新";
   }
-  .extended-none-button:before {
-    content: "なし";
+  .extended-latest-button:before {
+    content: "最新バージョン";
   }
   .p-alert::before {
     content: "P-Alert（リアルタイムの震度を受信した）";

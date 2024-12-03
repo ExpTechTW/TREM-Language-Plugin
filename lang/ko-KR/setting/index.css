@@ -160,8 +160,8 @@ html[lang="ko-KR"] {
   .extended-update-button:before {
     content: "업데이트";
   }
-  .extended-none-button:before {
-    content: "없음";
+  .extended-latest-button:before {
+    content: "최신 버전입니다";
   }
   .p-alert::before {
     content: "P-Alert (거의 실시간에 가까운 강도를 수신하는)";
