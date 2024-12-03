@@ -280,7 +280,7 @@ html[lang="ja-JP"] {
 
   .intensity-0::after {
     content: "0" !important;
-    font-size: unset !important;
+    font-size: Not set !important;
   }
 
   .reset-setting + .switch {

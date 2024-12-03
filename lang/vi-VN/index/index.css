@@ -1,8 +1,8 @@
 @import url("./rwd.css");
 
-html[lang="en-US"] {
+html[lang="vi-VN"] {
   .version-check-text::before {
-    content: "New version";
+    content: "Phiên bản mới";
   }
 
   .info-number {
@@ -15,43 +15,43 @@ html[lang="en-US"] {
   }
 
   .cancel-title span::before {
-    content: "Cancel";
+    content: "Hủy bỏ";
   }
 
   .cancel-body span::before {
-    content: "This earthquake warning canceled.";
+    content: "Cảnh báo động đất này đã được hủy bỏ.";
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
-    content: "Low " !important;
+    content: "Thấp " !important;
   }
 
   .no-eew.rts-trigger-middle .info-unit::after {
-    content: "Earthquake weak response " !important;
+    content: "Phản ứng yếu của động đất " !important;
   }
 
   .no-eew.rts-trigger-high .info-unit::after {
-    content: "Strong earthquake detection " !important;
+    content: "Phát hiện động đất mạnh " !important;
   }
 
   .eew-warn .info-unit::before {
-    content: "Warning ";
+    content: "Cảnh báo ";
   }
 
   .eew-alert .info-unit::before {
-    content: "Warning alert ";
+    content: "Cảnh báo cảnh báo ";
   }
 
   .info-number-last::after {
-    content: "(Final)" !important;
+    content: "(Cuối cùng)" !important;
   }
 
   .no-eew .info-unit::after {
-    content: "No earthquake warning";
+    content: "Không có cảnh báo động đất hiện tại";
   }
 
   .info-intensity::after {
-    content: "Est. maximum intensity";
+    content: "Ước tính cường độ tối đa";
   }
 
   .info-nsspe span::before {
@@ -60,96 +60,99 @@ html[lang="en-US"] {
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "Mag.";
+    content: "kích cỡ";
+    width: 6.5rem;
+    font-size: 20px;
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "Depth";
+    content: "Độ sâu";
+    font-size: 20px;
   }
 
   .current-station-intensity-text::before {
-    content: "Intensity";
+    content: "Cường độ";
   }
   .current-station-pga-text::before {
     content: "PGA";
   }
 
   .intensity-report::before {
-    content: "Intensity report";
+    content: "Báo cáo cường độ";
   }
 
   .source-report::before {
-    content: "Earthquake hypocenter report";
+    content: "Báo cáo tâm chấn động đất";
   }
 
   .earthquake-report::before {
-    content: "Earthquake report";
+    content: "Báo cáo động đất";
   }
 
   .tsunami-warning::before {
-    content: "Tsunami warning";
+    content: "Cảnh báo sóng thần";
   }
 
   .earthquake-warning::before {
-    content: "Earthquake warning";
+    content: "Cảnh báo động đất";
   }
 
   .report-intensity-text::before {
-    content: "Max Intensity";
+    content: "Cường độ tối đa";
   }
 
   .web-detection::before {
-    content: "Detection";
+    content: "Phát hiện";
   }
 
   .web-report::before {
-    content: "Report";
+    content: "Báo cáo";
   }
 
   .report-replay::before {
-    content: "Replay";
+    content: "Phát lại";
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "Epicenter under assessment";
+    content: "Tâm chấn đang được đánh giá";
   }
 
   .rts-intenisty-list-text::before {
-    content: "Intensity ranking by seismicity";
+    content: "Xếp hạng cường độ theo địa chấn";
   }
 
   .max-intensity-text::before {
-    content: "Max Intensity";
+    content: "Cường độ tối đa";
   }
 
   .max-pga-text::before {
-    content: "Max PGA";
+    content: "PGA tối đa";
   }
 
   .internet-error .title:before {
-    content: "Network connection error";
+    content: "Lỗi kết nối mạng";
   }
 
   .unstable .title:before {
-    content: "Unstable";
+    content: "Không ổn định";
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Observation points may be";
+      content: "Các điểm quan sát có thể không";
     }
     &:nth-child(2)::before {
-      content: "unstable due to seismic activity";
+      content: "ổn định do hoạt động địa chấn";
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Network connection error";
+      content: "Lỗi kết nối mạng";
     }
     &:nth-child(2)::before {
-      content: "please try again later";
+      content: "vui lòng thử lại sau";
     }
   }
 }

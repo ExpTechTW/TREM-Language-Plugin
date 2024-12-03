@@ -1,0 +1,306 @@
+html[lang="vi-VN"] {
+  .button[for="general"]:before,
+  .general .setting-page-header-title::before {
+    content: "Tổng quan";
+  }
+  .button[for="graphics"]:before,
+  .graphics-header-title:before {
+    content: "Đồ họa";
+  }
+  .button[for="sound-effects"]:before,
+  .sound-effects-header-title::before {
+    content: "Hiệu ứng âm thanh";
+  }
+  .button[for="extended"]:before,
+  .extended-header-title:before {
+    content: "Mở rộng";
+  }
+  .button[for="info"]:before,
+  .info-header-title::before {
+    content: "Thông tin";
+  }
+  .location-title::before {
+    content: "Vị trí";
+  }
+  .location-description::before {
+    content: "Việc thiết lập vị trí cho phép bạn ước tính cường độ của trận động đất tại khu vực của bạn khi nó xảy ra.";
+  }
+  .rts-station-title::before {
+    content: "Điểm quan sát thời gian thực";
+  }
+  .rts-station-description::before {
+    content: "Điểm quan sát thời gian thực xuất hiện ở góc trên bên trái của màn hình chính.";
+  }
+  .warning-title::before {
+    content: "Điều kiện cảnh báo sớm";
+  }
+  .warning-description::before {
+    content: "Điểm quan sát tức thời (bất kỳ điểm quan sát nào) là ngưỡng cường độ của bất kỳ trạm nào tại thời điểm kích hoạt và cường độ ước tính (vị trí) là ngưỡng cường độ của vị trí tại thời điểm cảnh báo động đất và phần mềm sẽ phát ra hiệu ứng âm thanh và bật lên một cửa sổ khi bất kỳ điều kiện nào sau đây được đáp ứng.";
+  }
+  .current-realtime-station::before {
+    content: "Điểm quan sát thời gian thực (điểm quan sát nhấn) ";
+  }
+  .current-estimate-intensity::before {
+    content: "Cường độ ước tính (vị trí)";
+  }
+  .show-window-title::before {
+    content: "Hiển thị cửa sổ";
+  }
+  .show-window-description::before {
+    content: "Hiển thị cửa sổ chương trình tự động";
+  }
+  .trem-eew-title::before {
+    content: "Cảnh báo sớm động đất TREM";
+  }
+  .trem-eew-description::before {
+    content: "Cảnh báo sớm động đất TREM là thông báo cảnh báo sớm động đất được tính toán bằng cách sử dụng mạng quan sát TREM-Net Dữ liệu thời gian thực không công khai, người dùng thông thường có thể thấy hiệu ứng trong bản phát lại (5 phút sau trận động đất).";
+  }
+  .other-function-title::before {
+    content: "Chức năng khác";
+  }
+  .other-function-description::before {
+    content: "Những tính năng nhỏ mà TREM Lite không thường sử dụng đều có ở đây.";
+  }
+  .auto-start::before {
+    content: "Chương trình tự động khởi động (Windows)";
+  }
+  .tts::before {
+    content: "Chuyển văn bản thành giọng nói (Tiếng Trung phồn thể)";
+  }
+  .earthquake-eew::before {
+    content: "Cảnh báo động đất";
+  }
+  .earthquake-report::before {
+    content: "Báo cáo động đất";
+  }
+  .earthquake-detect::before {
+    content: "Phát hiện động đất";
+  }
+  .rts-intensity::before {
+    content: "Cường độ thời gian thực";
+  }
+  .get-trem-eew::before {
+    content: "Nhận cảnh báo sớm về động đất TREM";
+  }
+  .reset-button::before,
+  .reset-setting-title::before {
+    content: "Đặt lại";
+  }
+  .reset-setting::before {
+    content: "Đặt lại tất cả cài đặt";
+  }
+  .auto-zoom-title::before {
+    content: "Tự động thu phóng bản đồ";
+  }
+  .auto-zoom-description::before {
+    content: "Tính năng tự động thu phóng bản đồ mặc định đã bị vô hiệu hóa.";
+  }
+  .block-auto-zoom::before {
+    content: "Tắt tính năng tự động thu phóng bản đồ";
+  }
+  .show-fault-title::before,
+  .show-fault::before {
+    content: "Hiển thị đứt gãy";
+  }
+  .show-fault-description::before {
+    content: "Bản đồ cho thấy sự phân bố các đứt gãy trên đảo chính Đài Loan.";
+  }
+  .effects-dong-title::before {
+    content: "Cảnh báo sớm";
+  }
+  .effects-dong-description::before {
+    content: "Khi một trận động đất xảy ra, nó sẽ phát đi ước tính về cường độ của địa điểm và số giây còn lại trước khi sóng động đất ập đến.";
+  }
+  .dong-dong::before {
+    content: "Hiệu ứng âm thanh (chỉ hoạt động nếu có đếm ngược)";
+  }
+  .sound-effects-list-title::before {
+    content: "Danh sách hiệu ứng âm thanh";
+  }
+  .sound-effects-list-description::before {
+    content: "Bật hoặc tắt các hiệu ứng âm thanh cụ thể";
+  }
+  .extended-list-title:empty::before {
+    content: "Danh sách mở rộng";
+  }
+  .extended-list-description:empty::before,
+  .extended-list-description:empty::before {
+    content: "Việc sử dụng tiện ích mở rộng từ các nguồn không xác định hoặc không đáng tin cậy có thể gây nguy hiểm cho tính bảo mật thông tin cá nhân của bạn, vì vậy hãy thận trọng.";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "Chọn các tiện ích mở rộng được bật, các tiện ích mở rộng sẽ được tải khi khởi động chương trình.";
+  }
+  .extended-setting-button::before {
+    content: "Cài đặt";
+  }
+  .extended-info
+    span:empty:not(
+      .verified-badge,
+      .unverified-badge,
+      .loaded-badge,
+      .unloaded-badge
+    )::before {
+    content: "Việc sử dụng tiện ích mở rộng từ các nguồn không xác định hoặc không đáng tin cậy có thể gây nguy hiểm cho tính bảo mật thông tin cá nhân của bạn, vì vậy hãy thận trọng.";
+  }
+  .verified-badge::before {
+    content: "Đã xác minh";
+  }
+  .unverified-badge::before {
+    content: "Chưa xác minh";
+  }
+  .loaded-badge::before {
+    content: "Đã tải";
+  }
+  .unloaded-badge::before {
+    content: "Đã dỡ";
+  }
+  .success.message-box:before {
+    content: "Thành công!";
+  }
+  .failed.message-box:before {
+    content: "Thất bại!";
+  }
+  .extended-store:before {
+    content: "Cửa hàng mở rộng TREM";
+  }
+  .p-alert::before {
+    content: "P-Alert (Khi nhận được cường độ gần thời gian thực)";
+  }
+  .report::after {
+    content: "Report (Khi nhận được báo cáo động đất)";
+  }
+  .update::before {
+    content: "Update (Khi cảnh báo động đất được sửa chữa)";
+  }
+  .info-trem-lite::before {
+    content: "Giới thiệu về TREM Lite";
+  }
+  .info-trem-description::before {
+    content: "TREM-Lite là phần mềm báo cáo nhanh về động đất nguồn mở cung cấp cho bạn thông tin về động đất theo thời gian thực, sử dụng các trạm động đất tự phát triển để hiển thị hoạt động địa chấn theo thời gian thực tại nhiều địa điểm khác nhau và thu thập các thông báo cảnh báo theo thời gian thực về động đất mạnh được phát đi từ nhiều kênh khác nhau khi xảy ra động đất lần đầu tiên.";
+  }
+  .app-version-title::before {
+    content: "Phiên bản chương trình";
+  }
+  .system-os-title::before {
+    content: "Phiên bản hệ thống";
+  }
+  .source-title::before {
+    content: "Nguồn dữ liệu";
+  }
+  .source-eew::before {
+    content: "Cảnh báo động đất";
+  }
+  .source-cwa::before {
+    content: "Cục Thời tiết Trung ương (CWA)";
+  }
+  .source-shindo::before {
+    content: "Cường độ";
+  }
+  .source-sinica::before {
+    content: "Academia Sinica (SINICA)";
+  }
+  .source-trem::before {
+    content: "Đài Loan Giám sát động đất thời gian thực (TREM)";
+  }
+  .contributor-title::before {
+    content: "Người đóng góp";
+  }
+  .contributor-description::before {
+    content: "Cảm ơn những người đóng góp sau đây đã giúp TREM Lite trở thành hiện thực.";
+  }
+  .reset .confirm-title::before {
+    content: "Bạn có chắc chắn muốn đặt lại cài đặt không? Bạn sẽ không thể quay lại sau khi đặt lại.";
+  }
+  .extendedOpen .confirm-title::before {
+    content: "Bạn có chắc chắn muốn bật tiện ích mở rộng";
+  }
+  .extendedOpen .confirm-title::after {
+    content: "không? Sử dụng tiện ích mở rộng từ các nguồn không xác định hoặc không đáng tin cậy có thể gây nguy hiểm cho tính bảo mật thông tin cá nhân của bạn.";
+  }
+  .confirm-sure:empty::before {
+    content: "Chắc chắn";
+  }
+  .confirm-sure:not(:empty)::after {
+    content: " giây";
+  }
+  .confirm-cancel::before {
+    content: "Hủy bỏ";
+  }
+  .current:empty:before {
+    content: "Chưa thiết lập";
+  }
+
+  .eew-1::before {
+    content: "EEW (Khi nhận được cảnh báo động đất)";
+  }
+  .eew-2 {
+    &::before {
+      content: "EEW2 (Khi cường độ ước tính là ";
+    }
+    .special-text:before {
+      content: "5 yếu";
+    }
+    &::after {
+      content: " hoặc cao hơn)";
+    }
+  }
+  .pga-1 {
+    &::before {
+      content: "PGA1 (Khi PGA là ";
+    }
+    .special-text:before {
+      content: "8gal";
+    }
+    &::after {
+      content: " hoặc cao hơn)";
+    }
+  }
+  .pga-2 {
+    &::before {
+      content: "PGA2 (Khi PGA là ";
+    }
+    .special-text:before {
+      content: "200gal";
+    }
+    &::after {
+      content: " hoặc cao hơn)";
+    }
+  }
+  .shindo-0 {
+    &::before {
+      content: "Shindo0 (khi cường độ phát hiện là";
+    }
+    .special-text:before {
+      content: "0";
+    }
+    &::after {
+      content: " hoặc cao hơn)";
+    }
+  }
+  .shindo-1 {
+    &::before {
+      content: "Shindo1 (khi cường độ phát hiện là";
+    }
+    .special-text:before {
+      content: "2";
+    }
+    &::after {
+      content: " hoặc cao hơn)";
+    }
+  }
+  .shindo-2 {
+    &::before {
+      content: "Shindo2 (khi cường độ phát hiện là";
+    }
+    .special-text:before {
+      content: "4";
+    }
+    &::after {
+      content: " hoặc cao hơn)";
+    }
+  }
+
+  .setting-option span {
+    font-weight: Not set;
+  }
+}

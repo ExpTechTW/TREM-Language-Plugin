@@ -1,8 +1,8 @@
 @import url("./rwd.css");
 
-html[lang="en-US"] {
+html[lang="ko-KR"] {
   .version-check-text::before {
-    content: "New version";
+    content: "새 버전";
   }
 
   .info-number {
@@ -15,43 +15,43 @@ html[lang="en-US"] {
   }
 
   .cancel-title span::before {
-    content: "Cancel";
+    content: "취소";
   }
 
   .cancel-body span::before {
-    content: "This earthquake warning canceled.";
+    content: "지진 경보가 해제되었습니다.";
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
-    content: "Low " !important;
+    content: "낮음 " !important;
   }
 
   .no-eew.rts-trigger-middle .info-unit::after {
-    content: "Earthquake weak response " !important;
+    content: "지진에 취약한 대응 " !important;
   }
 
   .no-eew.rts-trigger-high .info-unit::after {
-    content: "Strong earthquake detection " !important;
+    content: "강력한 지진 감지 " !important;
   }
 
   .eew-warn .info-unit::before {
-    content: "Warning ";
+    content: "경고 ";
   }
 
   .eew-alert .info-unit::before {
-    content: "Warning alert ";
+    content: "경고 알림 ";
   }
 
   .info-number-last::after {
-    content: "(Final)" !important;
+    content: "(마지막)" !important;
   }
 
   .no-eew .info-unit::after {
-    content: "No earthquake warning";
+    content: "지진 경보 없음";
   }
 
   .info-intensity::after {
-    content: "Est. maximum intensity";
+    content: "최대 강도 추정";
   }
 
   .info-nsspe span::before {
@@ -60,96 +60,96 @@ html[lang="en-US"] {
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "Mag.";
+    content: "크기";
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "Depth";
+    content: "깊이";
   }
 
   .current-station-intensity-text::before {
-    content: "Intensity";
+    content: "강도";
   }
   .current-station-pga-text::before {
     content: "PGA";
   }
 
   .intensity-report::before {
-    content: "Intensity report";
+    content: "강도 보고서";
   }
 
   .source-report::before {
-    content: "Earthquake hypocenter report";
+    content: "지진 진원지 보고서";
   }
 
   .earthquake-report::before {
-    content: "Earthquake report";
+    content: "지진 보고서";
   }
 
   .tsunami-warning::before {
-    content: "Tsunami warning";
+    content: "쓰나미 경보";
   }
 
   .earthquake-warning::before {
-    content: "Earthquake warning";
+    content: "지진 경보";
   }
 
   .report-intensity-text::before {
-    content: "Max Intensity";
+    content: "최대 강도";
   }
 
   .web-detection::before {
-    content: "Detection";
+    content: "탐지";
   }
 
   .web-report::before {
-    content: "Report";
+    content: "신고";
   }
 
   .report-replay::before {
-    content: "Replay";
+    content: "재생";
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "Epicenter under assessment";
+    content: "평가 중인 에픽센터";
   }
 
   .rts-intenisty-list-text::before {
-    content: "Intensity ranking by seismicity";
+    content: "진도별 강도 순위";
   }
 
   .max-intensity-text::before {
-    content: "Max Intensity";
+    content: "최대 강도";
   }
 
   .max-pga-text::before {
-    content: "Max PGA";
+    content: "최대 PGA";
   }
 
   .internet-error .title:before {
-    content: "Network connection error";
+    content: "네트워크 연결 오류";
   }
 
   .unstable .title:before {
-    content: "Unstable";
+    content: "불안정";
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Observation points may be";
+      content: "지진 활동으로 인해 관측";
     }
     &:nth-child(2)::before {
-      content: "unstable due to seismic activity";
+      content: "지점이 불안정할 수 있습니다";
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Network connection error";
+      content: "네트워크 연결 오류가 발생했습니다";
     }
     &:nth-child(2)::before {
-      content: "please try again later";
+      content: "나중에 다시 시도하세요.";
     }
   }
 }

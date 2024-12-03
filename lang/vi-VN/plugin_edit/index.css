@@ -1,0 +1,32 @@
+html[lang="vi-VN"] {
+  .visual-editor-title:before {
+    content: "Trình chỉnh sửa trực quan";
+  }
+  .btn-remove:before {
+    content: "Xóa bỏ";
+  }
+  .btn-add:before {
+    content: "Thêm mục";
+  }
+  .root::before {
+    content: "Các trường cấp gốc mới";
+  }
+  .json-error:before {
+    content: "Lỗi định dạng JSON";
+  }
+  .yaml-transfer-error:before {
+    content: "Lỗi chuyển đổi YAML";
+  }
+  .yaml-extract-error:before {
+    content: "Lỗi phân tích YAML";
+  }
+  .auto-save-success:before {
+    content: "Tự động lưu thành công";
+  }
+  .auto-save-error:before {
+    content: "Tự động lưu lỗi";
+  }
+  .load-error:before {
+    content: "Lỗi đọc";
+  }
+}

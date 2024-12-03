@@ -1,0 +1,306 @@
+html[lang="ko-KR"] {
+  .button[for="general"]:before,
+  .general .setting-page-header-title::before {
+    content: "일반";
+  }
+  .button[for="graphics"]:before,
+  .graphics-header-title:before {
+    content: "그래픽";
+  }
+  .button[for="sound-effects"]:before,
+  .sound-effects-header-title::before {
+    content: "음향 효과";
+  }
+  .button[for="extended"]:before,
+  .extended-header-title:before {
+    content: "확장";
+  }
+  .button[for="info"]:before,
+  .info-header-title::before {
+    content: "정보";
+  }
+  .location-title::before {
+    content: "위치";
+  }
+  .location-description::before {
+    content: "위치를 설정하면 지진이 발생했을 때 해당 지역의 지진 강도를 추정할 수 있습니다";
+  }
+  .rts-station-title::before {
+    content: "실시간 관찰 지점";
+  }
+  .rts-station-description::before {
+    content: "메인 화면 왼쪽 상단에 표시되는 실시간 관찰 지점니다";
+  }
+  .warning-title::before {
+    content: "조기 경고 조건";
+  }
+  .warning-description::before {
+    content: "직전 관찰 지점(모든 관찰 지점)는 트리거 시점의 모든 관찰 지점의 진도 임계값이며, 예상 진도(위치)는 지진 경보 시점의 위치의 진도 임계값으로, 다음 조건 중 하나라도 충족되면 소프트웨어에서 음향 효과를 내고 창을 띄웁니다";
+  }
+  .current-realtime-station::before {
+    content: "실시간 관찰 지점(모든 관찰 지점) ";
+  }
+  .current-estimate-intensity::before {
+    content: "예상 강도(위치)";
+  }
+  .show-window-title::before {
+    content: "표시 프로그램 창";
+  }
+  .show-window-description::before {
+    content: "자동 표시 프로그램 창 ";
+  }
+  .trem-eew-title::before {
+    content: "TREM 지진 조기 경보";
+  }
+  .trem-eew-description::before {
+    content: "TREM 지진 조기 경보 는 TREM-Net 관측망을 사용하여 계산된 지진 조기 경보 메시지입니다. 실시간 데이터는 비공개이며, 일반 사용자는 지진 발생 후 5분 후에 리플레이를 통해 확인할 수 있습니다";
+  }
+  .other-function-title::before {
+    content: "기타 기능";
+  }
+  .other-function-description::before {
+    content: "TREM Lite 에서 자주 사용하지 않는 작은 기능들이 여기에 있습니다";
+  }
+  .auto-start::before {
+    content: "자동 시작 프로그램 (Windows)";
+  }
+  .tts::before {
+    content: "텍스트 음성 변환(중국어 번체)";
+  }
+  .earthquake-eew::before {
+    content: "지진 경보";
+  }
+  .earthquake-report::before {
+    content: "지진 보고서";
+  }
+  .earthquake-detect::before {
+    content: "지진 감지";
+  }
+  .rts-intensity::before {
+    content: "실시간 강도";
+  }
+  .get-trem-eew::before {
+    content: "TREM 지진 조기 경보 수신";
+  }
+  .reset-button::before,
+  .reset-setting-title::before {
+    content: "초기화";
+  }
+  .reset-setting::before {
+    content: "모든 설정 초기화";
+  }
+  .auto-zoom-title::before {
+    content: "지도 자동 확대/축소";
+  }
+  .auto-zoom-description::before {
+    content: "기본 지도 자동 확대/축소는 비활성화되어 있습니다";
+  }
+  .block-auto-zoom::before {
+    content: "지도 자동 확대/축소 비활성화";
+  }
+  .show-fault-title::before,
+  .show-fault::before {
+    content: "결함 표시";
+  }
+  .show-fault-description::before {
+    content: "지도는 대만 본섬의 단층 분포를 보여줍니다";
+  }
+  .effects-dong-title::before {
+    content: "조기 경고";
+  }
+  .effects-dong-description::before {
+    content: "지진이 발생하면 해당 위치의 예상 진도와 지진파가 도착할 때까지 남은 시간을 방송합니다";
+  }
+  .dong-dong::before {
+    content: "사운드 효과(카운트다운이 있는 경우에만 작동)";
+  }
+  .sound-effects-list-title::before {
+    content: "음향 효과 목록";
+  }
+  .sound-effects-list-description::before {
+    content: "특정 음향 효과 켜기 또는 끄기";
+  }
+  .extended-list-title:empty::before {
+    content: "확장 목록";
+  }
+  .extended-list-description:empty::before,
+  .extended-list-description:empty::before {
+    content: "알 수 없거나 신뢰할 수 없는 출처의 확장 프로그램을 사용하면 개인 정보의 보안이 위태로워질 수 있으므로 주의하세요";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "활성화된 확장 프로그램을 선택하면 프로그램 시작 시 확장 프로그램이 로드됩니다";
+  }
+  .extended-setting-button::before {
+    content: "설정";
+  }
+  .extended-info
+    span:empty:not(
+      .verified-badge,
+      .unverified-badge,
+      .loaded-badge,
+      .unloaded-badge
+    )::before {
+    content: "알 수 없거나 신뢰할 수 없는 출처의 확장 프로그램을 사용하면 개인 정보의 보안이 위태로워질 수 있으므로 주의하세요";
+  }
+  .verified-badge::before {
+    content: "확인됨";
+  }
+  .unverified-badge::before {
+    content: "확인되지 않음";
+  }
+  .loaded-badge::before {
+    content: "로드";
+  }
+  .unloaded-badge::before {
+    content: "언로드됨";
+  }
+  .success.message-box:before {
+    content: "성공!";
+  }
+  .failed.message-box:before {
+    content: "실패했습니다!";
+  }
+  .extended-store:before {
+    content: "TREM 확장 스토어";
+  }
+  .p-alert::before {
+    content: "P-Alert (거의 실시간에 가까운 강도를 수신하는)";
+  }
+  .report::after {
+    content: "Report (지진 신고 접수 시)";
+  }
+  .update::before {
+    content: "Update (지진 경보가 정정된 경우)";
+  }
+  .info-trem-lite::before {
+    content: "TREM Lite 소개";
+  }
+  .info-trem-description::before {
+    content: "TREM-Lite 는 자체 개발한 지진 관측소를 활용해 다양한 장소의 진도를 실시간으로 표시하고, 지진 발생 시 다양한 채널에서 발표하는 강진 경고 메시지를 실시간으로 받아볼 수 있는 오픈소스 지진 신속 보고 소프트웨어입니다.";
+  }
+  .app-version-title::before {
+    content: "프로그램 버전";
+  }
+  .system-os-title::before {
+    content: "시스템 버전";
+  }
+  .source-title::before {
+    content: "데이터 소스";
+  }
+  .source-eew::before {
+    content: "지진 경보";
+  }
+  .source-cwa::before {
+    content: "교통부 중앙기상서 (CWA)";
+  }
+  .source-shindo::before {
+    content: "강도";
+  }
+  .source-sinica::before {
+    content: "중앙연구원 (SINICA)";
+  }
+  .source-trem::before {
+    content: "대만 실시간 지진 모니터 (TREM)";
+  }
+  .contributor-title::before {
+    content: "기여자";
+  }
+  .contributor-description::before {
+    content: "TREM Lite 를 가능하게 해준 다음 기여자들에게 감사드립니다.";
+  }
+  .reset .confirm-title::before {
+    content: "설정을 재설정하시겠습니까? 재설정 후에는 다시 돌아올 수 없습니다.";
+  }
+  .extendedOpen .confirm-title::before {
+    content: "";
+  }
+  .extendedOpen .confirm-title::after {
+    content: " 확장 프로그램을 사용하시겠습니까? 알 수 없거나 신뢰할 수 없는 출처의 확장 프로그램을 사용하면 개인 정보의 보안이 위험해질 수 있습니다.";
+  }
+  .confirm-sure:empty::before {
+    content: "물론";
+  }
+  .confirm-sure:not(:empty)::after {
+    content: " 초";
+  }
+  .confirm-cancel::before {
+    content: "취소";
+  }
+  .current:empty:before {
+    content: "설정 해제";
+  }
+
+  .eew-1::before {
+    content: "EEW(지진 경보 수신 시)";
+  }
+  .eew-2 {
+    &::before {
+      content: "EEW2(예상 강도가 ";
+    }
+    .special-text:before {
+      content: "5보다";
+    }
+    &::after {
+      content: "  낮거나 높은 경우)";
+    }
+  }
+  .pga-1 {
+    &::before {
+      content: "PGA1(PGA가 ";
+    }
+    .special-text:before {
+      content: "8gal";
+    }
+    &::after {
+      content: " 이상인 경우)";
+    }
+  }
+  .pga-2 {
+    &::before {
+      content: "PGA2 (PGA가 ";
+    }
+    .special-text:before {
+      content: "200gal";
+    }
+    &::after {
+      content: " 이상인 경우)";
+    }
+  }
+  .shindo-0 {
+    &::before {
+      content: "Shindo0 (탐지 강도가 ";
+    }
+    .special-text:before {
+      content: "0";
+    }
+    &::after {
+      content: " 이상인 경우)";
+    }
+  }
+  .shindo-1 {
+    &::before {
+      content: "Shindo1 (탐지 강도가 ";
+    }
+    .special-text:before {
+      content: "2";
+    }
+    &::after {
+      content: " 이상인 경우)";
+    }
+  }
+  .shindo-2 {
+    &::before {
+      content: "Shindo2 (탐지 강도가 ";
+    }
+    .special-text:before {
+      content: "4";
+    }
+    &::after {
+      content: " 이상인 경우)";
+    }
+  }
+
+  .setting-option span {
+    font-weight: Not set;
+  }
+}

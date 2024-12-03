@@ -212,7 +212,7 @@ html[lang="zh-CN"] {
   }
   .intensity-0::after {
     content: "0" !important;
-    font-size: unset !important;
+    font-size: Not set !important;
   }
   .current:empty:before {
     content: "未设置";

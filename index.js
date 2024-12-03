@@ -11,7 +11,9 @@ class Plugin {
       { value: 'en-US', text: 'English' },
       { value: 'ja-JP', text: '日本語' },
       { value: 'zh-CN', text: '简体中文' },
-      { value: 'zh-Hant', text: '繁體中文' }
+      { value: 'zh-Hant', text: '繁體中文' },
+      { value: 'ko-KR', text: '한국어' },
+      { value: 'vi-VN', text: 'Tiếng Việt' }
     ];
   }
 

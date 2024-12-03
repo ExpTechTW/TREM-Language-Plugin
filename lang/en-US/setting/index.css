@@ -53,7 +53,7 @@ html[lang="en-US"] {
     content: "TREM EEW";
   }
   .trem-eew-description::before {
-    content: "TREM-EEW is an earthquake early warning message calculated by using TREM-Net observation network. The real-time data is non-public, and the general users can see the effect in the replay (5 minutes after the earthquake) after opening it.";
+    content: "TREM-EEW is an earthquake early warning message calculated by using TREM-Net observation network. The real-time data is non-public, general users can see the effect in the replay (5 minutes after the earthquake) after.";
   }
   .other-function-title::before {
     content: "Other Function";
@@ -221,13 +221,13 @@ html[lang="en-US"] {
     content: "Sure";
   }
   .confirm-sure:not(:empty)::after {
-    content: "s";
+    content: " s";
   }
   .confirm-cancel::before {
     content: "Cancel";
   }
   .current:empty:before {
-    content: "Unset";
+    content: "Not set";
   }
 
   .eew-1::before {
@@ -301,6 +301,6 @@ html[lang="en-US"] {
   }
 
   .setting-option span {
-    font-weight: unset;
+    font-weight: Not set;
   }
 }

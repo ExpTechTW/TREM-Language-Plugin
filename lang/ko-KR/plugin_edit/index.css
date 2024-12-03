@@ -1,0 +1,32 @@
+html[lang="ko-KR"] {
+  .visual-editor-title:before {
+    content: "비주얼 편집기";
+  }
+  .btn-remove:before {
+    content: "삭제";
+  }
+  .btn-add:before {
+    content: "항목 추가";
+  }
+  .root::before {
+    content: "새로운 루트 레벨 필드";
+  }
+  .json-error:before {
+    content: "JSON 형식 오류";
+  }
+  .yaml-transfer-error:before {
+    content: "YAML 변환 오류";
+  }
+  .yaml-extract-error:before {
+    content: "YAML 구문 분석 오류";
+  }
+  .auto-save-success:before {
+    content: "자동 저장 성공";
+  }
+  .auto-save-error:before {
+    content: "자동 저장 실패";
+  }
+  .load-error:before {
+    content: "읽기 오류";
+  }
+}
