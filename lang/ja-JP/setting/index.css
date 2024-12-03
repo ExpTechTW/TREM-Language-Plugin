@@ -117,12 +117,6 @@ html[lang="ja-JP"] {
     content: "拡張リスト";
   }
   .extended-list-description:empty::before,
-  .extended-list-description:empty::before {
-    content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。";
-  }
-  .extended-list-descriptions:empty::before {
-    content: "有効な拡張機能を選択すると、プログラム起動時に拡張機能がロードされます。";
-  }
   .extended-info
     span:empty:not(
       .verified-badge,
@@ -131,6 +125,9 @@ html[lang="ja-JP"] {
       .unloaded-badge
     )::before {
     content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "有効な拡張機能を選択すると、プログラム起動時に拡張機能がロードされます。";
   }
   .verified-badge::before {
     content: "認証済み";

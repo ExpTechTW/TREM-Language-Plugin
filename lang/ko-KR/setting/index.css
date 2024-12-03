@@ -124,15 +124,7 @@ html[lang="ko-KR"] {
     content: "확장 목록";
   }
   .extended-list-description:empty::before,
-  .extended-list-description:empty::before {
-    content: "알 수 없거나 신뢰할 수 없는 출처의 확장 프로그램을 사용하면 개인 정보의 보안이 위태로워질 수 있으므로 주의하세요";
-  }
-  .extended-list-descriptions:empty::before {
-    content: "활성화된 확장 프로그램을 선택하면 프로그램 시작 시 확장 프로그램이 로드됩니다";
-  }
-  .extended-setting-button::before {
-    content: "설정";
-  }
+  .extended-info .extended-info-warning:empty::before,
   .extended-info
     span:empty:not(
       .verified-badge,
@@ -141,6 +133,12 @@ html[lang="ko-KR"] {
       .unloaded-badge
     )::before {
     content: "알 수 없거나 신뢰할 수 없는 출처의 확장 프로그램을 사용하면 개인 정보의 보안이 위태로워질 수 있으므로 주의하세요";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "활성화된 확장 프로그램을 선택하면 프로그램 시작 시 확장 프로그램이 로드됩니다";
+  }
+  .extended-setting-button::before {
+    content: "설정";
   }
   .verified-badge::before {
     content: "확인됨";

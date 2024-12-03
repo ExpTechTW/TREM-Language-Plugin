@@ -43,7 +43,7 @@ html[lang="ko-KR"] {
   }
 
   .info-number-last::after {
-    content: "(마지막)" !important;
+    content: "(최종)" !important;
   }
 
   .no-eew .info-unit::after {

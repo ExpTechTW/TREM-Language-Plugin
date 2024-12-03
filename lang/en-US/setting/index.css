@@ -124,15 +124,7 @@ html[lang="en-US"] {
     content: "Expanded List";
   }
   .extended-list-description:empty::before,
-  .extended-list-description:empty::before {
-    content: "Use of extensions from unknown or untrusted sources may jeopardize the security of your personal information, so please use caution.";
-  }
-  .extended-list-descriptions:empty::before {
-    content: "Select the enabled extensions, the extensions will be loaded at program startup.";
-  }
-  .extended-setting-button::before {
-    content: "Setting";
-  }
+  .extended-info .extended-info-warning:empty::before,
   .extended-info
     span:empty:not(
       .verified-badge,
@@ -141,6 +133,12 @@ html[lang="en-US"] {
       .unloaded-badge
     )::before {
     content: "Use of extensions from unknown or untrusted sources may jeopardize the security of your personal information, so please use caution.";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "Select the enabled extensions, the extensions will be loaded at program startup.";
+  }
+  .extended-setting-button::before {
+    content: "Setting";
   }
   .verified-badge::before {
     content: "Verified";

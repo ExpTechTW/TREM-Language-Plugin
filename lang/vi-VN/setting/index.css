@@ -124,15 +124,7 @@ html[lang="vi-VN"] {
     content: "Danh sách mở rộng";
   }
   .extended-list-description:empty::before,
-  .extended-list-description:empty::before {
-    content: "Việc sử dụng tiện ích mở rộng từ các nguồn không xác định hoặc không đáng tin cậy có thể gây nguy hiểm cho tính bảo mật thông tin cá nhân của bạn, vì vậy hãy thận trọng.";
-  }
-  .extended-list-descriptions:empty::before {
-    content: "Chọn các tiện ích mở rộng được bật, các tiện ích mở rộng sẽ được tải khi khởi động chương trình.";
-  }
-  .extended-setting-button::before {
-    content: "Cài đặt";
-  }
+  .extended-info .extended-info-warning:empty::before,
   .extended-info
     span:empty:not(
       .verified-badge,
@@ -141,6 +133,12 @@ html[lang="vi-VN"] {
       .unloaded-badge
     )::before {
     content: "Việc sử dụng tiện ích mở rộng từ các nguồn không xác định hoặc không đáng tin cậy có thể gây nguy hiểm cho tính bảo mật thông tin cá nhân của bạn, vì vậy hãy thận trọng.";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "Chọn các tiện ích mở rộng được bật, các tiện ích mở rộng sẽ được tải khi khởi động chương trình.";
+  }
+  .extended-setting-button::before {
+    content: "Cài đặt";
   }
   .verified-badge::before {
     content: "Đã xác minh";
