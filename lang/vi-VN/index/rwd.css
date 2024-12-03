@@ -5,12 +5,12 @@ html[lang="vi-VN"] {
   .report-wrapper {
     & .report-box-item-wrapper:first-child {
       .report-intensity-text {
-        font-size: 12px;
+        font-size: 10px;
       }
     }
   }
   .station-pga-wrapper {
-    left: 8.1rem;
+    left: 8rem;
   }
   .info-wrapper {
     & .info-title-wrapper {
