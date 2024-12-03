@@ -147,8 +147,16 @@ html[lang="ja-JP"] {
   .extended-download-button:before {
     content: "ダウンロード";
   }
+  .extended-download-button.downloading::before {
+    content: "ダウンロード中...";
+    font-size: 12px;
+  }
+  .extended-download-button.downloaded::before {
+    content: "ダウンロード成功";
+    font-size: 12px;
+  }
   .extended-update-button:before {
-    content: "更新";
+    content: "更新する";
   }
   .extended-latest-button:before {
     content: "最新バージョン";

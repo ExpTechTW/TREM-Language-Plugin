@@ -157,12 +157,19 @@ html[lang="vi-VN"] {
   .extended-download-button:before {
     content: "Tải về";
   }
-  .extended-update-button:before {
+  .extended-download-button.downloading::before {
+    content: "Đang tải xuống...";
+    font-size: 12px;
+  }
+  .extended-download-button.downloaded::before {
+    content: "Tải xuống Thành công";
+    font-size: 9px;
+  }
+  .extended-update-button::before {
     content: "Cập nhật";
   }
-  .extended-latest-button:before {
+  .extended-latest-button::before {
     content: "Phiên bản mới nhất";
-    font-size: 14px;
   }
   .p-alert::before {
     content: "P-Alert (Khi nhận được cường độ gần thời gian thực)";

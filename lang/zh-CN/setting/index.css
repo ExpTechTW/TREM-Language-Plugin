@@ -154,6 +154,12 @@ html[lang="zh-CN"] {
   .extended-download-button:before {
     content: "下载";
   }
+  .extended-download-button.downloading::before {
+    content: "下载中...";
+  }
+  .extended-download-button.downloaded::before {
+    content: "下载成功";
+  }
   .eew-1::before {
     content: "EEW（收到地震预警时播放）";
   }

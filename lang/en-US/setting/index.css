@@ -154,14 +154,21 @@ html[lang="en-US"] {
   .extended-store:before {
     content: "TREM Expanded Store";
   }
-  .extended-download-button:before {
+  .extended-download-button::before {
     content: "Download";
   }
-  .extended-update-button:before {
+  .extended-download-button.downloading::before {
+    content: "Downloading...";
+  }
+  .extended-download-button.downloaded::before {
+    content: "Download Success";
+    font-size: 11px;
+  }
+  .extended-update-button::before {
     content: "Update";
   }
-  .extended-latest-button:before {
-    content: "latest version";
+  .extended-latest-button::before {
+    content: "Latest version";
   }
   .p-alert::before {
     content: "P-Alert (when an receiving near real-time intensity)";

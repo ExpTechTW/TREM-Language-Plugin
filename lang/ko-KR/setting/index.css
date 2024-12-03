@@ -163,6 +163,12 @@ html[lang="ko-KR"] {
   .extended-latest-button:before {
     content: "최신 버전입니다";
   }
+  .extended-download-button.downloading::before {
+    content: "다운로드 중...";
+  }
+  .extended-download-button.downloaded::before {
+    content: "성공 다운로드";
+  }
   .p-alert::before {
     content: "P-Alert (거의 실시간에 가까운 강도를 수신하는)";
   }
