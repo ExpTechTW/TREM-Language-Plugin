@@ -160,6 +160,9 @@ html[lang="en-US"] {
   .failed.message-box:before {
     content: "Failed!";
   }
+  .extended-store:before {
+    content: "TREM Expanded Store";
+  }
   .p-alert::before {
     content: "P-Alert (receiving near real-time intensity)";
   }

@@ -150,6 +150,9 @@ html[lang="ja-JP"] {
   .failed.message-box:before {
     content: "失敗した！";
   }
+  .extended-store:before {
+    content: "TREM 拡張ストア";
+  }
   .p-alert::before {
     content: "P-Alert（リアルタイムの震度を受信した）";
   }
@@ -191,6 +194,18 @@ html[lang="ja-JP"] {
   }
   .reset .confirm-title::before {
     content: "本当にリセットしますか？リセットすると戻れなくなります。";
+  }
+  .extendedOpen .confirm-title::before {
+    content: "本当に ";
+  }
+  .extendedOpen .confirm-title::after {
+    content: " 拡張機能を有効にしますか？未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。";
+  }
+  .confirm-sure:empty::before {
+    content: "OK";
+  }
+  .confirm-cancel::before {
+    content: "取り消";
   }
 
   .eew-1::before {

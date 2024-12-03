@@ -160,6 +160,9 @@ html[lang="zh-CN"] {
   .failed.message-box:before {
     content: "失败!";
   }
+  .extended-store:before {
+    content: "TREM 扩充商店";
+  }
   .eew-1::before {
     content: "EEW（收到地震预警时播放）";
   }
@@ -202,11 +205,15 @@ html[lang="zh-CN"] {
   .reset .confirm-title::before {
     content: "您确定要重置设置吗？重设后将无法返回。";
   }
-  .confirm-sure::before {
-    content: "确定";
+
+  .extendedOpen .confirm-title::before {
+    content: "您确定要启用 ";
   }
-  .confirm-cancel::before {
-    content: "取消";
+  .extendedOpen .confirm-title::after {
+    content: " 扩充吗，若使用来源不明或无法信任的扩充可能危及您的个人信息安全。";
+  }
+  .confirm-sure:empty::before {
+    content: "确定";
   }
   .intensity-0::after {
     content: "0" !important;

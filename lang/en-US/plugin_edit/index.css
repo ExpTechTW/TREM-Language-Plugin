@@ -21,10 +21,10 @@ html[lang="en-US"] {
     content: "YAML parsing error";
   }
   .auto-save-success:before {
-    content: "Automatically saved";
+    content: "Auto save successful";
   }
   .auto-save-error:before {
-    content: "Storage Error";
+    content: "Auto save Failure";
   }
   .load-error:before {
     content: "Read Error";
