@@ -1,0 +1,312 @@
+html[lang="th-TH"] {
+  .button[for="general"]:before,
+  .general .setting-page-header-title::before {
+    content: "ทั่วไป";
+  }
+  .button[for="graphics"]:before,
+  .graphics-header-title:before {
+    content: "กราฟฟิก";
+  }
+  .button[for="sound-effects"]:before,
+  .sound-effects-header-title::before {
+    content: "เอฟเฟกต์เสียง";
+  }
+  .button[for="extended"]:before,
+  .extended-header-title:before {
+    content: "ขยายเวลา";
+  }
+  .button[for="info"]:before,
+  .info-header-title::before {
+    content: "ข้อมูล";
+  }
+  .location-title::before {
+    content: "ที่ตั้ง";
+  }
+  .location-description::before {
+    content: "การตั้งค่าตำแหน่งช่วยให้คุณประมาณความรุนแรงของแผ่นดินไหวในพื้นที่ของคุณเมื่อเกิดขึ้น";
+  }
+  .rts-station-title::before {
+    content: "จุดสังเกตการณ์แบบเรียลไทม์";
+  }
+  .rts-station-description::before {
+    content: "จุดสังเกตแบบเรียลไทม์ที่ปรากฏที่ด้านบนซ้ายของหน้าจอหลัก";
+  }
+  .warning-title::before {
+    content: "Early Warning Conditions";
+  }
+  .warning-description::before {
+    content: "จุดสังเกตทันที (จุดสังเกตใดๆ ก็ได้) คือเกณฑ์ความรุนแรงของแผ่นดินไหวของสถานีใดๆ ณ เวลาที่เกิดเหตุ และความเข้มข้นของแผ่นดินไหวที่คาดการณ์ไว้ (ตำแหน่ง) คือเกณฑ์ความรุนแรงของแผ่นดินไหวของตำแหน่ง ณ เวลาที่ได้รับคำเตือนแผ่นดินไหว โดยซอฟต์แวร์จะส่งเอฟเฟกต์เสียงและเปิดหน้าต่างขึ้นมาเมื่อมีการตรงตามเงื่อนไขใดๆ ต่อไปนี้";
+  }
+  .current-realtime-station::before {
+    content: "จุดสังเกตการณ์แบบเรียลไทม์ (จุดสังเกตการณ์ใดๆ ก็ได้) ";
+  }
+  .current-estimate-intensity::before {
+    content: "ความรุนแรงของแผ่นดินไหวโดยประมาณ (ตำแหน่ง)";
+  }
+  .show-window-title::before {
+    content: "แสดงหน้าต่างโปรแกรม";
+  }
+  .show-window-description::before {
+    content: "หน้าต่างแสดงโปรแกรมอัตโนมัติ";
+  }
+  .trem-eew-title::before {
+    content: "การเตือนภัยแผ่นดินไหว TREM";
+  }
+  .trem-eew-description::before {
+    content: "TREM Earthquake Early Warning คือข้อความเตือนภัยแผ่นดินไหวล่วงหน้าที่คำนวณโดยใช้เครือข่ายสังเกตการณ์ TREM-Net ข้อมูลแบบเรียลไทม์ไม่เปิดเผยต่อสาธารณะ ผู้ใช้ทั่วไปสามารถดูผลกระทบได้ในการรีเพลย์ (5 นาทีหลังจากเกิดแผ่นดินไหว)";
+  }
+  .other-function-title::before {
+    content: "ฟังก์ชั่นอื่น ๆ";
+  }
+  .other-function-description::before {
+    content: "คุณสมบัติเล็กๆ น้อยๆ ที่ TREM Lite ไม่ได้ใช้บ่อยนักมีอยู่ที่นี่";
+  }
+  .auto-start::before {
+    content: "โปรแกรมเริ่มอัตโนมัติ (Windows)";
+  }
+  .tts::before {
+    content: "การแปลงข้อความเป็นเสียง (ภาษาจีนดั้งเดิม)";
+  }
+  .earthquake-eew::before {
+    content: "คำเตือนแผ่นดินไหว";
+  }
+  .earthquake-report::before {
+    content: "รายงานแผ่นดินไหว";
+  }
+  .earthquake-detect::before {
+    content: "การตรวจจับแผ่นดินไหว";
+  }
+  .rts-intensity::before {
+    content: "ความรุนแรงของแผ่นดินไหวแบบเรียลไทม์";
+  }
+  .get-trem-eew::before {
+    content: "รับการเตือนภัยแผ่นดินไหว TREM ล่วงหน้า";
+  }
+  .reset-button::before,
+  .reset-setting-title::before {
+    content: "รีเซ็ต";
+  }
+  .reset-setting::before {
+    content: "รีเซ็ตการตั้งค่าทั้งหมด";
+  }
+  .auto-zoom-title::before {
+    content: "แผนที่ซูมอัตโนมัติ";
+  }
+  .auto-zoom-description::before {
+    content: "การซูมแผนที่อัตโนมัติตามค่าเริ่มต้นถูกปิดใช้งาน";
+  }
+  .block-auto-zoom::before {
+    content: "ปิดใช้งานการซูมแผนที่อัตโนมัติ";
+  }
+  .effects-dong-title::before {
+    content: "การเตือนล่วงหน้า";
+  }
+  .effects-dong-description::before {
+    content: "เมื่อเกิดแผ่นดินไหว ระบบจะรายงานขนาดโดยประมาณของตำแหน่งนั้นและจำนวนวินาทีที่เหลือก่อนที่คลื่นแผ่นดินไหวจะมาถึง";
+  }
+  .dong-dong::before {
+    content: "เอฟเฟกต์เสียง (ใช้งานได้เฉพาะตอนที่มีการนับถอยหลังเท่านั้น)";
+  }
+  .sound-effects-list-title::before {
+    content: "รายการเอฟเฟกต์เสียง";
+  }
+  .sound-effects-list-description::before {
+    content: "เปิดหรือปิดเอฟเฟกต์เสียงเฉพาะ";
+  }
+  .extended-list-title:before {
+    content: "ฟังก์ชั่นเพิ่มเติม";
+  }
+  .extended-list-description:empty::before,
+  .extended-info .extended-info-warning:empty::before {
+    content: "การใช้ฟังก์ชันเพิ่มเติมจากแหล่งที่ไม่รู้จักหรือไม่น่าเชื่อถืออาจเป็นอันตรายต่อความปลอดภัยของข้อมูลส่วนบุคคลของคุณ ดังนั้นโปรดใช้ด้วยความระมัดระวัง";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "เลือกฟังก์ชันขยายที่เปิดใช้งาน ฟังก์ชันขยายจะถูกโหลดเมื่อเริ่มต้นโปรแกรม";
+  }
+  .extended-setting-button::before {
+    content: "การตั้งค่า";
+    font-size: 13px;
+  }
+  .verified-badge::before {
+    content: "ยืนยันแล้ว";
+  }
+  .unverified-badge::before {
+    content: "ไม่ยืนยัน";
+  }
+  .loaded-badge::before {
+    content: "โหลดแล้ว";
+  }
+  .unloaded-badge::before {
+    content: "ไม่โหลดแล้ว";
+  }
+  .success.message-box:before {
+    content: "สำเร็จแล้วกรุณาปิดหน้าต่างการตั้งค่าแล้วใช้งาน!";
+  }
+  .failed.message-box:before {
+    content: "ล้มเหลว!";
+  }
+  .success-download.message-box:before {
+    content: "การดาวน์โหลดเสร็จสมบูรณ์ กรุณาปิดหน้าต่างการตั้งค่าแล้วใช้งาน!";
+  }
+  .extended-store:before {
+    content: "ร้านค้าฟังก์ชันขยาย TREM";
+  }
+  .extended-download-button::before {
+    content: "ดาวน์โหลด";
+  }
+  .extended-download-button.downloading::before {
+    content: "กำลังดาวน์โหลด...";
+    font-size: 12px;
+  }
+  .extended-download-button.downloaded::before {
+    content: "ดาวน์โหลดสำเร็จ";
+    font-size: 11px;
+  }
+  .extended-update-button::before {
+    content: "อัปเดต";
+  }
+  .extended-latest-button::before {
+    content: "เวอร์ชั่นล่าสุด";
+  }
+  .p-alert::before {
+    content: "P-Alert (เมื่อได้รับความรุนแรงของแผ่นดินไหวแบบใกล้เคียงกับเวลาจริง)";
+  }
+  .report::after {
+    content: "Report (เมื่อได้รับรายงานแผ่นดินไหว)";
+  }
+  .update::before {
+    content: "Update (เมื่อการเตือนภัยแผ่นดินไหวเผยแพร่การแก้ไข)";
+  }
+  .info-trem-lite::before {
+    content: "เกี่ยวกับ TREM Lite";
+  }
+  .info-trem-description::before {
+    content: "TREM-Lite คือซอฟต์แวร์รายงานแผ่นดินไหวอย่างรวดเร็วแบบโอเพ่นซอร์สที่มอบข้อมูลแผ่นดินไหวแบบเรียลไทม์ให้แก่คุณ โดยใช้สถานีแผ่นดินไหวที่พัฒนาขึ้นเองเพื่อแสดงแผ่นดินไหวแบบเรียลไทม์ของสถานที่ต่างๆ และรับข้อความเตือนแบบเรียลไทม์เกี่ยวกับแผ่นดินไหวรุนแรงที่ปล่อยออกมาจากช่องทางต่างๆ เมื่อเกิดแผ่นดินไหวครั้งแรก";
+  }
+  .app-version-title::before {
+    content: "เวอร์ชันของโปรแกรม";
+  }
+  .system-os-title::before {
+    content: "เวอร์ชันระบบ";
+  }
+  .source-title::before {
+    content: "แหล่งที่มาของข้อมูล";
+  }
+  .source-eew::before {
+    content: "การแจ้งเตือนแผ่นดินไหว";
+  }
+  .source-cwa::before {
+    content: "สำนักงานอุตุนิยมวิทยากลาง (CWA)";
+  }
+  .source-shindo::before {
+    content: "ความรุนแรงของแผ่นดินไหว";
+  }
+  .source-sinica::before {
+    content: "Academia Sinica (SINICA)";
+  }
+  .source-trem::before {
+    content: "เครื่องตรวจวัดแผ่นดินไหวแบบเรียลไทม์ของไต้หวัน (TREM)";
+  }
+  .contributor-title::before {
+    content: "ผู้สนับสนุน";
+  }
+  .contributor-description::before {
+    content: "ขอขอบคุณผู้สนับสนุนต่อไปนี้ที่ทำให้ TREM Lite เป็นไปได้";
+  }
+  .reset .confirm-title::before {
+    content: "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตการตั้งค่า? คุณจะไม่สามารถกลับมาตั้งค่าใหม่ได้หลังจากรีเซ็ตแล้ว";
+  }
+  .extendedOpen .confirm-title::before {
+    content: "คุณแน่ใจหรือไม่ว่าต้องการเปิดใช้งานส่วนขยาย";
+  }
+  .extendedOpen .confirm-title::after {
+    content: "การใช้ส่วนขยายจากแหล่งที่ไม่รู้จักหรือไม่น่าเชื่อถืออาจเป็นอันตรายต่อความปลอดภัยของข้อมูลส่วนบุคคลของคุณ";
+  }
+  .confirm-sure:empty::before {
+    content: "แน่นอน";
+  }
+  .confirm-sure:not(:empty)::after {
+    content: " วินาที";
+  }
+  .confirm-cancel::before {
+    content: "ยกเลิก";
+  }
+  .current:empty:before {
+    content: "ไม่ได้ตั้งค่า";
+  }
+  .extended-list-button[for="extended-installed-list"]:before {
+    content: "รายการฟังก์ชั่นเพิ่มเติม";
+  }
+  .extended-list-button[for="extended-store-list"]:before {
+    content: "ร้านค้าฟังก์ชันเสริม";
+  }
+  .eew-1::before {
+    content: "EEW (เมื่อได้รับคำเตือนเรื่องแผ่นดินไหว)";
+  }
+  .eew-2 {
+    &::before {
+      content: "EEW2 (เมื่อความเข้มข้นที่ประมาณไว้คือ ";
+    }
+    .special-text:before {
+      content: "5 ล่าง";
+    }
+    &::after {
+      content: " หรือสูงกว่า)";
+    }
+  }
+  .pga-1 {
+    &::before {
+      content: "PGA1 (เมื่อ PGA เป็น ";
+    }
+    .special-text:before {
+      content: "8 gal";
+    }
+    &::after {
+      content: " หรือสูงกว่า)";
+    }
+  }
+  .pga-2 {
+    &::before {
+      content: "PGA2 (เมื่อ PGA เป็น ";
+    }
+    .special-text:before {
+      content: "200 gal";
+    }
+    &::after {
+      content: " หรือสูงกว่า)";
+    }
+  }
+  .shindo-0 {
+    &::before {
+      content: "Shindo0 (เมื่อตรวจจับความรุนแรงของแผ่นดินไหวได้ ";
+    }
+    .special-text:before {
+      content: "0";
+    }
+    &::after {
+      content: " หรือสูงกว่า)";
+    }
+  }
+  .shindo-1 {
+    &::before {
+      content: "Shindo1 (เมื่อตรวจจับความรุนแรงของแผ่นดินไหวได้ ";
+    }
+    .special-text:before {
+      content: "2";
+    }
+    &::after {
+      content: " หรือสูงกว่า)";
+    }
+  }
+  .shindo-2 {
+    &::before {
+      content: "Shindo2 (เมื่อตรวจจับความรุนแรงของแผ่นดินไหวได้ ";
+    }
+    .special-text:before {
+      content: "4";
+    }
+    &::after {
+      content: " หรือสูงกว่า)";
+    }
+  }
+}

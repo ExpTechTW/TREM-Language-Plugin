@@ -13,7 +13,9 @@ class Plugin {
       { value: 'zh-CN', text: '简体中文' },
       { value: 'zh-Hant', text: '繁體中文' },
       { value: 'ko-KR', text: '한국어' },
-      { value: 'vi-VN', text: 'Tiếng Việt' }
+      { value: 'vi-VN', text: 'Tiếng Việt' },
+      { value: 'id-ID', text: 'Bahasa Indonesia' },
+      { value: 'th-TH', text: 'ภาษาไทย' },
     ];
   }
 

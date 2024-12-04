@@ -1,0 +1,309 @@
+html[lang="id-ID"] {
+  .button[for="general"]:before,
+  .general .setting-page-header-title::before {
+    content: "Umum";
+  }
+  .button[for="graphics"]:before,
+  .graphics-header-title:before {
+    content: "Grafik";
+  }
+  .button[for="sound-effects"]:before,
+  .sound-effects-header-title::before {
+    content: "Efek Suara";
+  }
+  .button[for="extended"]:before,
+  .extended-header-title:before {
+    content: "Diperpanjang";
+  }
+  .button[for="info"]:before,
+  .info-header-title::before {
+    content: "Informasi";
+  }
+  .location-title::before {
+    content: "Lokasi";
+  }
+  .location-description::before {
+    content: "Menetapkan lokasi memungkinkan Anda untuk memperkirakan intensitas gempa bumi di daerah Anda ketika terjadi.";
+  }
+  .rts-station-title::before {
+    content: "Titik pengamatan waktu nyata";
+  }
+  .rts-station-description::before {
+    content: "Titik pengamatan waktu nyata yang muncul di kiri atas layar utama.";
+  }
+  .warning-title::before {
+    content: "Kondisi Peringatan Dini";
+  }
+  .warning-description::before {
+    content: "Pengamatan langsung (pengamatan apa pun) adalah ambang batas intensitas stasiun mana pun pada saat pemicuan, dan perkiraan intensitas (lokasi) adalah ambang batas intensitas lokasi pada saat peringatan gempa, dan perangkat lunak akan mengeluarkan efek suara dan memunculkan jendela ketika salah satu dari kondisi berikut terpenuhi.";
+  }
+  .current-realtime-station::before {
+    content: "Titik pengamatan waktu nyata (titik pengamatan apa pun) ";
+  }
+  .current-estimate-intensity::before {
+    content: "Perkiraan Intensitas (lokasi)";
+  }
+  .show-window-title::before {
+    content: "Tampilkan Jendela";
+  }
+  .show-window-description::before {
+    content: "Jendela tampilan program otomatis";
+  }
+  .trem-eew-title::before {
+    content: "Peringatan Dini Gempa Bumi TREM";
+  }
+  .trem-eew-description::before {
+    content: "TREM Earthquake Early Warning adalah pesan peringatan dini gempa bumi yang dihitung dengan menggunakan jaringan observasi TREM-Net. Data real-time bersifat non-publik, pengguna umum dapat melihat efeknya dalam tayangan ulang (5 menit setelah gempa) setelahnya.";
+  }
+  .other-function-title::before {
+    content: "Fungsi Lainnya";
+  }
+  .other-function-description::before {
+    content: "Fitur-fitur keren yang jarang digunakan oleh TREM Lite ada di sini.";
+  }
+  .auto-start::before {
+    content: "Program Mulai Otomatis (Windows)";
+  }
+  .tts::before {
+    content: "Teks-ke-Suara (Bahasa Tionghoa Tradisional)";
+  }
+  .earthquake-eew::before {
+    content: "Peringatan Gempa Bumi";
+  }
+  .earthquake-report::before {
+    content: "Laporan Gempa Bumi";
+  }
+  .earthquake-detect::before {
+    content: "Deteksi Gempa Bumi";
+  }
+  .rts-intensity::before {
+    content: "Intensitas Waktu Nyata";
+  }
+  .get-trem-eew::before {
+    content: "Menerima Peringatan Dini Gempa Bumi TREM";
+  }
+  .reset-button::before,
+  .reset-setting-title::before {
+    content: "Mengatur Ulang";
+  }
+  .reset-setting::before {
+    content: "Mengatur Ulang Semua Pengaturan";
+  }
+  .auto-zoom-title::before {
+    content: "Memperbesar peta secara otomatis";
+  }
+  .auto-zoom-description::before {
+    content: "Zoom otomatis peta default dinonaktifkan.";
+  }
+  .block-auto-zoom::before {
+    content: "Menonaktifkan zoom otomatis Peta";
+  }
+  .effects-dong-title::before {
+    content: "Peringatan Dini";
+  }
+  .effects-dong-description::before {
+    content: "Ketika gempa bumi terjadi, alat ini menyiarkan perkiraan magnitudo lokasi dan jumlah detik yang tersisa sampai gelombang gempa tiba.";
+  }
+  .dong-dong::before {
+    content: "Efek suara (hanya berfungsi jika ada hitungan mundur)";
+  }
+  .sound-effects-list-title::before {
+    content: "Daftar Efek Suara";
+  }
+  .sound-effects-list-description::before {
+    content: "Mengaktifkan atau menonaktifkan efek suara tertentu";
+  }
+  .extended-list-title:before {
+    content: "Diperpanjang";
+  }
+  .extended-list-description:empty::before,
+  .extended-info .extended-info-warning:empty::before {
+    content: "Penggunaan diperpanjang dari sumber yang tidak dikenal atau tidak tepercaya dapat membahayakan keamanan informasi pribadi Anda, jadi harap berhati-hati.";
+  }
+  .extended-list-descriptions:empty::before {
+    content: "Pilih diperpanjang yang diaktifkan, diperpanjang akan dimuat pada saat program dimulai.";
+  }
+  .extended-setting-button::before {
+    content: "Pengaturan";
+  }
+  .verified-badge::before {
+    content: "Terverifikasi";
+  }
+  .unverified-badge::before {
+    content: "Tidak diverifikasi";
+  }
+  .loaded-badge::before {
+    content: "Dimuat";
+  }
+  .unloaded-badge::before {
+    content: "Dibongkar";
+  }
+  .success.message-box:before {
+    content: "Pengoperasian berhasil, tutup jendela pengaturan dan terapkan!";
+  }
+  .failed.message-box:before {
+    content: "Pengoperasian gagal!";
+  }
+  .success-download.message-box:before {
+    content: "Pengunduhan berhasil, tutup jendela pengaturan dan terapkan!";
+  }
+  .extended-store:before {
+    content: "Toko TREM yang Diperluas";
+  }
+  .extended-download-button::before {
+    content: "Unduh";
+  }
+  .extended-download-button.downloading::before {
+    content: "Mengunduh...";
+  }
+  .extended-download-button.downloaded::before {
+    content: "Keberhasilan";
+  }
+  .extended-update-button::before {
+    content: "Memperbarui";
+  }
+  .extended-latest-button::before {
+    content: "Versi terbaru";
+  }
+  .p-alert::before {
+    content: "P-Alert (ketika menerima intensitas yang mendekati waktu nyata)";
+  }
+  .report::after {
+    content: "Report (ketika laporan gempa bumi diterima)";
+  }
+  .update::before {
+    content: "Update (ketika koreksi alarm gempa bumi darurat diterima)";
+  }
+  .info-trem-lite::before {
+    content: "Tentang TREM Lite";
+  }
+  .info-trem-description::before {
+    content: "TREM-Lite adalah perangkat lunak pelaporan cepat gempa bumi bersumber terbuka yang menyediakan informasi gempa bumi secara real-time, memanfaatkan stasiun gempa yang dikembangkan sendiri untuk menampilkan seismisitas waktu nyata di berbagai tempat, dan mendapatkan pesan peringatan waktu nyata dari gempa bumi kuat yang dikeluarkan oleh berbagai saluran pada saat pertama kali terjadi gempa bumi.";
+  }
+  .app-version-title::before {
+    content: "Versi Program";
+  }
+  .system-os-title::before {
+    content: "Versi Sistem";
+  }
+  .source-title::before {
+    content: "Sumber Data";
+  }
+  .source-eew::before {
+    content: "Peringatan Gempa Bumi";
+  }
+  .source-cwa::before {
+    content: "Administrasi Cuaca Pusat (CWA)";
+  }
+  .source-shindo::before {
+    content: "Intensitas";
+  }
+  .source-sinica::before {
+    content: "Academia Sinica (SINICA)";
+  }
+  .source-trem::before {
+    content: "Pemantau Gempa Bumi Waktu Nyata Taiwan (TREM)";
+  }
+  .contributor-title::before {
+    content: "Kontributor";
+  }
+  .contributor-description::before {
+    content: "Terima kasih kepada para kontributor berikut ini yang telah membuat TREM Lite menjadi mungkin.";
+  }
+  .reset .confirm-title::before {
+    content: "Apakah Anda yakin ingin mengatur ulang pengaturan? Anda tidak akan dapat kembali setelah mengatur ulang.";
+  }
+  .extendedOpen .confirm-title::before {
+    content: "Apakah Anda yakin ingin mengaktifkan diperpanjang ";
+  }
+  .extendedOpen .confirm-title::after {
+    content: " ? Menggunakan diperpanjang dari sumber yang tidak dikenal atau tidak tepercaya dapat membahayakan keamanan informasi pribadi Anda.";
+  }
+  .confirm-sure:empty::before {
+    content: "Tentu.";
+  }
+  .confirm-sure:not(:empty)::after {
+    content: " detik";
+  }
+  .confirm-cancel::before {
+    content: "Batal";
+  }
+  .current:empty:before {
+    content: "Tidak diatur";
+  }
+  .extended-list-button[for="extended-installed-list"]:before {
+    content: "Daftar Diperpanjang";
+  }
+  .extended-list-button[for="extended-store-list"]:before {
+    content: "Toko yang Diperpanjang";
+  }
+  .eew-1::before {
+    content: "EEW (ketika peringatan gempa bumi diterima)";
+  }
+  .eew-2 {
+    &::before {
+      content: "EEW2 (ketika perkiraan intensitas ";
+    }
+    .special-text:before {
+      content: "5 lemah";
+    }
+    &::after {
+      content: " atau lebih tinggi)";
+    }
+  }
+  .pga-1 {
+    &::before {
+      content: "PGA1 (ketika PGA ";
+    }
+    .special-text:before {
+      content: "8 gal";
+    }
+    &::after {
+      content: " atau lebih tinggi)";
+    }
+  }
+  .pga-2 {
+    &::before {
+      content: "PGA2 (ketika PGA ";
+    }
+    .special-text:before {
+      content: "200 gal";
+    }
+    &::after {
+      content: " atau lebih tinggi)";
+    }
+  }
+  .shindo-0 {
+    &::before {
+      content: "Shindo0 (ketika intensitas deteksi adalah ";
+    }
+    .special-text:before {
+      content: "0";
+    }
+    &::after {
+      content: " atau lebih tinggi)";
+    }
+  }
+  .shindo-1 {
+    &::before {
+      content: "Shindo1 (ketika intensitas deteksi adalah ";
+    }
+    .special-text:before {
+      content: "2";
+    }
+    &::after {
+      content: " atau lebih tinggi)";
+    }
+  }
+  .shindo-2 {
+    &::before {
+      content: "Shindo2 (ketika intensitas deteksi adalah ";
+    }
+    .special-text:before {
+      content: "4";
+    }
+    &::after {
+      content: " atau lebih tinggi)";
+    }
+  }
+}

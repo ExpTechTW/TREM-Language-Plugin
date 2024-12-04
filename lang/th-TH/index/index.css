@@ -1,0 +1,156 @@
+@import url("./rwd.css");
+
+html[lang="th-TH"] {
+  .version-check-text::before {
+    content: "เวอร์ชั่นใหม่";
+  }
+
+  .info-number {
+    &:not(:empty)::before {
+      content: "หมายเลข ";
+    }
+    &:not(:empty)::after {
+      content: "";
+    }
+  }
+
+  .cancel-title span::before {
+    content: "ยกเลิก";
+  }
+
+  .cancel-body span::before {
+    content: "This earthquake warning canceled.";
+  }
+
+  .no-eew.rts-trigger-low .info-unit::after {
+    content: "ต่ำ " !important;
+  }
+
+  .no-eew.rts-trigger-middle .info-unit::after {
+    content: "การตอบสนองแผ่นดินไหวที่อ่อนแอ " !important;
+  }
+
+  .no-eew.rts-trigger-high .info-unit::after {
+    content: "การตรวจจับแผ่นดินไหวที่แข็งแกร่ง " !important;
+  }
+
+  .eew-warn .info-unit::before {
+    content: "คำเตือน ";
+  }
+
+  .eew-alert .info-unit::before {
+    content: "การแจ้งเตือน ";
+  }
+
+  .info-number-last::after {
+    content: "(สุดท้าย)" !important;
+  }
+
+  .no-eew .info-unit::after {
+    content: "ขณะนี้ไม่มีการเตือนแผ่นดินไหว";
+  }
+
+  .info-intensity::after {
+    content: "นแรงของสูงสุด" !important;
+  }
+
+  .info-nsspe span::before {
+    content: "NSSPE";
+  }
+
+  .info-mag-text::after,
+  .report-box-item-wrapper:first-child .report-mag-text::after {
+    content: "ขนาด";
+  }
+
+  .info-depth-text::after,
+  .report-depth-text::after {
+    content: "ลึก";
+  }
+
+  .current-station-intensity-text::before {
+    content: "ความรุนแรงของ";
+  }
+  .current-station-pga-text::before {
+    content: "PGA";
+  }
+
+  .intensity-report::before {
+    content: "รายงานความรุนแรงของ";
+  }
+
+  .source-report::before {
+    content: "รายงานศูนย์เกิดแผ่นดินไหว";
+  }
+
+  .earthquake-report::before {
+    content: "รายงานแผ่นดินไหว";
+  }
+
+  .tsunami-warning::before {
+    content: "การเตือนภัยสึนามิ";
+  }
+
+  .earthquake-warning::before {
+    content: "คำเตือนแผ่นดินไหว";
+  }
+
+  .report-intensity-text::before {
+    content: "ความรุนแรงของสูงสุด";
+  }
+
+  .web-detection::before {
+    content: "การตรวจจับ";
+  }
+
+  .web-report::before {
+    content: "รายงาน";
+  }
+
+  .report-replay::before {
+    content: "รีเพลย์";
+  }
+
+  .report-box-items .survey .report-loc:before {
+    content: "ศูนย์กลางของแผ่นดินไหวอยู่ระหว่างการประเมิน";
+    font-size: 23px;
+  }
+
+  .rts-intenisty-list-text::before {
+    content: "จัดอันดับความรุนแรงของตามภูมิภาค";
+  }
+
+  .max-intensity-text::before {
+    content: "ความรุนแรงของสูงสุด";
+  }
+
+  .max-pga-text::before {
+    content: "รงของสูงสุดพีจีเอ";
+  }
+
+  .internet-error .title:before {
+    content: "ข้อผิดพลาดการเชื่อมต่อเครือข่าย";
+  }
+
+  .unstable .title:before {
+    content: "ไม่มั่นคง";
+  }
+
+  .unstable .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "จุดสังเกตอาจไม่มั่นคง";
+    }
+    &:nth-child(2)::before {
+      content: "เนื่องจากกิจกรรมแผ่นดินไหว";
+    }
+  }
+
+  .internet-error .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "ข้อผิดพลาดในการเชื่อมต่อเครือข่าย";
+    }
+    &:nth-child(2)::before {
+      content: "โปรดลองอีกครั้งในภายหลัง";
+    }
+  }
+}

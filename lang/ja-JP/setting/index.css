@@ -91,13 +91,6 @@ html[lang="ja-JP"] {
   .block-auto-zoom::before {
     content: "地図自動ズームを無効にする";
   }
-  .show-fault-title::before,
-  .show-fault::before {
-    content: "ショー断層";
-  }
-  .show-fault-description::before {
-    content: "地図は台湾本島の断層分布を示している。";
-  }
   .effects-dong-title::before {
     content: "早期警報";
   }
@@ -136,10 +129,13 @@ html[lang="ja-JP"] {
     content: "アンロード";
   }
   .success.message-box:before {
-    content: "成功した！";
+    content: "操作に成功しましたら、設定ウィンドウを閉じて適用してください！";
   }
   .failed.message-box:before {
-    content: "失敗した！";
+    content: "操作に失敗しました！";
+  }
+  .success-download.message-box:before {
+    content: "ダウンロードが成功しましたら、設定ウィンドウを閉じて適用してください！";
   }
   .extended-store:before {
     content: "TREM 拡張ストア";

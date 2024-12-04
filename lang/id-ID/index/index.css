@@ -1,0 +1,156 @@
+@import url("./rwd.css");
+
+html[lang="id-ID"] {
+  .version-check-text::before {
+    content: "Versi baru";
+  }
+
+  .info-number {
+    &:not(:empty)::before {
+      content: "#";
+    }
+    &:not(:empty)::after {
+      content: "";
+    }
+  }
+
+  .cancel-title span::before {
+    content: "Batal";
+  }
+
+  .cancel-body span::before {
+    content: "Peringatan gempa bumi ini dibatalkan.";
+  }
+
+  .no-eew.rts-trigger-low .info-unit::after {
+    content: "Rendah " !important;
+  }
+
+  .no-eew.rts-trigger-middle .info-unit::after {
+    content: "Respons seismik yang lebih lemah " !important;
+  }
+
+  .no-eew.rts-trigger-high .info-unit::after {
+    content: "Deteksi gempa bumi yang kuat " !important;
+  }
+
+  .eew-warn .info-unit::before {
+    content: "Peringatan ";
+  }
+
+  .eew-alert .info-unit::before {
+    content: "Peringatan peringatan ";
+  }
+
+  .info-number-last::after {
+    content: "(Akhir)" !important;
+  }
+
+  .no-eew .info-unit::after {
+    content: "Tidak ada peringatan dini gempa bumi";
+  }
+
+  .info-intensity::after {
+    content: "memperkirakan" !important;
+  }
+
+  .info-nsspe span::before {
+    content: "NSSPE";
+  }
+
+  .info-mag-text::after,
+  .report-box-item-wrapper:first-child .report-mag-text::after {
+    content: "Mag.";
+  }
+
+  .info-depth-text::after,
+  .report-depth-text::after {
+    content: "Keda.";
+  }
+
+  .current-station-intensity-text::before {
+    content: "Intensitas";
+  }
+  .current-station-pga-text::before {
+    content: "PGA";
+  }
+
+  .intensity-report::before {
+    content: "Laporan Intensitas";
+  }
+
+  .source-report::before {
+    content: "Laporan hiposenter gempa bumi";
+  }
+
+  .earthquake-report::before {
+    content: "Laporan gempa bumi";
+  }
+
+  .tsunami-warning::before {
+    content: "Peringatan tsunami";
+  }
+
+  .earthquake-warning::before {
+    content: "Peringatan gempa bumi";
+  }
+
+  .report-intensity-text::before {
+    content: "Intensitas";
+  }
+
+  .web-detection::before {
+    content: "Deteksi";
+  }
+
+  .web-report::before {
+    content: "Laporan";
+  }
+
+  .report-replay::before {
+    content: "Putar ulang";
+  }
+
+  .report-box-items .survey .report-loc:before {
+    content: "Episentrum yang sedang dikaji";
+  }
+
+  .rts-intenisty-list-text::before {
+    content: "Intensitas di Seluruh Wilayah berdasarkan peringkat";
+    font-size: 11px;
+  }
+
+  .max-intensity-text::before {
+    content: "Intensitas";
+  }
+
+  .max-pga-text::before {
+    content: "PGA Maks";
+  }
+
+  .internet-error .title:before {
+    content: "Kesalahan koneksi jaringan";
+  }
+
+  .unstable .title:before {
+    content: "Tidak stabil";
+  }
+
+  .unstable .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Titik pengamatan mungkin tidak";
+    }
+    &:nth-child(2)::before {
+      content: "stabil karena aktivitas seismik";
+    }
+  }
+
+  .internet-error .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Kesalahan koneksi jaringan";
+    }
+    &:nth-child(2)::before {
+      content: "silakan coba lagi nanti";
+    }
+  }
+}

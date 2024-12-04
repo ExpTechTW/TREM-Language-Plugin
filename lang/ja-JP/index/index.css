@@ -69,6 +69,7 @@ html[lang="ja-JP"] {
   }
   .rts-intenisty-list-text::before {
     content: "場所別震度ランキング";
+    font-size: 11px;
   }
   .max-intensity-text::before {
     content: "最大震度";

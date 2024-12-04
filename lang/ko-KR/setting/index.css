@@ -98,13 +98,6 @@ html[lang="ko-KR"] {
   .block-auto-zoom::before {
     content: "지도 자동 확대/축소 비활성화";
   }
-  .show-fault-title::before,
-  .show-fault::before {
-    content: "결함 표시";
-  }
-  .show-fault-description::before {
-    content: "지도는 대만 본섬의 단층 분포를 보여줍니다";
-  }
   .effects-dong-title::before {
     content: "조기 경고";
   }
@@ -146,10 +139,13 @@ html[lang="ko-KR"] {
     content: "언로드됨";
   }
   .success.message-box:before {
-    content: "성공!";
+    content: "성공했습니다, 설정 창을 닫고 적용하세요!";
   }
   .failed.message-box:before {
     content: "실패했습니다!";
+  }
+  .success-download.message-box:before {
+    content: "다운로드가 성공했습니다, 설정 창을 닫고 적용하세요!";
   }
   .extended-store:before {
     content: "TREM 확장 스토어";
@@ -249,7 +245,7 @@ html[lang="ko-KR"] {
       content: "EEW2(예상 강도가 ";
     }
     .special-text:before {
-      content: "5보다";
+      content: "5 보다";
     }
     &::after {
       content: "  낮거나 높은 경우)";
@@ -260,7 +256,7 @@ html[lang="ko-KR"] {
       content: "PGA1(PGA가 ";
     }
     .special-text:before {
-      content: "8gal";
+      content: "8 gal";
     }
     &::after {
       content: " 이상인 경우)";
@@ -271,7 +267,7 @@ html[lang="ko-KR"] {
       content: "PGA2 (PGA가 ";
     }
     .special-text:before {
-      content: "200gal";
+      content: "200 gal";
     }
     &::after {
       content: " 이상인 경우)";
@@ -309,9 +305,5 @@ html[lang="ko-KR"] {
     &::after {
       content: " 이상인 경우)";
     }
-  }
-
-  .setting-option span {
-    font-weight: Not set;
   }
 }

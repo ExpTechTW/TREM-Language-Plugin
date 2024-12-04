@@ -1,0 +1,32 @@
+html[lang="id-ID"] {
+  .visual-editor-title:before {
+    content: "Visual editor";
+  }
+  .btn-remove:before {
+    content: "Delete";
+  }
+  .btn-add:before {
+    content: "Add item";
+  }
+  .root::before {
+    content: "New root level fields";
+  }
+  .json-error:before {
+    content: "JSON format error";
+  }
+  .yaml-transfer-error:before {
+    content: "YAML Conversion Error";
+  }
+  .yaml-extract-error:before {
+    content: "YAML parsing error";
+  }
+  .auto-save-success:before {
+    content: "Auto save successful";
+  }
+  .auto-save-error:before {
+    content: "Auto save Failure";
+  }
+  .load-error:before {
+    content: "Read Error";
+  }
+}

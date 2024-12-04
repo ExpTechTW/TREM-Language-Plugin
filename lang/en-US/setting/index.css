@@ -98,13 +98,6 @@ html[lang="en-US"] {
   .block-auto-zoom::before {
     content: "Disable Map Auto-zoom";
   }
-  .show-fault-title::before,
-  .show-fault::before {
-    content: "Show Fault";
-  }
-  .show-fault-description::before {
-    content: "The map shows the distribution of faults on the main island of Taiwan.";
-  }
   .effects-dong-title::before {
     content: "Early Warning";
   }
@@ -140,16 +133,19 @@ html[lang="en-US"] {
     content: "Unverified";
   }
   .loaded-badge::before {
-    content: "loaded";
+    content: "Loaded";
   }
   .unloaded-badge::before {
     content: "Unloaded";
   }
   .success.message-box:before {
-    content: "Success!";
+    content: "Operation is successful, please close the setting window and apply it!";
   }
   .failed.message-box:before {
-    content: "Failed!";
+    content: "Operation Failed!";
+  }
+  .success-download.message-box:before {
+    content: "Download is successful, please close the setting window and apply it!";
   }
   .extended-store:before {
     content: "TREM Expanded Store";
@@ -272,7 +268,7 @@ html[lang="en-US"] {
       content: "PGA2 (when an PGA is ";
     }
     .special-text:before {
-      content: "200gal";
+      content: "200 gal";
     }
     &::after {
       content: " or higher)";
@@ -310,9 +306,5 @@ html[lang="en-US"] {
     &::after {
       content: " or higher)";
     }
-  }
-
-  .setting-option span {
-    font-weight: Not set;
   }
 }

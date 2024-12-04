@@ -98,13 +98,6 @@ html[lang="zh-CN"] {
   .block-auto-zoom::before {
     content: "禁用地图自动缩放";
   }
-  .show-fault-title::before,
-  .show-fault::before {
-    content: "显示断层";
-  }
-  .show-fault-description::before {
-    content: "在地图上显示臺湾本岛断层分布。";
-  }
   .effects-dong-title::before {
     content: "预警播报";
   }
@@ -143,10 +136,13 @@ html[lang="zh-CN"] {
     content: "未加载";
   }
   .success.message-box:before {
-    content: "成功!";
+    content: "操作成功，关闭设定视窗后生效！";
   }
   .failed.message-box:before {
-    content: "失败!";
+    content: "操作失败！!";
+  }
+  .success-download.message-box:before {
+    content: "下载成功，关闭设定视窗后生效！";
   }
   .extended-store:before {
     content: "TREM 扩充商店";
@@ -242,7 +238,7 @@ html[lang="zh-CN"] {
       content: "PGA1（PGA >";
     }
     .special-text:before {
-      content: "8gal";
+      content: "8 gal";
     }
     &::after {
       content: "时播放）";
@@ -253,7 +249,7 @@ html[lang="zh-CN"] {
       content: "PGA2（PGA >";
     }
     .special-text:before {
-      content: "200gal";
+      content: "200 gal";
     }
     &::after {
       content: "时播放）";

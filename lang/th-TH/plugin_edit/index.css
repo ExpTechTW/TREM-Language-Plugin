@@ -1,0 +1,32 @@
+html[lang="th-TH"] {
+  .visual-editor-title:before {
+    content: "ตัวแก้ไขภาพ";
+  }
+  .btn-remove:before {
+    content: "ลบ";
+  }
+  .btn-add:before {
+    content: "เพิ่มรายการ";
+  }
+  .root::before {
+    content: "ฟิลด์ระดับรากใหม่";
+  }
+  .json-error:before {
+    content: "ข้อผิดพลาดรูปแบบ JSON";
+  }
+  .yaml-transfer-error:before {
+    content: "ข้อผิดพลาดในการแปลง YAML";
+  }
+  .yaml-extract-error:before {
+    content: "ข้อผิดพลาดการแยกวิเคราะห์ YAML";
+  }
+  .auto-save-success:before {
+    content: "บันทึกอัตโนมัติสำเร็จแล้ว";
+  }
+  .auto-save-error:before {
+    content: "การบันทึกอัตโนมัติล้มเหลว";
+  }
+  .load-error:before {
+    content: "อ่านข้อผิดพลาด";
+  }
+}

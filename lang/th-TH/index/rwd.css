@@ -1,0 +1,89 @@
+html[lang="th-TH"] {
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(219%);
+  }
+  .report-wrapper {
+    & .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+    }
+  }
+  .station-pga-wrapper {
+    left: 9.3rem;
+  }
+  .info-wrapper {
+    & .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+  .report-wrapper {
+    & .report-box-item-wrapper:first-child {
+      & .report-info-box {
+        & .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+  .current-station-intensity-pga {
+    flex-direction: column;
+  }
+
+  .current-station-pga {
+    width: 188px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .current-station-info {
+    width: auto !important;
+  }
+  @media (max-width: 980px) {
+    .info-intensity::after {
+      content: "Est. maximum" !important;
+    }
+    .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 11px !important;
+      }
+    }
+    .report-intensity-val {
+      height: 40px !important;
+      width: 43px !important;
+    }
+    .rts-intensity-list-wrapper {
+      width: 130px !important;
+    }
+    .current-station-info {
+      width: auto !important;
+    }
+    .current-station-pga {
+      width: 162px !important;
+    }
+    .max-intensity {
+      width: 76px;
+    }
+    .rts-intensity-list-wrapper {
+      right: 16.5rem;
+    }
+    .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+      transform: translateX(206%);
+    }
+    .report-box-item-wrapper.survey:first-child {
+      .report-loc {
+        font-size: 19px !important;
+      }
+    }
+    .max-pga {
+      width: 95px;
+    }
+    .max-intensity-pga-wrapper {
+      top: 13.5rem !important;
+    }
+  }
+}

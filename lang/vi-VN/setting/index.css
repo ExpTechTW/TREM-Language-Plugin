@@ -98,13 +98,6 @@ html[lang="vi-VN"] {
   .block-auto-zoom::before {
     content: "Tắt tính năng tự động thu phóng bản đồ";
   }
-  .show-fault-title::before,
-  .show-fault::before {
-    content: "Hiển thị đứt gãy";
-  }
-  .show-fault-description::before {
-    content: "Bản đồ cho thấy sự phân bố các đứt gãy trên đảo chính Đài Loan.";
-  }
   .effects-dong-title::before {
     content: "Cảnh báo sớm";
   }
@@ -146,10 +139,13 @@ html[lang="vi-VN"] {
     content: "Đã dỡ";
   }
   .success.message-box:before {
-    content: "Thành công!";
+    content: "Thao tác thành công, vui lòng đóng cửa sổ cài đặt và áp dụng!";
   }
   .failed.message-box:before {
     content: "Thất bại!";
+  }
+  .success-download.message-box:before {
+    content: "Tải xuống thành công, vui lòng đóng cửa sổ cài đặt và áp dụng!";
   }
   .extended-store:before {
     content: "Cửa hàng mở rộng TREM";
@@ -262,7 +258,7 @@ html[lang="vi-VN"] {
       content: "PGA1 (Khi PGA là ";
     }
     .special-text:before {
-      content: "8gal";
+      content: "8 gal";
     }
     &::after {
       content: " hoặc cao hơn)";
@@ -273,7 +269,7 @@ html[lang="vi-VN"] {
       content: "PGA2 (Khi PGA là ";
     }
     .special-text:before {
-      content: "200gal";
+      content: "200 gal";
     }
     &::after {
       content: " hoặc cao hơn)";
@@ -311,9 +307,5 @@ html[lang="vi-VN"] {
     &::after {
       content: " hoặc cao hơn)";
     }
-  }
-
-  .setting-option span {
-    font-weight: Not set;
   }
 }
