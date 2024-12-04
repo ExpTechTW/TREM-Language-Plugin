@@ -113,7 +113,7 @@ html[lang="th-TH"] {
 
   .report-box-items .survey .report-loc:before {
     content: "ศูนย์กลางของแผ่นดินไหวอยู่ระหว่างการประเมิน";
-    font-size: 23px;
+    font-size: 19px;
   }
 
   .rts-intenisty-list-text::before {
