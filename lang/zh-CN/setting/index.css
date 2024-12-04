@@ -221,6 +221,15 @@ html[lang="zh-CN"] {
   .extended-list-button[for="extended-store-list"]:before {
     content: "扩充商店";
   }
+  .copy-debug-log:before {
+    content: "复制除错日志";
+  }
+  .success-copy.message-box:before {
+    content: "复制成功！";
+  }
+  .success-failed.message-box:before {
+    content: "复制失败！";
+  }
 
   .eew-2 {
     &::before {

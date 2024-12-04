@@ -240,6 +240,15 @@ html[lang="ko-KR"] {
   .eew-1::before {
     content: "EEW(지진 경보 수신 시)";
   }
+  .copy-debug-log:before {
+    content: "로그 복사";
+  }
+  .success-copy.message-box:before {
+    content: "복사 성공!";
+  }
+  .success-failed.message-box:before {
+    content: "복사 실패!";
+  }
   .eew-2 {
     &::before {
       content: "EEW2(예상 강도가 ";

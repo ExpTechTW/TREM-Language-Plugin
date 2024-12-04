@@ -240,6 +240,16 @@ html[lang="id-ID"] {
   .eew-1::before {
     content: "EEW (ketika peringatan gempa bumi diterima)";
   }
+  .copy-debug-log:before {
+    content: "Menyalin log debug";
+  }
+  .success-copy.message-box:before {
+    content: "Salin berhasil!";
+  }
+  .success-failed.message-box:before {
+    content: "Salin Gagal!";
+  }
+
   .eew-2 {
     &::before {
       content: "EEW2 (ketika perkiraan intensitas ";

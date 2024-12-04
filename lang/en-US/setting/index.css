@@ -241,6 +241,16 @@ html[lang="en-US"] {
   .eew-1::before {
     content: "EEW (when an earthquake warning is received)";
   }
+  .copy-debug-log:before {
+    content: "Copy debug log";
+  }
+  .success-copy.message-box:before {
+    content: "Copy successful!";
+  }
+  .success-failed.message-box:before {
+    content: "Copy Failure!";
+  }
+
   .eew-2 {
     &::before {
       content: "EEW2 (when an estimated intensity is ";

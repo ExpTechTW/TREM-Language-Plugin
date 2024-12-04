@@ -220,6 +220,15 @@ html[lang="ja-JP"] {
   .eew-1::before {
     content: "EEW（緊急地震速報を受信した）";
   }
+  .copy-debug-log:before {
+    content: "ログをコピーする";
+  }
+  .success-copy.message-box:before {
+    content: "コピス成功!";
+  }
+  .success-failed.message-box:before {
+    content: "コピス失敗!";
+  }
   .eew-2 {
     &::before {
       content: "EEW2（推定震度が ";

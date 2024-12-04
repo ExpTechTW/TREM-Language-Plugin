@@ -242,6 +242,16 @@ html[lang="vi-VN"] {
   .eew-1::before {
     content: "EEW (Khi nhận được cảnh báo động đất)";
   }
+  .copy-debug-log:before {
+    content: "Sao chép nhật ký";
+  }
+  .success-copy.message-box:before {
+    content: "Sao chép thành công!";
+  }
+  .success-failed.message-box:before {
+    content: "Sao chép không thành công!";
+  }
+
   .eew-2 {
     &::before {
       content: "EEW2 (Khi cường độ ước tính là ";

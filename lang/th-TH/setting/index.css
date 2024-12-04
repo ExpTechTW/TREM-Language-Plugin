@@ -243,6 +243,15 @@ html[lang="th-TH"] {
   .eew-1::before {
     content: "EEW (เมื่อได้รับคำเตือนเรื่องแผ่นดินไหว)";
   }
+  .copy-debug-log:before {
+    content: "คัดลอกบันทึก";
+  }
+  .success-copy.message-box:before {
+    content: "คัดลอกสำเร็จแล้ว!";
+  }
+  .success-failed.message-box:before {
+    content: "ล้มเหลวในการคัดลอก!";
+  }
   .eew-2 {
     &::before {
       content: "EEW2 (เมื่อความเข้มข้นที่ประมาณไว้คือ ";
