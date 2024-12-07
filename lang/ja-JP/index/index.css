@@ -18,7 +18,7 @@ html[lang="ja-JP"] {
   }
 
   .no-eew .info-unit::after {
-    content: "緊急地震速報は発表されでいません";
+    content: "緊急地震速報は発表されていません";
   }
 
   .info-intensity::after {

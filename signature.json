@@ -1,8 +1,9 @@
 {
-  "timestamp": 1733321067564,
+  "timestamp": 1733582837196,
+  "version": "1.1.7",
   "fileHashes": {
     "index.js": "e7583209b8450d1d4a7e2b90f0e1d1df524a9e3cb69b7b0eceeadf40c82bd00e",
-    "info.json": "73375673298d818e3165a08e33d0878211f83b1a3331c96bb95cf63d70b45b10",
+    "info.json": "3ec6587a3e2ebe1defffda0e1e3136a1d2d816a24ccefcac8e963af469a6a876",
     "lang/en-US/index/index.css": "92872b148da995e003d65d12e01ddbe486393b4e37051911365ba3e1b9b0df01",
     "lang/en-US/index/rwd.css": "3822213046ba515bdf31f73e91bdcb8e0304cd191bd8e972b69d48f9975c570b",
     "lang/en-US/plugin_edit/index.css": "7adb4db0415dd11806756099e19a91a21cb0f9da38253a2a5003f180368e83e8",
@@ -11,7 +12,7 @@
     "lang/id-ID/index/rwd.css": "530b1b231061153a88dee3160ddc558256b7c3d8990b385f51fea5c1c881e587",
     "lang/id-ID/plugin_edit/index.css": "cb93eaa38576f5e40c26c7849e456f80829689c9ef682ebb8c59c2c16b296f75",
     "lang/id-ID/setting/index.css": "aba2000a65c5ef8cfab3f9add55e4767e8689c1b9b5a4679461684e8b0c7ba3f",
-    "lang/ja-JP/index/index.css": "bd53cc6e43710f0aca240d0d9424eff562fe06c357499c9ea5b8d3cb42fc9145",
+    "lang/ja-JP/index/index.css": "ea51757a1313a540b7df8fc352478604dcc4d214d3896aeb311304db6fd46c08",
     "lang/ja-JP/index/rwd.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "lang/ja-JP/plugin_edit/index.css": "ac2f73d21c12d6151798a5a783cf9ac190e7f5d9da4e82b77f1e7a8b2a2bd5fd",
     "lang/ja-JP/setting/index.css": "e1d50d19eac406b2047ef65d1af8774d9a094c805a3ceaf1ed19df05b89c19c8",
@@ -35,11 +36,7 @@
     "lang/zh-Hant/index/index.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "lang/zh-Hant/index/rwd.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "lang/zh-Hant/plugin_edit/index.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "lang/zh-Hant/setting/index.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "LICENSE": "7f8f48e4266aa8fd3033dfaa4bb7f6e83a60c6e099f82d4959b81de90e67cd8f",
-    "package-lock.json": "9575f7a9a8e17be37e8d9f256ca51030f805cba184290269b787f339d45c5854",
-    "package.json": "51f04286fce1d186e444fe607083fd58be098e367361304fb976b3fee3bc49c1",
-    "README.md": "f395dc66da6411bf5cca2b4393c1c4559814a1ef9b7cdaba7c9a8a685740de9b"
+    "lang/zh-Hant/setting/index.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
-  "signature": "x+kltHqao6FchqOk8IBnC5OikfwZx7I1pKOZ8g6PsC6dNnxUhvyYcwKsxLK8FdT6UXrHA/LvF9haawCgSrRLBPuCcAdxbbcRJ9+O1W6BKKse8UL0mNXyk3RwmYxndxDQQTjsld+D9g7efzDzmS3VOM23EmAZDzOwTu2ELY1Ke4rha2X58dF8rSvrkzAGugSqhm9SaKo5QwHUZx+qCZuwL62h11JoUGBieOUQ+rM58wYRZFOqz5zGCtZM0pcEpRNIQAD+wins5Le0hf8jIgrEUlW+nlrs6edYetCVYMq8qsFBh7PTOJkk9wRY9+x23iSVErBH02tu3SO1ogKIxhugZw=="
+  "signature": "aqnC0RZRAgl4xf3STtVvHzq+DghIkfU9rxOuIjpPobhbqZ/BGE7+nhHtDOrsyaL8fbqmLDNENvsJGHTWTa08E8z/fsftg7fEHr3HQOLAFWLSrmaLUiD58WUTxzS6KLLJQ/4JM/LQ43cfXxRfrQ1uT+x4e2QnHbxo+PuJvv57FPeifdQBdm7IyAKWb2pAqqNVBQa5RX7uAA7o4xxh/XpXFX8fo2BnL4fbx5eVuTQTP3F4PlQzvLtfcWV2HOLpkf4kyt/kWKuqkyF4P0Gshx4yjHc5JW1gNZd2fMZ1575abfoRx8EwMmgwSSwdKHYUGzR49Jp1sGV3rJonQYypYKLCQw=="
 }
