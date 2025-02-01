@@ -215,6 +215,9 @@ html[lang="zh-CN"] {
   .current:empty:before {
     content: "未设置";
   }
+  .extended-list-button[for="extended-state-list"]:before {
+    content: "扩充状态";
+  }
   .extended-list-button[for="extended-installed-list"]:before {
     content: "扩充列表";
   }

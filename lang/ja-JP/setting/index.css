@@ -211,6 +211,9 @@ html[lang="ja-JP"] {
   .confirm-cancel::before {
     content: "取り消";
   }
+  .extended-list-button[for="extended-state-list"]:before {
+    content: "拡張機能ステート";
+  }
   .extended-list-button[for="extended-installed-list"]:before {
     content: "拡張機能リスト";
   }

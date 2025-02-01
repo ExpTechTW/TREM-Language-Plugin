@@ -231,6 +231,9 @@ html[lang="ko-KR"] {
   .current:empty:before {
     content: "설정 해제";
   }
+  .extended-list-button[for="extended-state-list"]:before {
+    content: "확장 상태";
+  }
   .extended-list-button[for="extended-installed-list"]:before {
     content: "확장 목록";
   }

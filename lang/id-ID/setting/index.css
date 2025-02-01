@@ -231,6 +231,9 @@ html[lang="id-ID"] {
   .current:empty:before {
     content: "Tidak diatur";
   }
+  .extended-list-button[for="extended-state-list"]:before {
+    content: "Status Diperpanjang";
+  }
   .extended-list-button[for="extended-installed-list"]:before {
     content: "Daftar Diperpanjang";
   }

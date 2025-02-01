@@ -233,6 +233,9 @@ html[lang="vi-VN"] {
   .current:empty:before {
     content: "Chưa thiết lập";
   }
+  .extended-list-button[for="extended-state-list"]:before {
+    content: "Trạng thái mở rộng";
+  }
   .extended-list-button[for="extended-installed-list"]:before {
     content: "Danh sách mở rộng";
   }

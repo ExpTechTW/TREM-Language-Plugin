@@ -232,6 +232,9 @@ html[lang="en-US"] {
   .current:empty:before {
     content: "Not set";
   }
+  .extended-list-button[for="extended-state-list"]:before {
+    content: "Extended Status";
+  }
   .extended-list-button[for="extended-installed-list"]:before {
     content: "Extended List";
   }

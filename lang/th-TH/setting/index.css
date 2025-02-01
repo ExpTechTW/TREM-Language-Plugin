@@ -234,6 +234,9 @@ html[lang="th-TH"] {
   .current:empty:before {
     content: "ไม่ได้ตั้งค่า";
   }
+  .extended-list-button[for="extended-state-list"]:before {
+    content: "สถานะฟังก์ชั่นเพิ่มเติม";
+  }
   .extended-list-button[for="extended-installed-list"]:before {
     content: "รายการฟังก์ชั่นเพิ่มเติม";
   }
