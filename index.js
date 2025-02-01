@@ -23,7 +23,7 @@ class Plugin {
         translations: {
           'en-US': 'No valid certificate were found and you should deactivate this extension immediately unless you trust the source of this extension.',
           'ja-JP': '有効な証明書が見つからなかったので、この拡張機能の提供元を信頼しない限り、この拡張機能を直ちに無効にしてください。',
-          'zh-CN': '未找到有效证书，除非您信任该扩展的来源，否则应立即停用该扩展。',
+          'zh-CN': '未找到有效证书，除非您信任该扩充的来源，否则应立即停用该扩充。',
           'ko-KR': '유효한 인증서를 찾을 수 없으므로 이 확장 프로그램의 출처를 신뢰하지 않는 한 즉시 이 확장 프로그램을 비활성화해야 합니다。',
           'vi-VN': 'Không tìm thấy chứng chỉ hợp lệ nào và bạn nên hủy kích hoạt tiện ích mở rộng này ngay lập tức trừ khi bạn tin tưởng nguồn gốc của tiện ích mở rộng này。',
           'id-ID': 'Tidak ada sertifikat valid yang ditemukan dan Anda harus segera menonaktifkan ekstensi ini kecuali Anda memercayai sumber ekstensi ini.',
@@ -60,11 +60,22 @@ class Plugin {
           'en-US': 'Missing {requiredDependencies} dependencies.',
           'ja-JP': '{requiredDependencies} 依存関係がありません。',
           'zh-CN': '缺少 {requiredDependencies} 依赖项。',
-          'zh-Hant': '缺少 {requiredDependencies} 依賴。',
           'ko-KR': '{requiredDependencies} 종속성이 누락되었습니다.',
           'vi-VN': 'Thiếu các phụ thuộc {requiredDependencies}.',
           'id-ID': 'Dependensi {requiredDependencies} hilang.',
           'th-TH': 'ขาดการอ้างอิง {requiredDependencies}'
+        }
+      },
+      'init-error': {
+        regex: /初始化失敗，請聯繫擴充作者。/,
+        translations: {
+          'en-US': 'Initialization failed, please contact the author of the extension.',
+          'ja-JP': '初期化に失敗しました、拡張機能の作者に連絡してください。',
+          'zh-CN': '初始化失败，请联系扩充的作者。',
+          'ko-KR': '초기화에 실패했습니다. 확장 프로그램 작성자에게 문의하세요.',
+          'vi-VN': 'Khởi tạo không thành công, vui lòng liên hệ với tác giả của tiện ích mở rộng.',
+          'id-ID': 'Inisialisasi gagal, silakan hubungi pembuat ekstensi.',
+          'th-TH': 'การเริ่มต้นล้มเหลว โปรดติดต่อผู้เขียนส่วนขยาย'
         }
       }
     };

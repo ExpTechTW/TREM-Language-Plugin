@@ -1,9 +1,9 @@
 {
-  "timestamp": 1738404732555,
-  "version": "1.1.8",
+  "timestamp": 1738406322360,
+  "version": "1.1.9",
   "fileHashes": {
-    "index.js": "8d0070b7fb442bf7d48c8f63fbeb29fb49ebc7fc5b628fe4ee28eb344dc7a93c",
-    "info.json": "6d9645019f8b11f224d699cea364be7b5262dd77eb263ea14ad71ad1ceaeed16",
+    "index.js": "6a450c3dc78ebd01abae54ad89d5f8a189a47a389520b435f609bba6829e068a",
+    "info.json": "7f590205423aa12d1d32d20757c1fe59d0d2ffa59787e2612aaf5a3b6fa6f8e0",
     "lang/en-US/index/index.css": "92872b148da995e003d65d12e01ddbe486393b4e37051911365ba3e1b9b0df01",
     "lang/en-US/index/rwd.css": "3822213046ba515bdf31f73e91bdcb8e0304cd191bd8e972b69d48f9975c570b",
     "lang/en-US/plugin_edit/index.css": "7adb4db0415dd11806756099e19a91a21cb0f9da38253a2a5003f180368e83e8",
@@ -38,6 +38,6 @@
     "lang/zh-Hant/plugin_edit/index.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "lang/zh-Hant/setting/index.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
-  "signature": "NsJCG3MsAzlQ1x4d9AghgUSo+kpZ/4Fhibm5xD7omXzUlw+yiourC84f1JcgkPUfMwthIPgS3G9q1V+ibJQnZqHn7uE5C4RJXdpd4y3Yyn/DXrgm+8L+b9h9IukwWUO4gnScVRkhhcVtK7CvM4HrePcMn6CUM4dziRk9evMYbRnNitpLNAsiGRoEf+1Kt99GKBMRC4Y6DdRC/hK77mnOOM7p+hCHPFLdlt7IJ2MBCDL+pbKQCWtBryyGx1rVDmuVipZaqfnW599ubt+Bzn83QwU9WEuQvBYTKS+j+YAMn/R2eyvwmQJftc8w40eaEzjg7WhoQGQYxu9Wt/Gakn7Mlg==",
+  "signature": "GelYCkc+ZuwmzyD0FEpjXv8FkkkhRWQUcSsuQEWmuiclIOErzzbAcRsiWUi61OQN+0dKKfH0RDL4HqnchkYn/vD5/8CApwfGP40rHk9nhtnKPkFGR5V216aPFvaDEF4dciJDRGGwbsoerc+SPLDC78qotdn/Ft7SrIV1TO3bpuXi7CFN69A0ILGw5EQfV5D21LbZK4uBhrvEiJw6LelrtwRLU0cBRjzaxCngF6aXVQss7NTS/aiCp2LBYHqpC/hpzmrzr0HExV/LVO8qwecNlw2OVh7sMooxUakSDgh7C3xdAAVn/qVhSz4KBP4e2ok6MjjoTlW+7dfpl1AXxCWGQg==",
   "keyId": "official"
 }
