@@ -1,9 +1,9 @@
 {
-  "timestamp": 1738491588131,
-  "version": "1.2.0",
+  "timestamp": 1738497942522,
+  "version": "1.2.1",
   "fileHashes": {
-    "index.js": "2d4c4740f8edb599180f0b907cfdc9c775b718576a58e411fe7370898d5d09c7",
-    "info.json": "a8970c9d0b0e2972bc205d00a977ac64efde3e5d7e86019d3d59f1f282fcec88",
+    "index.js": "e0db7f472fc557d92387fe411f5cb0a83f97e033fea3ba571a049a95ce7ff9c1",
+    "info.json": "2f6290d15873bac51f805207ba350a9dba8547aa24152b6338c6559d5389eb0a",
     "lang/en-US/index/index.css": "92872b148da995e003d65d12e01ddbe486393b4e37051911365ba3e1b9b0df01",
     "lang/en-US/index/rwd.css": "3822213046ba515bdf31f73e91bdcb8e0304cd191bd8e972b69d48f9975c570b",
     "lang/en-US/plugin_edit/index.css": "7adb4db0415dd11806756099e19a91a21cb0f9da38253a2a5003f180368e83e8",
@@ -3230,6 +3230,6 @@
     "node_modules/yocto-queue/license": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
     "node_modules/yocto-queue/readme.md": "adf5a71d52fc4fabb51c09aa67d58f8f61baa138c6d0705b1a805958f0c584a5"
   },
-  "signature": "Kh3I6nOBlGOo+60nu0xtHYwWHAnajEH+KnG6xmUq2teOFHu1w1j6sYBzO26sQ3sBqnwEAD6bm9JkrJLXV+2hVmidtXseGwfdw2NE+2Noi0EF+lflXDGUy2cF/Tv/Ja+abKVUhKhzIXCyh+D9TDqx7sX7gazica1geB43BSDuMbZgSuEnuHk1rUN1mcIKA2njPOptH7WdmOMawlPu3114tEItl4OurXPE43ewXskfoBi+pNK54ndJjkUJkP5cqRrMRwjrijTDRkSm/XFnAEBMx9t6w4ymxZ+O8E6irrbmE0Grf17AawmKkKDKVP+okeDnVkSdr3ukHo9G2Tr7igaX8Q==",
+  "signature": "f/ct0H3vrXiHaHkRP7mky60kUsWXAZzpCbze30Xgdp3vK+eJXraWqaVYgfTIHkLCFZc9s5OzvO99jdSsFBMgRllHTkHTFWejopiNXowtmzToC2P/YU3btVIRQA58vMxeuRmv9HNWqdO37ei8MHOuGlEZQx+YVwp9iHK7Wr7yu8w6g7nnvDNJFCa6eTg9zBQUrMgssRZuWazg3iM7+K2YEB8Cq1uI/b6IOKH0i694CMaxiHe7i7QtkRPRai2agC2Se+kVSJ53ujZW6O8IDfkfofYV9g1ucBZYSCk4+3z8YGvTwK3MgCEqed2lWx8aTjz/R6p1rDEmN48gByxUz+pHyg==",
   "keyId": "official"
 }

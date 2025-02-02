@@ -104,6 +104,18 @@ class Plugin {
           "th-TH": "การเริ่มต้นล้มเหลว โปรดติดต่อผู้เขียนส่วนขยาย",
         },
       },
+      "not-enabled": {
+        regex: /未啟用。/,
+        translations: {
+          "en-US": "Not enabled.",
+          "ja-JP": "有効化されていない。",
+          "zh-CN": "未启用。",
+          "ko-KR": "활성화되지 않았습니다.",
+          "vi-VN": "Chưa được kích hoạt.",
+          "id-ID": "Tidak diaktifkan.",
+          "th-TH": "ไม่ได้เปิดใช้งาน",
+        },
+      },
     };
   }
 
