@@ -34,6 +34,10 @@ html[lang="en-US"] {
     content: "Strong earthquake detection " !important;
   }
 
+  .eew-cancel .info-unit::before {
+    content: "Cancel ";
+  }
+
   .eew-warn .info-unit::before {
     content: "Warning ";
   }
@@ -46,6 +50,9 @@ html[lang="en-US"] {
     content: "Single-Point earthquake detection ";
   }
 
+  .info-cancel-last::after {
+    content: "(Cancel)" !important;
+  }
 
   .info-number-last::after {
     content: "(Final)" !important;

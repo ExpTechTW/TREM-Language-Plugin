@@ -34,6 +34,10 @@ html[lang="th-TH"] {
     content: "การตรวจจับแผ่นดินไหวที่แข็งแกร่ง " !important;
   }
 
+  .eew-cancel .info-unit::before {
+    content: "ยกเลิก ";
+  }
+
   .eew-warn .info-unit::before {
     content: "คำเตือน ";
   }
@@ -44,6 +48,10 @@ html[lang="th-TH"] {
 
   .eew-rts .info-unit::before {
     content: "การตรวจจับแผ่นดินไหวแบบจุดเดียว ";
+  }
+
+  .info-cancel-last::after {
+    content: "(ยกเลิก)" !important;
   }
 
   .info-number-last::after {

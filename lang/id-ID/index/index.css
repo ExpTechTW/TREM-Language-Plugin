@@ -34,6 +34,10 @@ html[lang="id-ID"] {
     content: "Deteksi gempa bumi yang kuat " !important;
   }
 
+  .eew-cancel .info-unit::before {
+    content: "Membatalkan ";
+  }
+
   .eew-warn .info-unit::before {
     content: "Peringatan ";
   }
@@ -44,6 +48,10 @@ html[lang="id-ID"] {
 
   .eew-rts .info-unit::before {
     content: "Deteksi gempa titik tunggal ";
+  }
+
+  .info-cancel-last::after {
+    content: "(Membatalkan)" !important;
   }
 
   .info-number-last::after {

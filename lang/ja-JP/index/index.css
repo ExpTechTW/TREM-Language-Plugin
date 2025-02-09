@@ -17,6 +17,10 @@ html[lang="ja-JP"] {
     content: "強い揺れ検知 " !important;
   }
 
+  .eew-cancel .info-unit::before {
+    content: "キャンセル ";
+  }
+
   .eew-rts .info-unit::before {
     content: "単一点地震検知 ";
   }

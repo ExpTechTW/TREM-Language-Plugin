@@ -34,6 +34,10 @@ html[lang="vi-VN"] {
     content: "Phát hiện động đất mạnh " !important;
   }
 
+  .eew-cancel .info-unit::before {
+    content: "Hủy bỏ ";
+  }
+
   .eew-warn .info-unit::before {
     content: "Cảnh báo ";
   }
@@ -44,6 +48,10 @@ html[lang="vi-VN"] {
 
   .eew-rts .info-unit::before {
     content: "Phát hiện động đất một điểm ";
+  }
+
+  .info-cancel-last::after {
+    content: "(Hủy bỏ)" !important;
   }
 
   .info-number-last::after {

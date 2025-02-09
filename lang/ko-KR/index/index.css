@@ -34,6 +34,10 @@ html[lang="ko-KR"] {
     content: "강력한 지진 감지 " !important;
   }
 
+  .eew-cancel .info-unit::before {
+    content: "취소 ";
+  }
+
   .eew-warn .info-unit::before {
     content: "경고 ";
   }
@@ -44,6 +48,10 @@ html[lang="ko-KR"] {
 
   .eew-rts .info-unit::before {
     content: "단일 지점 지진 감지 ";
+  }
+
+  .info-cancel-last::after {
+    content: "(취소)" !important;
   }
 
   .info-number-last::after {
