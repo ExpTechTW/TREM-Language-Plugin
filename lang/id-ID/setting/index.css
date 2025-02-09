@@ -1,322 +1,322 @@
 html[lang="id-ID"] {
   .button[for="general"]:before,
   .general .setting-page-header-title::before {
-    content: "Umum";
+    content: "Umum" !important;
   }
   .button[for="graphics"]:before,
   .graphics-header-title:before {
-    content: "Grafik";
+    content: "Grafik" !important;
   }
   .button[for="sound-effects"]:before,
   .sound-effects-header-title::before {
-    content: "Efek Suara";
+    content: "Efek Suara" !important;
   }
   .button[for="extended"]:before,
   .extended-header-title:before {
-    content: "Diperpanjang";
+    content: "Diperpanjang" !important;
   }
   .button[for="info"]:before,
   .info-header-title::before {
-    content: "Informasi";
+    content: "Informasi" !important;
   }
   .location-title::before {
-    content: "Lokasi";
+    content: "Lokasi" !important;
   }
   .location-description::before {
-    content: "Menetapkan lokasi memungkinkan Anda untuk memperkirakan intensitas gempa bumi di daerah Anda ketika terjadi.";
+    content: "Menetapkan lokasi memungkinkan Anda untuk memperkirakan intensitas gempa bumi di daerah Anda ketika terjadi." !important;
   }
   .rts-station-title::before {
-    content: "Titik pengamatan waktu nyata";
+    content: "Titik pengamatan waktu nyata" !important;
   }
   .rts-station-description::before {
-    content: "Titik pengamatan waktu nyata yang muncul di kiri atas layar utama.";
+    content: "Titik pengamatan waktu nyata yang muncul di kiri atas layar utama." !important;
   }
   .warning-title::before {
-    content: "Kondisi Peringatan Dini";
+    content: "Kondisi Peringatan Dini" !important;
   }
   .warning-description::before {
-    content: "Pengamatan langsung (pengamatan apa pun) adalah ambang batas intensitas stasiun mana pun pada saat pemicuan, dan perkiraan intensitas (lokasi) adalah ambang batas intensitas lokasi pada saat peringatan gempa, dan perangkat lunak akan mengeluarkan efek suara dan memunculkan jendela ketika salah satu dari kondisi berikut terpenuhi.";
+    content: "Pengamatan langsung (pengamatan apa pun) adalah ambang batas intensitas stasiun mana pun pada saat pemicuan, dan perkiraan intensitas (lokasi) adalah ambang batas intensitas lokasi pada saat peringatan gempa, dan perangkat lunak akan mengeluarkan efek suara dan memunculkan jendela ketika salah satu dari kondisi berikut terpenuhi." !important;
   }
   .current-realtime-station::before {
-    content: "Titik pengamatan waktu nyata (titik pengamatan apa pun) ";
+    content: "Titik pengamatan waktu nyata (titik pengamatan apa pun) " !important;
   }
   .current-estimate-intensity::before {
-    content: "Perkiraan Intensitas (lokasi)";
+    content: "Perkiraan Intensitas (lokasi)" !important;
   }
   .show-window-title::before {
-    content: "Tampilkan Jendela";
+    content: "Tampilkan Jendela" !important;
   }
   .show-window-description::before {
-    content: "Jendela tampilan program otomatis";
+    content: "Jendela tampilan program otomatis" !important;
   }
   .trem-eew-title::before {
-    content: "Peringatan Dini Gempa Bumi TREM";
+    content: "Peringatan Dini Gempa Bumi TREM" !important;
   }
   .trem-eew-description::before {
-    content: "TREM Earthquake Early Warning adalah pesan peringatan dini gempa bumi yang dihitung dengan menggunakan jaringan observasi TREM-Net. Data real-time bersifat non-publik, pengguna umum dapat melihat efeknya dalam tayangan ulang (5 menit setelah gempa) setelahnya.";
+    content: "TREM Earthquake Early Warning adalah pesan peringatan dini gempa bumi yang dihitung dengan menggunakan jaringan observasi TREM-Net. Data real-time bersifat non-publik, pengguna umum dapat melihat efeknya dalam tayangan ulang (5 menit setelah gempa) setelahnya." !important;
   }
   .other-function-title::before {
-    content: "Fungsi Lainnya";
+    content: "Fungsi Lainnya" !important;
   }
   .other-function-description::before {
-    content: "Fitur-fitur keren yang jarang digunakan oleh TREM Lite ada di sini.";
+    content: "Fitur-fitur keren yang jarang digunakan oleh TREM Lite ada di sini." !important;
   }
   .auto-start::before {
-    content: "Program Mulai Otomatis (Windows)";
+    content: "Program Mulai Otomatis (Windows)" !important;
   }
   .tts::before {
-    content: "Teks-ke-Suara (Bahasa Tionghoa Tradisional)";
+    content: "Teks-ke-Suara (Bahasa Tionghoa Tradisional)" !important;
   }
   .earthquake-eew::before {
-    content: "Peringatan Gempa Bumi";
+    content: "Peringatan Gempa Bumi" !important;
   }
   .earthquake-report::before {
-    content: "Laporan Gempa Bumi";
+    content: "Laporan Gempa Bumi" !important;
   }
   .earthquake-detect::before {
-    content: "Deteksi Gempa Bumi";
+    content: "Deteksi Gempa Bumi" !important;
   }
   .rts-intensity::before {
-    content: "Intensitas Waktu Nyata";
+    content: "Intensitas Waktu Nyata" !important;
   }
   .get-trem-eew::before {
-    content: "Menerima Peringatan Dini Gempa Bumi TREM";
+    content: "Menerima Peringatan Dini Gempa Bumi TREM" !important;
   }
   .reset-button::before,
   .reset-setting-title::before {
-    content: "Mengatur Ulang";
+    content: "Mengatur Ulang" !important;
   }
   .reset-setting::before {
-    content: "Mengatur Ulang Semua Pengaturan";
+    content: "Mengatur Ulang Semua Pengaturan" !important;
   }
   .auto-zoom-title::before {
-    content: "Memperbesar peta secara otomatis";
+    content: "Memperbesar peta secara otomatis" !important;
   }
   .auto-zoom-description::before {
-    content: "Zoom otomatis peta default dinonaktifkan.";
+    content: "Zoom otomatis peta default dinonaktifkan." !important;
   }
   .block-auto-zoom::before {
-    content: "Menonaktifkan zoom otomatis Peta";
+    content: "Menonaktifkan zoom otomatis Peta" !important;
   }
   .effects-dong-title::before {
-    content: "Peringatan Dini";
+    content: "Peringatan Dini" !important;
   }
   .effects-dong-description::before {
-    content: "Ketika gempa bumi terjadi, alat ini menyiarkan perkiraan magnitudo lokasi dan jumlah detik yang tersisa sampai gelombang gempa tiba.";
+    content: "Ketika gempa bumi terjadi, alat ini menyiarkan perkiraan magnitudo lokasi dan jumlah detik yang tersisa sampai gelombang gempa tiba." !important;
   }
   .dong-dong::before {
-    content: "Efek suara (hanya berfungsi jika ada hitungan mundur)";
+    content: "Efek suara (hanya berfungsi jika ada hitungan mundur)" !important;
   }
   .sound-effects-list-title::before {
-    content: "Daftar Efek Suara";
+    content: "Daftar Efek Suara" !important;
   }
   .sound-effects-list-description::before {
-    content: "Mengaktifkan atau menonaktifkan efek suara tertentu";
+    content: "Mengaktifkan atau menonaktifkan efek suara tertentu" !important;
   }
   .extended-list-title:before {
-    content: "Diperpanjang";
+    content: "Diperpanjang" !important;
   }
   .extended-list-description:empty::before,
   .extended-info .extended-info-warning:empty::before {
-    content: "Penggunaan diperpanjang dari sumber yang tidak dikenal atau tidak tepercaya dapat membahayakan keamanan informasi pribadi Anda, jadi harap berhati-hati.";
+    content: "Penggunaan diperpanjang dari sumber yang tidak dikenal atau tidak tepercaya dapat membahayakan keamanan informasi pribadi Anda, jadi harap berhati-hati." !important;
   }
   .extended-list-descriptions:empty::before {
-    content: "Pilih diperpanjang yang diaktifkan, diperpanjang akan dimuat pada saat program dimulai.";
+    content: "Pilih diperpanjang yang diaktifkan, diperpanjang akan dimuat pada saat program dimulai." !important;
   }
   .extended-setting-button::before {
-    content: "Pengaturan";
+    content: "Pengaturan" !important;
   }
   .verified-badge::before {
-    content: "Terverifikasi";
+    content: "Terverifikasi" !important;
   }
   .unverified-badge::before {
-    content: "Tidak diverifikasi";
+    content: "Tidak diverifikasi" !important;
   }
   .loaded-badge::before {
-    content: "Dimuat";
+    content: "Dimuat" !important;
   }
   .unloaded-badge::before {
-    content: "Dibongkar";
+    content: "Dibongkar" !important;
   }
   .success.message-box:before {
-    content: "Pengoperasian berhasil, tutup jendela pengaturan dan terapkan!";
+    content: "Pengoperasian berhasil, tutup jendela pengaturan dan terapkan!" !important;
   }
   .failed.message-box:before {
-    content: "Pengoperasian gagal!";
+    content: "Pengoperasian gagal!" !important;
   }
   .success-download.message-box:before {
-    content: "Pengunduhan berhasil, tutup jendela pengaturan dan terapkan!";
+    content: "Pengunduhan berhasil, tutup jendela pengaturan dan terapkan!" !important;
   }
   .extended-store:before {
-    content: "Toko TREM yang Diperluas";
+    content: "Toko TREM yang Diperluas" !important;
   }
   .extended-download-button::before {
-    content: "Unduh";
+    content: "Unduh" !important;
   }
   .extended-download-button.downloading::before {
-    content: "Mengunduh...";
+    content: "Mengunduh..." !important;
   }
   .extended-download-button.downloaded::before {
-    content: "Keberhasilan";
+    content: "Keberhasilan" !important;
   }
   .extended-update-button::before {
-    content: "Memperbarui";
+    content: "Memperbarui" !important;
   }
   .extended-latest-button::before {
-    content: "Versi terbaru";
+    content: "Versi terbaru" !important;
   }
   .p-alert::before {
-    content: "P-Alert (ketika menerima intensitas yang mendekati waktu nyata)";
+    content: "P-Alert (ketika menerima intensitas yang mendekati waktu nyata)" !important;
   }
   .report::after {
-    content: "Report (ketika laporan gempa bumi diterima)";
+    content: "Report (ketika laporan gempa bumi diterima)" !important;
   }
   .update::before {
-    content: "Update (ketika koreksi alarm gempa bumi darurat diterima)";
+    content: "Update (ketika koreksi alarm gempa bumi darurat diterima)" !important;
   }
   .info-trem-lite::before {
-    content: "Tentang TREM Lite";
+    content: "Tentang TREM Lite" !important;
   }
   .info-trem-description::before {
-    content: "TREM-Lite adalah perangkat lunak pelaporan cepat gempa bumi bersumber terbuka yang menyediakan informasi gempa bumi secara real-time, memanfaatkan stasiun gempa yang dikembangkan sendiri untuk menampilkan seismisitas waktu nyata di berbagai tempat, dan mendapatkan pesan peringatan waktu nyata dari gempa bumi kuat yang dikeluarkan oleh berbagai saluran pada saat pertama kali terjadi gempa bumi.";
+    content: "TREM-Lite adalah perangkat lunak pelaporan cepat gempa bumi bersumber terbuka yang menyediakan informasi gempa bumi secara real-time, memanfaatkan stasiun gempa yang dikembangkan sendiri untuk menampilkan seismisitas waktu nyata di berbagai tempat, dan mendapatkan pesan peringatan waktu nyata dari gempa bumi kuat yang dikeluarkan oleh berbagai saluran pada saat pertama kali terjadi gempa bumi." !important;
   }
   .app-version-title::before {
-    content: "Versi Program";
+    content: "Versi Program" !important;
   }
   .system-os-title::before {
-    content: "Versi Sistem";
+    content: "Versi Sistem" !important;
   }
   .source-title::before {
-    content: "Sumber Data";
+    content: "Sumber Data" !important;
   }
   .source-eew::before {
-    content: "Peringatan Gempa Bumi";
+    content: "Peringatan Gempa Bumi" !important;
   }
   .source-cwa::before {
-    content: "Administrasi Cuaca Pusat (CWA)";
+    content: "Administrasi Cuaca Pusat (CWA)" !important;
   }
   .source-shindo::before {
-    content: "Intensitas";
+    content: "Intensitas" !important;
   }
   .source-sinica::before {
-    content: "Academia Sinica (SINICA)";
+    content: "Academia Sinica (SINICA)" !important;
   }
   .source-trem::before {
-    content: "Pemantau Gempa Bumi Waktu Nyata Taiwan (TREM)";
+    content: "Pemantau Gempa Bumi Waktu Nyata Taiwan (TREM)" !important;
   }
   .contributor-title::before {
-    content: "Kontributor";
+    content: "Kontributor" !important;
   }
   .contributor-description::before {
-    content: "Terima kasih kepada para kontributor berikut ini yang telah membuat TREM Lite menjadi mungkin.";
+    content: "Terima kasih kepada para kontributor berikut ini yang telah membuat TREM Lite menjadi mungkin." !important;
   }
   .reset .confirm-title::before {
-    content: "Apakah Anda yakin ingin mengatur ulang pengaturan? Anda tidak akan dapat kembali setelah mengatur ulang.";
+    content: "Apakah Anda yakin ingin mengatur ulang pengaturan? Anda tidak akan dapat kembali setelah mengatur ulang." !important;
   }
   .extendedOpen .confirm-title::before {
-    content: "Apakah Anda yakin ingin mengaktifkan diperpanjang ";
+    content: "Apakah Anda yakin ingin mengaktifkan diperpanjang " !important;
   }
   .extendedOpen .confirm-title::after {
-    content: " ? Menggunakan diperpanjang dari sumber yang tidak dikenal atau tidak tepercaya dapat membahayakan keamanan informasi pribadi Anda.";
+    content: " ? Menggunakan diperpanjang dari sumber yang tidak dikenal atau tidak tepercaya dapat membahayakan keamanan informasi pribadi Anda." !important;
   }
   .confirm-sure:empty::before {
-    content: "Tentu.";
+    content: "Tentu." !important;
   }
   .confirm-sure:not(:empty)::after {
-    content: " detik";
+    content: " detik" !important;
   }
   .confirm-cancel::before {
-    content: "Batal";
+    content: "Batal" !important;
   }
   .current:empty:before {
-    content: "Tidak diatur";
+    content: "Tidak diatur" !important;
   }
   .extended-list-button[for="extended-state-list"]:before {
-    content: "Status Diperpanjang";
+    content: "Status Diperpanjang" !important;
   }
   .extended-list-button[for="extended-installed-list"]:before {
-    content: "Daftar Diperpanjang";
+    content: "Daftar Diperpanjang" !important;
   }
   .extended-list-button[for="extended-store-list"]:before {
-    content: "Toko yang Diperpanjang";
+    content: "Toko yang Diperpanjang" !important;
   }
   .eew-1::before {
-    content: "EEW (ketika peringatan gempa bumi diterima)";
+    content: "EEW (ketika peringatan gempa bumi diterima)" !important;
   }
   .copy-debug-log:before {
-    content: "Menyalin log debug";
+    content: "Menyalin log debug" !important;
   }
   .success-copy.message-box:before {
-    content: "Salin berhasil!";
+    content: "Salin berhasil!" !important;
   }
   .success-failed.message-box:before {
-    content: "Salin Gagal!";
+    content: "Salin Gagal!" !important;
   }
 
   .eew-2 {
     &::before {
-      content: "EEW2 (ketika perkiraan intensitas ";
+      content: "EEW2 (ketika perkiraan intensitas " !important;
     }
     .special-text:before {
-      content: "5 lemah";
+      content: "5 lemah" !important;
     }
     &::after {
-      content: " atau lebih tinggi)";
+      content: " atau lebih tinggi)" !important;
     }
   }
   .pga-1 {
     &::before {
-      content: "PGA1 (ketika PGA ";
+      content: "PGA1 (ketika PGA " !important;
     }
     .special-text:before {
-      content: "8 gal";
+      content: "8 gal" !important;
     }
     &::after {
-      content: " atau lebih tinggi)";
+      content: " atau lebih tinggi)" !important;
     }
   }
   .pga-2 {
     &::before {
-      content: "PGA2 (ketika PGA ";
+      content: "PGA2 (ketika PGA " !important;
     }
     .special-text:before {
-      content: "200 gal";
+      content: "200 gal" !important;
     }
     &::after {
-      content: " atau lebih tinggi)";
+      content: " atau lebih tinggi)" !important;
     }
   }
   .shindo-0 {
     &::before {
-      content: "Shindo0 (ketika intensitas deteksi adalah ";
+      content: "Shindo0 (ketika intensitas deteksi adalah " !important;
     }
     .special-text:before {
-      content: "0";
+      content: "0" !important;
     }
     &::after {
-      content: " atau lebih tinggi)";
+      content: " atau lebih tinggi)" !important;
     }
   }
   .shindo-1 {
     &::before {
-      content: "Shindo1 (ketika intensitas deteksi adalah ";
+      content: "Shindo1 (ketika intensitas deteksi adalah " !important;
     }
     .special-text:before {
-      content: "2";
+      content: "2" !important;
     }
     &::after {
-      content: " atau lebih tinggi)";
+      content: " atau lebih tinggi)" !important;
     }
   }
   .shindo-2 {
     &::before {
-      content: "Shindo2 (ketika intensitas deteksi adalah ";
+      content: "Shindo2 (ketika intensitas deteksi adalah " !important;
     }
     .special-text:before {
-      content: "4";
+      content: "4" !important;
     }
     &::after {
-      content: " atau lebih tinggi)";
+      content: " atau lebih tinggi)" !important;
     }
   }
 }

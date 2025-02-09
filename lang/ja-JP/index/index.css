@@ -1,8 +1,12 @@
 @import url("./rwd.css");
 
 html[lang="ja-JP"] {
+  .cancel-title span::before {
+    content: "キャンセル" !important;
+  }
+
   .cancel-body span::before {
-    content: "この地震速報はキャンセルとなりました。";
+    content: "この地震速報はキャンセルとなりました。" !important;
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
@@ -18,97 +22,97 @@ html[lang="ja-JP"] {
   }
 
   .info-cancel-last::after {
-    content: "キャンセル ";
+    content: "報(キャンセル) " !important;
   }
 
   .eew-cancel .info-unit::before {
-    content: "キャンセル ";
+    content: "キャンセル報 " !important;
   }
 
   .eew-rts .info-unit::before {
-    content: "単一点地震検知 ";
+    content: "単一点地震検知 " !important;
   }
 
   .no-eew .info-unit::after {
-    content: "緊急地震速報は発表されていません";
+    content: "緊急地震速報は発表されていません" !important;
   }
 
   .info-intensity::after {
-    content: "予想最大震度";
+    content: "予想最大震度" !important;
   }
 
   .info-nsspe span::before {
-    content: "NSSPE 震源パラメータ推定なし";
+    content: "NSSPE 震源パラメータ推定なし" !important;
   }
 
   .info-time::after {
-    content: "発生";
+    content: "発生" !important;
   }
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "規模";
+    content: "規模" !important;
     width: 3.5rem;
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "深さ";
+    content: "深さ" !important;
   }
 
   .earthquake-report::before {
-    content: "地震レポート";
+    content: "地震レポート" !important;
   }
 
   .tsunami-warning::before {
-    content: "津波警報";
+    content: "津波警報" !important;
   }
 
   .report-intensity-text {
     font-size: 12px;
   }
   .report-intensity-text::before {
-    content: "最大震度";
+    content: "最大震度" !important;
   }
   .web-detection::before {
-    content: "検知";
+    content: "検知" !important;
   }
   .web-report::before {
-    content: "レポート";
+    content: "レポート" !important;
   }
   .report-replay::before {
-    content: "再生";
+    content: "再生" !important;
   }
   .rts-intenisty-list-text::before {
-    content: "場所別震度ランキング";
+    content: "場所別震度ランキング" !important;
     font-size: 11px;
   }
   .max-intensity-text::before {
-    content: "最大震度";
+    content: "最大震度" !important;
   }
   .internet-error .title:before {
-    content: "ネットワーク異常";
+    content: "ネットワーク異常" !important;
   }
 
   .unstable .title:before {
-    content: "不安定";
+    content: "不安定" !important;
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "地震活動の影響を受け";
+      content: "地震活動の影響を受け" !important;
     }
     &:nth-child(2)::before {
-      content: "観測点が不安定になる可能性がある";
+      content: "観測点が不安定になる可能性がある" !important;
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "ネットワーク接続エラー";
+      content: "ネットワーク接続エラー" !important;
     }
     &:nth-child(2)::before {
-      content: "後でもう一度お試しください。";
+      content: "後でもう一度お試しください。" !important;
     }
   }
 }

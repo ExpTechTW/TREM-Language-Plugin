@@ -2,24 +2,24 @@
 
 html[lang="en-US"] {
   .version-check-text::before {
-    content: "New version";
+    content: "New version" !important;
   }
 
   .info-number {
     &:not(:empty)::before {
-      content: "#";
+      content: "#" !important;
     }
     &:not(:empty)::after {
-      content: "";
+      content: "" !important;
     }
   }
 
   .cancel-title span::before {
-    content: "Cancel";
+    content: "Cancel" !important;
   }
 
   .cancel-body span::before {
-    content: "This earthquake warning canceled.";
+    content: "This earthquake warning canceled." !important;
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
@@ -35,19 +35,19 @@ html[lang="en-US"] {
   }
 
   .eew-cancel .info-unit::before {
-    content: "Cancel ";
+    content: "Cancel " !important;
   }
 
   .eew-warn .info-unit::before {
-    content: "Warning ";
+    content: "Warning " !important;
   }
 
   .eew-alert .info-unit::before {
-    content: "Warning alert ";
+    content: "Warning alert " !important;
   }
 
   .eew-rts .info-unit::before {
-    content: "Single-Point earthquake detection ";
+    content: "Single-Point earthquake detection " !important;
   }
 
   .info-cancel-last::after {
@@ -59,109 +59,109 @@ html[lang="en-US"] {
   }
 
   .no-eew .info-unit::after {
-    content: "No earthquake warning";
+    content: "No earthquake warning" !important;
   }
 
   .info-intensity::after {
-    content: "Est. maximum intensity";
+    content: "Est. maximum intensity" !important;
   }
 
   .info-nsspe span::before {
-    content: "NSSPE";
+    content: "NSSPE" !important;
   }
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "Mag.";
+    content: "Mag." !important;
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "Depth";
+    content: "Depth" !important;
   }
 
   .current-station-intensity-text::before {
-    content: "Intensity";
+    content: "Intensity" !important;
   }
   .current-station-pga-text::before {
-    content: "PGA";
+    content: "PGA" !important;
   }
 
   .intensity-report::before {
-    content: "Intensity report";
+    content: "Intensity report" !important;
   }
 
   .source-report::before {
-    content: "Earthquake hypocenter report";
+    content: "Earthquake hypocenter report" !important;
   }
 
   .earthquake-report::before {
-    content: "Earthquake report";
+    content: "Earthquake report" !important;
   }
 
   .tsunami-warning::before {
-    content: "Tsunami warning";
+    content: "Tsunami warning" !important;
   }
 
   .earthquake-warning::before {
-    content: "Earthquake warning";
+    content: "Earthquake warning" !important;
   }
 
   .report-intensity-text::before {
-    content: "Max Intensity";
+    content: "Max Intensity" !important;
   }
 
   .web-detection::before {
-    content: "Detection";
+    content: "Detection" !important;
   }
 
   .web-report::before {
-    content: "Report";
+    content: "Report" !important;
   }
 
   .report-replay::before {
-    content: "Replay";
+    content: "Replay" !important;
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "Epicenter under assessment";
+    content: "Epicenter under assessment" !important;
   }
 
   .rts-intenisty-list-text::before {
-    content: "Intensity ranking by seismicity";
+    content: "Intensity ranking by seismicity" !important;
   }
 
   .max-intensity-text::before {
-    content: "Max Intensity";
+    content: "Max Intensity" !important;
   }
 
   .max-pga-text::before {
-    content: "Max PGA";
+    content: "Max PGA" !important;
   }
 
   .internet-error .title:before {
-    content: "Network connection error";
+    content: "Network connection error" !important;
   }
 
   .unstable .title:before {
-    content: "Unstable";
+    content: "Unstable" !important;
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Observation points may be";
+      content: "Observation points may be" !important;
     }
     &:nth-child(2)::before {
-      content: "unstable due to seismic activity";
+      content: "unstable due to seismic activity" !important;
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Network connection error";
+      content: "Network connection error" !important;
     }
     &:nth-child(2)::before {
-      content: "please try again later";
+      content: "please try again later" !important;
     }
   }
 }

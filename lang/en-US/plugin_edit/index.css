@@ -1,32 +1,32 @@
 html[lang="en-US"] {
   .visual-editor-title:before {
-    content: "Visual editor";
+    content: "Visual editor" !important;
   }
   .btn-remove:before {
-    content: "Delete";
+    content: "Delete" !important;
   }
   .btn-add:before {
-    content: "Add item";
+    content: "Add item" !important;
   }
   .root::before {
-    content: "New root level fields";
+    content: "New root level fields" !important;
   }
   .json-error:before {
-    content: "JSON format error";
+    content: "JSON format error" !important;
   }
   .yaml-transfer-error:before {
-    content: "YAML Conversion Error";
+    content: "YAML Conversion Error" !important;
   }
   .yaml-extract-error:before {
-    content: "YAML parsing error";
+    content: "YAML parsing error" !important;
   }
   .auto-save-success:before {
-    content: "Auto save successful";
+    content: "Auto save successful" !important;
   }
   .auto-save-error:before {
-    content: "Auto save Failure";
+    content: "Auto save Failure" !important;
   }
   .load-error:before {
-    content: "Read Error";
+    content: "Read Error" !important;
   }
 }

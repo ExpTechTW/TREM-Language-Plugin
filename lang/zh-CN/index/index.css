@@ -2,7 +2,7 @@
 
 html[lang="zh-CN"] {
   .cancel-body span::before {
-    content: "此地震速报已取消";
+    content: "此地震速报已取消" !important;
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
@@ -18,15 +18,15 @@ html[lang="zh-CN"] {
   }
 
   .eew-warn .info-unit::before {
-    content: "地震速报 ";
+    content: "地震速报 " !important;
   }
 
   .eew-alert .info-unit::before {
-    content: "紧急地震速报 ";
+    content: "紧急地震速报 " !important;
   }
 
   .eew-rts .info-unit::before {
-    content: "单点地震检测 ";
+    content: "单点地震检测 " !important;
   }
 
   .info-number-last::after {
@@ -34,87 +34,87 @@ html[lang="zh-CN"] {
   }
 
   .no-eew .info-unit::after {
-    content: "暂无生效中的地震预警";
+    content: "暂无生效中的地震预警" !important;
   }
 
   .info-intensity::after {
-    content: "预估最大震度";
+    content: "预估最大震度" !important;
   }
 
   .info-nsspe span::before {
-    content: "NSSPE 无震源参数推算";
+    content: "NSSPE 无震源参数推算" !important;
   }
 
   .info-time::after {
-    content: "发震";
+    content: "发震" !important;
   }
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "规模";
+    content: "规模" !important;
   }
 
   .intensity-report::before {
-    content: "震度速报";
+    content: "震度速报" !important;
   }
   .source-report::before {
-    content: "震源速报";
+    content: "震源速报" !important;
   }
   .earthquake-report::before {
-    content: "地震报告";
+    content: "地震报告" !important;
   }
   .tsunami-warning::before {
-    content: "海啸警报";
+    content: "海啸警报" !important;
   }
   .earthquake-warning::before {
-    content: "地震速报";
+    content: "地震速报" !important;
   }
 
   .report-intensity-text {
     font-size: 12px;
   }
   .report-intensity-text::before {
-    content: "观测最大震度";
+    content: "观测最大震度" !important;
   }
   .web-detection::before {
-    content: "检知";
+    content: "检知" !important;
   }
   .web-report::before {
-    content: "报告";
+    content: "报告" !important;
   }
   .report-replay::before {
-    content: "重播";
+    content: "重播" !important;
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "震源调查中";
+    content: "震源调查中" !important;
   }
   .max-intensity-text::before {
-    content: "最大观测震度";
+    content: "最大观测震度" !important;
   }
   .internet-error .title:before {
-    content: "网路异常";
+    content: "网路异常" !important;
   }
 
   .unstable .title:before {
-    content: "不稳定";
+    content: "不稳定" !important;
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "受地震活动的影响";
+      content: "受地震活动的影响" !important;
     }
     &:nth-child(2)::before {
-      content: "观测点可能不稳定";
+      content: "观测点可能不稳定" !important;
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "网路连线异常";
+      content: "网路连线异常" !important;
     }
     &:nth-child(2)::before {
-      content: "请待稍后重试";
+      content: "请待稍后重试" !important;
     }
   }
 }

@@ -1,32 +1,32 @@
 html[lang="zh-CN"] {
   .visual-editor-title:before {
-    content: "视觉化编译";
+    content: "视觉化编译" !important;
   }
   .btn-remove:before {
-    content: "删除";
+    content: "删除" !important;
   }
   .btn-add:before {
-    content: "添加物件";
+    content: "添加物件" !important;
   }
   .root::before {
-    content: "添加根级栏位";
+    content: "添加根级栏位" !important;
   }
   .json-error:before {
-    content: "JSON 格式错误";
+    content: "JSON 格式错误" !important;
   }
   .yaml-transfer-error:before {
-    content: "YAML 转换错误";
+    content: "YAML 转换错误" !important;
   }
   .yaml-extract-error:before {
-    content: "YAML 解析错误";
+    content: "YAML 解析错误" !important;
   }
   .auto-save-success:before {
-    content: "自动保存成功";
+    content: "自动保存成功" !important;
   }
   .auto-save-error:before {
-    content: "自动保存失败";
+    content: "自动保存失败" !important;
   }
   .load-error:before {
-    content: "读取失败";
+    content: "读取失败" !important;
   }
 }

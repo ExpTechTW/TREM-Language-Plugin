@@ -2,24 +2,24 @@
 
 html[lang="ko-KR"] {
   .version-check-text::before {
-    content: "새 버전";
+    content: "새 버전" !important;
   }
 
   .info-number {
     &:not(:empty)::before {
-      content: "#";
+      content: "#" !important;
     }
     &:not(:empty)::after {
-      content: "";
+      content: "" !important;
     }
   }
 
   .cancel-title span::before {
-    content: "취소";
+    content: "취소" !important;
   }
 
   .cancel-body span::before {
-    content: "지진 경보가 해제되었습니다.";
+    content: "지진 경보가 해제되었습니다." !important;
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
@@ -35,19 +35,19 @@ html[lang="ko-KR"] {
   }
 
   .eew-cancel .info-unit::before {
-    content: "취소 ";
+    content: "취소 " !important;
   }
 
   .eew-warn .info-unit::before {
-    content: "경고 ";
+    content: "경고 " !important;
   }
 
   .eew-alert .info-unit::before {
-    content: "경고 알림 ";
+    content: "경고 알림 " !important;
   }
 
   .eew-rts .info-unit::before {
-    content: "단일 지점 지진 감지 ";
+    content: "단일 지점 지진 감지 " !important;
   }
 
   .info-cancel-last::after {
@@ -59,109 +59,109 @@ html[lang="ko-KR"] {
   }
 
   .no-eew .info-unit::after {
-    content: "지진 경보 없음";
+    content: "지진 경보 없음" !important;
   }
 
   .info-intensity::after {
-    content: "최대 강도 추정";
+    content: "최대 강도 추정" !important;
   }
 
   .info-nsspe span::before {
-    content: "NSSPE";
+    content: "NSSPE" !important;
   }
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "크기";
+    content: "크기" !important;
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "깊이";
+    content: "깊이" !important;
   }
 
   .current-station-intensity-text::before {
-    content: "강도";
+    content: "강도" !important;
   }
   .current-station-pga-text::before {
-    content: "PGA";
+    content: "PGA" !important;
   }
 
   .intensity-report::before {
-    content: "강도 보고서";
+    content: "강도 보고서" !important;
   }
 
   .source-report::before {
-    content: "지진 진원지 보고서";
+    content: "지진 진원지 보고서" !important;
   }
 
   .earthquake-report::before {
-    content: "지진 보고서";
+    content: "지진 보고서" !important;
   }
 
   .tsunami-warning::before {
-    content: "쓰나미 경보";
+    content: "쓰나미 경보" !important;
   }
 
   .earthquake-warning::before {
-    content: "지진 경보";
+    content: "지진 경보" !important;
   }
 
   .report-intensity-text::before {
-    content: "최대 강도";
+    content: "최대 강도" !important;
   }
 
   .web-detection::before {
-    content: "탐지";
+    content: "탐지" !important;
   }
 
   .web-report::before {
-    content: "신고";
+    content: "신고" !important;
   }
 
   .report-replay::before {
-    content: "재생";
+    content: "재생" !important;
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "평가 중인 에픽센터";
+    content: "평가 중인 에픽센터" !important;
   }
 
   .rts-intenisty-list-text::before {
-    content: "진도별 강도 순위";
+    content: "진도별 강도 순위" !important;
   }
 
   .max-intensity-text::before {
-    content: "최대 강도";
+    content: "최대 강도" !important;
   }
 
   .max-pga-text::before {
-    content: "최대 PGA";
+    content: "최대 PGA" !important;
   }
 
   .internet-error .title:before {
-    content: "네트워크 연결 오류";
+    content: "네트워크 연결 오류" !important;
   }
 
   .unstable .title:before {
-    content: "불안정";
+    content: "불안정" !important;
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "지진 활동으로 인해 관측";
+      content: "지진 활동으로 인해 관측" !important;
     }
     &:nth-child(2)::before {
-      content: "지점이 불안정할 수 있습니다";
+      content: "지점이 불안정할 수 있습니다" !important;
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "네트워크 연결 오류가 발생했습니다";
+      content: "네트워크 연결 오류가 발생했습니다" !important;
     }
     &:nth-child(2)::before {
-      content: "나중에 다시 시도하세요.";
+      content: "나중에 다시 시도하세요." !important;
     }
   }
 }

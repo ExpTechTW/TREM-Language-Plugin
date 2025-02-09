@@ -1,32 +1,32 @@
 html[lang="ja-JP"] {
   .visual-editor-title:before {
-    content: "ビジュアルエディタ";
+    content: "ビジュアルエディタ" !important;
   }
   .btn-remove:before {
-    content: "削除";
+    content: "削除" !important;
   }
   .btn-add:before {
-    content: "項目を追加";
+    content: "項目を追加" !important;
   }
   .root::before {
-    content: "新しいルートレベルのフィールド";
+    content: "新しいルートレベルのフィールド" !important;
   }
   .json-error:before {
-    content: "JSONフォーマットエラー";
+    content: "JSONフォーマットエラー" !important;
   }
   .yaml-transfer-error:before {
-    content: "YAML変換エラー";
+    content: "YAML変換エラー" !important;
   }
   .yaml-extract-error:before {
-    content: "YAML解析エラー";
+    content: "YAML解析エラー" !important;
   }
   .auto-save-success:before {
-    content: "自動保存に成功しました";
+    content: "自動保存に成功しました" !important;
   }
   .auto-save-error:before {
-    content: "自動保存が失敗しました";
+    content: "自動保存が失敗しました" !important;
   }
   .load-error:before {
-    content: "読み取りエラー";
+    content: "読み取りエラー" !important;
   }
 }

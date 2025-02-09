@@ -2,24 +2,24 @@
 
 html[lang="vi-VN"] {
   .version-check-text::before {
-    content: "Phiên bản mới";
+    content: "Phiên bản mới" !important;
   }
 
   .info-number {
     &:not(:empty)::before {
-      content: "#";
+      content: "#" !important;
     }
     &:not(:empty)::after {
-      content: "";
+      content: "" !important;
     }
   }
 
   .cancel-title span::before {
-    content: "Hủy bỏ";
+    content: "Hủy bỏ" !important;
   }
 
   .cancel-body span::before {
-    content: "Cảnh báo động đất này đã được hủy bỏ.";
+    content: "Cảnh báo động đất này đã được hủy bỏ." !important;
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
@@ -35,19 +35,19 @@ html[lang="vi-VN"] {
   }
 
   .eew-cancel .info-unit::before {
-    content: "Hủy bỏ ";
+    content: "Hủy bỏ " !important;
   }
 
   .eew-warn .info-unit::before {
-    content: "Cảnh báo ";
+    content: "Cảnh báo " !important;
   }
 
   .eew-alert .info-unit::before {
-    content: "Cảnh báo cảnh báo ";
+    content: "Cảnh báo cảnh báo " !important;
   }
 
   .eew-rts .info-unit::before {
-    content: "Phát hiện động đất một điểm ";
+    content: "Phát hiện động đất một điểm " !important;
   }
 
   .info-cancel-last::after {
@@ -59,112 +59,112 @@ html[lang="vi-VN"] {
   }
 
   .no-eew .info-unit::after {
-    content: "Không có cảnh báo động đất hiện tại";
+    content: "Không có cảnh báo động đất hiện tại" !important;
   }
 
   .info-intensity::after {
-    content: "Ước tính cường độ tối đa";
+    content: "Ước tính cường độ tối đa" !important;
   }
 
   .info-nsspe span::before {
-    content: "NSSPE";
+    content: "NSSPE" !important;
   }
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "kích cỡ";
+    content: "kích cỡ" !important;
     width: 6.5rem;
     font-size: 20px;
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "Độ sâu";
+    content: "Độ sâu" !important;
     font-size: 20px;
   }
 
   .current-station-intensity-text::before {
-    content: "Cường độ";
+    content: "Cường độ" !important;
   }
   .current-station-pga-text::before {
-    content: "PGA";
+    content: "PGA" !important;
   }
 
   .intensity-report::before {
-    content: "Báo cáo cường độ";
+    content: "Báo cáo cường độ" !important;
   }
 
   .source-report::before {
-    content: "Báo cáo tâm chấn động đất";
+    content: "Báo cáo tâm chấn động đất" !important;
   }
 
   .earthquake-report::before {
-    content: "Báo cáo động đất";
+    content: "Báo cáo động đất" !important;
   }
 
   .tsunami-warning::before {
-    content: "Cảnh báo sóng thần";
+    content: "Cảnh báo sóng thần" !important;
   }
 
   .earthquake-warning::before {
-    content: "Cảnh báo động đất";
+    content: "Cảnh báo động đất" !important;
   }
 
   .report-intensity-text::before {
-    content: "Cường độ tối đa";
+    content: "Cường độ tối đa" !important;
   }
 
   .web-detection::before {
-    content: "Phát hiện";
+    content: "Phát hiện" !important;
   }
 
   .web-report::before {
-    content: "Báo cáo";
+    content: "Báo cáo" !important;
   }
 
   .report-replay::before {
-    content: "Phát lại";
+    content: "Phát lại" !important;
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "Tâm chấn đang được đánh giá";
+    content: "Tâm chấn đang được đánh giá" !important;
   }
 
   .rts-intenisty-list-text::before {
-    content: "Xếp hạng cường độ theo địa chấn";
+    content: "Xếp hạng cường độ theo địa chấn" !important;
   }
 
   .max-intensity-text::before {
-    content: "Cường độ tối đa";
+    content: "Cường độ tối đa" !important;
   }
 
   .max-pga-text::before {
-    content: "PGA tối đa";
+    content: "PGA tối đa" !important;
   }
 
   .internet-error .title:before {
-    content: "Lỗi kết nối mạng";
+    content: "Lỗi kết nối mạng" !important;
   }
 
   .unstable .title:before {
-    content: "Không ổn định";
+    content: "Không ổn định" !important;
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Các điểm quan sát có thể không";
+      content: "Các điểm quan sát có thể không" !important;
     }
     &:nth-child(2)::before {
-      content: "ổn định do hoạt động địa chấn";
+      content: "ổn định do hoạt động địa chấn" !important;
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Lỗi kết nối mạng";
+      content: "Lỗi kết nối mạng" !important;
     }
     &:nth-child(2)::before {
-      content: "vui lòng thử lại sau";
+      content: "vui lòng thử lại sau" !important;
     }
   }
 }

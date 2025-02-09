@@ -2,24 +2,24 @@
 
 html[lang="th-TH"] {
   .version-check-text::before {
-    content: "เวอร์ชั่นใหม่";
+    content: "เวอร์ชั่นใหม่" !important;
   }
 
   .info-number {
     &:not(:empty)::before {
-      content: "หมายเลข ";
+      content: "หมายเลข " !important;
     }
     &:not(:empty)::after {
-      content: "";
+      content: "" !important;
     }
   }
 
   .cancel-title span::before {
-    content: "ยกเลิก";
+    content: "ยกเลิก" !important;
   }
 
   .cancel-body span::before {
-    content: "This earthquake warning canceled.";
+    content: "This earthquake warning canceled." !important;
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
@@ -35,19 +35,19 @@ html[lang="th-TH"] {
   }
 
   .eew-cancel .info-unit::before {
-    content: "ยกเลิก ";
+    content: "ยกเลิก " !important;
   }
 
   .eew-warn .info-unit::before {
-    content: "คำเตือน ";
+    content: "คำเตือน " !important;
   }
 
   .eew-alert .info-unit::before {
-    content: "การแจ้งเตือน ";
+    content: "การแจ้งเตือน " !important;
   }
 
   .eew-rts .info-unit::before {
-    content: "การตรวจจับแผ่นดินไหวแบบจุดเดียว ";
+    content: "การตรวจจับแผ่นดินไหวแบบจุดเดียว " !important;
   }
 
   .info-cancel-last::after {
@@ -59,7 +59,7 @@ html[lang="th-TH"] {
   }
 
   .no-eew .info-unit::after {
-    content: "ขณะนี้ไม่มีการเตือนแผ่นดินไหว";
+    content: "ขณะนี้ไม่มีการเตือนแผ่นดินไหว" !important;
   }
 
   .info-intensity::after {
@@ -67,102 +67,102 @@ html[lang="th-TH"] {
   }
 
   .info-nsspe span::before {
-    content: "NSSPE";
+    content: "NSSPE" !important;
   }
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "ขนาด";
+    content: "ขนาด" !important;
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "ลึก";
+    content: "ลึก" !important;
   }
 
   .current-station-intensity-text::before {
-    content: "ความรุนแรงของ";
+    content: "ความรุนแรงของ" !important;
   }
   .current-station-pga-text::before {
-    content: "PGA";
+    content: "PGA" !important;
   }
 
   .intensity-report::before {
-    content: "รายงานความรุนแรงของ";
+    content: "รายงานความรุนแรงของ" !important;
   }
 
   .source-report::before {
-    content: "รายงานศูนย์เกิดแผ่นดินไหว";
+    content: "รายงานศูนย์เกิดแผ่นดินไหว" !important;
   }
 
   .earthquake-report::before {
-    content: "รายงานแผ่นดินไหว";
+    content: "รายงานแผ่นดินไหว" !important;
   }
 
   .tsunami-warning::before {
-    content: "การเตือนภัยสึนามิ";
+    content: "การเตือนภัยสึนามิ" !important;
   }
 
   .earthquake-warning::before {
-    content: "คำเตือนแผ่นดินไหว";
+    content: "คำเตือนแผ่นดินไหว" !important;
   }
 
   .report-intensity-text::before {
-    content: "ความรุนแรงของสูงสุด";
+    content: "ความรุนแรงของสูงสุด" !important;
   }
 
   .web-detection::before {
-    content: "การตรวจจับ";
+    content: "การตรวจจับ" !important;
   }
 
   .web-report::before {
-    content: "รายงาน";
+    content: "รายงาน" !important;
   }
 
   .report-replay::before {
-    content: "รีเพลย์";
+    content: "รีเพลย์" !important;
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "ศูนย์กลางของแผ่นดินไหวอยู่ระหว่างการประเมิน";
+    content: "ศูนย์กลางของแผ่นดินไหวอยู่ระหว่างการประเมิน" !important;
     font-size: 19px;
   }
 
   .rts-intenisty-list-text::before {
-    content: "จัดอันดับความรุนแรงของตามภูมิภาค";
+    content: "จัดอันดับความรุนแรงของตามภูมิภาค" !important;
   }
 
   .max-intensity-text::before {
-    content: "ความรุนแรงของสูงสุด";
+    content: "ความรุนแรงของสูงสุด" !important;
   }
 
   .max-pga-text::before {
-    content: "รงของสูงสุดพีจีเอ";
+    content: "รงของสูงสุดพีจีเอ" !important;
   }
 
   .internet-error .title:before {
-    content: "ข้อผิดพลาดการเชื่อมต่อเครือข่าย";
+    content: "ข้อผิดพลาดการเชื่อมต่อเครือข่าย" !important;
   }
 
   .unstable .title:before {
-    content: "ไม่มั่นคง";
+    content: "ไม่มั่นคง" !important;
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "จุดสังเกตอาจไม่มั่นคง";
+      content: "จุดสังเกตอาจไม่มั่นคง" !important;
     }
     &:nth-child(2)::before {
-      content: "เนื่องจากกิจกรรมแผ่นดินไหว";
+      content: "เนื่องจากกิจกรรมแผ่นดินไหว" !important;
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "ข้อผิดพลาดในการเชื่อมต่อเครือข่าย";
+      content: "ข้อผิดพลาดในการเชื่อมต่อเครือข่าย" !important;
     }
     &:nth-child(2)::before {
-      content: "โปรดลองอีกครั้งในภายหลัง";
+      content: "โปรดลองอีกครั้งในภายหลัง" !important;
     }
   }
 }

@@ -2,24 +2,24 @@
 
 html[lang="id-ID"] {
   .version-check-text::before {
-    content: "Versi baru";
+    content: "Versi baru" !important;
   }
 
   .info-number {
     &:not(:empty)::before {
-      content: "#";
+      content: "#" !important;
     }
     &:not(:empty)::after {
-      content: "";
+      content: "" !important;
     }
   }
 
   .cancel-title span::before {
-    content: "Batal";
+    content: "Batal" !important;
   }
 
   .cancel-body span::before {
-    content: "Peringatan gempa bumi ini dibatalkan.";
+    content: "Peringatan gempa bumi ini dibatalkan." !important;
   }
 
   .no-eew.rts-trigger-low .info-unit::after {
@@ -35,19 +35,19 @@ html[lang="id-ID"] {
   }
 
   .eew-cancel .info-unit::before {
-    content: "Membatalkan ";
+    content: "Membatalkan " !important;
   }
 
   .eew-warn .info-unit::before {
-    content: "Peringatan ";
+    content: "Peringatan " !important;
   }
 
   .eew-alert .info-unit::before {
-    content: "Peringatan peringatan ";
+    content: "Peringatan peringatan " !important;
   }
 
   .eew-rts .info-unit::before {
-    content: "Deteksi gempa titik tunggal ";
+    content: "Deteksi gempa titik tunggal " !important;
   }
 
   .info-cancel-last::after {
@@ -59,7 +59,7 @@ html[lang="id-ID"] {
   }
 
   .no-eew .info-unit::after {
-    content: "Tidak ada peringatan dini gempa bumi";
+    content: "Tidak ada peringatan dini gempa bumi" !important;
   }
 
   .info-intensity::after {
@@ -67,102 +67,102 @@ html[lang="id-ID"] {
   }
 
   .info-nsspe span::before {
-    content: "NSSPE";
+    content: "NSSPE" !important;
   }
 
   .info-mag-text::after,
   .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "Mag.";
+    content: "Mag." !important;
   }
 
   .info-depth-text::after,
   .report-depth-text::after {
-    content: "Keda.";
+    content: "Keda." !important;
   }
 
   .current-station-intensity-text::before {
-    content: "Intensitas";
+    content: "Intensitas" !important;
   }
   .current-station-pga-text::before {
-    content: "PGA";
+    content: "PGA" !important;
   }
 
   .intensity-report::before {
-    content: "Laporan Intensitas";
+    content: "Laporan Intensitas" !important;
   }
 
   .source-report::before {
-    content: "Laporan hiposenter gempa bumi";
+    content: "Laporan hiposenter gempa bumi" !important;
   }
 
   .earthquake-report::before {
-    content: "Laporan gempa bumi";
+    content: "Laporan gempa bumi" !important;
   }
 
   .tsunami-warning::before {
-    content: "Peringatan tsunami";
+    content: "Peringatan tsunami" !important;
   }
 
   .earthquake-warning::before {
-    content: "Peringatan gempa bumi";
+    content: "Peringatan gempa bumi" !important;
   }
 
   .report-intensity-text::before {
-    content: "Intensitas";
+    content: "Intensitas" !important;
   }
 
   .web-detection::before {
-    content: "Deteksi";
+    content: "Deteksi" !important;
   }
 
   .web-report::before {
-    content: "Laporan";
+    content: "Laporan" !important;
   }
 
   .report-replay::before {
-    content: "Putar ulang";
+    content: "Putar ulang" !important;
   }
 
   .report-box-items .survey .report-loc:before {
-    content: "Episentrum yang sedang dikaji";
+    content: "Episentrum yang sedang dikaji" !important;
   }
 
   .rts-intenisty-list-text::before {
-    content: "Intensitas di Seluruh Wilayah berdasarkan peringkat";
+    content: "Intensitas di Seluruh Wilayah berdasarkan peringkat" !important;
     font-size: 11px;
   }
 
   .max-intensity-text::before {
-    content: "Intensitas";
+    content: "Intensitas" !important;
   }
 
   .max-pga-text::before {
-    content: "PGA Maks";
+    content: "PGA Maks" !important;
   }
 
   .internet-error .title:before {
-    content: "Kesalahan koneksi jaringan";
+    content: "Kesalahan koneksi jaringan" !important;
   }
 
   .unstable .title:before {
-    content: "Tidak stabil";
+    content: "Tidak stabil" !important;
   }
 
   .unstable .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Titik pengamatan mungkin tidak";
+      content: "Titik pengamatan mungkin tidak" !important;
     }
     &:nth-child(2)::before {
-      content: "stabil karena aktivitas seismik";
+      content: "stabil karena aktivitas seismik" !important;
     }
   }
 
   .internet-error .warning-message-text span {
     &:nth-child(1)::before {
-      content: "Kesalahan koneksi jaringan";
+      content: "Kesalahan koneksi jaringan" !important;
     }
     &:nth-child(2)::before {
-      content: "silakan coba lagi nanti";
+      content: "silakan coba lagi nanti" !important;
     }
   }
 }
