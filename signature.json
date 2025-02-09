@@ -1,9 +1,9 @@
 {
-  "timestamp": 1739124700031,
-  "version": "1.2.3",
+  "timestamp": 1739125067934,
+  "version": "1.2.4",
   "fileHashes": {
     "index.js": "e0db7f472fc557d92387fe411f5cb0a83f97e033fea3ba571a049a95ce7ff9c1",
-    "info.json": "a15f98d8a3a5e889e535bfb3b49ec99ff23d6ecb898abca02a6c05bdd631cff7",
+    "info.json": "699d926964813b8f62721fbcb56252b91702b8c2f8f269b39fb0ed34a114bb25",
     "lang/en-US/index/index.css": "6b162b0acd5aa6337bc69bb427ba32e0d740c8901edc81be14886d6fcb704554",
     "lang/en-US/index/rwd.css": "3822213046ba515bdf31f73e91bdcb8e0304cd191bd8e972b69d48f9975c570b",
     "lang/en-US/plugin_edit/index.css": "7adb4db0415dd11806756099e19a91a21cb0f9da38253a2a5003f180368e83e8",
@@ -12,7 +12,7 @@
     "lang/id-ID/index/rwd.css": "530b1b231061153a88dee3160ddc558256b7c3d8990b385f51fea5c1c881e587",
     "lang/id-ID/plugin_edit/index.css": "cb93eaa38576f5e40c26c7849e456f80829689c9ef682ebb8c59c2c16b296f75",
     "lang/id-ID/setting/index.css": "c63683237c8884c06a3775fb2bf91bd5aee83b413736fb58bd1f7fe29cc443a6",
-    "lang/ja-JP/index/index.css": "a433ad3842a31abc5cfdfa67a862ad12a2c2ebd79ac79bd6bdbef8c90e71830f",
+    "lang/ja-JP/index/index.css": "c89bb36064905a5d2fd6ea49ce0914f40c15b865049d6de8e440421831d58f2d",
     "lang/ja-JP/index/rwd.css": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "lang/ja-JP/plugin_edit/index.css": "ac2f73d21c12d6151798a5a783cf9ac190e7f5d9da4e82b77f1e7a8b2a2bd5fd",
     "lang/ja-JP/setting/index.css": "632cb570a9d27d13a251fb6816102ac016b9c8ede0f6ee38b8586c393297fbe2",
@@ -3586,6 +3586,6 @@
     "node_modules/yocto-queue/package.json": "e94d571d03c65c94eab2216f4fde773918a152d5d36e5672e1f5c158ff6ac42d",
     "node_modules/yocto-queue/readme.md": "adf5a71d52fc4fabb51c09aa67d58f8f61baa138c6d0705b1a805958f0c584a5"
   },
-  "signature": "poYKmBMNYOp20lT3MO4RPuUfj8YqkJHuzTkrNJ1WSCLt8NcGQ87uLNFCI1js0TFa+vuTHrMewwbhLB6b/7nqCqEHHZCU5ObnfbEM7jlnuU+HQU7kv9ntLtXefYf9rQPEtEqW1pQEbRm43xMsyw0E5IEy7dMzq9QrDlxHmiXxrgpz8K8DImVAQHRfX7F2YCrob4wKVz0STKBftbtLGoJEUuCoyRmHcZjcpaGPyMGEr8KXHLPsycTcyaO1ahWHL/zNWdgL2eQWdWwoXgAjkLBaWfH4r4c0SbGJvafJsP4FUP3mS/3clX2HX5x/t9xqEBLZQdmH3055SasUKeXVACHDbg==",
+  "signature": "m4r7NTvNCQrK1HfUKdfFr16qNKWA7XUP7VSyuT9Sb/aTa6vLbZHhJ/tMbuN/UNXMu0aJ1qsfYHcR4NwI7pnvH60gjWDbH3uxdhe6lArAmI4sRq0BWufF9bZoa493AzNEowI4Z80bqanr/52zPJ9pU+UREzlDellolZAQheg4YsphhAje4kSq/KG7ZEomP5Gd9FiPbLiCrNx3THP5M+hqirEwe8bWnm/V7CJOSIigKPQVlQ8PFJ+kiVCmY+sYGD8+yK1r7hVqDmy7+5JeFOQrQdMUgSOZkHgEiv/UPAOmmLTk0PKG3e+yQuZFnHlxKHtyVuVixjUQmj2wRHeuDOHFcw==",
   "keyId": "official"
 }
