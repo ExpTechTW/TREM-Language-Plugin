@@ -42,6 +42,10 @@ html[lang="th-TH"] {
     content: "การแจ้งเตือน ";
   }
 
+  .eew-rts .info-unit::before {
+    content: "การตรวจจับแผ่นดินไหวแบบจุดเดียว ";
+  }
+
   .info-number-last::after {
     content: "(สุดท้าย)" !important;
   }

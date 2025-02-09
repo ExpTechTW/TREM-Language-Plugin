@@ -42,6 +42,10 @@ html[lang="ko-KR"] {
     content: "경고 알림 ";
   }
 
+  .eew-rts .info-unit::before {
+    content: "단일 지점 지진 감지 ";
+  }
+
   .info-number-last::after {
     content: "(최종)" !important;
   }

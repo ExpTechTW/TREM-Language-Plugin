@@ -42,6 +42,10 @@ html[lang="vi-VN"] {
     content: "Cảnh báo cảnh báo ";
   }
 
+  .eew-rts .info-unit::before {
+    content: "Phát hiện động đất một điểm ";
+  }
+
   .info-number-last::after {
     content: "(Cuối cùng)" !important;
   }

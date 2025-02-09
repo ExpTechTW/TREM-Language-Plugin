@@ -25,6 +25,10 @@ html[lang="zh-CN"] {
     content: "紧急地震速报 ";
   }
 
+  .eew-rts .info-unit::before {
+    content: "单点地震检测 ";
+  }
+
   .info-number-last::after {
     content: "报(最终报)" !important;
   }

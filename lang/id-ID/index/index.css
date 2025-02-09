@@ -42,6 +42,10 @@ html[lang="id-ID"] {
     content: "Peringatan peringatan ";
   }
 
+  .eew-rts .info-unit::before {
+    content: "Deteksi gempa titik tunggal ";
+  }
+
   .info-number-last::after {
     content: "(Akhir)" !important;
   }

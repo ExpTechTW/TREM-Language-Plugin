@@ -42,6 +42,11 @@ html[lang="en-US"] {
     content: "Warning alert ";
   }
 
+  .eew-rts .info-unit::before {
+    content: "Single-Point earthquake detection ";
+  }
+
+
   .info-number-last::after {
     content: "(Final)" !important;
   }
