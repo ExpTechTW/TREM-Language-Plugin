@@ -118,3 +118,7 @@ html[lang="zh-CN"] {
     }
   }
 }
+
+.info-time::after {
+  content: " 发震";
+}

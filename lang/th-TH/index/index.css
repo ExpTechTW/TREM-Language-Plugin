@@ -166,3 +166,16 @@ html[lang="th-TH"] {
     }
   }
 }
+
+.intensity-0:not( #max-intensity, #max-pga, #current-station-intensity, .rts-intensity )::after {
+  content: "?";
+}
+
+.info-time::after {
+  content: "";
+}
+
+.info-time::before {
+  content: "เกิดขึ้นเมื่อวันที่ ";
+}
+

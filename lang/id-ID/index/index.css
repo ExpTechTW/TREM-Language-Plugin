@@ -166,3 +166,11 @@ html[lang="id-ID"] {
     }
   }
 }
+
+.intensity-0:not( #max-intensity, #max-pga, #current-station-intensity, .rts-intensity )::after {
+  content: "?";
+}
+
+.info-time::after {
+  content: " Terjadi";
+}

@@ -116,3 +116,7 @@ html[lang="ja-JP"] {
     }
   }
 }
+
+.info-time::after {
+  content: "発生";
+}

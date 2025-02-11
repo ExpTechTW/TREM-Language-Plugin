@@ -168,3 +168,17 @@ html[lang="vi-VN"] {
     }
   }
 }
+
+.intensity-0:not( #max-intensity, #max-pga, #current-station-intensity, .rts-intensity )::after {
+  content: "?";
+}
+
+.info-time::after {
+  content: "";
+}
+
+.info-time::before {
+  content: "Diễn ra vào ngày ";
+}
+
+
