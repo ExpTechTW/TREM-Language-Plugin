@@ -164,16 +164,99 @@ html[lang="en-US"] {
       content: "please try again later" !important;
     }
   }
-}
 
-.intensity-0:not( #max-intensity, #max-pga, #current-station-intensity, .rts-intensity )::after {
-  content: "?";
-}
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
 
-.info-time::after {
-  content: "";
-}
+  .info-time::after {
+    content: "";
+  }
 
-.info-time::before {
-  content: "Occurs on ";
+  .info-time::before {
+    content: "Occurs on ";
+  }
+
+  .rts-intensity-list-wrapper {
+    right: 17rem;
+    min-width: 218px;
+  }
+
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(144%);
+  }
+
+  .report-wrapper {
+    & .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .station-pga-wrapper {
+    left: 7.1rem;
+  }
+
+  .info-wrapper {
+    & .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .report-wrapper {
+    & .report-box-item-wrapper:first-child {
+      & .report-info-box {
+        & .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .current-location-pwave-text:before {
+    content: "P Wave" !important;
+  }
+
+  .current-location-swave-text:before {
+    content: "S Wave" !important;
+  }
+
+  .current-location-pwave-val.arrive:before,
+  .current-location-swave-val.arrive:before {
+    content: "Arrival" !important;
+  }
+
+  .current-location-pwave-sec-text:before,
+  .current-location-swave-sec-text:before {
+    content: "s" !important;
+  }
+
+  .current-location-count-down {
+    max-height: unset !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .current-location-pwave-box,
+  .current-location-swave-box {
+    width: auto !important;
+  }
+
+  .current-location-pswave {
+    height: 50px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 5px !important;
+    gap: 2px !important;
+  }
 }

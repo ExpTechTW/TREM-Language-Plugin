@@ -117,8 +117,21 @@ html[lang="zh-CN"] {
       content: "请待稍后重试" !important;
     }
   }
-}
 
-.info-time::after {
-  content: " 发震";
+  .info-time::after {
+    content: " 发震";
+  }
+
+  .current-location-pwave-text:before {
+    content: "P波" !important;
+  }
+
+  .current-location-swave-text:before {
+    content: "S波" !important;
+  }
+
+  .current-location-pwave-val.arrive:before,
+  .current-location-swave-val.arrive:before {
+    content: "抵达" !important;
+  }
 }

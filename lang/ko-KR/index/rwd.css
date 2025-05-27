@@ -1,66 +1,40 @@
 html[lang="ko-KR"] {
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(219%);
-  }
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-    }
-  }
-  .station-pga-wrapper {
-    left: 6.9rem;
-  }
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      & .report-info-box {
-        & .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
   @media (max-width: 980px) {
     .info-intensity::after {
       content: "최대 추정" !important;
     }
+
     .report-box-item-wrapper:first-child {
       .report-intensity-text {
         font-size: 11px !important;
       }
     }
+
     .report-intensity-val {
       height: 40px !important;
       width: 43px !important;
     }
-    .rts-intensity-list-wrapper {
-      width: 130px !important;
-    }
+
     .current-station-info {
       width: 145px !important;
     }
+
     .current-station-pga {
       width: 190px !important;
     }
+
     .max-intensity {
       width: 76px;
     }
+
     .rts-intensity-list-wrapper {
-      right: 16.5rem;
+      right: 17rem;
     }
+
     .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(206%);
+      transform: translateX(135%);
     }
+
     .report-box-item-wrapper.survey:first-child {
       .report-loc {
         font-size: 19px !important;

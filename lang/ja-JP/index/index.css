@@ -115,8 +115,45 @@ html[lang="ja-JP"] {
       content: "後でもう一度お試しください。" !important;
     }
   }
-}
 
-.info-time::after {
-  content: "発生";
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(159%);
+    min-width: 200px;
+  }
+
+  .info-time::after {
+    content: "発生";
+  }
+
+  .current-location-pwave-text:before {
+    content: "P波" !important;
+  }
+
+  .current-location-swave-text:before {
+    content: "S波" !important;
+  }
+
+  .current-location-pwave-val.arrive:before,
+  .current-location-swave-val.arrive:before {
+    content: "到着" !important;
+  }
+
+  .current-location-pwave-sec-text:before,
+  .current-location-swave-sec-text:before {
+    content: "秒" !important;
+  }
+
+  .current-location-count-down {
+    max-height: unset !important;
+    height: auto !important;
+  }
+
+  .current-location-pwave-box,
+  .current-location-swave-box {
+    width: auto !important;
+  }
+
+  .current-location-pswave {
+    margin-top: 5px !important;
+  }
 }
