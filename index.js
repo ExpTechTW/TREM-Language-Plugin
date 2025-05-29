@@ -16,6 +16,7 @@ class Plugin {
       { value: "vi-VN", text: "Tiếng Việt" },
       { value: "id-ID", text: "Bahasa Indonesia" },
       { value: "th-TH", text: "ภาษาไทย" },
+      { value: "tl-PH", text: "Tagalog" },
     ];
     this.msgClassMap = {
       "no-certificate": {
@@ -35,6 +36,8 @@ class Plugin {
             "Tidak ada sertifikat valid yang ditemukan dan Anda harus segera menonaktifkan ekstensi ini kecuali Anda memercayai sumber ekstensi ini.",
           "th-TH":
             "ไม่พบใบรับรองที่ถูกต้อง และคุณควรปิดใช้งานส่วนขยายนี้ทันที เว้นแต่คุณจะเชื่อถือแหล่งที่มาของส่วนขยายนี้",
+          "tl-PH":
+            "Walang validong sertipikado at dapat mo i-deactivate ang extension na ito sa immediate na kapag walang inyong tinatawag na tinaguri ang pinagkukunan ng extension na ito.",
         },
       },
       "version-low-greater": {
@@ -55,6 +58,8 @@ class Plugin {
             "Setidaknya versi TREM-Lite >={requiredVersion} diperlukan, tetapi versi yang terinstal saat ini adalah {installedVersion}.",
           "th-TH":
             "อย่างน้อยต้องมีเวอร์ชัน TREM-Lite >={requiredVersion} แต่เวอร์ชันที่ติดตั้งในปัจจุบันคือ {installedVersion}",
+          "tl-PH":
+            "Kailangan ang pinakamababangers TREM-Lite >={requiredVersion}, ngunit ang pinagkukunan na naka-install sa kasalukuyan ay {installedVersion}.",
         },
       },
       "version-low-equal": {
@@ -75,6 +80,8 @@ class Plugin {
             "Setidaknya versi TREM-Lite ={requiredVersion} diperlukan, tetapi versi yang terinstal saat ini adalah {installedVersion}.",
           "th-TH":
             "อย่างน้อยต้องมีเวอร์ชัน TREM-Lite ={requiredVersion} แต่เวอร์ชันที่ติดตั้งในปัจจุบันคือ {installedVersion}",
+          "tl-PH":
+            "Kailangan ang pinakamababangers TREM-Lite ={requiredVersion}, ngunit ang pinagkukunan na naka-install sa kasalukuyan ay {installedVersion}.",
         },
       },
       "missing-dependencies": {
@@ -87,6 +94,7 @@ class Plugin {
           "vi-VN": "Thiếu các phụ thuộc {requiredDependencies}.",
           "id-ID": "Dependensi {requiredDependencies} hilang.",
           "th-TH": "ขาดการอ้างอิง {requiredDependencies}",
+          "tl-PH": "Kailangan ang {requiredDependencies}.",
         },
       },
       "init-error": {
@@ -102,6 +110,8 @@ class Plugin {
             "Khởi tạo không thành công, vui lòng liên hệ với tác giả của tiện ích mở rộng.",
           "id-ID": "Inisialisasi gagal, silakan hubungi pembuat ekstensi.",
           "th-TH": "การเริ่มต้นล้มเหลว โปรดติดต่อผู้เขียนส่วนขยาย",
+          "tl-PH":
+            "Nabigo ang pag-init, mag-contact sa tagapag-unlad ng extension.",
         },
       },
       "not-enabled": {
@@ -114,6 +124,7 @@ class Plugin {
           "vi-VN": "Chưa được kích hoạt.",
           "id-ID": "Tidak diaktifkan.",
           "th-TH": "ไม่ได้เปิดใช้งาน",
+          "tl-PH": "Hindi pinagana.",
         },
       },
     };

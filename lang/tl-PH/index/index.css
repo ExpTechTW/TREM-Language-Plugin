@@ -1,0 +1,262 @@
+@import url("./rwd.css");
+
+html[lang="tl-PH"] {
+  .version-check-text::before {
+    content: "Bagong bersyon" !important;
+  }
+
+  .info-number {
+    &:not(:empty)::before {
+      content: "#" !important;
+    }
+    &:not(:empty)::after {
+      content: "" !important;
+    }
+  }
+
+  .cancel-title span::before {
+    content: "Kanselahin" !important;
+  }
+
+  .cancel-body span::before {
+    content: "Kinansela ang babala ng lindol na ito." !important;
+  }
+
+  .no-eew.rts-trigger-low .info-unit::after {
+    content: "Mababa " !important;
+  }
+
+  .no-eew.rts-trigger-middle .info-unit::after {
+    content: "Mahinang tugon ng lindol " !important;
+  }
+
+  .no-eew.rts-trigger-high .info-unit::after {
+    content: "Malakas na pagtuklas ng lindol " !important;
+  }
+
+  .eew-cancel .info-unit::before {
+    content: "Kanselahin " !important;
+  }
+
+  .eew-warn .info-unit::before {
+    content: "Babala " !important;
+  }
+
+  .eew-alert .info-unit::before {
+    content: "Alerto ng babala " !important;
+  }
+
+  .eew-rts .info-unit::before {
+    content: "Single-Point na pagtukoy ng lindol " !important;
+  }
+
+  .info-cancel-last::after {
+    content: "(Kanselahin)" !important;
+  }
+
+  .info-number-last::after {
+    content: "(Pangwakas)" !important;
+  }
+
+  .no-eew .info-unit::after {
+    content: "Walang babala sa lindol" !important;
+  }
+
+  .info-intensity::after {
+    content: "Tantyahin ang maximum" !important;
+  }
+
+  .info-nsspe span::before {
+    content: "NSSPE" !important;
+  }
+
+  .info-mag-text::after,
+  .report-box-item-wrapper:first-child .report-mag-text::after {
+    content: "Mag." !important;
+  }
+
+  .info-depth-text::after,
+  .report-depth-text::after {
+    content: "Lalim" !important;
+  }
+
+  .current-station-intensity-text::before {
+    content: "Intensity" !important;
+  }
+  .current-station-pga-text::before {
+    content: "PGA" !important;
+  }
+
+  .intensity-report::before {
+    content: "Ulat ng intensity" !important;
+  }
+
+  .source-report::before {
+    content: "Ulat sa hypocenter ng lindol" !important;
+  }
+
+  .earthquake-report::before {
+    content: "Ulat ng lindol" !important;
+  }
+
+  .tsunami-warning::before {
+    content: "Babala sa tsunami" !important;
+  }
+
+  .earthquake-warning::before {
+    content: "Babala sa lindol" !important;
+  }
+
+  .report-intensity-text::before {
+    content: "Max Intensity" !important;
+  }
+
+  .web-detection::before {
+    content: "Pagtuklas" !important;
+  }
+
+  .web-report::before {
+    content: "Ulat" !important;
+  }
+
+  .report-replay::before {
+    content: "I-replay" !important;
+  }
+
+  .report-box-items .survey .report-loc:before {
+    content: "Epicenter sa ilalim ng pagtatasa" !important;
+  }
+
+  .rts-intenisty-list-text::before {
+    content: "Intensity ranking ayon sa seismicity" !important;
+  }
+
+  .max-intensity-text::before {
+    content: "Max Intensity" !important;
+  }
+
+  .max-pga-text::before {
+    content: "Max PGA" !important;
+  }
+
+  .internet-error .title:before {
+    content: "Error sa koneksyon sa network" !important;
+  }
+
+  .unstable .title:before {
+    content: "Hindi matatag" !important;
+  }
+
+  .unstable .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Ang mga punto ng pagmamasid ay maaaring" !important;
+    }
+    &:nth-child(2)::before {
+      content: "hindi matatag dahil sa aktibidad ng seismic" !important;
+    }
+  }
+
+  .internet-error .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Error sa koneksyon sa network" !important;
+    }
+    &:nth-child(2)::before {
+      content: "pakisubukang muli mamaya" !important;
+    }
+  }
+
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::after {
+    content: "";
+  }
+
+  .info-time::before {
+    content: "Mangyayari sa ";
+  }
+
+  .rts-intensity-list-wrapper {
+    right: 20rem;
+    min-width: 253px;
+  }
+
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(125%);
+  }
+
+  .report-wrapper {
+    & .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .station-pga-wrapper {
+    left: 7.1rem;
+  }
+
+  .info-wrapper {
+    & .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  .report-wrapper {
+    & .report-box-item-wrapper:first-child {
+      & .report-info-box {
+        & .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .current-location-pwave-text:before {
+    content: "P wave" !important;
+  }
+
+  .current-location-swave-text:before {
+    content: "S wave" !important;
+  }
+
+  .current-location-pwave-val.arrive:before,
+  .current-location-swave-val.arrive:before {
+    content: "Pagdating" !important;
+  }
+
+  .current-location-pwave-sec-text:before,
+  .current-location-swave-sec-text:before {
+    content: "segundo" !important;
+  }
+
+  .current-location-count-down {
+    max-height: unset !important;
+    width: auto !important;
+    height: auto !important;
+  }
+
+  .current-location-pwave-box,
+  .current-location-swave-box {
+    width: auto !important;
+  }
+
+  .current-location-pswave {
+    height: 50px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    margin-top: 5px !important;
+    gap: 2px !important;
+  }
+}

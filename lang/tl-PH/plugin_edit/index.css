@@ -1,0 +1,32 @@
+html[lang="tl-PH"] {
+  .visual-editor-title:before {
+    content: "Visual editor" !important;
+  }
+  .btn-remove:before {
+    content: "Tanggalin" !important;
+  }
+  .btn-add:before {
+    content: "Magdagdag ng item" !important;
+  }
+  .root::before {
+    content: "Mga bagong patlang sa antas ng ugat" !important;
+  }
+  .json-error:before {
+    content: "Error sa format ng JSON" !important;
+  }
+  .yaml-transfer-error:before {
+    content: "Error sa Conversion ng YAML" !important;
+  }
+  .yaml-extract-error:before {
+    content: "Error sa pag-parse ng YAML" !important;
+  }
+  .auto-save-success:before {
+    content: "Matagumpay ang auto save" !important;
+  }
+  .auto-save-error:before {
+    content: "Auto save Failure" !important;
+  }
+  .load-error:before {
+    content: "Read Error" !important;
+  }
+}

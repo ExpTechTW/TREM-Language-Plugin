@@ -23,9 +23,11 @@ html[lang="en-US"] {
     }
     .rts-intensity-list-wrapper {
       right: 17rem;
+      min-width: 150px;
     }
     .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
       transform: translateX(123%) !important;
+      min-width: 218px;
     }
     .report-box-item-wrapper.survey:first-child {
       .report-loc {
