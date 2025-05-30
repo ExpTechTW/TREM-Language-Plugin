@@ -1,9 +1,9 @@
 {
-  "timestamp": 1748627148750,
-  "version": "1.3.0",
+  "timestamp": 1748627413032,
+  "version": "1.3.1",
   "fileHashes": {
     "index.js": "f4cb36f285784b5a7083628c2eafae8b5f0e3f6eef83c83cfa65ad4d173affac",
-    "info.json": "cb537395ac760c6171e8422514bf90feeecb24de72bf3c5e34b46d4c68395e71",
+    "info.json": "3070ed2d78f54d5ec1e432a42e57785f2eb6c422432c64f8291ef8f10dbb4f5e",
     "lang/en-US/index/index.css": "7cb77aa7faa8c3bbf4a2adae2048a49a5a35a37b39e559ef4a31e11813236d27",
     "lang/en-US/index/rwd.css": "1a36fef37d9b3151068028df9f31c16115ec964e37078b73828eeb866aec1334",
     "lang/en-US/plugin_edit/index.css": "da9fc71e3c8b487524f3f2eac7dc184158a601f653a72bd79e676c7e71b92131",
@@ -21,7 +21,7 @@
     "lang/ko-KR/plugin_edit/index.css": "6437aecf0a9371cc06b01f14851b58022aec9986caa7355869396591c25d92b9",
     "lang/ko-KR/setting/index.css": "29fecb0f4fa9dc45e0a8a3759dca63a48f75a3c77ad5d0de1e2dd7e0a9784348",
     "lang/main.css": "64cee7d8de9b6be2339adcbe92a59edd11e53fef16a583d15b0b0d9d29ac3356",
-    "lang/ru/index/index.css": "9716d87fb43cef1a1b1ae7b614d23c830f5271cdd3e1d7623d7e48b8c606cfc8",
+    "lang/ru/index/index.css": "fdffc1b5f4ab3348f5468087ea20670bf5d65db90bc206bebbac7f3d812f44bf",
     "lang/ru/index/rwd.css": "77b256419413bc6e7fe5e5c435cb2d9bc797e7f1c384c123102af3cfecec9595",
     "lang/ru/plugin_edit/index.css": "db33f31fe960525a73ba5f1542a683c233f1e7e47a8745c578df785e230670c9",
     "lang/ru/setting/index.css": "b14bbe7c3c06dc4f3dc49de2243adb84e794e25a0796c70a951098abd9085390",
@@ -4033,6 +4033,6 @@
     "node_modules/yocto-queue/package.json": "e94d571d03c65c94eab2216f4fde773918a152d5d36e5672e1f5c158ff6ac42d",
     "node_modules/yocto-queue/readme.md": "adf5a71d52fc4fabb51c09aa67d58f8f61baa138c6d0705b1a805958f0c584a5"
   },
-  "signature": "syn4YuDVZhb4tB4wmpqBsGV4zEDPLngwWw7feJGmL76/6pOyE9vCIVkHwVkvW5eEyXqId60/y4CQiayRNpn4OA21I2QCasbY8ZbkYC2B7/CxCPuRmxm31nhJpaDnSa+pAD8eadZhcbOvTrhgMAE7SMXKPdhv1nAZXNxVosXepNE5sQcCv4KQponSiV82bpu3+vbZBAeE73ZnDZNCZninR7Dj6M+S4dmmAXdsB6e0lCln64/ZKUH53zOwQFv5w/0gXafxDkqYyjVZ43SCHQzfeLhOUassdzDd6pTrSoGWFVweXLF5k75z2fHqYByqp6DJ8N3KcEOV6axxjGYqrCfthA==",
+  "signature": "n85yHfzY5Vl6f3NMK/eU0wNgNWWA+cH2FAjLupE2EuKMn0YM2h0otWFIQJiDrutrpIEYcHs4MIOOnZ4AEwS/SeDmBgC2xKZXCbAqrOWMIzXzT6+8miVVvLky9GCN04l3v67N0lxJtaGwIlqiDlZKXzYZZtIWScOHD2p7UQogdE6evGEs4PvTngPEDPWqchR8GQEaa+i7SV2Ld7gGiUwPx05sEmDCHgKlgXLSF13qh6OyQYkgGjyd6n0MYY8mgyGJgmWTWaO6XofdcToS5DLOt7v49M9YR23TX9hAFQ1H3GMtXBzSVySDduPrlOfpGKft3/8+KBU2mJ9wuNfuyOP4tQ==",
   "keyId": "official"
 }
