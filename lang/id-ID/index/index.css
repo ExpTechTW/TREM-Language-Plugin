@@ -1,10 +1,12 @@
 @import url("./rwd.css");
 
 html[lang="id-ID"] {
+  /** Version Check **/
   .version-check-text::before {
     content: "Versi baru" !important;
   }
 
+  /** Info Box **/
   .info-number {
     &:not(:empty)::before {
       content: "#" !important;
@@ -80,13 +82,49 @@ html[lang="id-ID"] {
     content: "Keda." !important;
   }
 
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::after {
+    content: " Terjadi";
+  }
+
+  .info-wrapper {
+    .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  /** Current Station Info **/
   .current-station-intensity-text::before {
     content: "Intensitas" !important;
   }
+
   .current-station-pga-text::before {
     content: "PGA" !important;
   }
 
+  .max-pga-text::before {
+    content: "PGA Maks" !important;
+  }
+
+  .max-intensity-text::before {
+    content: "Intensitas" !important;
+  }
+
+  .station-pga-wrapper {
+    left: 7.1rem;
+  }
+
+  /** Fab Button **/
   .intensity-report::before {
     content: "Laporan Intensitas" !important;
   }
@@ -107,6 +145,7 @@ html[lang="id-ID"] {
     content: "Peringatan gempa bumi" !important;
   }
 
+  /** Report **/
   .report-intensity-text::before {
     content: "Intensitas" !important;
   }
@@ -127,19 +166,32 @@ html[lang="id-ID"] {
     content: "Episentrum yang sedang dikaji" !important;
   }
 
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(109%);
+  }
+
+  .report-wrapper {
+    .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+      .report-info-box {
+        .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  /** Intensity List **/
   .rts-intenisty-list-text::before {
     content: "Intensitas di Seluruh Wilayah berdasarkan peringkat" !important;
     font-size: 11px;
   }
 
-  .max-intensity-text::before {
-    content: "Intensitas" !important;
-  }
-
-  .max-pga-text::before {
-    content: "PGA Maks" !important;
-  }
-
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "Kesalahan koneksi jaringan" !important;
   }
@@ -166,55 +218,7 @@ html[lang="id-ID"] {
     }
   }
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(109%);
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-    }
-  }
-
-  .station-pga-wrapper {
-    left: 7.1rem;
-  }
-
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      & .report-info-box {
-        & .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
-
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
-
-  .info-time::after {
-    content: " Terjadi";
-  }
-
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "Gelombang P" !important;
   }

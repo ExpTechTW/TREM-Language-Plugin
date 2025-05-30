@@ -1,10 +1,12 @@
 @import url("./rwd.css");
 
 html[lang="vi-VN"] {
+  /** Version Check **/
   .version-check-text::before {
     content: "Phiên bản mới" !important;
   }
 
+  /** Info Box **/
   .info-number {
     &:not(:empty)::before {
       content: "#" !important;
@@ -83,6 +85,32 @@ html[lang="vi-VN"] {
     font-size: 20px;
   }
 
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::after {
+    content: "";
+  }
+
+  .info-time::before {
+    content: "Diễn ra vào ngày ";
+  }
+
+  .info-wrapper {
+    .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  /** Station Pga Info **/
   .current-station-intensity-text::before {
     content: "Cường độ" !important;
   }
@@ -90,6 +118,35 @@ html[lang="vi-VN"] {
     content: "PGA" !important;
   }
 
+  .max-pga-text::before {
+    content: "PGA tối đa" !important;
+  }
+
+  .max-intensity-text::before {
+    content: "Cường độ tối đa" !important;
+  }
+
+  .station-pga-wrapper {
+    left: 8rem;
+  }
+
+  .current-station-pga {
+    width: 206px;
+  }
+
+  .current-station-info {
+    margin-right: -4px;
+  }
+
+  .current-station-loc {
+    font-size: 15px;
+  }
+
+  .current-station-intensity-pga {
+    font-size: 12px;
+  }
+
+  /** Fab Button **/
   .intensity-report::before {
     content: "Báo cáo cường độ" !important;
   }
@@ -110,6 +167,7 @@ html[lang="vi-VN"] {
     content: "Cảnh báo động đất" !important;
   }
 
+  /** Report **/
   .report-intensity-text::before {
     content: "Cường độ tối đa" !important;
   }
@@ -130,18 +188,31 @@ html[lang="vi-VN"] {
     content: "Tâm chấn đang được đánh giá" !important;
   }
 
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(135%);
+  }
+
+  .report-wrapper {
+    .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 10px;
+      }
+      .report-info-box {
+        .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  /** Intensity List **/
   .rts-intenisty-list-text::before {
     content: "Xếp hạng cường độ theo địa chấn" !important;
   }
 
-  .max-intensity-text::before {
-    content: "Cường độ tối đa" !important;
-  }
-
-  .max-pga-text::before {
-    content: "PGA tối đa" !important;
-  }
-
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "Lỗi kết nối mạng" !important;
   }
@@ -168,71 +239,7 @@ html[lang="vi-VN"] {
     }
   }
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
-
-  .info-time::after {
-    content: "";
-  }
-
-  .info-time::before {
-    content: "Diễn ra vào ngày ";
-  }
-
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(135%);
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .station-pga-wrapper {
-    left: 8rem;
-  }
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      & .report-info-box {
-        & .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
-  .current-station-pga {
-    width: 206px;
-  }
-
-  .current-station-info {
-    margin-right: -4px;
-  }
-  .current-station-loc {
-    font-size: 15px;
-  }
-  .current-station-intensity-pga {
-    font-size: 12px;
-  }
-
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "Sóng P" !important;
   }

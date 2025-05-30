@@ -1,10 +1,12 @@
 @import url("./rwd.css");
 
 html[lang="en-US"] {
+  /** Version Check **/
   .version-check-text::before {
     content: "New version" !important;
   }
 
+  /** Info Box **/
   .info-number {
     &:not(:empty)::before {
       content: "#" !important;
@@ -80,6 +82,32 @@ html[lang="en-US"] {
     content: "Depth" !important;
   }
 
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::before {
+    content: "Occurs on ";
+  }
+
+  .info-time::after {
+    content: "";
+  }
+
+  .info-wrapper {
+    .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  /** Station Pga Info **/
   .current-station-intensity-text::before {
     content: "Intensity" !important;
   }
@@ -87,6 +115,7 @@ html[lang="en-US"] {
     content: "PGA" !important;
   }
 
+  /** Fab Button **/
   .intensity-report::before {
     content: "Intensity report" !important;
   }
@@ -107,6 +136,7 @@ html[lang="en-US"] {
     content: "Earthquake warning" !important;
   }
 
+  /** Report **/
   .report-intensity-text::before {
     content: "Max Intensity" !important;
   }
@@ -127,10 +157,6 @@ html[lang="en-US"] {
     content: "Epicenter under assessment" !important;
   }
 
-  .rts-intenisty-list-text::before {
-    content: "Intensity ranking by seismicity" !important;
-  }
-
   .max-intensity-text::before {
     content: "Max Intensity" !important;
   }
@@ -139,6 +165,31 @@ html[lang="en-US"] {
     content: "Max PGA" !important;
   }
 
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(144%);
+  }
+
+  .report-wrapper {
+    .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+      .report-info-box {
+        .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  /** Intensity List **/
+  .rts-intenisty-list-text::before {
+    content: "Intensity ranking by seismicity" !important;
+  }
+
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "Network connection error" !important;
   }
@@ -165,59 +216,11 @@ html[lang="en-US"] {
     }
   }
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
-
-  .info-time::after {
-    content: "";
-  }
-
-  .info-time::before {
-    content: "Occurs on ";
-  }
-
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(144%);
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-    }
-  }
-
   .station-pga-wrapper {
     left: 7.1rem;
   }
 
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      & .report-info-box {
-        & .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
-
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "P Wave" !important;
   }

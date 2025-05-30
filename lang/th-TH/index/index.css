@@ -1,10 +1,12 @@
 @import url("./rwd.css");
 
 html[lang="th-TH"] {
+  /** Version Check **/
   .version-check-text::before {
     content: "เวอร์ชั่นใหม่" !important;
   }
 
+  /** Info Box **/
   .info-number {
     &:not(:empty)::before {
       content: "หมายเลข " !important;
@@ -80,6 +82,32 @@ html[lang="th-TH"] {
     content: "ลึก" !important;
   }
 
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::after {
+    content: "";
+  }
+
+  .info-time::before {
+    content: "เกิดขึ้นเมื่อวันที่ ";
+  }
+
+  .info-wrapper {
+    .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  /** Station Pga Info **/
   .current-station-intensity-text::before {
     content: "ความรุนแรงของ" !important;
   }
@@ -87,6 +115,33 @@ html[lang="th-TH"] {
     content: "PGA" !important;
   }
 
+  .max-intensity-text::before {
+    content: "ความรุนแรงของสูงสุด" !important;
+  }
+
+  .max-pga-text::before {
+    content: "รงของสูงสุดพีจีเอ" !important;
+  }
+
+  .station-pga-wrapper {
+    left: 9.3rem;
+  }
+
+  .current-station-intensity-pga {
+    flex-direction: column;
+  }
+
+  .current-station-pga {
+    width: 188px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .current-station-info {
+    width: auto !important;
+  }
+
+  /** Fab Button **/
   .intensity-report::before {
     content: "รายงานความรุนแรงของ" !important;
   }
@@ -107,6 +162,7 @@ html[lang="th-TH"] {
     content: "คำเตือนแผ่นดินไหว" !important;
   }
 
+  /** Report **/
   .report-intensity-text::before {
     content: "ความรุนแรงของสูงสุด" !important;
   }
@@ -128,18 +184,31 @@ html[lang="th-TH"] {
     font-size: 19px;
   }
 
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(131%);
+  }
+
+  .report-wrapper {
+    .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+      .report-info-box {
+        .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  /** Intensity List **/
   .rts-intenisty-list-text::before {
     content: "จัดอันดับความรุนแรงของตามภูมิภาค" !important;
   }
 
-  .max-intensity-text::before {
-    content: "ความรุนแรงของสูงสุด" !important;
-  }
-
-  .max-pga-text::before {
-    content: "รงของสูงสุดพีจีเอ" !important;
-  }
-
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "ข้อผิดพลาดการเชื่อมต่อเครือข่าย" !important;
   }
@@ -166,73 +235,7 @@ html[lang="th-TH"] {
     }
   }
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(131%);
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-    }
-  }
-
-  .station-pga-wrapper {
-    left: 9.3rem;
-  }
-
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      & .report-info-box {
-        & .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
-
-  .current-station-intensity-pga {
-    flex-direction: column;
-  }
-
-  .current-station-pga {
-    width: 188px !important;
-    display: flex;
-    align-items: center;
-  }
-
-  .current-station-info {
-    width: auto !important;
-  }
-
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
-
-  .info-time::after {
-    content: "";
-  }
-
-  .info-time::before {
-    content: "เกิดขึ้นเมื่อวันที่ ";
-  }
-
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "ตามยาว" !important;
   }

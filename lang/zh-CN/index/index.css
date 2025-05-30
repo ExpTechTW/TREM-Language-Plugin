@@ -1,6 +1,7 @@
 @import url("./rwd.css");
 
 html[lang="zh-CN"] {
+  /** Info Box **/
   .cancel-body span::before {
     content: "此地震速报已取消" !important;
   }
@@ -70,6 +71,7 @@ html[lang="zh-CN"] {
     content: "地震速报" !important;
   }
 
+  /** Report **/
   .report-intensity-text {
     font-size: 12px;
   }
@@ -92,6 +94,8 @@ html[lang="zh-CN"] {
   .max-intensity-text::before {
     content: "最大观测震度" !important;
   }
+
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "网路异常" !important;
   }
@@ -118,10 +122,7 @@ html[lang="zh-CN"] {
     }
   }
 
-  .info-time::after {
-    content: " 发震";
-  }
-
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "P波" !important;
   }
@@ -132,7 +133,7 @@ html[lang="zh-CN"] {
 
   .current-location-pwave-val.arrive:before,
   .current-location-swave-val.arrive:before {
-    content: "抵达" !important;
+    content: "到达" !important;
   }
 
   .current-location-pwave-val:not(:empty):after,

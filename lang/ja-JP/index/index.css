@@ -1,6 +1,7 @@
 @import url("./rwd.css");
 
 html[lang="ja-JP"] {
+  /** Info Box **/
   .cancel-title span::before {
     content: "キャンセル" !important;
   }
@@ -60,6 +61,7 @@ html[lang="ja-JP"] {
     content: "深さ" !important;
   }
 
+  /** Fab Button **/
   .earthquake-report::before {
     content: "地震レポート" !important;
   }
@@ -68,28 +70,43 @@ html[lang="ja-JP"] {
     content: "津波警報" !important;
   }
 
+  /** Report **/
   .report-intensity-text {
     font-size: 12px;
   }
+
   .report-intensity-text::before {
     content: "最大震度" !important;
   }
+
   .web-detection::before {
     content: "検知" !important;
   }
+
   .web-report::before {
     content: "レポート" !important;
   }
+
   .report-replay::before {
     content: "再生" !important;
   }
+
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(159%);
+    min-width: 200px;
+  }
+
+  /** Intensity List **/
   .rts-intenisty-list-text::before {
     content: "場所別震度ランキング" !important;
     font-size: 11px;
   }
+
   .max-intensity-text::before {
     content: "最大震度" !important;
   }
+
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "ネットワーク異常" !important;
   }
@@ -116,15 +133,7 @@ html[lang="ja-JP"] {
     }
   }
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(159%);
-    min-width: 200px;
-  }
-
-  .info-time::after {
-    content: "発生";
-  }
-
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "P波" !important;
   }

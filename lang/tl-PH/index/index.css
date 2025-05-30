@@ -1,10 +1,12 @@
 @import url("./rwd.css");
 
 html[lang="tl-PH"] {
+  /** Version Check Text **/
   .version-check-text::before {
     content: "Bagong bersyon" !important;
   }
 
+  /** Info Number **/
   .info-number {
     &:not(:empty)::before {
       content: "#" !important;
@@ -80,6 +82,32 @@ html[lang="tl-PH"] {
     content: "Lalim" !important;
   }
 
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::after {
+    content: "";
+  }
+
+  .info-time::before {
+    content: "Mangyayari sa ";
+  }
+
+  .info-wrapper {
+    .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  /** Station Pga Info **/
   .current-station-intensity-text::before {
     content: "Intensity" !important;
   }
@@ -87,6 +115,19 @@ html[lang="tl-PH"] {
     content: "PGA" !important;
   }
 
+  .max-intensity-text::before {
+    content: "Max Intensity" !important;
+  }
+
+  .station-pga-wrapper {
+    left: 7.1rem;
+  }
+
+  .max-pga-text::before {
+    content: "Max PGA" !important;
+  }
+
+  /** Fab Button **/
   .intensity-report::before {
     content: "Ulat ng intensity" !important;
   }
@@ -111,6 +152,7 @@ html[lang="tl-PH"] {
     content: "Max Intensity" !important;
   }
 
+  /** Report **/
   .web-detection::before {
     content: "Pagtuklas" !important;
   }
@@ -127,18 +169,31 @@ html[lang="tl-PH"] {
     content: "Epicenter sa ilalim ng pagtatasa" !important;
   }
 
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(125%);
+  }
+
+  .report-wrapper {
+    .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+      .report-info-box {
+        .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  /** Intensity List **/
   .rts-intenisty-list-text::before {
     content: "Intensity ranking ayon sa seismicity" !important;
   }
 
-  .max-intensity-text::before {
-    content: "Max Intensity" !important;
-  }
-
-  .max-pga-text::before {
-    content: "Max PGA" !important;
-  }
-
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "Error sa koneksyon sa network" !important;
   }
@@ -165,59 +220,7 @@ html[lang="tl-PH"] {
     }
   }
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
-
-  .info-time::after {
-    content: "";
-  }
-
-  .info-time::before {
-    content: "Mangyayari sa ";
-  }
-
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(125%);
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-    }
-  }
-
-  .station-pga-wrapper {
-    left: 7.1rem;
-  }
-
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      & .report-info-box {
-        & .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
-
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "P wave" !important;
   }

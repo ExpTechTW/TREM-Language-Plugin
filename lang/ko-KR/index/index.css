@@ -1,10 +1,12 @@
 @import url("./rwd.css");
 
 html[lang="ko-KR"] {
+  /** Version Check **/
   .version-check-text::before {
     content: "새 버전" !important;
   }
 
+  /** Info Box **/
   .info-number {
     &:not(:empty)::before {
       content: "#" !important;
@@ -80,6 +82,28 @@ html[lang="ko-KR"] {
     content: "깊이" !important;
   }
 
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::after {
+    content: "에 발생";
+  }
+
+  .info-wrapper {
+    & .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  /** Station Pga Info **/
   .current-station-intensity-text::before {
     content: "강도" !important;
   }
@@ -87,6 +111,15 @@ html[lang="ko-KR"] {
     content: "PGA" !important;
   }
 
+  .max-pga-text::before {
+    content: "최대 PGA" !important;
+  }
+
+  .max-intensity-text::before {
+    content: "최대 강도" !important;
+  }
+
+  /** Fab Button **/
   .intensity-report::before {
     content: "강도 보고서" !important;
   }
@@ -107,6 +140,7 @@ html[lang="ko-KR"] {
     content: "지진 경보" !important;
   }
 
+  /** Report **/
   .report-intensity-text::before {
     content: "최대 강도" !important;
   }
@@ -127,18 +161,12 @@ html[lang="ko-KR"] {
     content: "평가 중인 에픽센터" !important;
   }
 
+  /** Intensity List **/
   .rts-intenisty-list-text::before {
     content: "진도별 강도 순위" !important;
   }
 
-  .max-intensity-text::before {
-    content: "최대 강도" !important;
-  }
-
-  .max-pga-text::before {
-    content: "최대 PGA" !important;
-  }
-
+  /** Warning Message Box **/
   .internet-error .title:before {
     content: "네트워크 연결 오류" !important;
   }
@@ -167,26 +195,6 @@ html[lang="ko-KR"] {
 
   .report-wrapper {
     & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-    }
-  }
-
-  .station-pga-wrapper {
-    left: 6.9rem;
-  }
-
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
-
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
       & .report-info-box {
         & .report-info-item {
           .report-loc {
@@ -197,19 +205,19 @@ html[lang="ko-KR"] {
     }
   }
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
+  .report-wrapper {
+    & .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+    }
   }
 
-  .info-time::after {
-    content: "에 발생";
+  .station-pga-wrapper {
+    left: 6.9rem;
   }
 
+  /** Count Down Plugin **/
   .current-location-pwave-text:before {
     content: "P 웨이브" !important;
   }
