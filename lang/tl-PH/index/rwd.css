@@ -26,7 +26,7 @@ html[lang="tl-PH"] {
       min-width: 150px;
     }
     .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(123%) !important;
+      transform: translateX(107%) !important;
       min-width: 218px;
     }
     .report-box-item-wrapper.survey:first-child {

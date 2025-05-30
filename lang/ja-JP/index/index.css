@@ -138,22 +138,12 @@ html[lang="ja-JP"] {
     content: "到着" !important;
   }
 
-  .current-location-pwave-sec-text:before,
-  .current-location-swave-sec-text:before {
+  .current-location-pwave-val:not(:empty):after,
+  .current-location-swave-val:not(:empty):after {
     content: "秒" !important;
   }
 
-  .current-location-count-down {
-    max-height: unset !important;
-    height: auto !important;
-  }
-
-  .current-location-pwave-box,
-  .current-location-swave-box {
-    width: auto !important;
-  }
-
-  .current-location-pswave {
-    margin-top: 5px !important;
+  .current-location-intensity-text:before {
+    content: "震度" !important;
   }
 }

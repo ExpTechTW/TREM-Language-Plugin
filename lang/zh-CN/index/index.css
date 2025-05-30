@@ -134,4 +134,13 @@ html[lang="zh-CN"] {
   .current-location-swave-val.arrive:before {
     content: "抵达" !important;
   }
+
+  .current-location-pwave-val:not(:empty):after,
+  .current-location-swave-val:not(:empty):after {
+    content: "秒" !important;
+  }
+
+  .current-location-intensity-text:before {
+    content: "震度" !important;
+  }
 }

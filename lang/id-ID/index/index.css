@@ -228,32 +228,12 @@ html[lang="id-ID"] {
     content: "Kedatangan" !important;
   }
 
-  .current-location-pwave-sec-text:before,
-  .current-location-swave-sec-text:before {
+  .current-location-pwave-val:not(:empty):after,
+  .current-location-swave-val:not(:empty):after {
     content: "Detik" !important;
   }
 
-  .current-location-count-down {
-    max-height: unset !important;
-    width: auto !important;
-    height: auto !important;
-  }
-
-  .current-location-pwave-box,
-  .current-location-swave-box {
-    width: auto !important;
-  }
-
-  .current-location-pswave {
-    height: 50px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    margin-top: 5px !important;
-    gap: 2px !important;
-  }
-
-  .rts-intensity-list-wrapper {
-    right: 17rem;
-    min-width: 289px;
+  .current-location-intensity-text:before {
+    content: "Intensitas" !important;
   }
 }

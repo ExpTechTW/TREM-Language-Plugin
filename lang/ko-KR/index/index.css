@@ -223,31 +223,12 @@ html[lang="ko-KR"] {
     content: "도착" !important;
   }
 
-  .current-location-pwave-sec-text:before,
-  .current-location-swave-sec-text:before {
+  .current-location-pwave-val:not(:empty):after,
+  .current-location-swave-val:not(:empty):after {
     content: "초" !important;
   }
 
-  .current-location-count-down {
-    max-height: unset !important;
-    width: auto !important;
-    height: auto !important;
-  }
-
-  .current-location-pwave-box,
-  .current-location-swave-box {
-    width: auto !important;
-  }
-
-  .current-location-pswave {
-    height: 50px !important;
-    display: flex !important;
-    flex-direction: column !important;
-    margin-top: 5px !important;
-    gap: 2px !important;
-  }
-
-  .rts-intensity-list-wrapper {
-    min-width: 200px;
+  .current-location-intensity-text:before {
+    content: "강도" !important;
   }
 }
