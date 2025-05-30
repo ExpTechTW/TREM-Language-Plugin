@@ -166,8 +166,12 @@ html[lang="id-ID"] {
     content: "Episentrum yang sedang dikaji" !important;
   }
 
+  .rts-intensity-list-wrapper {
+    width: 13rem !important;
+  }
+
   .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(109%);
+    transform: translateX(153%);
   }
 
   .report-wrapper {
@@ -188,7 +192,6 @@ html[lang="id-ID"] {
   /** Intensity List **/
   .rts-intenisty-list-text::before {
     content: "Intensitas di Seluruh Wilayah berdasarkan peringkat" !important;
-    font-size: 11px;
   }
 
   /** Warning Message Box **/

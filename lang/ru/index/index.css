@@ -194,8 +194,12 @@ html[lang="ru"] {
     content: "Макс. PGA" !important;
   }
 
+  .rts-intensity-list-wrapper {
+    width: 13rem !important;
+  }
+
   .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(144%);
+    transform: translateX(153%);
   }
 
   .report-wrapper {

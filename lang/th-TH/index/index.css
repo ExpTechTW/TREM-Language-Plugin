@@ -184,8 +184,12 @@ html[lang="th-TH"] {
     font-size: 19px;
   }
 
+  .rts-intensity-list-wrapper {
+    width: 13rem !important;
+  }
+
   .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(131%);
+    transform: translateX(153%);
   }
 
   .report-wrapper {

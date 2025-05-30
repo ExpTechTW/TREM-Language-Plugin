@@ -22,7 +22,7 @@ html[lang="id-ID"] {
       width: 76px;
     }
     .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(93%) !important;
+      transform: translateX(130%) !important;
     }
     .report-box-item-wrapper.survey:first-child {
       .report-loc {

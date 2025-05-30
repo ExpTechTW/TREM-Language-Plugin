@@ -169,8 +169,12 @@ html[lang="tl-PH"] {
     content: "Epicenter sa ilalim ng pagtatasa" !important;
   }
 
+  .rts-intensity-list-wrapper {
+    width: 13rem !important;
+  }
+
   .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(125%);
+    transform: translateX(153%);
   }
 
   .report-wrapper {

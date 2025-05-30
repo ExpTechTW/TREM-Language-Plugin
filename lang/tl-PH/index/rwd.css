@@ -21,13 +21,8 @@ html[lang="tl-PH"] {
     .max-intensity {
       width: 76px;
     }
-    .rts-intensity-list-wrapper {
-      right: 17rem;
-      min-width: 150px;
-    }
     .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(107%) !important;
-      min-width: 218px;
+      transform: translateX(129%) !important;
     }
     .report-box-item-wrapper.survey:first-child {
       .report-loc {

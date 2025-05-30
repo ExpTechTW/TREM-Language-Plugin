@@ -32,7 +32,7 @@ html[lang="vi-VN"] {
     }
 
     .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(115%) !important;
+      transform: translateX(130%) !important;
     }
 
     .report-box-item-wrapper.survey:first-child {

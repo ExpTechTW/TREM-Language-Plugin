@@ -25,11 +25,8 @@ html[lang="ru"] {
     .max-intensity {
       width: auto;
     }
-    .rts-intensity-list-wrapper {
-      right: 17rem;
-    }
     .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(111%) !important;
+      transform: translateX(130%) !important;
     }
     .report-box-item-wrapper.survey:first-child {
       .report-loc {
