@@ -260,7 +260,7 @@ html[lang="th-TH"] {
       content: "EEW2 (เมื่อความเข้มข้นที่ประมาณไว้คือ " !important;
     }
     .special-text:before {
-      content: "5 ล่าง" !important;
+      content: "5-" !important;
     }
     &::after {
       content: " หรือสูงกว่า)" !important;

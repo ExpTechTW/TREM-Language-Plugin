@@ -259,7 +259,7 @@ html[lang="tl-PH"] {
       content: "EEW2 (kapag ang tinantyang intensity ay " !important;
     }
     .special-text:before {
-      content: "5 mas mababa" !important;
+      content: "5-" !important;
     }
     &::after {
       content: " o mas mataas)" !important;

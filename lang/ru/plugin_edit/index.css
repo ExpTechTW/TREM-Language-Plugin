@@ -1,0 +1,32 @@
+html[lang="ru"] {
+  .visual-editor-title:before {
+    content: "Визуальный редактор" !important;
+  }
+  .btn-remove:before {
+    content: "Удалить" !important;
+  }
+  .btn-add:before {
+    content: "Добавить элемент" !important;
+  }
+  .root::before {
+    content: "Новые поля корневого уровня" !important;
+  }
+  .json-error:before {
+    content: "Ошибка формата JSON" !important;
+  }
+  .yaml-transfer-error:before {
+    content: "Ошибка преобразования YAML" !important;
+  }
+  .yaml-extract-error:before {
+    content: "Ошибка анализа YAML" !important;
+  }
+  .auto-save-success:before {
+    content: "Автосохранение выполнено успешно" !important;
+  }
+  .auto-save-error:before {
+    content: "Ошибка автоматического сохранения" !important;
+  }
+  .load-error:before {
+    content: "Ошибка чтения" !important;
+  }
+}

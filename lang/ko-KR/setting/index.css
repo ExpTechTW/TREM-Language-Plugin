@@ -257,7 +257,7 @@ html[lang="ko-KR"] {
       content: "EEW2(예상 강도가 " !important;
     }
     .special-text:before {
-      content: "5 보다" !important;
+      content: "5-" !important;
     }
     &::after {
       content: "  낮거나 높은 경우)" !important;

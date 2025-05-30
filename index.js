@@ -17,6 +17,7 @@ class Plugin {
       { value: "id-ID", text: "Bahasa Indonesia" },
       { value: "th-TH", text: "ภาษาไทย" },
       { value: "tl-PH", text: "Tagalog" },
+      { value: "ru", text: "русский язык" },
     ];
     this.msgClassMap = {
       "no-certificate": {

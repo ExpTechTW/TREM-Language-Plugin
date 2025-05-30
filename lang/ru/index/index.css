@@ -1,0 +1,270 @@
+@import url("./rwd.css");
+
+html[lang="ru"] {
+  /** Version Check **/
+  .version-check-text::before {
+    content: "Новая версия" !important;
+  }
+
+  /** Info Box **/
+  .info-number {
+    &:not(:empty)::before {
+      content: "#" !important;
+    }
+    &:not(:empty)::after {
+      content: "" !important;
+    }
+  }
+
+  .cancel-title span::before {
+    content: "Отмена" !important;
+  }
+
+  .cancel-body span::before {
+    content: "Предупреждение о землетрясении отменено." !important;
+  }
+
+  .no-eew.rts-trigger-low .info-unit::after {
+    content: "Низко " !important;
+  }
+
+  .no-eew.rts-trigger-middle .info-unit::after {
+    content: "Earthquake weak response " !important;
+  }
+
+  .no-eew.rts-trigger-high .info-unit::after {
+    content: "Strong earthquake detection " !important;
+  }
+
+  .eew-cancel .info-unit::before {
+    content: "Отмена " !important;
+  }
+
+  .eew-warn .info-unit::before {
+    content: "Предупреждение " !important;
+  }
+
+  .eew-alert .info-unit::before {
+    content: "Предупреждающее оповещение " !important;
+  }
+
+  .eew-rts .info-unit::before {
+    content: "Одноточечное обнаружение землетрясений " !important;
+  }
+
+  .info-cancel-last::after {
+    content: "(Отмена)" !important;
+  }
+
+  .info-number-last::after {
+    content: "(Финал)" !important;
+  }
+
+  .no-eew .info-unit::after {
+    content: "Нет предупреждения о землетрясении" !important;
+  }
+
+  .info-intensity::after {
+    content: "Макс." !important;
+  }
+
+  .info-nsspe span::before {
+    content: "NSSPE" !important;
+  }
+
+  .info-mag-text::after,
+  .report-box-item-wrapper:first-child .report-mag-text::after {
+    content: "величина" !important;
+  }
+
+  .info-depth-text::after,
+  .report-depth-text::after {
+    content: "Глубина" !important;
+  }
+
+  .intensity-0:not(
+      #max-intensity,
+      #max-pga,
+      #current-station-intensity,
+      .rts-intensity
+    )::after {
+    content: "?";
+  }
+
+  .info-time::before {
+    content: "Происходит ";
+  }
+
+  .info-time::after {
+    content: "";
+  }
+
+  .info-wrapper {
+    .info-title-wrapper {
+      .info-intensity {
+        font-size: 10px;
+      }
+    }
+  }
+
+  /** Station Pga Info **/
+  .station-pga-wrapper {
+    margin-left: 20px;
+  }
+
+  .current-station-intensity-text::before {
+    content: "Интенсивность" !important;
+  }
+
+  .current-station-pga-text::before {
+    content: "PGA" !important;
+  }
+
+  .current-station-intensity-pga {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .max-intensity-text {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .current-station-pga {
+    display: flex !important;
+    align-items: center !important;
+    width: 200px !important;
+  }
+
+  .current-station-info {
+    width: auto !important;
+  }
+
+  /** Fab Button **/
+  .intensity-report::before {
+    content: "Отчет об интенсивности" !important;
+  }
+
+  .source-report::before {
+    content: "Отчет о гипоцентре землетрясения" !important;
+  }
+
+  .earthquake-report::before {
+    content: "Отчет о землетрясении" !important;
+  }
+
+  .tsunami-warning::before {
+    content: "Предупреждение о цунами" !important;
+  }
+
+  .earthquake-warning::before {
+    content: "Предупреждение о землетрясении" !important;
+  }
+
+  /** Report **/
+  .report-intensity-text::before {
+    content: "Макс" !important;
+  }
+
+  .web-detection::before {
+    content: "Обнаружение" !important;
+  }
+
+  .web-report::before {
+    content: "Отчет" !important;
+  }
+
+  .report-replay::before {
+    content: "Повторить" !important;
+  }
+
+  .report-box-items .survey .report-loc:before {
+    content: "Эпицентр в стадии оценки" !important;
+  }
+
+  .max-intensity-text::before {
+    content: "Макс" !important;
+  }
+
+  .max-intensity-text::after {
+    content: "Интенсивность" !important;
+  }
+
+  .max-pga-text::before {
+    content: "Макс. PGA" !important;
+  }
+
+  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
+    transform: translateX(144%);
+  }
+
+  .report-wrapper {
+    .report-box-item-wrapper:first-child {
+      .report-intensity-text {
+        font-size: 12px;
+      }
+      .report-info-box {
+        .report-info-item {
+          .report-loc {
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  /** Intensity List **/
+  .rts-intenisty-list-text::before {
+    content: "Рейтинг интенсивности по сейсмичности" !important;
+  }
+
+  /** Warning Message Box **/
+  .internet-error .title:before {
+    content: "Ошибка сетевого подключения" !important;
+  }
+
+  .unstable .title:before {
+    content: "Нестабильный" !important;
+  }
+
+  .unstable .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Пункты наблюдения могут быть" !important;
+    }
+    &:nth-child(2)::before {
+      content: "нестабильны из-за сейсмической активности" !important;
+    }
+  }
+
+  .internet-error .warning-message-text span {
+    &:nth-child(1)::before {
+      content: "Ошибка сетевого подключения" !important;
+    }
+    &:nth-child(2)::before {
+      content: "повторите попытку позже" !important;
+    }
+  }
+
+  /** Count Down Plugin **/
+  .current-location-pwave-text:before {
+    content: "Зубец P" !important;
+  }
+
+  .current-location-swave-text:before {
+    content: "Зубец S" !important;
+  }
+
+  .current-location-pwave-val.arrive:before,
+  .current-location-swave-val.arrive:before {
+    content: "Прибытие" !important;
+  }
+
+  .current-location-pwave-val:not(:empty):after,
+  .current-location-swave-val:not(:empty):after {
+    content: "секунд" !important;
+  }
+
+  .current-location-intensity-text:before {
+    content: "Интенсивность" !important;
+  }
+}

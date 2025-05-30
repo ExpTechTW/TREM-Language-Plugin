@@ -260,7 +260,7 @@ html[lang="vi-VN"] {
       content: "EEW2 (Khi cường độ ước tính là " !important;
     }
     .special-text:before {
-      content: "5 yếu" !important;
+      content: "5-" !important;
     }
     &::after {
       content: " hoặc cao hơn)" !important;

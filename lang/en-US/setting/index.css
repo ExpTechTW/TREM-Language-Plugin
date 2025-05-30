@@ -259,7 +259,7 @@ html[lang="en-US"] {
       content: "EEW2 (when an estimated intensity is " !important;
     }
     .special-text:before {
-      content: "5 lower" !important;
+      content: "5-" !important;
     }
     &::after {
       content: " or higher)" !important;
