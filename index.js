@@ -38,7 +38,9 @@ class Plugin {
           "th-TH":
             "ไม่พบใบรับรองที่ถูกต้อง และคุณควรปิดใช้งานส่วนขยายนี้ทันที เว้นแต่คุณจะเชื่อถือแหล่งที่มาของส่วนขยายนี้",
           "tl-PH":
-            "Walang validong sertipikado at dapat mo i-deactivate ang extension na ito sa immediate na kapag walang inyong tinatawag na tinaguri ang pinagkukunan ng extension na ito.",
+            "Walang nakitang valid na certificate at dapat mong i-deactivate kaagad ang extension na ito maliban kung pinagkakatiwalaan mo ang pinagmulan ng extension na ito.",
+          "ru":
+            "Действительный сертификат не найден, и вам следует немедленно деактивировать это расширение, если вы не доверяете источнику этого расширения.",
         },
       },
       "version-low-greater": {
@@ -59,8 +61,10 @@ class Plugin {
             "Setidaknya versi TREM-Lite >={requiredVersion} diperlukan, tetapi versi yang terinstal saat ini adalah {installedVersion}.",
           "th-TH":
             "อย่างน้อยต้องมีเวอร์ชัน TREM-Lite >={requiredVersion} แต่เวอร์ชันที่ติดตั้งในปัจจุบันคือ {installedVersion}",
-          "tl-PH":
-            "Kailangan ang pinakamababangers TREM-Lite >={requiredVersion}, ngunit ang pinagkukunan na naka-install sa kasalukuyan ay {installedVersion}.",
+          "ti-PH":
+            "Hindi bababa sa TREM-Lite na bersyon >={requiredVersion} ang kinakailangan, ngunit ang kasalukuyang naka-install na bersyon ay {installedVersion}.",
+          "ru":
+            "Требуется как минимум версия TREM-Lite >={requiredVersion}, но в настоящее время установлена ​​версия {installedVersion}.",
         },
       },
       "version-low-equal": {
@@ -81,8 +85,10 @@ class Plugin {
             "Setidaknya versi TREM-Lite ={requiredVersion} diperlukan, tetapi versi yang terinstal saat ini adalah {installedVersion}.",
           "th-TH":
             "อย่างน้อยต้องมีเวอร์ชัน TREM-Lite ={requiredVersion} แต่เวอร์ชันที่ติดตั้งในปัจจุบันคือ {installedVersion}",
-          "tl-PH":
-            "Kailangan ang pinakamababangers TREM-Lite ={requiredVersion}, ngunit ang pinagkukunan na naka-install sa kasalukuyan ay {installedVersion}.",
+          "ti-PH":
+            "Hindi bababa sa TREM-Lite na bersyon ={requiredVersion} ang kinakailangan, ngunit ang kasalukuyang naka-install na bersyon ay {installedVersion}.",
+          "ru":
+            "Требуется как минимум версия TREM-Lite ={requiredVersion}, но в настоящее время установлена ​​версия {installedVersion}.",
         },
       },
       "missing-dependencies": {
@@ -95,7 +101,8 @@ class Plugin {
           "vi-VN": "Thiếu các phụ thuộc {requiredDependencies}.",
           "id-ID": "Dependensi {requiredDependencies} hilang.",
           "th-TH": "ขาดการอ้างอิง {requiredDependencies}",
-          "tl-PH": "Kailangan ang {requiredDependencies}.",
+          "ti-PH": "Nawawalang {requiredDependencies} dependencies.",
+          "ru": "Missing {requiredDependencies} dependencies.",
         },
       },
       "init-error": {
@@ -111,8 +118,10 @@ class Plugin {
             "Khởi tạo không thành công, vui lòng liên hệ với tác giả của tiện ích mở rộng.",
           "id-ID": "Inisialisasi gagal, silakan hubungi pembuat ekstensi.",
           "th-TH": "การเริ่มต้นล้มเหลว โปรดติดต่อผู้เขียนส่วนขยาย",
-          "tl-PH":
-            "Nabigo ang pag-init, mag-contact sa tagapag-unlad ng extension.",
+          "ti-PH":
+            "Nabigo ang pagsisimula, mangyaring makipag-ugnayan sa may-akda ng extension.",
+          "ru":
+            "Инициализация не удалась, обратитесь к автору расширения.",
         },
       },
       "not-enabled": {
@@ -125,7 +134,8 @@ class Plugin {
           "vi-VN": "Chưa được kích hoạt.",
           "id-ID": "Tidak diaktifkan.",
           "th-TH": "ไม่ได้เปิดใช้งาน",
-          "tl-PH": "Hindi pinagana.",
+          "ti-PH": "Hindi pinagana.",
+          "ru": "Не включено.",
         },
       },
     };
