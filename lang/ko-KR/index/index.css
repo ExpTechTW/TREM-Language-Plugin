@@ -1,242 +1,220 @@
 @import url("./rwd.css");
 
-html[lang="ko-KR"] {
-  /** Version Check **/
-  .version-check-text::before {
-    content: "새 버전" !important;
-  }
+/** Version Check **/
+html[lang="ko-KR"] .version-check-text::before {
+  content: "새 버전" !important;
+}
 
-  /** Info Box **/
-  .info-number {
-    &:not(:empty)::before {
-      content: "#" !important;
-    }
-    &:not(:empty)::after {
-      content: "" !important;
-    }
-  }
+/** Info Box **/
+html[lang="ko-KR"] .info-number:not(:empty)::before {
+  content: "#" !important;
+}
 
-  .cancel-title span::before {
-    content: "취소" !important;
-  }
+html[lang="ko-KR"] .info-number:not(:empty)::after {
+  content: "" !important;
+}
 
-  .cancel-body span::before {
-    content: "지진 경보가 해제되었습니다." !important;
-  }
+html[lang="ko-KR"] .cancel-title span::before {
+  content: "취소" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "낮음 " !important;
-  }
+html[lang="ko-KR"] .cancel-body span::before {
+  content: "지진 경보가 해제되었습니다." !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "지진에 취약한 대응 " !important;
-  }
+html[lang="ko-KR"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "낮음 " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "강력한 지진 감지 " !important;
-  }
+html[lang="ko-KR"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "지진에 취약한 대응 " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "취소 " !important;
-  }
+html[lang="ko-KR"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "강력한 지진 감지 " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "경고 " !important;
-  }
+html[lang="ko-KR"] .eew-cancel .info-unit::before {
+  content: "취소 " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "경고 알림 " !important;
-  }
+html[lang="ko-KR"] .eew-warn .info-unit::before {
+  content: "경고 " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "단일 지점 지진 감지 " !important;
-  }
+html[lang="ko-KR"] .eew-alert .info-unit::before {
+  content: "경고 알림 " !important;
+}
 
-  .info-cancel-last::after {
-    content: "(취소)" !important;
-  }
+html[lang="ko-KR"] .eew-rts .info-unit::before {
+  content: "단일 지점 지진 감지 " !important;
+}
 
-  .info-number-last::after {
-    content: "(최종)" !important;
-  }
+html[lang="ko-KR"] .info-cancel-last::after {
+  content: "(취소)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "지진 경보 없음" !important;
-  }
+html[lang="ko-KR"] .info-number-last::after {
+  content: "(최종)" !important;
+}
 
-  .info-intensity::after {
-    content: "최대 강도 추정" !important;
-  }
+html[lang="ko-KR"] .no-eew .info-unit::after {
+  content: "지진 경보 없음" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE" !important;
-  }
+html[lang="ko-KR"] .info-intensity::after {
+  content: "최대 강도 추정" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "크기" !important;
-  }
+html[lang="ko-KR"] .info-nsspe span::before {
+  content: "NSSPE" !important;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "깊이" !important;
-  }
+html[lang="ko-KR"] .info-mag-text::after,
+html[lang="ko-KR"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "크기" !important;
+}
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
+html[lang="ko-KR"] .info-depth-text::after,
+html[lang="ko-KR"] .report-depth-text::after {
+  content: "깊이" !important;
+}
 
-  .info-time::after {
-    content: "에 발생";
-  }
+html[lang="ko-KR"] .intensity-0:not(#max-intensity,
+  #max-pga,
+  #current-station-intensity,
+  .rts-intensity)::after {
+  content: "?";
+}
 
-  .info-wrapper {
-    & .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
+html[lang="ko-KR"] .info-time::after {
+  content: "에 발생";
+}
 
-  /** Station Pga Info **/
-  .current-station-intensity-text::before {
-    content: "강도" !important;
-  }
-  .current-station-pga-text::before {
-    content: "PGA" !important;
-  }
+html[lang="ko-KR"] .info-wrapper .info-title-wrapper .info-intensity {
+  font-size: 10px;
+}
 
-  .max-pga-text::before {
-    content: "최대 PGA" !important;
-  }
+/** Station Pga Info **/
+html[lang="ko-KR"] .current-station-intensity-text::before {
+  content: "강도" !important;
+}
 
-  .max-intensity-text::before {
-    content: "최대 강도" !important;
-  }
+html[lang="ko-KR"] .current-station-pga-text::before {
+  content: "PGA" !important;
+}
 
-  /** Fab Button **/
-  .intensity-report::before {
-    content: "강도 보고서" !important;
-  }
+html[lang="ko-KR"] .max-pga-text::before {
+  content: "최대 PGA" !important;
+}
 
-  .source-report::before {
-    content: "지진 진원지 보고서" !important;
-  }
+html[lang="ko-KR"] .max-intensity-text::before {
+  content: "최대 강도" !important;
+}
 
-  .earthquake-report::before {
-    content: "지진 보고서" !important;
-  }
+/** Fab Button **/
+html[lang="ko-KR"] .intensity-report::before {
+  content: "강도 보고서" !important;
+}
 
-  .tsunami-warning::before {
-    content: "쓰나미 경보" !important;
-  }
+html[lang="ko-KR"] .source-report::before {
+  content: "지진 진원지 보고서" !important;
+}
 
-  .earthquake-warning::before {
-    content: "지진 경보" !important;
-  }
+html[lang="ko-KR"] .earthquake-report::before {
+  content: "지진 보고서" !important;
+}
 
-  /** Report **/
-  .report-intensity-text::before {
-    content: "최대 강도" !important;
-  }
+html[lang="ko-KR"] .tsunami-warning::before {
+  content: "쓰나미 경보" !important;
+}
 
-  .web-detection::before {
-    content: "탐지" !important;
-  }
+html[lang="ko-KR"] .earthquake-warning::before {
+  content: "지진 경보" !important;
+}
 
-  .web-report::before {
-    content: "신고" !important;
-  }
+/** Report **/
+html[lang="ko-KR"] .report-intensity-text::before {
+  content: "최대 강도" !important;
+}
 
-  .report-replay::before {
-    content: "재생" !important;
-  }
+html[lang="ko-KR"] .web-detection::before {
+  content: "탐지" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "평가 중인 에픽센터" !important;
-  }
+html[lang="ko-KR"] .web-report::before {
+  content: "신고" !important;
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "진도별 강도 순위" !important;
-  }
+html[lang="ko-KR"] .report-replay::before {
+  content: "재생" !important;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "네트워크 연결 오류" !important;
-  }
+html[lang="ko-KR"] .report-box-items .survey .report-loc:before {
+  content: "평가 중인 에픽센터" !important;
+}
 
-  .unstable .title:before {
-    content: "불안정" !important;
-  }
+/** Intensity List **/
+html[lang="ko-KR"] .rts-intenisty-list-text::before {
+  content: "진도별 강도 순위" !important;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "지진 활동으로 인해 관측" !important;
-    }
-    &:nth-child(2)::before {
-      content: "지점이 불안정할 수 있습니다" !important;
-    }
-  }
+/** Warning Message Box **/
+html[lang="ko-KR"] .internet-error .title:before {
+  content: "네트워크 연결 오류" !important;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "네트워크 연결 오류가 발생했습니다" !important;
-    }
-    &:nth-child(2)::before {
-      content: "나중에 다시 시도하세요." !important;
-    }
-  }
+html[lang="ko-KR"] .unstable .title:before {
+  content: "불안정" !important;
+}
 
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      & .report-info-box {
-        & .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
+html[lang="ko-KR"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "지진 활동으로 인해 관측" !important;
+}
 
-  .report-wrapper {
-    & .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-    }
-  }
+html[lang="ko-KR"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "지점이 불안정할 수 있습니다" !important;
+}
 
-  .station-pga-wrapper {
-    left: 6.9rem;
-  }
+html[lang="ko-KR"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "네트워크 연결 오류가 발생했습니다" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "P 웨이브" !important;
-  }
+html[lang="ko-KR"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "나중에 다시 시도하세요." !important;
+}
 
-  .current-location-swave-text:before {
-    content: "S 웨이브" !important;
-  }
+html[lang="ko-KR"] .report-wrapper .report-box-item-wrapper:first-child .report-info-box .report-info-item .report-loc {
+  font-size: 24px;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "도착" !important;
-  }
+html[lang="ko-KR"] .report-wrapper .report-box-item-wrapper:first-child .report-intensity-text {
+  font-size: 12px;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "초" !important;
-  }
+html[lang="ko-KR"] .station-pga-wrapper {
+  left: 6.9rem;
+}
 
-  .current-location-intensity-text:before {
-    content: "강도" !important;
-  }
+/** Count Down Plugin **/
+html[lang="ko-KR"] .current-location-pwave-text:before {
+  content: "P 웨이브" !important;
+}
+
+html[lang="ko-KR"] .current-location-swave-text:before {
+  content: "S 웨이브" !important;
+}
+
+html[lang="ko-KR"] .current-location-pwave-val.arrive:before,
+html[lang="ko-KR"] .current-location-swave-val.arrive:before {
+  content: "도착" !important;
+}
+
+html[lang="ko-KR"] .current-location-pwave-val:not(:empty):after,
+html[lang="ko-KR"] .current-location-swave-val:not(:empty):after {
+  content: "초" !important;
+}
+
+html[lang="ko-KR"] .current-location-intensity-text:before {
+  content: "강도" !important;
 }

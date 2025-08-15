@@ -1,323 +1,407 @@
-html[lang="ru"] {
-  .button[for="general"]:before,
-  .general .setting-page-header-title::before {
-    content: "Общий" !important;
-  }
-  .button[for="graphics"]:before,
-  .graphics-header-title:before {
-    content: "Графика" !important;
-  }
-  .button[for="sound-effects"]:before,
-  .sound-effects-header-title::before {
-    content: "Звуковые эффекты" !important;
-  }
-  .button[for="extended"]:before,
-  .extended-header-title:before {
-    content: "Расширенный" !important;
-  }
-  .button[for="info"]:before,
-  .info-header-title::before {
-    content: "Информация" !important;
-  }
-  .location-title::before {
-    content: "Расположение" !important;
-  }
-  .location-description::before {
-    content: "Указание местоположения позволяет оценить интенсивность землетрясения в вашем районе, когда оно произойдет." !important;
-  }
-  .rts-station-title::before {
-    content: "Станция реального времени" !important;
-  }
-  .rts-station-description::before {
-    content: "Сейсмическая станция в реальном времени, которая отображается в левом верхнем углу главного экрана." !important;
-  }
-  .warning-title::before {
-    content: "Условия раннего предупреждения" !important;
-  }
-  .warning-description::before {
-    content: "Непосредственная сейсмическая станция (любая сейсмическая станция) — это порог интенсивности любой станции на момент срабатывания, а предполагаемая интенсивность (местоположение) — это порог интенсивности местоположения на момент предупреждения о землетрясении, и программное обеспечение издаст звуковой эффект и выведет всплывающее окно при выполнении любого из следующих условий." !important;
-  }
-  .current-realtime-station::before {
-    content: "Сейсмическая станция в реальном времени (любая сейсмическая станция) " !important;
-  }
-  .current-estimate-intensity::before {
-    content: "Расчетная интенсивность (местоположение)" !important;
-  }
-  .show-window-title::before {
-    content: "Показать окно программы" !important;
-  }
-  .show-window-description::before {
-    content: "Окно отображения автоматической программы" !important;
-  }
-  .trem-eew-title::before {
-    content: "TREM EEW" !important;
-  }
-  .trem-eew-description::before {
-    content: "TREM-EEW — это раннее предупреждение о землетрясении, рассчитанное с использованием сети наблюдения TREM-Net. Данные в реальном времени не являются общедоступными, обычные пользователи могут увидеть эффект в повторе (через 5 минут после землетрясения) после." !important;
-  }
-  .other-function-title::before {
-    content: "Другие особенности" !important;
-  }
-  .other-function-description::before {
-    content: "Здесь собраны небольшие функции, которые TREM Lite использует нечасто." !important;
-  }
-  .auto-start::before {
-    content: "Программа автоматического запуска (Windows)" !important;
-  }
-  .tts::before {
-    content: "Преобразование текста в речь (традиционный китайский)" !important;
-  }
-  .earthquake-eew::before {
-    content: "Предупреждение о землетрясении" !important;
-  }
-  .earthquake-report::before {
-    content: "Отчет о землетрясении" !important;
-  }
-  .earthquake-detect::before {
-    content: "Обнаружение землетрясений" !important;
-  }
-  .rts-intensity::before {
-    content: "Интенсивность в реальном времени" !important;
-  }
-  .get-trem-eew::before {
-    content: "Получить TREM EEW" !important;
-  }
-  .reset-button::before,
-  .reset-setting-title::before {
-    content: "Сбросить" !important;
-  }
-  .reset-setting::before {
-    content: "Сбросить все настройки" !important;
-  }
-  .auto-zoom-title::before {
-    content: "Автоматическое масштабирование карты" !important;
-  }
-  .auto-zoom-description::before {
-    content: "Автоматическое масштабирование карты по умолчанию отключено." !important;
-  }
-  .block-auto-zoom::before {
-    content: "Отключить автоматическое масштабирование карты" !important;
-  }
-  .effects-dong-title::before {
-    content: "Раннее предупреждение" !important;
-  }
-  .effects-dong-description::before {
-    content: "Когда происходит землетрясение, он передает предполагаемую магнитуду места и количество секунд, оставшихся до прибытия сейсмической волны." !important;
-  }
-  .dong-dong::before {
-    content: "Звуковой эффект (работает только при наличии обратного отсчета)" !important;
-  }
-  .sound-effects-list-title::before {
-    content: "Список звуковых эффектов" !important;
-  }
-  .sound-effects-list-description::before {
-    content: "Включение или выключение определенных звуковых эффектов" !important;
-  }
-  .extended-list-title:before {
-    content: "Расширения" !important;
-  }
-  .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before {
-    content: "Использование расширений из неизвестных или ненадежных источников может поставить под угрозу безопасность вашей личной информации, поэтому, пожалуйста, будьте осторожны." !important;
-  }
-  .extended-list-descriptions:empty::before {
-    content: "Выберите включенные расширения, расширения будут загружены при запуске программы." !important;
-  }
-  .extended-setting-button::before {
-    content: "Параметр" !important;
-  }
-  .verified-badge::before {
-    content: "Проверено" !important;
-  }
-  .unverified-badge::before {
-    content: "непроверено" !important;
-  }
-  .loaded-badge::before {
-    content: "Загружено" !important;
-  }
-  .unloaded-badge::before {
-    content: "выгружено" !important;
-  }
-  .success.message-box:before {
-    content: "Операция выполнена успешно, пожалуйста, закройте окно настроек и примените их!" !important;
-  }
-  .failed.message-box:before {
-    content: "Операция провалилась!" !important;
-  }
-  .success-download.message-box:before {
-    content: "Загрузка прошла успешно, пожалуйста, закройте окно настроек и примените их!" !important;
-  }
-  .extended-store:before {
-    content: "Магазин TREM Expanded" !important;
-  }
-  .extended-download-button::before {
-    content: "Скачать" !important;
-  }
-  .extended-download-button.downloading::before {
-    content: "Загрузка..." !important;
-  }
-  .extended-download-button.downloaded::before {
-    content: "Загрузка прошла успешно" !important;
-    font-size: 11px;
-  }
-  .extended-update-button::before {
-    content: "Обновлять" !important;
-  }
-  .extended-latest-button::before {
-    content: "Последняя версия" !important;
-  }
-  .p-alert::before {
-    content: "P-Alert (при получении интенсивности, близкой к реальному времени)" !important;
-  }
-  .report::after {
-    content: "Отчет (при получении отчета о землетрясении)" !important;
-  }
-  .update::before {
-    content: "Update (when an earthquake warning is corrected)" !important;
-  }
-  .info-trem-lite::before {
-    content: "Об TREM Lite" !important;
-  }
-  .info-trem-description::before {
-    content: "TREM-Lite — это программное обеспечение с открытым исходным кодом для быстрого оповещения о землетрясениях, которое предоставляет вам информацию о землетрясениях в режиме реального времени, используя собственные сейсмические станции для отображения сейсмической активности различных мест в режиме реального времени и получая предупреждающие сообщения о сильных землетрясениях в режиме реального времени, передаваемые по различным каналам при первом возникновении землетрясения." !important;
-  }
-  .app-version-title::before {
-    content: "Версия программы" !important;
-  }
-  .system-os-title::before {
-    content: "Версия системы" !important;
-  }
-  .source-title::before {
-    content: "Источник данных" !important;
-  }
-  .source-eew::before {
-    content: "Оповещение о землетрясении" !important;
-  }
-  .source-cwa::before {
-    content: "Central Weather Administration (CWA)" !important;
-  }
-  .source-shindo::before {
-    content: "Интенсивность" !important;
-  }
-  .source-sinica::before {
-    content: "Academia Sinica (SINICA)" !important;
-  }
-  .source-trem::before {
-    content: "Taiwan Real-time Earthquake Monitor (TREM)" !important;
-  }
-  .contributor-title::before {
-    content: "Вкладчик" !important;
-  }
-  .contributor-description::before {
-    content: "Спасибо следующему Вкладчику за то, что он сделал возможным появление TREM Lite." !important;
-  }
-  .reset .confirm-title::before {
-    content: "Вы уверены, что хотите сбросить настройки? После сброса вы не сможете вернуться." !important;
-  }
-  .extendedOpen .confirm-title::before {
-    content: "Вы уверены, что хотите включить расширение " !important;
-  }
-  .extendedOpen .confirm-title::after {
-    content: " ? Использование расширений из неизвестных или ненадежных источников может поставить под угрозу безопасность вашей личной информации." !important;
-  }
-  .confirm-sure:empty::before {
-    content: "Sure" !important;
-  }
-  .confirm-sure:not(:empty)::after {
-    content: " секунд" !important;
-  }
-  .confirm-cancel::before {
-    content: "Отмена" !important;
-  }
-  .current:empty:before {
-    content: "Не установлено" !important;
-  }
-  .extended-list-button[for="extended-state-list"]:before {
-    content: "Расширенный статус" !important;
-  }
-  .extended-list-button[for="extended-installed-list"]:before {
-    content: "Расширенный список" !important;
-  }
-  .extended-list-button[for="extended-store-list"]:before {
-    content: "Расширенный магазин" !important;
-  }
-  .eew-1::before {
-    content: "EEW (при получении предупреждения о землетрясении)" !important;
-  }
-  .copy-debug-log:before {
-    content: "Копировать журнал отладки" !important;
-  }
-  .success-copy.message-box:before {
-    content: "Копирование успешно!" !important;
-  }
-  .success-failed.message-box:before {
-    content: "Ошибка копирования!" !important;
-  }
+html[lang="ru"] .button[for="general"]:before,
+html[lang="ru"] .general .setting-page-header-title::before {
+  content: "Общий" !important;
+}
 
-  .eew-2 {
-    &::before {
-      content: "EEW2 (когда предполагаемая интенсивность " !important;
-    }
-    .special-text:before {
-      content: "5-" !important;
-    }
-    &::after {
-      content: "или выше)" !important;
-    }
-  }
-  .pga-1 {
-    &::before {
-      content: "PGA1 (когда пиковое ускорение грунта составляет" !important;
-    }
-    .special-text:before {
-      content: "8 gal" !important;
-    }
-    &::after {
-      content: " или выше)" !important;
-    }
-  }
-  .pga-2 {
-    &::before {
-      content: "PGA2 (когда пиковое ускорение грунта составляет" !important;
-    }
-    .special-text:before {
-      content: "200 gal" !important;
-    }
-    &::after {
-      content: " или выше)" !important;
-    }
-  }
-  .shindo-0 {
-    &::before {
-      content: "Shindo0 (когда интенсивность обнаружения равна" !important;
-    }
-    .special-text:before {
-      content: "0" !important;
-    }
-    &::after {
-      content: " или выше)" !important;
-    }
-  }
-  .shindo-1 {
-    &::before {
-      content: "Shindo1 (когда интенсивность обнаружения равна" !important;
-    }
-    .special-text:before {
-      content: "2" !important;
-    }
-    &::after {
-      content: " или выше)" !important;
-    }
-  }
-  .shindo-2 {
-    &::before {
-      content: "Shindo2 (когда интенсивность обнаружения равна" !important;
-    }
-    .special-text:before {
-      content: "4" !important;
-    }
-    &::after {
-      content: " или выше)" !important;
-    }
-  }
+html[lang="ru"] .button[for="graphics"]:before,
+html[lang="ru"] .graphics-header-title:before {
+  content: "Графика" !important;
+}
+
+html[lang="ru"] .button[for="sound-effects"]:before,
+html[lang="ru"] .sound-effects-header-title::before {
+  content: "Звуковые эффекты" !important;
+}
+
+html[lang="ru"] .button[for="extended"]:before,
+html[lang="ru"] .extended-header-title:before {
+  content: "Расширенный" !important;
+}
+
+html[lang="ru"] .button[for="info"]:before,
+html[lang="ru"] .info-header-title::before {
+  content: "Информация" !important;
+}
+
+html[lang="ru"] .location-title::before {
+  content: "Расположение" !important;
+}
+
+html[lang="ru"] .location-description::before {
+  content: "Указание местоположения позволяет оценить интенсивность землетрясения в вашем районе, когда оно произойдет." !important;
+}
+
+html[lang="ru"] .rts-station-title::before {
+  content: "Станция реального времени" !important;
+}
+
+html[lang="ru"] .rts-station-description::before {
+  content: "Сейсмическая станция в реальном времени, которая отображается в левом верхнем углу главного экрана." !important;
+}
+
+html[lang="ru"] .warning-title::before {
+  content: "Условия раннего предупреждения" !important;
+}
+
+html[lang="ru"] .warning-description::before {
+  content: "Непосредственная сейсмическая станция (любая сейсмическая станция) — это порог интенсивности любой станции на момент срабатывания, а предполагаемая интенсивность (местоположение) — это порог интенсивности местоположения на момент предупреждения о землетрясении, и программное обеспечение издаст звуковой эффект и выведет всплывающее окно при выполнении любого из следующих условий." !important;
+}
+
+html[lang="ru"] .current-realtime-station::before {
+  content: "Сейсмическая станция в реальном времени (любая сейсмическая станция) " !important;
+}
+
+html[lang="ru"] .current-estimate-intensity::before {
+  content: "Расчетная интенсивность (местоположение)" !important;
+}
+
+html[lang="ru"] .show-window-title::before {
+  content: "Показать окно программы" !important;
+}
+
+html[lang="ru"] .show-window-description::before {
+  content: "Окно отображения автоматической программы" !important;
+}
+
+html[lang="ru"] .trem-eew-title::before {
+  content: "TREM EEW" !important;
+}
+
+html[lang="ru"] .trem-eew-description::before {
+  content: "TREM-EEW — это раннее предупреждение о землетрясении, рассчитанное с использованием сети наблюдения TREM-Net. Данные в реальном времени не являются общедоступными, обычные пользователи могут увидеть эффект в повторе (через 5 минут после землетрясения) после." !important;
+}
+
+html[lang="ru"] .other-function-title::before {
+  content: "Другие особенности" !important;
+}
+
+html[lang="ru"] .other-function-description::before {
+  content: "Здесь собраны небольшие функции, которые TREM Lite использует нечасто." !important;
+}
+
+html[lang="ru"] .auto-start::before {
+  content: "Программа автоматического запуска (Windows)" !important;
+}
+
+html[lang="ru"] .tts::before {
+  content: "Преобразование текста в речь (традиционный китайский)" !important;
+}
+
+html[lang="ru"] .earthquake-eew::before {
+  content: "Предупреждение о землетрясении" !important;
+}
+
+html[lang="ru"] .earthquake-report::before {
+  content: "Отчет о землетрясении" !important;
+}
+
+html[lang="ru"] .earthquake-detect::before {
+  content: "Обнаружение землетрясений" !important;
+}
+
+html[lang="ru"] .rts-intensity::before {
+  content: "Интенсивность в реальном времени" !important;
+}
+
+html[lang="ru"] .get-trem-eew::before {
+  content: "Получить TREM EEW" !important;
+}
+
+html[lang="ru"] .reset-button::before,
+html[lang="ru"] .reset-setting-title::before {
+  content: "Сбросить" !important;
+}
+
+html[lang="ru"] .reset-setting::before {
+  content: "Сбросить все настройки" !important;
+}
+
+html[lang="ru"] .auto-zoom-title::before {
+  content: "Автоматическое масштабирование карты" !important;
+}
+
+html[lang="ru"] .auto-zoom-description::before {
+  content: "Автоматическое масштабирование карты по умолчанию отключено." !important;
+}
+
+html[lang="ru"] .block-auto-zoom::before {
+  content: "Отключить автоматическое масштабирование карты" !important;
+}
+
+html[lang="ru"] .effects-dong-title::before {
+  content: "Раннее предупреждение" !important;
+}
+
+html[lang="ru"] .effects-dong-description::before {
+  content: "Когда происходит землетрясение, он передает предполагаемую магнитуду места и количество секунд, оставшихся до прибытия сейсмической волны." !important;
+}
+
+html[lang="ru"] .dong-dong::before {
+  content: "Звуковой эффект (работает только при наличии обратного отсчета)" !important;
+}
+
+html[lang="ru"] .sound-effects-list-title::before {
+  content: "Список звуковых эффектов" !important;
+}
+
+html[lang="ru"] .sound-effects-list-description::before {
+  content: "Включение или выключение определенных звуковых эффектов" !important;
+}
+
+html[lang="ru"] .extended-list-title:before {
+  content: "Расширения" !important;
+}
+
+html[lang="ru"] .extended-list-description:empty::before,
+html[lang="ru"] .extended-info .extended-info-warning:empty::before {
+  content: "Использование расширений из неизвестных или ненадежных источников может поставить под угрозу безопасность вашей личной информации, поэтому, пожалуйста, будьте осторожны." !important;
+}
+
+html[lang="ru"] .extended-list-descriptions:empty::before {
+  content: "Выберите включенные расширения, расширения будут загружены при запуске программы." !important;
+}
+
+html[lang="ru"] .extended-setting-button::before {
+  content: "Параметр" !important;
+}
+
+html[lang="ru"] .verified-badge::before {
+  content: "Проверено" !important;
+}
+
+html[lang="ru"] .unverified-badge::before {
+  content: "непроверено" !important;
+}
+
+html[lang="ru"] .loaded-badge::before {
+  content: "Загружено" !important;
+}
+
+html[lang="ru"] .unloaded-badge::before {
+  content: "выгружено" !important;
+}
+
+html[lang="ru"] .success.message-box:before {
+  content: "Операция выполнена успешно, пожалуйста, закройте окно настроек и примените их!" !important;
+}
+
+html[lang="ru"] .failed.message-box:before {
+  content: "Операция провалилась!" !important;
+}
+
+html[lang="ru"] .success-download.message-box:before {
+  content: "Загрузка прошла успешно, пожалуйста, закройте окно настроек и примените их!" !important;
+}
+
+html[lang="ru"] .extended-store:before {
+  content: "Магазин TREM Expanded" !important;
+}
+
+html[lang="ru"] .extended-download-button::before {
+  content: "Скачать" !important;
+}
+
+html[lang="ru"] .extended-download-button.downloading::before {
+  content: "Загрузка..." !important;
+}
+
+html[lang="ru"] .extended-download-button.downloaded::before {
+  content: "Загрузка прошла успешно" !important;
+  font-size: 11px;
+}
+
+html[lang="ru"] .extended-update-button::before {
+  content: "Обновлять" !important;
+}
+
+html[lang="ru"] .extended-latest-button:before {
+  content: "Последняя версия" !important;
+}
+
+html[lang="ru"] .p-alert::before {
+  content: "P-Alert (при получении интенсивности, близкой к реальному времени)" !important;
+}
+
+html[lang="ru"] .report::after {
+  content: "Отчет (при получении отчета о землетрясении)" !important;
+}
+
+html[lang="ru"] .update::before {
+  content: "Update (when an earthquake warning is corrected)" !important;
+}
+
+html[lang="ru"] .info-trem-lite::before {
+  content: "Об TREM Lite" !important;
+}
+
+html[lang="ru"] .info-trem-description::before {
+  content: "TREM-Lite — это программное обеспечение с открытым исходным кодом для быстрого оповещения о землетрясениях, которое предоставляет вам информацию о землетрясениях в режиме реального времени, используя собственные сейсмические станции для отображения сейсмической активности различных мест в режиме реального времени и получая предупреждающие сообщения о сильных землетрясениях в режиме реального времени, передаваемые по различным каналам при первом возникновении землетрясения." !important;
+}
+
+html[lang="ru"] .app-version-title::before {
+  content: "Версия программы" !important;
+}
+
+html[lang="ru"] .system-os-title::before {
+  content: "Версия системы" !important;
+}
+
+html[lang="ru"] .source-title::before {
+  content: "Источник данных" !important;
+}
+
+html[lang="ru"] .source-eew::before {
+  content: "Оповещение о землетрясении" !important;
+}
+
+html[lang="ru"] .source-cwa::before {
+  content: "Central Weather Administration (CWA)" !important;
+}
+
+html[lang="ru"] .source-shindo::before {
+  content: "Интенсивность" !important;
+}
+
+html[lang="ru"] .source-sinica::before {
+  content: "Academia Sinica (SINICA)" !important;
+}
+
+html[lang="ru"] .source-trem::before {
+  content: "Taiwan Real-time Earthquake Monitor (TREM)" !important;
+}
+
+html[lang="ru"] .contributor-title::before {
+  content: "Вкладчик" !important;
+}
+
+html[lang="ru"] .contributor-description::before {
+  content: "Спасибо следующему Вкладчику за то, что он сделал возможным появление TREM Lite." !important;
+}
+
+html[lang="ru"] .reset .confirm-title::before {
+  content: "Вы уверены, что хотите сбросить настройки? После сброса вы не сможете вернуться." !important;
+}
+
+html[lang="ru"] .extendedOpen .confirm-title::before {
+  content: "Вы уверены, что хотите включить расширение " !important;
+}
+
+html[lang="ru"] .extendedOpen .confirm-title::after {
+  content: " ? Использование расширений из неизвестных или ненадежных источников может поставить под угрозу безопасность вашей личной информации." !important;
+}
+
+html[lang="ru"] .confirm-sure:empty::before {
+  content: "Sure" !important;
+}
+
+html[lang="ru"] .confirm-sure:not(:empty)::after {
+  content: " секунд" !important;
+}
+
+html[lang="ru"] .confirm-cancel::before {
+  content: "Отмена" !important;
+}
+
+html[lang="ru"] .current:empty:before {
+  content: "Не установлено" !important;
+}
+
+html[lang="ru"] .extended-list-button[for="extended-state-list"]:before {
+  content: "Расширенный статус" !important;
+}
+
+html[lang="ru"] .extended-list-button[for="extended-installed-list"]:before {
+  content: "Расширенный список" !important;
+}
+
+html[lang="ru"] .extended-list-button[for="extended-store-list"]:before {
+  content: "Расширенный магазин" !important;
+}
+
+html[lang="ru"] .eew-1::before {
+  content: "EEW (при получении предупреждения о землетрясении)" !important;
+}
+
+html[lang="ru"] .copy-debug-log:before {
+  content: "Копировать журнал отладки" !important;
+}
+
+html[lang="ru"] .success-copy.message-box:before {
+  content: "Копирование успешно!" !important;
+}
+
+html[lang="ru"] .success-failed.message-box:before {
+  content: "Ошибка копирования!" !important;
+}
+
+html[lang="ru"] .eew-2::before {
+  content: "EEW2 (когда предполагаемая интенсивность " !important;
+}
+
+html[lang="ru"] .eew-2 .special-text:before {
+  content: "5-" !important;
+}
+
+html[lang="ru"] .eew-2::after {
+  content: "или выше)" !important;
+}
+
+html[lang="ru"] .pga-1::before {
+  content: "PGA1 (когда пиковое ускорение грунта составляет" !important;
+}
+
+html[lang="ru"] .pga-1 .special-text:before {
+  content: "8 gal" !important;
+}
+
+html[lang="ru"] .pga-1::after {
+  content: " или выше)" !important;
+}
+
+html[lang="ru"] .pga-2::before {
+  content: "PGA2 (когда пиковое ускорение грунта составляет" !important;
+}
+
+html[lang="ru"] .pga-2 .special-text:before {
+  content: "200 gal" !important;
+}
+
+html[lang="ru"] .pga-2::after {
+  content: " или выше)" !important;
+}
+
+html[lang="ru"] .shindo-0::before {
+  content: "Shindo0 (когда интенсивность обнаружения равна" !important;
+}
+
+html[lang="ru"] .shindo-0 .special-text:before {
+  content: "0" !important;
+}
+
+html[lang="ru"] .shindo-0::after {
+  content: " или выше)" !important;
+}
+
+html[lang="ru"] .shindo-1::before {
+  content: "Shindo1 (когда интенсивность обнаружения равна" !important;
+}
+
+html[lang="ru"] .shindo-1 .special-text:before {
+  content: "2" !important;
+}
+
+html[lang="ru"] .shindo-1::after {
+  content: " или выше)" !important;
+}
+
+html[lang="ru"] .shindo-2::before {
+  content: "Shindo2 (когда интенсивность обнаружения равна" !important;
+}
+
+html[lang="ru"] .shindo-2 .special-text:before {
+  content: "4" !important;
+}
+
+html[lang="ru"] .shindo-2::after {
+  content: " или выше)" !important;
 }

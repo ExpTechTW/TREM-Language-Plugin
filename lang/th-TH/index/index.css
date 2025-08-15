@@ -1,264 +1,247 @@
 @import url("./rwd.css");
 
-html[lang="th-TH"] {
-  /** Version Check **/
-  .version-check-text::before {
-    content: "เวอร์ชั่นใหม่" !important;
-  }
+/** Version Check **/
+html[lang="th-TH"] .version-check-text::before {
+  content: "เวอร์ชั่นใหม่" !important;
+}
 
-  /** Info Box **/
-  .info-number {
-    &:not(:empty)::before {
-      content: "หมายเลข " !important;
-    }
-    &:not(:empty)::after {
-      content: "" !important;
-    }
-  }
+/** Info Box **/
+html[lang="th-TH"] .info-number:not(:empty)::before {
+  content: "หมายเลข " !important;
+}
 
-  .cancel-title span::before {
-    content: "ยกเลิก" !important;
-  }
+html[lang="th-TH"] .info-number:not(:empty)::after {
+  content: "" !important;
+}
 
-  .cancel-body span::before {
-    content: "This earthquake warning canceled." !important;
-  }
+html[lang="th-TH"] .cancel-title span::before {
+  content: "ยกเลิก" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "ต่ำ " !important;
-  }
+html[lang="th-TH"] .cancel-body span::before {
+  content: "This earthquake warning canceled." !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "การตอบสนองแผ่นดินไหวที่อ่อนแอ " !important;
-  }
+html[lang="th-TH"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "ต่ำ " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "การตรวจจับแผ่นดินไหวที่แข็งแกร่ง " !important;
-  }
+html[lang="th-TH"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "การตอบสนองแผ่นดินไหวที่อ่อนแอ " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "ยกเลิก " !important;
-  }
+html[lang="th-TH"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "การตรวจจับแผ่นดินไหวที่แข็งแกร่ง " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "คำเตือน " !important;
-  }
+html[lang="th-TH"] .eew-cancel .info-unit::before {
+  content: "ยกเลิก " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "การแจ้งเตือน " !important;
-  }
+html[lang="th-TH"] .eew-warn .info-unit::before {
+  content: "คำเตือน " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "การตรวจจับแผ่นดินไหวแบบจุดเดียว " !important;
-  }
+html[lang="th-TH"] .eew-alert .info-unit::before {
+  content: "การแจ้งเตือน " !important;
+}
 
-  .info-cancel-last::after {
-    content: "(ยกเลิก)" !important;
-  }
+html[lang="th-TH"] .eew-rts .info-unit::before {
+  content: "การตรวจจับแผ่นดินไหวแบบจุดเดียว " !important;
+}
 
-  .info-number-last::after {
-    content: "(สุดท้าย)" !important;
-  }
+html[lang="th-TH"] .info-cancel-last::after {
+  content: "(ยกเลิก)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "ขณะนี้ไม่มีการเตือนแผ่นดินไหว" !important;
-  }
+html[lang="th-TH"] .info-number-last::after {
+  content: "(สุดท้าย)" !important;
+}
 
-  .info-intensity::after {
-    content: "นแรงของสูงสุด" !important;
-  }
+html[lang="th-TH"] .no-eew .info-unit::after {
+  content: "ขณะนี้ไม่มีการเตือนแผ่นดินไหว" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE" !important;
-  }
+html[lang="th-TH"] .info-intensity::after {
+  content: "นแรงของสูงสุด" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "ขนาด" !important;
-  }
+html[lang="th-TH"] .info-nsspe span::before {
+  content: "NSSPE" !important;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "ลึก" !important;
-  }
+html[lang="th-TH"] .info-mag-text::after,
+html[lang="th-TH"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "ขนาด" !important;
+}
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
+html[lang="th-TH"] .info-depth-text::after,
+html[lang="th-TH"] .report-depth-text::after {
+  content: "ลึก" !important;
+}
 
-  .info-time::after {
-    content: "";
-  }
+html[lang="th-TH"] .intensity-0:not(#max-intensity,
+  #max-pga,
+  #current-station-intensity,
+  .rts-intensity)::after {
+  content: "?";
+}
 
-  .info-time::before {
-    content: "เกิดขึ้นเมื่อวันที่ ";
-  }
+html[lang="th-TH"] .info-time::after {
+  content: "";
+}
 
-  .info-wrapper {
-    .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
+html[lang="th-TH"] .info-time::before {
+  content: "เกิดขึ้นเมื่อวันที่ ";
+}
 
-  /** Station Pga Info **/
-  .current-station-intensity-text::before {
-    content: "ความรุนแรงของ" !important;
-  }
-  .current-station-pga-text::before {
-    content: "PGA" !important;
-  }
+html[lang="th-TH"] .info-wrapper .info-title-wrapper .info-intensity {
+  font-size: 10px;
+}
 
-  .max-intensity-text::before {
-    content: "ความรุนแรงของสูงสุด" !important;
-  }
+/** Station Pga Info **/
+html[lang="th-TH"] .current-station-intensity-text::before {
+  content: "ความรุนแรงของ" !important;
+}
 
-  .max-pga-text::before {
-    content: "รงของสูงสุดพีจีเอ" !important;
-  }
+html[lang="th-TH"] .current-station-pga-text::before {
+  content: "PGA" !important;
+}
 
-  .station-pga-wrapper {
-    left: 9.3rem;
-  }
+html[lang="th-TH"] .max-intensity-text::before {
+  content: "ความรุนแรงของสูงสุด" !important;
+}
 
-  .current-station-intensity-pga {
-    flex-direction: column;
-  }
+html[lang="th-TH"] .max-pga-text::before {
+  content: "รงของสูงสุดพีจีเอ" !important;
+}
 
-  .current-station-pga {
-    width: 188px !important;
-    display: flex;
-    align-items: center;
-  }
+html[lang="th-TH"] .station-pga-wrapper {
+  left: 9.3rem;
+}
 
-  .current-station-info {
-    width: auto !important;
-  }
+html[lang="th-TH"] .current-station-intensity-pga {
+  flex-direction: column;
+}
 
-  /** Fab Button **/
-  .intensity-report::before {
-    content: "รายงานความรุนแรงของ" !important;
-  }
+html[lang="th-TH"] .current-station-pga {
+  width: 188px !important;
+  display: flex;
+  align-items: center;
+}
 
-  .source-report::before {
-    content: "รายงานศูนย์เกิดแผ่นดินไหว" !important;
-  }
+html[lang="th-TH"] .current-station-info {
+  width: auto !important;
+}
 
-  .earthquake-report::before {
-    content: "รายงานแผ่นดินไหว" !important;
-  }
+/** Fab Button **/
+html[lang="th-TH"] .intensity-report::before {
+  content: "รายงานความรุนแรงของ" !important;
+}
 
-  .tsunami-warning::before {
-    content: "การเตือนภัยสึนามิ" !important;
-  }
+html[lang="th-TH"] .source-report::before {
+  content: "รายงานศูนย์เกิดแผ่นดินไหว" !important;
+}
 
-  .earthquake-warning::before {
-    content: "คำเตือนแผ่นดินไหว" !important;
-  }
+html[lang="th-TH"] .earthquake-report::before {
+  content: "รายงานแผ่นดินไหว" !important;
+}
 
-  /** Report **/
-  .report-intensity-text::before {
-    content: "ความรุนแรงของสูงสุด" !important;
-  }
+html[lang="th-TH"] .tsunami-warning::before {
+  content: "การเตือนภัยสึนามิ" !important;
+}
 
-  .web-detection::before {
-    content: "การตรวจจับ" !important;
-  }
+html[lang="th-TH"] .earthquake-warning::before {
+  content: "คำเตือนแผ่นดินไหว" !important;
+}
 
-  .web-report::before {
-    content: "รายงาน" !important;
-  }
+/** Report **/
+html[lang="th-TH"] .report-intensity-text::before {
+  content: "ความรุนแรงของสูงสุด" !important;
+}
 
-  .report-replay::before {
-    content: "รีเพลย์" !important;
-  }
+html[lang="th-TH"] .web-detection::before {
+  content: "การตรวจจับ" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "ศูนย์กลางของแผ่นดินไหวอยู่ระหว่างการประเมิน" !important;
-    font-size: 19px;
-  }
+html[lang="th-TH"] .web-report::before {
+  content: "รายงาน" !important;
+}
 
-  .rts-intensity-list-wrapper {
-    width: 13rem !important;
-  }
+html[lang="th-TH"] .report-replay::before {
+  content: "รีเพลย์" !important;
+}
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(153%);
-  }
+html[lang="th-TH"] .report-box-items .survey .report-loc:before {
+  content: "ศูนย์กลางของแผ่นดินไหวอยู่ระหว่างการประเมิน" !important;
+  font-size: 19px;
+}
 
-  .report-wrapper {
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-      .report-info-box {
-        .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
+html[lang="th-TH"] .rts-intensity-list-wrapper {
+  width: 13rem !important;
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "จัดอันดับความรุนแรงของตามภูมิภาค" !important;
-  }
+html[lang="th-TH"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+  transform: translateX(153%);
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "ข้อผิดพลาดการเชื่อมต่อเครือข่าย" !important;
-  }
+html[lang="th-TH"] .report-wrapper .report-box-item-wrapper:first-child .report-intensity-text {
+  font-size: 12px;
+}
 
-  .unstable .title:before {
-    content: "ไม่มั่นคง" !important;
-  }
+html[lang="th-TH"] .report-wrapper .report-box-item-wrapper:first-child .report-info-box .report-info-item .report-loc {
+  font-size: 24px;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "จุดสังเกตอาจไม่มั่นคง" !important;
-    }
-    &:nth-child(2)::before {
-      content: "เนื่องจากกิจกรรมแผ่นดินไหว" !important;
-    }
-  }
+/** Intensity List **/
+html[lang="th-TH"] .rts-intenisty-list-text::before {
+  content: "จัดอันดับความรุนแรงของตามภูมิภาค" !important;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "ข้อผิดพลาดในการเชื่อมต่อเครือข่าย" !important;
-    }
-    &:nth-child(2)::before {
-      content: "โปรดลองอีกครั้งในภายหลัง" !important;
-    }
-  }
+/** Warning Message Box **/
+html[lang="th-TH"] .internet-error .title:before {
+  content: "ข้อผิดพลาดการเชื่อมต่อเครือข่าย" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "ตามยาว" !important;
-  }
+html[lang="th-TH"] .unstable .title:before {
+  content: "ไม่มั่นคง" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "ตามขวาง" !important;
-  }
+html[lang="th-TH"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "จุดสังเกตอาจไม่มั่นคง" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "มาถึง" !important;
-  }
+html[lang="th-TH"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "เนื่องจากกิจกรรมแผ่นดินไหว" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "วินาที" !important;
-  }
+html[lang="th-TH"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "ข้อผิดพลาดในการเชื่อมต่อเครือข่าย" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "แรงสั่นสะเทือน" !important;
-  }
+html[lang="th-TH"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "โปรดลองอีกครั้งในภายหลัง" !important;
+}
+
+/** Count Down Plugin **/
+html[lang="th-TH"] .current-location-pwave-text:before {
+  content: "ตามยาว" !important;
+}
+
+html[lang="th-TH"] .current-location-swave-text:before {
+  content: "ตามขวาง" !important;
+}
+
+html[lang="th-TH"] .current-location-pwave-val.arrive:before,
+html[lang="th-TH"] .current-location-swave-val.arrive:before {
+  content: "มาถึง" !important;
+}
+
+html[lang="th-TH"] .current-location-pwave-val:not(:empty):after,
+html[lang="th-TH"] .current-location-swave-val:not(:empty):after {
+  content: "วินาที" !important;
+}
+
+html[lang="th-TH"] .current-location-intensity-text:before {
+  content: "แรงสั่นสะเทือน" !important;
 }

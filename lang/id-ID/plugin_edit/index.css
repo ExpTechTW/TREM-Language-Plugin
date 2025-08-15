@@ -1,32 +1,39 @@
-html[lang="id-ID"] {
-  .visual-editor-title:before {
-    content: "Editor visual" !important;
-  }
-  .btn-remove:before {
-    content: "Menghapus" !important;
-  }
-  .btn-add:before {
-    content: "Tambahkan item" !important;
-  }
-  .root::before {
-    content: "Bidang tingkat akar baru" !important;
-  }
-  .json-error:before {
-    content: "Kesalahan format JSON" !important;
-  }
-  .yaml-transfer-error:before {
-    content: "Kesalahan format JSON" !important;
-  }
-  .yaml-extract-error:before {
-    content: "Kesalahan penguraian YAML" !important;
-  }
-  .auto-save-success:before {
-    content: "Penyimpanan otomatis berhasil" !important;
-  }
-  .auto-save-error:before {
-    content: "Penyimpanan otomatis Gagal" !important;
-  }
-  .load-error:before {
-    content: "Kesalahan Baca" !important;
-  }
+html[lang="id-ID"] .visual-editor-title:before {
+  content: "Editor visual" !important;
+}
+
+html[lang="id-ID"] .btn-remove:before {
+  content: "Menghapus" !important;
+}
+
+html[lang="id-ID"] .btn-add:before {
+  content: "Tambahkan item" !important;
+}
+
+html[lang="id-ID"] .root::before {
+  content: "Bidang tingkat akar baru" !important;
+}
+
+html[lang="id-ID"] .json-error:before {
+  content: "Kesalahan format JSON" !important;
+}
+
+html[lang="id-ID"] .yaml-transfer-error:before {
+  content: "Kesalahan format JSON" !important;
+}
+
+html[lang="id-ID"] .yaml-extract-error:before {
+  content: "Kesalahan penguraian YAML" !important;
+}
+
+html[lang="id-ID"] .auto-save-success:before {
+  content: "Penyimpanan otomatis berhasil" !important;
+}
+
+html[lang="id-ID"] .auto-save-error:before {
+  content: "Penyimpanan otomatis Gagal" !important;
+}
+
+html[lang="id-ID"] .load-error:before {
+  content: "Kesalahan Baca" !important;
 }

@@ -1,246 +1,228 @@
 @import url("./rwd.css");
 
-html[lang="id-ID"] {
-  /** Version Check **/
-  .version-check-text::before {
-    content: "Versi baru" !important;
-  }
+/** Version Check **/
+html[lang="id-ID"] .version-check-text::before {
+  content: "Versi baru" !important;
+}
 
-  /** Info Box **/
-  .info-number {
-    &:not(:empty)::before {
-      content: "#" !important;
-    }
-    &:not(:empty)::after {
-      content: "" !important;
-    }
-  }
+/** Info Box **/
+html[lang="id-ID"] .info-number:not(:empty)::before {
+  content: "#" !important;
+}
 
-  .cancel-title span::before {
-    content: "Batal" !important;
-  }
+html[lang="id-ID"] .info-number:not(:empty)::after {
+  content: "" !important;
+}
 
-  .cancel-body span::before {
-    content: "Peringatan gempa bumi ini dibatalkan." !important;
-  }
+html[lang="id-ID"] .cancel-title span::before {
+  content: "Batal" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "Rendah " !important;
-  }
+html[lang="id-ID"] .cancel-body span::before {
+  content: "Peringatan gempa bumi ini dibatalkan." !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "Respons seismik yang lebih lemah " !important;
-  }
+html[lang="id-ID"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "Rendah " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "Deteksi gempa bumi yang kuat " !important;
-  }
+html[lang="id-ID"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "Respons seismik yang lebih lemah " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "Membatalkan " !important;
-  }
+html[lang="id-ID"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "Deteksi gempa bumi yang kuat " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "Peringatan " !important;
-  }
+html[lang="id-ID"] .eew-cancel .info-unit::before {
+  content: "Membatalkan " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "Peringatan peringatan " !important;
-  }
+html[lang="id-ID"] .eew-warn .info-unit::before {
+  content: "Peringatan " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "Deteksi gempa titik tunggal " !important;
-  }
+html[lang="id-ID"] .eew-alert .info-unit::before {
+  content: "Peringatan peringatan " !important;
+}
 
-  .info-cancel-last::after {
-    content: "(Membatalkan)" !important;
-  }
+html[lang="id-ID"] .eew-rts .info-unit::before {
+  content: "Deteksi gempa titik tunggal " !important;
+}
 
-  .info-number-last::after {
-    content: "(Akhir)" !important;
-  }
+html[lang="id-ID"] .info-cancel-last::after {
+  content: "(Membatalkan)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "Tidak ada peringatan dini gempa bumi" !important;
-  }
+html[lang="id-ID"] .info-number-last::after {
+  content: "(Akhir)" !important;
+}
 
-  .info-intensity::after {
-    content: "memperkirakan" !important;
-  }
+html[lang="id-ID"] .no-eew .info-unit::after {
+  content: "Tidak ada peringatan dini gempa bumi" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE" !important;
-  }
+html[lang="id-ID"] .info-intensity::after {
+  content: "memperkirakan" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "Mag." !important;
-  }
+html[lang="id-ID"] .info-nsspe span::before {
+  content: "NSSPE" !important;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "Keda." !important;
-  }
+html[lang="id-ID"] .info-mag-text::after,
+html[lang="id-ID"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "Mag." !important;
+}
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
+html[lang="id-ID"] .info-depth-text::after,
+html[lang="id-ID"] .report-depth-text::after {
+  content: "Keda." !important;
+}
 
-  .info-time::after {
-    content: " Terjadi";
-  }
+html[lang="id-ID"] .intensity-0:not(#max-intensity,
+  #max-pga,
+  #current-station-intensity,
+  .rts-intensity)::after {
+  content: "?";
+}
 
-  .info-wrapper {
-    .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
+html[lang="id-ID"] .info-time::after {
+  content: " Terjadi";
+}
 
-  /** Current Station Info **/
-  .current-station-intensity-text::before {
-    content: "Intensitas" !important;
-  }
+html[lang="id-ID"] .info-wrapper .info-title-wrapper .info-intensity {
+  font-size: 10px;
+}
 
-  .current-station-pga-text::before {
-    content: "PGA" !important;
-  }
+/** Current Station Info **/
+html[lang="id-ID"] .current-station-intensity-text::before {
+  content: "Intensitas" !important;
+}
 
-  .max-pga-text::before {
-    content: "PGA Maks" !important;
-  }
+html[lang="id-ID"] .current-station-pga-text::before {
+  content: "PGA" !important;
+}
 
-  .max-intensity-text::before {
-    content: "Intensitas" !important;
-  }
+html[lang="id-ID"] .max-pga-text::before {
+  content: "PGA Maks" !important;
+}
 
-  .station-pga-wrapper {
-    left: 7.1rem;
-  }
+html[lang="id-ID"] .max-intensity-text::before {
+  content: "Intensitas" !important;
+}
 
-  /** Fab Button **/
-  .intensity-report::before {
-    content: "Laporan Intensitas" !important;
-  }
+html[lang="id-ID"] .station-pga-wrapper {
+  left: 7.1rem;
+}
 
-  .source-report::before {
-    content: "Laporan hiposenter gempa bumi" !important;
-  }
+/** Fab Button **/
+html[lang="id-ID"] .intensity-report::before {
+  content: "Laporan Intensitas" !important;
+}
 
-  .earthquake-report::before {
-    content: "Laporan gempa bumi" !important;
-  }
+html[lang="id-ID"] .source-report::before {
+  content: "Laporan hiposenter gempa bumi" !important;
+}
 
-  .tsunami-warning::before {
-    content: "Peringatan tsunami" !important;
-  }
+html[lang="id-ID"] .earthquake-report::before {
+  content: "Laporan gempa bumi" !important;
+}
 
-  .earthquake-warning::before {
-    content: "Peringatan gempa bumi" !important;
-  }
+html[lang="id-ID"] .tsunami-warning::before {
+  content: "Peringatan tsunami" !important;
+}
 
-  /** Report **/
-  .report-intensity-text::before {
-    content: "Intensitas" !important;
-  }
+html[lang="id-ID"] .earthquake-warning::before {
+  content: "Peringatan gempa bumi" !important;
+}
 
-  .web-detection::before {
-    content: "Deteksi" !important;
-  }
+/** Report **/
+html[lang="id-ID"] .report-intensity-text::before {
+  content: "Intensitas" !important;
+}
 
-  .web-report::before {
-    content: "Laporan" !important;
-  }
+html[lang="id-ID"] .web-detection::before {
+  content: "Deteksi" !important;
+}
 
-  .report-replay::before {
-    content: "Putar ulang" !important;
-  }
+html[lang="id-ID"] .web-report::before {
+  content: "Laporan" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "Episentrum yang sedang dikaji" !important;
-  }
+html[lang="id-ID"] .report-replay::before {
+  content: "Putar ulang" !important;
+}
 
-  .rts-intensity-list-wrapper {
-    width: 13rem !important;
-  }
+html[lang="id-ID"] .report-box-items .survey .report-loc:before {
+  content: "Episentrum yang sedang dikaji" !important;
+}
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(153%);
-  }
+html[lang="id-ID"] .rts-intensity-list-wrapper {
+  width: 13rem !important;
+}
 
-  .report-wrapper {
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-      .report-info-box {
-        .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
+html[lang="id-ID"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+  transform: translateX(153%);
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "Intensitas di Seluruh Wilayah berdasarkan peringkat" !important;
-  }
+html[lang="id-ID"] .report-wrapper .report-box-item-wrapper:first-child .report-intensity-text {
+  font-size: 12px;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "Kesalahan koneksi jaringan" !important;
-  }
+html[lang="id-ID"] .report-wrapper .report-box-item-wrapper:first-child .report-info-box .report-info-item .report-loc {
+  font-size: 24px;
+}
 
-  .unstable .title:before {
-    content: "Tidak stabil" !important;
-  }
+/** Intensity List **/
+html[lang="id-ID"] .rts-intenisty-list-text::before {
+  content: "Intensitas di Seluruh Wilayah berdasarkan peringkat" !important;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Titik pengamatan mungkin tidak" !important;
-    }
-    &:nth-child(2)::before {
-      content: "stabil karena aktivitas seismik" !important;
-    }
-  }
+/** Warning Message Box **/
+html[lang="id-ID"] .internet-error .title:before {
+  content: "Kesalahan koneksi jaringan" !important;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Kesalahan koneksi jaringan" !important;
-    }
-    &:nth-child(2)::before {
-      content: "silakan coba lagi nanti" !important;
-    }
-  }
+html[lang="id-ID"] .unstable .title:before {
+  content: "Tidak stabil" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "Gelombang P" !important;
-  }
+html[lang="id-ID"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "Titik pengamatan mungkin tidak" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "Gelombang S" !important;
-  }
+html[lang="id-ID"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "stabil karena aktivitas seismik" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "Kedatangan" !important;
-  }
+html[lang="id-ID"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "Kesalahan koneksi jaringan" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "Detik" !important;
-  }
+html[lang="id-ID"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "silakan coba lagi nanti" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "Intensitas" !important;
-  }
+/** Count Down Plugin **/
+html[lang="id-ID"] .current-location-pwave-text:before {
+  content: "Gelombang P" !important;
+}
+
+html[lang="id-ID"] .current-location-swave-text:before {
+  content: "Gelombang S" !important;
+}
+
+html[lang="id-ID"] .current-location-pwave-val.arrive:before,
+html[lang="id-ID"] .current-location-swave-val.arrive:before {
+  content: "Kedatangan" !important;
+}
+
+html[lang="id-ID"] .current-location-pwave-val:not(:empty):after,
+html[lang="id-ID"] .current-location-swave-val:not(:empty):after {
+  content: "Detik" !important;
+}
+
+html[lang="id-ID"] .current-location-intensity-text:before {
+  content: "Intensitas" !important;
 }

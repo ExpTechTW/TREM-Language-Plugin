@@ -1,32 +1,39 @@
-html[lang="en-US"] {
-  .visual-editor-title:before {
-    content: "Visual editor" !important;
-  }
-  .btn-remove:before {
-    content: "Delete" !important;
-  }
-  .btn-add:before {
-    content: "Add item" !important;
-  }
-  .root::before {
-    content: "New root level fields" !important;
-  }
-  .json-error:before {
-    content: "JSON format error" !important;
-  }
-  .yaml-transfer-error:before {
-    content: "YAML Conversion Error" !important;
-  }
-  .yaml-extract-error:before {
-    content: "YAML parsing error" !important;
-  }
-  .auto-save-success:before {
-    content: "Auto save successful" !important;
-  }
-  .auto-save-error:before {
-    content: "Auto save Failure" !important;
-  }
-  .load-error:before {
-    content: "Read Error" !important;
-  }
+html[lang="en-US"] .visual-editor-title:before {
+  content: "Visual editor" !important;
+}
+
+html[lang="en-US"] .btn-remove:before {
+  content: "Delete" !important;
+}
+
+html[lang="en-US"] .btn-add:before {
+  content: "Add item" !important;
+}
+
+html[lang="en-US"] .root::before {
+  content: "New root level fields" !important;
+}
+
+html[lang="en-US"] .json-error:before {
+  content: "JSON format error" !important;
+}
+
+html[lang="en-US"] .yaml-transfer-error:before {
+  content: "YAML Conversion Error" !important;
+}
+
+html[lang="en-US"] .yaml-extract-error:before {
+  content: "YAML parsing error" !important;
+}
+
+html[lang="en-US"] .auto-save-success:before {
+  content: "Auto save successful" !important;
+}
+
+html[lang="en-US"] .auto-save-error:before {
+  content: "Auto save Failure" !important;
+}
+
+html[lang="en-US"] .load-error:before {
+  content: "Read Error" !important;
 }

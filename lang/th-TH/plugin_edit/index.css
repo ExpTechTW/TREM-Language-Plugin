@@ -1,32 +1,39 @@
-html[lang="th-TH"] {
-  .visual-editor-title:before {
-    content: "ตัวแก้ไขภาพ" !important;
-  }
-  .btn-remove:before {
-    content: "ลบ" !important;
-  }
-  .btn-add:before {
-    content: "เพิ่มรายการ" !important;
-  }
-  .root::before {
-    content: "ฟิลด์ระดับรากใหม่" !important;
-  }
-  .json-error:before {
-    content: "ข้อผิดพลาดรูปแบบ JSON" !important;
-  }
-  .yaml-transfer-error:before {
-    content: "ข้อผิดพลาดในการแปลง YAML" !important;
-  }
-  .yaml-extract-error:before {
-    content: "ข้อผิดพลาดการแยกวิเคราะห์ YAML" !important;
-  }
-  .auto-save-success:before {
-    content: "บันทึกอัตโนมัติสำเร็จแล้ว" !important;
-  }
-  .auto-save-error:before {
-    content: "การบันทึกอัตโนมัติล้มเหลว" !important;
-  }
-  .load-error:before {
-    content: "อ่านข้อผิดพลาด" !important;
-  }
+html[lang="th-TH"] .visual-editor-title:before {
+  content: "ตัวแก้ไขภาพ" !important;
+}
+
+html[lang="th-TH"] .btn-remove:before {
+  content: "ลบ" !important;
+}
+
+html[lang="th-TH"] .btn-add:before {
+  content: "เพิ่มรายการ" !important;
+}
+
+html[lang="th-TH"] .root::before {
+  content: "ฟิลด์ระดับรากใหม่" !important;
+}
+
+html[lang="th-TH"] .json-error:before {
+  content: "ข้อผิดพลาดรูปแบบ JSON" !important;
+}
+
+html[lang="th-TH"] .yaml-transfer-error:before {
+  content: "ข้อผิดพลาดในการแปลง YAML" !important;
+}
+
+html[lang="th-TH"] .yaml-extract-error:before {
+  content: "ข้อผิดพลาดการแยกวิเคราะห์ YAML" !important;
+}
+
+html[lang="th-TH"] .auto-save-success:before {
+  content: "บันทึกอัตโนมัติสำเร็จแล้ว" !important;
+}
+
+html[lang="th-TH"] .auto-save-error:before {
+  content: "การบันทึกอัตโนมัติล้มเหลว" !important;
+}
+
+html[lang="th-TH"] .load-error:before {
+  content: "อ่านข้อผิดพลาด" !important;
 }

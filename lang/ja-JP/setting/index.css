@@ -1,314 +1,392 @@
-html[lang="ja-JP"] {
-  .button[for="graphics"]:before,
-  .graphics-header-title:before {
-    content: "グラフィックス" !important;
-  }
-  .button[for="sound-effects"]:before,
-  .sound-effects-header-title::before {
-    content: "効果音" !important;
-  }
-  .button[for="extended"]:before,
-  .extended-header-title:before {
-    content: "拡張" !important;
-  }
-  .button[for="info"]:before,
-  .info-header-title::before {
-    content: "について" !important;
-  }
-  .location-description::before {
-    content: "所在地を設定することで、地震が発生したときに、その所在地の震度を推定することができる。" !important;
-  }
-  .rts-station-title::before {
-    content: "リアルタイム観測点" !important;
-  }
-  .rts-station-description::before {
-    content: "リアルタイム観測点はメイン画面の左上に表示される。" !important;
-  }
-  .warning-title::before {
-    content: "早期警報条件" !important;
-  }
-  .warning-description::before {
-    content: "観測点（任意の観測点）はトリガー時の任意の観測点の震度しきい値、推定震度（地点）は地震警報時の地点の震度しきい値で、以下のいずれかの条件を満たすと、ソフトが効果音を発し、ウィンドウをポップアップします。" !important;
-  }
-  .current-realtime-station::before {
-    content: "リアルタイム観測点（任意の観測点）" !important;
-  }
-  .current-estimate-intensity::before {
-    content: "推定震度（所在地）" !important;
-  }
-  .show-window-title::before {
-    content: "ウィンドウをポップアップ" !important;
-  }
-  .show-window-description::before {
-    content: "ウィンドウをポップアップに時機" !important;
-  }
-  .trem-eew-title::before {
-    content: "TREM EEW" !important;
-  }
-  .trem-eew-description::before {
-    content: "TREM-EEW は、 TREM-Net の観測網を利用して算出される緊急地震速報である。リアルタイムのデータは公開されていないが、公開後のリプレイ（地震発生から5分後）でその効果を見ることができる。" !important;
-  }
-  .other-function-title::before {
-    content: "その他の機能" !important;
-  }
-  .other-function-description::before {
-    content: "TREM Lite 使用頻度の低い機能。" !important;
-  }
-  .auto-start::before {
-    content: "自動で起動（Windows）" !important;
-  }
-  .tts::before {
-    content: "音声合成（繁体字中国語）" !important;
-  }
-  .earthquake-eew::before {
-    content: "緊急地震速報" !important;
-  }
-  .earthquake-report::before {
-    content: "レポート" !important;
-  }
-  .earthquake-detect::before {
-    content: "地震検知" !important;
-  }
-  .rts-intensity::before {
-    content: "リアルタイム震度" !important;
-  }
-  .get-trem-eew::before {
-    content: "TREM EEWの受信" !important;
-  }
-  .reset-button::before,
-  .reset-setting-title::before {
-    content: "リセット" !important;
-  }
-  .reset-setting::before {
-    content: "すべての設定をリセット" !important;
-  }
-  .auto-zoom-title::before {
-    content: "地図自動ズーム" !important;
-  }
-  .auto-zoom-description::before {
-    content: "デフォルトの地図自動ズームは無効です。" !important;
-  }
-  .block-auto-zoom::before {
-    content: "地図自動ズームを無効にする" !important;
-  }
-  .effects-dong-title::before {
-    content: "早期警報" !important;
-  }
-  .effects-dong-description::before {
-    content: "地震が発生すると、その場所の推定震度と地震波が到達するまでの残り秒数を再生される。" !important;
-  }
-  .dong-dong::before {
-    content: "サウンドエフェクト（カウントダウンがある場合のみ有効）" !important;
-  }
-  .sound-effects-list-title::before {
-    content: "効果音リスト" !important;
-  }
-  .sound-effects-list-description::before {
-    content: "特定の効果音のオン／オフ" !important;
-  }
-  .extended-list-title:before {
-    content: "拡張機能" !important;
-  }
-  .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before {
-    content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。" !important;
-  }
-  .extended-list-descriptions:empty::before {
-    content: "有効な拡張機能を選択すると、プログラム起動時に拡張機能がロードされます。" !important;
-  }
-  .verified-badge::before {
-    content: "認証済み" !important;
-  }
-  .unverified-badge::before {
-    content: "未認証" !important;
-  }
-  .loaded-badge::before {
-    content: "ロード" !important;
-  }
-  .unloaded-badge::before {
-    content: "アンロード" !important;
-  }
-  .success.message-box:before {
-    content: "操作に成功しましたら、設定ウィンドウを閉じて適用してください！" !important;
-  }
-  .failed.message-box:before {
-    content: "操作に失敗しました！" !important;
-  }
-  .success-download.message-box:before {
-    content: "ダウンロードが成功しましたら、設定ウィンドウを閉じて適用してください！" !important;
-  }
-  .extended-store:before {
-    content: "TREM 拡張ストア" !important;
-  }
-  .extended-download-button:before {
-    content: "ダウンロード" !important;
-  }
-  .extended-download-button.downloading::before {
-    content: "ダウンロード中..." !important;
-    font-size: 12px;
-  }
-  .extended-download-button.downloaded::before {
-    content: "ダウンロード成功" !important;
-    font-size: 12px;
-  }
-  .extended-update-button:before {
-    content: "更新する" !important;
-  }
-  .extended-latest-button:before {
-    content: "最新バージョン" !important;
-  }
-  .p-alert::before {
-    content: "P-Alert（リアルタイムの震度を受信した）" !important;
-  }
-  .report::after {
-    content: "Report（地震レポートを受信した）" !important;
-  }
-  .update::before {
-    content: "Update（緊急地震速報が訂正された際に）" !important;
-  }
-  .info-trem-lite::before {
-    content: "TREM Lite について" !important;
-  }
-  .info-trem-description::before {
-    content: "TREM-Lite は、オープンソースの地震速報ソフトウェアで、自社開発した地震観測点を活用し、様々な場所の地震発生状況をリアルタイムで表示し、地震発生時に様々なチャンネルから発表される強い地震の警告メッセージをリアルタイムで取得することができます。" !important;
-  }
-  .app-version-title::before {
-    content: "プログラムバージョン" !important;
-  }
-  .system-os-title::before {
-    content: "システムバージョン" !important;
-  }
-  .source-title::before {
-    content: "データソース" !important;
-  }
-  .source-eew::before {
-    content: "緊急地震速報" !important;
-  }
-  .source-cwa::before {
-    content: "中央氣象署 (CWA)" !important;
-  }
-  .source-trem::before {
-    content: "台湾リアルタイム地震モニター（TREM）" !important;
-  }
-  .contributor-title::before {
-    content: "貢献者" !important;
-  }
-  .contributor-description::before {
-    content: "TREM Liteを可能にしてくれた以下の貢献者に感謝する。" !important;
-  }
-  .reset .confirm-title::before {
-    content: "本当にリセットしますか？リセットすると戻れなくなります。" !important;
-  }
-  .extendedOpen .confirm-title::before {
-    content: "本当に " !important;
-  }
-  .extendedOpen .confirm-title::after {
-    content: " 拡張機能を有効にしますか？未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。" !important;
-  }
-  .confirm-sure:empty::before {
-    content: "OK" !important;
-  }
-  .confirm-cancel::before {
-    content: "取り消" !important;
-  }
-  .extended-list-button[for="extended-state-list"]:before {
-    content: "拡張機能ステート" !important;
-  }
-  .extended-list-button[for="extended-installed-list"]:before {
-    content: "拡張機能リスト" !important;
-  }
-  .extended-list-button[for="extended-store-list"]:before {
-    content: "拡張機能ストア" !important;
-  }
-  .eew-1::before {
-    content: "EEW（緊急地震速報を受信した）" !important;
-  }
-  .copy-debug-log:before {
-    content: "ログをコピーする" !important;
-  }
-  .success-copy.message-box:before {
-    content: "コピス成功!" !important;
-  }
-  .success-failed.message-box:before {
-    content: "コピス失敗!" !important;
-  }
-  .eew-2 {
-    &::before {
-      content: "EEW2（推定震度が " !important;
-    }
-    .special-text:before {
-      content: "５弱" !important;
-    }
-    &::after {
-      content: " 以上）" !important;
-    }
-  }
-  .pga-1 {
-    &::before {
-      content: "PGA1（最大加速度が " !important;
-    }
-    .special-text:before {
-      content: "8 gal" !important;
-    }
-    &::after {
-      content: "以上）" !important;
-    }
-  }
-  .pga-2 {
-    &::before {
-      content: "PGA2（最大加速度が " !important;
-    }
-    .special-text:before {
-      content: "200 gal" !important;
-    }
-    &::after {
-      content: "以上）" !important;
-    }
-  }
-  .shindo-0 {
-    &::before {
-      content: "Shindo0（検出震度が " !important;
-    }
-    .special-text:before {
-      content: "０" !important;
-    }
-    &::after {
-      content: "以上）" !important;
-    }
-  }
-  .shindo-1 {
-    &::before {
-      content: "Shindo1（検出震度が " !important;
-    }
-    .special-text:before {
-      content: "２" !important;
-    }
-    &::after {
-      content: "以上）" !important;
-    }
-  }
-  .shindo-2 {
-    &::before {
-      content: "Shindo2（検出震度が " !important;
-    }
-    .special-text:before {
-      content: "４" !important;
-    }
-    &::after {
-      content: "以上）" !important;
-    }
-  }
+html[lang="ja-JP"] .button[for="graphics"]:before,
+html[lang="ja-JP"] .graphics-header-title:before {
+  content: "グラフィックス" !important;
+}
 
-  .intensity-0::after {
-    content: "0" !important;
-    font-size: Not set !important;
-  }
+html[lang="ja-JP"] .button[for="sound-effects"]:before,
+html[lang="ja-JP"] .sound-effects-header-title::before {
+  content: "効果音" !important;
+}
 
-  .reset-setting + .switch {
-    width: auto;
-  }
+html[lang="ja-JP"] .button[for="extended"]:before,
+html[lang="ja-JP"] .extended-header-title:before {
+  content: "拡張" !important;
+}
 
-  .reset-button {
-    width: auto;
-  }
+html[lang="ja-JP"] .button[for="info"]:before,
+html[lang="ja-JP"] .info-header-title::before {
+  content: "について" !important;
+}
+
+html[lang="ja-JP"] .location-description::before {
+  content: "所在地を設定することで、地震が発生したときに、その所在地の震度を推定することができる。" !important;
+}
+
+html[lang="ja-JP"] .rts-station-title::before {
+  content: "リアルタイム観測点" !important;
+}
+
+html[lang="ja-JP"] .rts-station-description::before {
+  content: "リアルタイム観測点はメイン画面の左上に表示される。" !important;
+}
+
+html[lang="ja-JP"] .warning-title::before {
+  content: "早期警報条件" !important;
+}
+
+html[lang="ja-JP"] .warning-description::before {
+  content: "観測点（任意の観測点）はトリガー時の任意の観測点の震度しきい値、推定震度（地点）は地震警報時の地点の震度しきい値で、以下のいずれかの条件を満たすと、ソフトが効果音を発し、ウィンドウをポップアップします。" !important;
+}
+
+html[lang="ja-JP"] .current-realtime-station::before {
+  content: "リアルタイム観測点（任意の観測点）" !important;
+}
+
+html[lang="ja-JP"] .current-estimate-intensity::before {
+  content: "推定震度（所在地）" !important;
+}
+
+html[lang="ja-JP"] .show-window-title::before {
+  content: "ウィンドウをポップアップ" !important;
+}
+
+html[lang="ja-JP"] .show-window-description::before {
+  content: "ウィンドウをポップアップに時機" !important;
+}
+
+html[lang="ja-JP"] .trem-eew-title::before {
+  content: "TREM EEW" !important;
+}
+
+html[lang="ja-JP"] .trem-eew-description::before {
+  content: "TREM-EEW は、 TREM-Net の観測網を利用して算出される緊急地震速報である。リアルタイムのデータは公開されていないが、公開後のリプレイ（地震発生から5分後）でその効果を見ることができる。" !important;
+}
+
+html[lang="ja-JP"] .other-function-title::before {
+  content: "その他の機能" !important;
+}
+
+html[lang="ja-JP"] .other-function-description::before {
+  content: "TREM Lite 使用頻度の低い機能。" !important;
+}
+
+html[lang="ja-JP"] .auto-start::before {
+  content: "自動で起動（Windows）" !important;
+}
+
+html[lang="ja-JP"] .tts::before {
+  content: "音声合成（繁体字中国語）" !important;
+}
+
+html[lang="ja-JP"] .earthquake-eew::before {
+  content: "緊急地震速報" !important;
+}
+
+html[lang="ja-JP"] .earthquake-report::before {
+  content: "レポート" !important;
+}
+
+html[lang="ja-JP"] .earthquake-detect::before {
+  content: "地震検知" !important;
+}
+
+html[lang="ja-JP"] .rts-intensity::before {
+  content: "リアルタイム震度" !important;
+}
+
+html[lang="ja-JP"] .get-trem-eew::before {
+  content: "TREM EEWの受信" !important;
+}
+
+html[lang="ja-JP"] .reset-button::before,
+html[lang="ja-JP"] .reset-setting-title::before {
+  content: "リセット" !important;
+}
+
+html[lang="ja-JP"] .reset-setting::before {
+  content: "すべての設定をリセット" !important;
+}
+
+html[lang="ja-JP"] .auto-zoom-title::before {
+  content: "地図自動ズーム" !important;
+}
+
+html[lang="ja-JP"] .auto-zoom-description::before {
+  content: "デフォルトの地図自動ズームは無効です。" !important;
+}
+
+html[lang="ja-JP"] .block-auto-zoom::before {
+  content: "地図自動ズームを無効にする" !important;
+}
+
+html[lang="ja-JP"] .effects-dong-title::before {
+  content: "早期警報" !important;
+}
+
+html[lang="ja-JP"] .effects-dong-description::before {
+  content: "地震が発生すると、その場所の推定震度と地震波が到達するまでの残り秒数を再生される。" !important;
+}
+
+html[lang="ja-JP"] .dong-dong::before {
+  content: "サウンドエフェクト（カウントダウンがある場合のみ有効）" !important;
+}
+
+html[lang="ja-JP"] .sound-effects-list-title::before {
+  content: "効果音リスト" !important;
+}
+
+html[lang="ja-JP"] .sound-effects-list-description::before {
+  content: "特定の効果音のオン／オフ" !important;
+}
+
+html[lang="ja-JP"] .extended-list-title:before {
+  content: "拡張機能" !important;
+}
+
+html[lang="ja-JP"] .extended-list-description:empty::before,
+html[lang="ja-JP"] .extended-info .extended-info-warning:empty::before {
+  content: "未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。" !important;
+}
+
+html[lang="ja-JP"] .extended-list-descriptions:empty::before {
+  content: "有効な拡張機能を選択すると、プログラム起動時に拡張機能がロードされます。" !important;
+}
+
+html[lang="ja-JP"] .verified-badge::before {
+  content: "認証済み" !important;
+}
+
+html[lang="ja-JP"] .unverified-badge::before {
+  content: "未認証" !important;
+}
+
+html[lang="ja-JP"] .loaded-badge::before {
+  content: "ロード" !important;
+}
+
+html[lang="ja-JP"] .unloaded-badge::before {
+  content: "アンロード" !important;
+}
+
+html[lang="ja-JP"] .success.message-box:before {
+  content: "操作に成功しましたら、設定ウィンドウを閉じて適用してください！" !important;
+}
+
+html[lang="ja-JP"] .failed.message-box:before {
+  content: "操作に失敗しました！" !important;
+}
+
+html[lang="ja-JP"] .success-download.message-box:before {
+  content: "ダウンロードが成功しましたら、設定ウィンドウを閉じて適用してください！" !important;
+}
+
+html[lang="ja-JP"] .extended-store:before {
+  content: "TREM 拡張ストア" !important;
+}
+
+html[lang="ja-JP"] .extended-download-button:before {
+  content: "ダウンロード" !important;
+}
+
+html[lang="ja-JP"] .extended-download-button.downloading::before {
+  content: "ダウンロード中..." !important;
+  font-size: 12px;
+}
+
+html[lang="ja-JP"] .extended-download-button.downloaded::before {
+  content: "ダウンロード成功" !important;
+  font-size: 12px;
+}
+
+html[lang="ja-JP"] .extended-update-button:before {
+  content: "更新する" !important;
+}
+
+html[lang="ja-JP"] .extended-latest-button:before {
+  content: "最新バージョン" !important;
+}
+
+html[lang="ja-JP"] .p-alert::before {
+  content: "P-Alert（リアルタイムの震度を受信した）" !important;
+}
+
+html[lang="ja-JP"] .report::after {
+  content: "Report（地震レポートを受信した）" !important;
+}
+
+html[lang="ja-JP"] .update::before {
+  content: "Update（緊急地震速報が訂正された際に）" !important;
+}
+
+html[lang="ja-JP"] .info-trem-lite::before {
+  content: "TREM Lite について" !important;
+}
+
+html[lang="ja-JP"] .info-trem-description::before {
+  content: "TREM-Lite は、オープンソースの地震速報ソフトウェアで、自社開発した地震観測点を活用し、様々な場所の地震発生状況をリアルタイムで表示し、地震発生時に様々なチャンネルから発表される強い地震の警告メッセージをリアルタイムで取得することができます。" !important;
+}
+
+html[lang="ja-JP"] .app-version-title::before {
+  content: "プログラムバージョン" !important;
+}
+
+html[lang="ja-JP"] .system-os-title::before {
+  content: "システムバージョン" !important;
+}
+
+html[lang="ja-JP"] .source-title::before {
+  content: "データソース" !important;
+}
+
+html[lang="ja-JP"] .source-eew::before {
+  content: "緊急地震速報" !important;
+}
+
+html[lang="ja-JP"] .source-cwa::before {
+  content: "中央氣象署 (CWA)" !important;
+}
+
+html[lang="ja-JP"] .source-trem::before {
+  content: "台湾リアルタイム地震モニター（TREM）" !important;
+}
+
+html[lang="ja-JP"] .contributor-title::before {
+  content: "貢献者" !important;
+}
+
+html[lang="ja-JP"] .contributor-description::before {
+  content: "TREM Liteを可能にしてくれた以下の貢献者に感謝する。" !important;
+}
+
+html[lang="ja-JP"] .reset .confirm-title::before {
+  content: "本当にリセットしますか？リセットすると戻れなくなります。" !important;
+}
+
+html[lang="ja-JP"] .extendedOpen .confirm-title::before {
+  content: "本当に " !important;
+}
+
+html[lang="ja-JP"] .extendedOpen .confirm-title::after {
+  content: " 拡張機能を有効にしますか？未知の、または信頼できないソースからの拡張機能の使用は、あなたの個人情報のセキュリティを危険にさらす可能性がありますので、注意してください。" !important;
+}
+
+html[lang="ja-JP"] .confirm-sure:empty::before {
+  content: "OK" !important;
+}
+
+html[lang="ja-JP"] .confirm-cancel::before {
+  content: "取り消" !important;
+}
+
+html[lang="ja-JP"] .extended-list-button[for="extended-state-list"]:before {
+  content: "拡張機能ステート" !important;
+}
+
+html[lang="ja-JP"] .extended-list-button[for="extended-installed-list"]:before {
+  content: "拡張機能リスト" !important;
+}
+
+html[lang="ja-JP"] .extended-list-button[for="extended-store-list"]:before {
+  content: "拡張機能ストア" !important;
+}
+
+html[lang="ja-JP"] .eew-1::before {
+  content: "EEW（緊急地震速報を受信した）" !important;
+}
+
+html[lang="ja-JP"] .copy-debug-log:before {
+  content: "ログをコピーする" !important;
+}
+
+html[lang="ja-JP"] .success-copy.message-box:before {
+  content: "コピス成功!" !important;
+}
+
+html[lang="ja-JP"] .success-failed.message-box:before {
+  content: "コピス失敗!" !important;
+}
+
+html[lang="ja-JP"] .eew-2::before {
+  content: "EEW2（推定震度が " !important;
+}
+
+html[lang="ja-JP"] .eew-2 .special-text:before {
+  content: "５弱" !important;
+}
+
+html[lang="ja-JP"] .eew-2::after {
+  content: " 以上）" !important;
+}
+
+html[lang="ja-JP"] .pga-1::before {
+  content: "PGA1（最大加速度が " !important;
+}
+
+html[lang="ja-JP"] .pga-1 .special-text:before {
+  content: "8 gal" !important;
+}
+
+html[lang="ja-JP"] .pga-1::after {
+  content: "以上）" !important;
+}
+
+html[lang="ja-JP"] .pga-2::before {
+  content: "PGA2（最大加速度が " !important;
+}
+
+html[lang="ja-JP"] .pga-2 .special-text:before {
+  content: "200 gal" !important;
+}
+
+html[lang="ja-JP"] .pga-2::after {
+  content: "以上）" !important;
+}
+
+html[lang="ja-JP"] .shindo-0::before {
+  content: "Shindo0（検出震度が " !important;
+}
+
+html[lang="ja-JP"] .shindo-0 .special-text:before {
+  content: "０" !important;
+}
+
+html[lang="ja-JP"] .shindo-0::after {
+  content: "以上）" !important;
+}
+
+html[lang="ja-JP"] .shindo-1::before {
+  content: "Shindo1（検出震度が " !important;
+}
+
+html[lang="ja-JP"] .shindo-1 .special-text:before {
+  content: "２" !important;
+}
+
+html[lang="ja-JP"] .shindo-1::after {
+  content: "以上）" !important;
+}
+
+html[lang="ja-JP"] .shindo-2::before {
+  content: "Shindo2（検出震度が " !important;
+}
+
+html[lang="ja-JP"] .shindo-2 .special-text:before {
+  content: "４" !important;
+}
+
+html[lang="ja-JP"] .shindo-2::after {
+  content: "以上）" !important;
+}
+
+html[lang="ja-JP"] .intensity-0::after {
+  content: "0" !important;
+  font-size: Not set !important;
+}
+
+html[lang="ja-JP"] .reset-setting+.switch {
+  width: auto;
+}
+
+html[lang="ja-JP"] .reset-button {
+  width: auto;
 }

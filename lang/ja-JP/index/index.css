@@ -1,157 +1,153 @@
 @import url("./rwd.css");
 
-html[lang="ja-JP"] {
-  /** Info Box **/
-  .cancel-title span::before {
-    content: "キャンセル" !important;
-  }
+/** Info Box **/
+html[lang="ja-JP"] .cancel-title span::before {
+  content: "キャンセル" !important;
+}
 
-  .cancel-body span::before {
-    content: "この地震速報はキャンセルとなりました。" !important;
-  }
+html[lang="ja-JP"] .cancel-body span::before {
+  content: "この地震速報はキャンセルとなりました。" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "弱い反応 " !important;
-  }
+html[lang="ja-JP"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "弱い反応 " !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "揺れ検知 " !important;
-  }
+html[lang="ja-JP"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "揺れ検知 " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "強い揺れ検知 " !important;
-  }
+html[lang="ja-JP"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "強い揺れ検知 " !important;
+}
 
-  .info-cancel-last::after {
-    content: "報(キャンセル) " !important;
-  }
+html[lang="ja-JP"] .info-cancel-last::after {
+  content: "報(キャンセル) " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "キャンセル報 " !important;
-  }
+html[lang="ja-JP"] .eew-cancel .info-unit::before {
+  content: "キャンセル報 " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "単一点地震検知 " !important;
-  }
+html[lang="ja-JP"] .eew-rts .info-unit::before {
+  content: "単一点地震検知 " !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "緊急地震速報は発表されていません" !important;
-  }
+html[lang="ja-JP"] .no-eew .info-unit::after {
+  content: "緊急地震速報は発表されていません" !important;
+}
 
-  .info-intensity::after {
-    content: "予想最大震度" !important;
-  }
+html[lang="ja-JP"] .info-intensity::after {
+  content: "予想最大震度" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE 震源パラメータ推定なし" !important;
-  }
+html[lang="ja-JP"] .info-nsspe span::before {
+  content: "NSSPE 震源パラメータ推定なし" !important;
+}
 
-  .info-time::after {
-    content: "発生" !important;
-  }
+html[lang="ja-JP"] .info-time::after {
+  content: "発生" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "規模" !important;
-    width: 3.5rem;
-  }
+html[lang="ja-JP"] .info-mag-text::after,
+html[lang="ja-JP"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "規模" !important;
+  width: 3.5rem;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "深さ" !important;
-  }
+html[lang="ja-JP"] .info-depth-text::after,
+html[lang="ja-JP"] .report-depth-text::after {
+  content: "深さ" !important;
+}
 
-  /** Fab Button **/
-  .earthquake-report::before {
-    content: "地震レポート" !important;
-  }
+/** Fab Button **/
+html[lang="ja-JP"] .earthquake-report::before {
+  content: "地震レポート" !important;
+}
 
-  .tsunami-warning::before {
-    content: "津波警報" !important;
-  }
+html[lang="ja-JP"] .tsunami-warning::before {
+  content: "津波警報" !important;
+}
 
-  /** Report **/
-  .report-intensity-text {
-    font-size: 12px;
-  }
+/** Report **/
+html[lang="ja-JP"] .report-intensity-text {
+  font-size: 12px;
+}
 
-  .report-intensity-text::before {
-    content: "最大震度" !important;
-  }
+html[lang="ja-JP"] .report-intensity-text::before {
+  content: "最大震度" !important;
+}
 
-  .web-detection::before {
-    content: "検知" !important;
-  }
+html[lang="ja-JP"] .web-detection::before {
+  content: "検知" !important;
+}
 
-  .web-report::before {
-    content: "レポート" !important;
-  }
+html[lang="ja-JP"] .web-report::before {
+  content: "レポート" !important;
+}
 
-  .report-replay::before {
-    content: "再生" !important;
-  }
+html[lang="ja-JP"] .report-replay::before {
+  content: "再生" !important;
+}
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(159%);
-    min-width: 200px;
-  }
+html[lang="ja-JP"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+  transform: translateX(159%);
+  min-width: 200px;
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "場所別震度ランキング" !important;
-  }
+/** Intensity List **/
+html[lang="ja-JP"] .rts-intenisty-list-text::before {
+  content: "場所別震度ランキング" !important;
+}
 
-  .max-intensity-text::before {
-    content: "最大震度" !important;
-  }
+html[lang="ja-JP"] .max-intensity-text::before {
+  content: "最大震度" !important;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "ネットワーク異常" !important;
-  }
+/** Warning Message Box **/
+html[lang="ja-JP"] .internet-error .title:before {
+  content: "ネットワーク異常" !important;
+}
 
-  .unstable .title:before {
-    content: "不安定" !important;
-  }
+html[lang="ja-JP"] .unstable .title:before {
+  content: "不安定" !important;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "地震活動の影響を受け" !important;
-    }
-    &:nth-child(2)::before {
-      content: "観測点が不安定になる可能性がある" !important;
-    }
-  }
+html[lang="ja-JP"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "地震活動の影響を受け" !important;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "ネットワーク接続エラー" !important;
-    }
-    &:nth-child(2)::before {
-      content: "後でもう一度お試しください。" !important;
-    }
-  }
+html[lang="ja-JP"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "観測点が不安定になる可能性がある" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "P波" !important;
-  }
+html[lang="ja-JP"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "ネットワーク接続エラー" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "S波" !important;
-  }
+html[lang="ja-JP"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "後でもう一度お試しください。" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "到着" !important;
-  }
+/** Count Down Plugin **/
+html[lang="ja-JP"] .current-location-pwave-text:before {
+  content: "P波" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "秒" !important;
-  }
+html[lang="ja-JP"] .current-location-swave-text:before {
+  content: "S波" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "震度" !important;
-  }
+html[lang="ja-JP"] .current-location-pwave-val.arrive:before,
+html[lang="ja-JP"] .current-location-swave-val.arrive:before {
+  content: "到着" !important;
+}
+
+html[lang="ja-JP"] .current-location-pwave-val:not(:empty):after,
+html[lang="ja-JP"] .current-location-swave-val:not(:empty):after {
+  content: "秒" !important;
+}
+
+html[lang="ja-JP"] .current-location-intensity-text:before {
+  content: "震度" !important;
 }

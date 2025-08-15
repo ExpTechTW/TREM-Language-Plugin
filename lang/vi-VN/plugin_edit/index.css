@@ -1,32 +1,39 @@
-html[lang="vi-VN"] {
-  .visual-editor-title:before {
-    content: "Trình chỉnh sửa trực quan" !important;
-  }
-  .btn-remove:before {
-    content: "Xóa bỏ" !important;
-  }
-  .btn-add:before {
-    content: "Thêm mục" !important;
-  }
-  .root::before {
-    content: "Các trường cấp gốc mới" !important;
-  }
-  .json-error:before {
-    content: "Lỗi định dạng JSON" !important;
-  }
-  .yaml-transfer-error:before {
-    content: "Lỗi chuyển đổi YAML" !important;
-  }
-  .yaml-extract-error:before {
-    content: "Lỗi phân tích YAML" !important;
-  }
-  .auto-save-success:before {
-    content: "Tự động lưu thành công" !important;
-  }
-  .auto-save-error:before {
-    content: "Tự động lưu lỗi" !important;
-  }
-  .load-error:before {
-    content: "Lỗi đọc" !important;
-  }
+html[lang="vi-VN"] .visual-editor-title:before {
+  content: "Trình chỉnh sửa trực quan" !important;
+}
+
+html[lang="vi-VN"] .btn-remove:before {
+  content: "Xóa bỏ" !important;
+}
+
+html[lang="vi-VN"] .btn-add:before {
+  content: "Thêm mục" !important;
+}
+
+html[lang="vi-VN"] .root::before {
+  content: "Các trường cấp gốc mới" !important;
+}
+
+html[lang="vi-VN"] .json-error:before {
+  content: "Lỗi định dạng JSON" !important;
+}
+
+html[lang="vi-VN"] .yaml-transfer-error:before {
+  content: "Lỗi chuyển đổi YAML" !important;
+}
+
+html[lang="vi-VN"] .yaml-extract-error:before {
+  content: "Lỗi phân tích YAML" !important;
+}
+
+html[lang="vi-VN"] .auto-save-success:before {
+  content: "Tự động lưu thành công" !important;
+}
+
+html[lang="vi-VN"] .auto-save-error:before {
+  content: "Tự động lưu lỗi" !important;
+}
+
+html[lang="vi-VN"] .load-error:before {
+  content: "Lỗi đọc" !important;
 }

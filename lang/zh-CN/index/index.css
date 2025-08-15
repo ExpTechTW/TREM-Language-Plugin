@@ -1,147 +1,152 @@
 @import url("./rwd.css");
 
-html[lang="zh-CN"] {
-  /** Info Box **/
-  .cancel-body span::before {
-    content: "此地震速报已取消" !important;
-  }
+/** Info Box **/
+html[lang="zh-CN"] .cancel-body span::before {
+  content: "此地震速报已取消" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "弱反应 " !important;
-  }
+html[lang="zh-CN"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "弱反应 " !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "震动检测 " !important;
-  }
+html[lang="zh-CN"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "震动检测 " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "强震检测 " !important;
-  }
+html[lang="zh-CN"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "强震检测 " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "地震速报 " !important;
-  }
+html[lang="zh-CN"] .eew-warn .info-unit::before {
+  content: "地震速报 " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "紧急地震速报 " !important;
-  }
+html[lang="zh-CN"] .eew-alert .info-unit::before {
+  content: "紧急地震速报 " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "单点地震检测 " !important;
-  }
+html[lang="zh-CN"] .eew-rts .info-unit::before {
+  content: "单点地震检测 " !important;
+}
 
-  .info-number-last::after {
-    content: "报(最终报)" !important;
-  }
+html[lang="zh-CN"] .info-number-last::after {
+  content: "报(最终报)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "暂无生效中的地震预警" !important;
-  }
+html[lang="zh-CN"] .no-eew .info-unit::after {
+  content: "暂无生效中的地震预警" !important;
+}
 
-  .info-intensity::after {
-    content: "预估最大震度" !important;
-  }
+html[lang="zh-CN"] .info-intensity::after {
+  content: "预估最大震度" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE 无震源参数推算" !important;
-  }
+html[lang="zh-CN"] .info-nsspe span::before {
+  content: "NSSPE 无震源参数推算" !important;
+}
 
-  .info-time::after {
-    content: "发震" !important;
-  }
+html[lang="zh-CN"] .info-time::after {
+  content: "发震" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "规模" !important;
-  }
+html[lang="zh-CN"] .info-mag-text::after,
+html[lang="zh-CN"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "规模" !important;
+}
 
-  .intensity-report::before {
-    content: "震度速报" !important;
-  }
-  .source-report::before {
-    content: "震源速报" !important;
-  }
-  .earthquake-report::before {
-    content: "地震报告" !important;
-  }
-  .tsunami-warning::before {
-    content: "海啸警报" !important;
-  }
-  .earthquake-warning::before {
-    content: "地震速报" !important;
-  }
+html[lang="zh-CN"] .intensity-report::before {
+  content: "震度速报" !important;
+}
 
-  /** Report **/
-  .report-intensity-text {
-    font-size: 12px;
-  }
-  .report-intensity-text::before {
-    content: "观测最大震度" !important;
-  }
-  .web-detection::before {
-    content: "检知" !important;
-  }
-  .web-report::before {
-    content: "报告" !important;
-  }
-  .report-replay::before {
-    content: "重播" !important;
-  }
+html[lang="zh-CN"] .source-report::before {
+  content: "震源速报" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "震源调查中" !important;
-  }
-  .max-intensity-text::before {
-    content: "最大观测震度" !important;
-  }
+html[lang="zh-CN"] .earthquake-report::before {
+  content: "地震报告" !important;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "网路异常" !important;
-  }
+html[lang="zh-CN"] .tsunami-warning::before {
+  content: "海啸警报" !important;
+}
 
-  .unstable .title:before {
-    content: "不稳定" !important;
-  }
+html[lang="zh-CN"] .earthquake-warning::before {
+  content: "地震速报" !important;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "受地震活动的影响" !important;
-    }
-    &:nth-child(2)::before {
-      content: "观测点可能不稳定" !important;
-    }
-  }
+/** Report **/
+html[lang="zh-CN"] .report-intensity-text {
+  font-size: 12px;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "网路连线异常" !important;
-    }
-    &:nth-child(2)::before {
-      content: "请待稍后重试" !important;
-    }
-  }
+html[lang="zh-CN"] .report-intensity-text::before {
+  content: "观测最大震度" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "P波" !important;
-  }
+html[lang="zh-CN"] .web-detection::before {
+  content: "检知" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "S波" !important;
-  }
+html[lang="zh-CN"] .web-report::before {
+  content: "报告" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "到达" !important;
-  }
+html[lang="zh-CN"] .report-replay::before {
+  content: "重播" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "秒" !important;
-  }
+html[lang="zh-CN"] .report-box-items .survey .report-loc:before {
+  content: "震源调查中" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "震度" !important;
-  }
+html[lang="zh-CN"] .max-intensity-text::before {
+  content: "最大观测震度" !important;
+}
+
+/** Warning Message Box **/
+html[lang="zh-CN"] .internet-error .title:before {
+  content: "网路异常" !important;
+}
+
+html[lang="zh-CN"] .unstable .title:before {
+  content: "不稳定" !important;
+}
+
+html[lang="zh-CN"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "受地震活动的影响" !important;
+}
+
+html[lang="zh-CN"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "观测点可能不稳定" !important;
+}
+
+html[lang="zh-CN"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "网路连线异常" !important;
+}
+
+html[lang="zh-CN"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "请待稍后重试" !important;
+}
+
+/** Count Down Plugin **/
+html[lang="zh-CN"] .current-location-pwave-text:before {
+  content: "P波" !important;
+}
+
+html[lang="zh-CN"] .current-location-swave-text:before {
+  content: "S波" !important;
+}
+
+html[lang="zh-CN"] .current-location-pwave-val.arrive:before,
+html[lang="zh-CN"] .current-location-swave-val.arrive:before {
+  content: "到达" !important;
+}
+
+html[lang="zh-CN"] .current-location-pwave-val:not(:empty):after,
+html[lang="zh-CN"] .current-location-swave-val:not(:empty):after {
+  content: "秒" !important;
+}
+
+html[lang="zh-CN"] .current-location-intensity-text:before {
+  content: "震度" !important;
 }

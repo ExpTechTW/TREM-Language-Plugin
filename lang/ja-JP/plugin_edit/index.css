@@ -1,32 +1,39 @@
-html[lang="ja-JP"] {
-  .visual-editor-title:before {
-    content: "ビジュアルエディタ" !important;
-  }
-  .btn-remove:before {
-    content: "削除" !important;
-  }
-  .btn-add:before {
-    content: "項目を追加" !important;
-  }
-  .root::before {
-    content: "新しいルートレベルのフィールド" !important;
-  }
-  .json-error:before {
-    content: "JSONフォーマットエラー" !important;
-  }
-  .yaml-transfer-error:before {
-    content: "YAML変換エラー" !important;
-  }
-  .yaml-extract-error:before {
-    content: "YAML解析エラー" !important;
-  }
-  .auto-save-success:before {
-    content: "自動保存に成功しました" !important;
-  }
-  .auto-save-error:before {
-    content: "自動保存が失敗しました" !important;
-  }
-  .load-error:before {
-    content: "読み取りエラー" !important;
-  }
+html[lang="ja-JP"] .visual-editor-title:before {
+  content: "ビジュアルエディタ" !important;
+}
+
+html[lang="ja-JP"] .btn-remove:before {
+  content: "削除" !important;
+}
+
+html[lang="ja-JP"] .btn-add:before {
+  content: "項目を追加" !important;
+}
+
+html[lang="ja-JP"] .root::before {
+  content: "新しいルートレベルのフィールド" !important;
+}
+
+html[lang="ja-JP"] .json-error:before {
+  content: "JSONフォーマットエラー" !important;
+}
+
+html[lang="ja-JP"] .yaml-transfer-error:before {
+  content: "YAML変換エラー" !important;
+}
+
+html[lang="ja-JP"] .yaml-extract-error:before {
+  content: "YAML解析エラー" !important;
+}
+
+html[lang="ja-JP"] .auto-save-success:before {
+  content: "自動保存に成功しました" !important;
+}
+
+html[lang="ja-JP"] .auto-save-error:before {
+  content: "自動保存が失敗しました" !important;
+}
+
+html[lang="ja-JP"] .load-error:before {
+  content: "読み取りエラー" !important;
 }

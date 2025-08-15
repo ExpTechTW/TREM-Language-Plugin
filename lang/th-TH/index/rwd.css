@@ -1,39 +1,42 @@
-html[lang="th-TH"] {
-  @media (max-width: 980px) {
-    .info-intensity::after {
-      content: "Est. maximum" !important;
-    }
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 11px !important;
-      }
-    }
-    .report-intensity-val {
-      height: 40px !important;
-      width: 43px !important;
-    }
-    .current-station-info {
-      width: auto !important;
-    }
-    .current-station-pga {
-      width: 162px !important;
-    }
-    .max-intensity {
-      width: 76px;
-    }
-    .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(130%) !important;
-    }
-    .report-box-item-wrapper.survey:first-child {
-      .report-loc {
-        font-size: 19px !important;
-      }
-    }
-    .max-pga {
-      width: 95px;
-    }
-    .max-intensity-pga-wrapper {
-      top: 13.5rem !important;
-    }
+@media (max-width: 980px) {
+  html[lang="th-TH"] .info-intensity::after {
+    content: "Est. maximum" !important;
+  }
+
+  html[lang="th-TH"] .report-box-item-wrapper:first-child .report-intensity-text {
+    font-size: 11px !important;
+  }
+
+  html[lang="th-TH"] .report-intensity-val {
+    height: 40px !important;
+    width: 43px !important;
+  }
+
+  html[lang="th-TH"] .current-station-info {
+    width: auto !important;
+  }
+
+  html[lang="th-TH"] .current-station-pga {
+    width: 162px !important;
+  }
+
+  html[lang="th-TH"] .max-intensity {
+    width: 76px;
+  }
+
+  html[lang="th-TH"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+    transform: translateX(130%) !important;
+  }
+
+  html[lang="th-TH"] .report-box-item-wrapper.survey:first-child .report-loc {
+    font-size: 19px !important;
+  }
+
+  html[lang="th-TH"] .max-pga {
+    width: 95px;
+  }
+
+  html[lang="th-TH"] .max-intensity-pga-wrapper {
+    top: 13.5rem !important;
   }
 }

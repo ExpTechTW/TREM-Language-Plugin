@@ -1,323 +1,407 @@
-html[lang="tl-PH"] {
-  .button[for="general"]:before,
-  .general .setting-page-header-title::before {
-    content: "Heneral" !important;
-  }
-  .button[for="graphics"]:before,
-  .graphics-header-title:before {
-    content: "Mga graphic" !important;
-  }
-  .button[for="sound-effects"]:before,
-  .sound-effects-header-title::before {
-    content: "Mga Sound Effect" !important;
-  }
-  .button[for="extended"]:before,
-  .extended-header-title:before {
-    content: "Extended" !important;
-  }
-  .button[for="info"]:before,
-  .info-header-title::before {
-    content: "Impormasyon" !important;
-  }
-  .location-title::before {
-    content: "Lokasyon" !important;
-  }
-  .location-description::before {
-    content: "Ang pagtatakda ng lokasyon ay nagbibigay-daan sa iyong matantya ang intensity ng isang lindol sa iyong lugar kapag nangyari ito." !important;
-  }
-  .rts-station-title::before {
-    content: "Real-Time na Istasyon" !important;
-  }
-  .rts-station-description::before {
-    content: "Ang real-time na istasyon na lumilitaw sa kaliwang tuktok ng pangunahing screen." !important;
-  }
-  .warning-title::before {
-    content: "Mga Kundisyon sa Maagang Babala" !important;
-  }
-  .warning-description::before {
-    content: "Ang agarang istasyon (anumang istasyon) ay ang intensity threshold ng anumang istasyon sa oras ng pag-trigger, at ang tinantyang intensity (lokasyon) ay ang intensity threshold ng lokasyon sa oras ng babala ng lindol, at ang software ay maglalabas ng sound effect at magpa-pop up ng window kapag natugunan ang alinman sa mga sumusunod na kondisyon." !important;
-  }
-  .current-realtime-station::before {
-    content: "Real-Time na Istasyon (anumang istasyon) " !important;
-  }
-  .current-estimate-intensity::before {
-    content: "Tinantyang Intensity (lokasyon)" !important;
-  }
-  .show-window-title::before {
-    content: "Ipakita ang Window" !important;
-  }
-  .show-window-description::before {
-    content: "Awtomatikong window ng pagpapakita ng programa" !important;
-  }
-  .trem-eew-title::before {
-    content: "TREM EEW" !important;
-  }
-  .trem-eew-description::before {
-    content: "Ang TREM-EEW ay isang mensahe ng maagang babala sa lindol na kinakalkula gamit ang network ng pagmamasid sa TREM-Net. Ang real-time na data ay hindi pampubliko, makikita ng mga pangkalahatang user ang epekto sa replay (5 minuto pagkatapos ng lindol) pagkatapos." !important;
-  }
-  .other-function-title::before {
-    content: "Iba pang Function" !important;
-  }
-  .other-function-description::before {
-    content: "Narito ang maliliit na feature na hindi madalas gamitin ng TREM Lite." !important;
-  }
-  .auto-start::before {
-    content: "Auto Start (Windows)" !important;
-  }
-  .tts::before {
-    content: "Text-to-Speech (Traditional Chinese)" !important;
-  }
-  .earthquake-eew::before {
-    content: "Babala sa Lindol" !important;
-  }
-  .earthquake-report::before {
-    content: "Ulat sa Lindol" !important;
-  }
-  .earthquake-detect::before {
-    content: "Detect ng Lindol" !important;
-  }
-  .rts-intensity::before {
-    content: "Real-Time na Intensity" !important;
-  }
-  .get-trem-eew::before {
-    content: "Tumanggap ng TREM EEW" !important;
-  }
-  .reset-button::before,
-  .reset-setting-title::before {
-    content: "I-reset" !important;
-  }
-  .reset-setting::before {
-    content: "I-reset ang Lahat ng Mga Setting" !important;
-  }
-  .auto-zoom-title::before {
-    content: "Mapa Auto-zoom" !important;
-  }
-  .auto-zoom-description::before {
-    content: "Ang default na auto-zoom ng mapa ay hindi pinagana." !important;
-  }
-  .block-auto-zoom::before {
-    content: "Huwag paganahin ang Mapa Auto-zoom" !important;
-  }
-  .effects-dong-title::before {
-    content: "Maagang Babala" !important;
-  }
-  .effects-dong-description::before {
-    content: "Kapag naganap ang isang lindol, ibina-broadcast nito ang tinantyang magnitude ng lokasyon at ang bilang ng mga segundo na natitira para dumating ang alon ng lindol." !important;
-  }
-  .dong-dong::before {
-    content: "Sound Effect (gumagana lang kung may countdown)" !important;
-  }
-  .sound-effects-list-title::before {
-    content: "Listahan ng Mga Sound Effect" !important;
-  }
-  .sound-effects-list-description::before {
-    content: "Pag-on o pag-off ng mga partikular na sound effect" !important;
-  }
-  .extended-list-title:before {
-    content: "Mga extension" !important;
-  }
-  .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before {
-    content: "Ang paggamit ng mga extension mula sa hindi alam o hindi pinagkakatiwalaang mga mapagkukunan ay maaaring malagay sa panganib ang seguridad ng iyong personal na impormasyon, kaya mangyaring mag-ingat." !important;
-  }
-  .extended-list-descriptions:empty::before {
-    content: "Piliin ang pinaganang mga extension, ang mga extension ay mailo-load sa pagsisimula ng programa." !important;
-  }
-  .extended-setting-button::before {
-    content: "Setting" !important;
-  }
-  .verified-badge::before {
-    content: "Na-verify" !important;
-  }
-  .unverified-badge::before {
-    content: "Hindi Na-verify" !important;
-  }
-  .loaded-badge::before {
-    content: "Na-load" !important;
-  }
-  .unloaded-badge::before {
-    content: "Na-unload" !important;
-  }
-  .success.message-box:before {
-    content: "Matagumpay ang operasyon, mangyaring isara ang window ng setting at ilapat ito!" !important;
-  }
-  .failed.message-box:before {
-    content: "Nabigo ang operasyon!" !important;
-  }
-  .success-download.message-box:before {
-    content: "Ang pag-download ay matagumpay, mangyaring isara ang window ng setting at ilapat ito!" !important;
-  }
-  .extended-store:before {
-    content: "Tindahan ang TREM Expanded" !important;
-  }
-  .extended-download-button::before {
-    content: "I-download" !important;
-  }
-  .extended-download-button.downloading::before {
-    content: "Nagda-download..." !important;
-  }
-  .extended-download-button.downloaded::before {
-    content: "I-download ang Tagumpay" !important;
-    font-size: 11px;
-  }
-  .extended-update-button::before {
-    content: "Update" !important;
-  }
-  .extended-latest-button::before {
-    content: "Pinakabagong bersyon" !important;
-  }
-  .p-alert::before {
-    content: "P-Alert (kapag ang pagtanggap ay malapit sa real-time na intensity)" !important;
-  }
-  .report::after {
-    content: "Ulat (kapag natanggap ang ulat ng lindol)" !important;
-  }
-  .update::before {
-    content: "Update (kapag naitama ang babala sa lindol)" !important;
-  }
-  .info-trem-lite::before {
-    content: "Tungkol sa TREM Lite" !important;
-  }
-  .info-trem-description::before {
-    content: "Ang TREM-Lite ay isang open-source earthquake quick-reporting software na nagbibigay sa iyo ng real-time na impormasyon sa lindol, na gumagamit ng mga self-developed na istasyon ng lindol upang ipakita ang real-time na seismicity ng iba't ibang lugar, at pagkuha ng real-time na mga mensahe ng babala ng malalakas na lindol na inilabas ng iba't ibang channel sa unang pagkakataon ng lindol." !important;
-  }
-  .app-version-title::before {
-    content: "Bersyon ng Programa" !important;
-  }
-  .system-os-title::before {
-    content: "Bersyon ng System" !important;
-  }
-  .source-title::before {
-    content: "Pinagmulan ng Data" !important;
-  }
-  .source-eew::before {
-    content: "Alerto sa Lindol" !important;
-  }
-  .source-cwa::before {
-    content: "Central Weather Administration (CWA)" !important;
-  }
-  .source-shindo::before {
-    content: "Intensity" !important;
-  }
-  .source-sinica::before {
-    content: "Academia Sinica (SINICA)" !important;
-  }
-  .source-trem::before {
-    content: "Taiwan Real-time Earthquake Monitor (TREM)" !important;
-  }
-  .contributor-title::before {
-    content: "Contributor" !important;
-  }
-  .contributor-description::before {
-    content: "Salamat sa mga sumusunod na kontribyutor para gawing posible ang TREM Lite." !important;
-  }
-  .reset .confirm-title::before {
-    content: "Sigurado ka bang gusto mong i-reset ang mga setting? Hindi ka na makakabalik pagkatapos mag-reset." !important;
-  }
-  .extendedOpen .confirm-title::before {
-    content: "Sigurado ka bang gusto mong paganahin ang " !important;
-  }
-  .extendedOpen .confirm-title::after {
-    content: " extension? Ang paggamit ng mga extension mula sa hindi kilalang o hindi pinagkakatiwalaang mga mapagkukunan ay maaaring malagay sa panganib ang seguridad ng iyong personal na impormasyon." !important;
-  }
-  .confirm-sure:empty::before {
-    content: "Oo naman" !important;
-  }
-  .confirm-sure:not(:empty)::after {
-    content: " segundo" !important;
-  }
-  .confirm-cancel::before {
-    content: "Kanselahin" !important;
-  }
-  .current:empty:before {
-    content: "Hindi nakatakda" !important;
-  }
-  .extended-list-button[for="extended-state-list"]:before {
-    content: "Pinalawak na Katayuan" !important;
-  }
-  .extended-list-button[for="extended-installed-list"]:before {
-    content: "Pinalawak na Listahan" !important;
-  }
-  .extended-list-button[for="extended-store-list"]:before {
-    content: "Pinahabang Tindahan" !important;
-  }
-  .eew-1::before {
-    content: "EEW (kapag natanggap ang babala ng lindol)" !important;
-  }
-  .copy-debug-log:before {
-    content: "Kopyahin ang debug log" !important;
-  }
-  .success-copy.message-box:before {
-    content: "Matagumpay ang pagkopya!" !important;
-  }
-  .success-failed.message-box:before {
-    content: "Pagkabigo sa Kopya!" !important;
-  }
+html[lang="tl-PH"] .button[for="general"]:before,
+html[lang="tl-PH"] .general .setting-page-header-title::before {
+  content: "Heneral" !important;
+}
 
-  .eew-2 {
-    &::before {
-      content: "EEW2 (kapag ang tinantyang intensity ay " !important;
-    }
-    .special-text:before {
-      content: "5-" !important;
-    }
-    &::after {
-      content: " o mas mataas)" !important;
-    }
-  }
-  .pga-1 {
-    &::before {
-      content: "PGA1 (kapag ang peak ground acceleration ay " !important;
-    }
-    .special-text:before {
-      content: "8 gal" !important;
-    }
-    &::after {
-      content: " o mas mataas)" !important;
-    }
-  }
-  .pga-2 {
-    &::before {
-      content: "PGA2 (kapag ang peak ground acceleration ay " !important;
-    }
-    .special-text:before {
-      content: "200 gal" !important;
-    }
-    &::after {
-      content: " o mas mataas)" !important;
-    }
-  }
-  .shindo-0 {
-    &::before {
-      content: "Shindo0 (kapag ang tinantyang intensity ay " !important;
-    }
-    .special-text:before {
-      content: "0" !important;
-    }
-    &::after {
-      content: " o mas mataas)" !important;
-    }
-  }
-  .shindo-1 {
-    &::before {
-      content: "Shindo1 (kapag ang tinantyang intensity ay " !important;
-    }
-    .special-text:before {
-      content: "2" !important;
-    }
-    &::after {
-      content: " o mas mataas)" !important;
-    }
-  }
-  .shindo-2 {
-    &::before {
-      content: "Shindo2 (kapag ang tinantyang intensity ay " !important;
-    }
-    .special-text:before {
-      content: "4" !important;
-    }
-    &::after {
-      content: " o mas mataas)" !important;
-    }
-  }
+html[lang="tl-PH"] .button[for="graphics"]:before,
+html[lang="tl-PH"] .graphics-header-title:before {
+  content: "Mga graphic" !important;
+}
+
+html[lang="tl-PH"] .button[for="sound-effects"]:before,
+html[lang="tl-PH"] .sound-effects-header-title::before {
+  content: "Mga Sound Effect" !important;
+}
+
+html[lang="tl-PH"] .button[for="extended"]:before,
+html[lang="tl-PH"] .extended-header-title:before {
+  content: "Extended" !important;
+}
+
+html[lang="tl-PH"] .button[for="info"]:before,
+html[lang="tl-PH"] .info-header-title::before {
+  content: "Impormasyon" !important;
+}
+
+html[lang="tl-PH"] .location-title::before {
+  content: "Lokasyon" !important;
+}
+
+html[lang="tl-PH"] .location-description::before {
+  content: "Ang pagtatakda ng lokasyon ay nagbibigay-daan sa iyong matantya ang intensity ng isang lindol sa iyong lugar kapag nangyari ito." !important;
+}
+
+html[lang="tl-PH"] .rts-station-title::before {
+  content: "Real-Time na Istasyon" !important;
+}
+
+html[lang="tl-PH"] .rts-station-description::before {
+  content: "Ang real-time na istasyon na lumilitaw sa kaliwang tuktok ng pangunahing screen." !important;
+}
+
+html[lang="tl-PH"] .warning-title::before {
+  content: "Mga Kundisyon sa Maagang Babala" !important;
+}
+
+html[lang="tl-PH"] .warning-description::before {
+  content: "Ang agarang istasyon (anumang istasyon) ay ang intensity threshold ng anumang istasyon sa oras ng pag-trigger, at ang tinantyang intensity (lokasyon) ay ang intensity threshold ng lokasyon sa oras ng babala ng lindol, at ang software ay maglalabas ng sound effect at magpa-pop up ng window kapag natugunan ang alinman sa mga sumusunod na kondisyon." !important;
+}
+
+html[lang="tl-PH"] .current-realtime-station::before {
+  content: "Real-Time na Istasyon (anumang istasyon) " !important;
+}
+
+html[lang="tl-PH"] .current-estimate-intensity::before {
+  content: "Tinantyang Intensity (lokasyon)" !important;
+}
+
+html[lang="tl-PH"] .show-window-title::before {
+  content: "Ipakita ang Window" !important;
+}
+
+html[lang="tl-PH"] .show-window-description::before {
+  content: "Awtomatikong window ng pagpapakita ng programa" !important;
+}
+
+html[lang="tl-PH"] .trem-eew-title::before {
+  content: "TREM EEW" !important;
+}
+
+html[lang="tl-PH"] .trem-eew-description::before {
+  content: "Ang TREM-EEW ay isang mensahe ng maagang babala sa lindol na kinakalkula gamit ang network ng pagmamasid sa TREM-Net. Ang real-time na data ay hindi pampubliko, makikita ng mga pangkalahatang user ang epekto sa replay (5 minuto pagkatapos ng lindol) pagkatapos." !important;
+}
+
+html[lang="tl-PH"] .other-function-title::before {
+  content: "Iba pang Function" !important;
+}
+
+html[lang="tl-PH"] .other-function-description::before {
+  content: "Narito ang maliliit na feature na hindi madalas gamitin ng TREM Lite." !important;
+}
+
+html[lang="tl-PH"] .auto-start::before {
+  content: "Auto Start (Windows)" !important;
+}
+
+html[lang="tl-PH"] .tts::before {
+  content: "Text-to-Speech (Traditional Chinese)" !important;
+}
+
+html[lang="tl-PH"] .earthquake-eew::before {
+  content: "Babala sa Lindol" !important;
+}
+
+html[lang="tl-PH"] .earthquake-report::before {
+  content: "Ulat sa Lindol" !important;
+}
+
+html[lang="tl-PH"] .earthquake-detect::before {
+  content: "Detect ng Lindol" !important;
+}
+
+html[lang="tl-PH"] .rts-intensity::before {
+  content: "Real-Time na Intensity" !important;
+}
+
+html[lang="tl-PH"] .get-trem-eew::before {
+  content: "Tumanggap ng TREM EEW" !important;
+}
+
+html[lang="tl-PH"] .reset-button::before,
+html[lang="tl-PH"] .reset-setting-title::before {
+  content: "I-reset" !important;
+}
+
+html[lang="tl-PH"] .reset-setting::before {
+  content: "I-reset ang Lahat ng Mga Setting" !important;
+}
+
+html[lang="tl-PH"] .auto-zoom-title::before {
+  content: "Mapa Auto-zoom" !important;
+}
+
+html[lang="tl-PH"] .auto-zoom-description::before {
+  content: "Ang default na auto-zoom ng mapa ay hindi pinagana." !important;
+}
+
+html[lang="tl-PH"] .block-auto-zoom::before {
+  content: "Huwag paganahin ang Mapa Auto-zoom" !important;
+}
+
+html[lang="tl-PH"] .effects-dong-title::before {
+  content: "Maagang Babala" !important;
+}
+
+html[lang="tl-PH"] .effects-dong-description::before {
+  content: "Kapag naganap ang isang lindol, ibina-broadcast nito ang tinantyang magnitude ng lokasyon at ang bilang ng mga segundo na natitira para dumating ang alon ng lindol." !important;
+}
+
+html[lang="tl-PH"] .dong-dong::before {
+  content: "Sound Effect (gumagana lang kung may countdown)" !important;
+}
+
+html[lang="tl-PH"] .sound-effects-list-title::before {
+  content: "Listahan ng Mga Sound Effect" !important;
+}
+
+html[lang="tl-PH"] .sound-effects-list-description::before {
+  content: "Pag-on o pag-off ng mga partikular na sound effect" !important;
+}
+
+html[lang="tl-PH"] .extended-list-title:before {
+  content: "Mga extension" !important;
+}
+
+html[lang="tl-PH"] .extended-list-description:empty::before,
+html[lang="tl-PH"] .extended-info .extended-info-warning:empty::before {
+  content: "Ang paggamit ng mga extension mula sa hindi alam o hindi pinagkakatiwalaang mga mapagkukunan ay maaaring malagay sa panganib ang seguridad ng iyong personal na impormasyon, kaya mangyaring mag-ingat." !important;
+}
+
+html[lang="tl-PH"] .extended-list-descriptions:empty::before {
+  content: "Piliin ang pinaganang mga extension, ang mga extension ay mailo-load sa pagsisimula ng programa." !important;
+}
+
+html[lang="tl-PH"] .extended-setting-button::before {
+  content: "Setting" !important;
+}
+
+html[lang="tl-PH"] .verified-badge::before {
+  content: "Na-verify" !important;
+}
+
+html[lang="tl-PH"] .unverified-badge::before {
+  content: "Hindi Na-verify" !important;
+}
+
+html[lang="tl-PH"] .loaded-badge::before {
+  content: "Na-load" !important;
+}
+
+html[lang="tl-PH"] .unloaded-badge::before {
+  content: "Na-unload" !important;
+}
+
+html[lang="tl-PH"] .success.message-box:before {
+  content: "Matagumpay ang operasyon, mangyaring isara ang window ng setting at ilapat ito!" !important;
+}
+
+html[lang="tl-PH"] .failed.message-box:before {
+  content: "Nabigo ang operasyon!" !important;
+}
+
+html[lang="tl-PH"] .success-download.message-box:before {
+  content: "Ang pag-download ay matagumpay, mangyaring isara ang window ng setting at ilapat ito!" !important;
+}
+
+html[lang="tl-PH"] .extended-store:before {
+  content: "Tindahan ang TREM Expanded" !important;
+}
+
+html[lang="tl-PH"] .extended-download-button::before {
+  content: "I-download" !important;
+}
+
+html[lang="tl-PH"] .extended-download-button.downloading::before {
+  content: "Nagda-download..." !important;
+}
+
+html[lang="tl-PH"] .extended-download-button.downloaded::before {
+  content: "I-download ang Tagumpay" !important;
+  font-size: 11px;
+}
+
+html[lang="tl-PH"] .extended-update-button::before {
+  content: "Update" !important;
+}
+
+html[lang="tl-PH"] .extended-latest-button::before {
+  content: "Pinakabagong bersyon" !important;
+}
+
+html[lang="tl-PH"] .p-alert::before {
+  content: "P-Alert (kapag ang pagtanggap ay malapit sa real-time na intensity)" !important;
+}
+
+html[lang="tl-PH"] .report::after {
+  content: "Ulat (kapag natanggap ang ulat ng lindol)" !important;
+}
+
+html[lang="tl-PH"] .update::before {
+  content: "Update (kapag naitama ang babala sa lindol)" !important;
+}
+
+html[lang="tl-PH"] .info-trem-lite::before {
+  content: "Tungkol sa TREM Lite" !important;
+}
+
+html[lang="tl-PH"] .info-trem-description::before {
+  content: "Ang TREM-Lite ay isang open-source earthquake quick-reporting software na nagbibigay sa iyo ng real-time na impormasyon sa lindol, na gumagamit ng mga self-developed na istasyon ng lindol upang ipakita ang real-time na seismicity ng iba't ibang lugar, at pagkuha ng real-time na mga mensahe ng babala ng malalakas na lindol na inilabas ng iba't ibang channel sa unang pagkakataon ng lindol." !important;
+}
+
+html[lang="tl-PH"] .app-version-title::before {
+  content: "Bersyon ng Programa" !important;
+}
+
+html[lang="tl-PH"] .system-os-title::before {
+  content: "Bersyon ng System" !important;
+}
+
+html[lang="tl-PH"] .source-title::before {
+  content: "Pinagmulan ng Data" !important;
+}
+
+html[lang="tl-PH"] .source-eew::before {
+  content: "Alerto sa Lindol" !important;
+}
+
+html[lang="tl-PH"] .source-cwa::before {
+  content: "Central Weather Administration (CWA)" !important;
+}
+
+html[lang="tl-PH"] .source-shindo::before {
+  content: "Intensity" !important;
+}
+
+html[lang="tl-PH"] .source-sinica::before {
+  content: "Academia Sinica (SINICA)" !important;
+}
+
+html[lang="tl-PH"] .source-trem::before {
+  content: "Taiwan Real-time Earthquake Monitor (TREM)" !important;
+}
+
+html[lang="tl-PH"] .contributor-title::before {
+  content: "Contributor" !important;
+}
+
+html[lang="tl-PH"] .contributor-description::before {
+  content: "Salamat sa mga sumusunod na kontribyutor para gawing posible ang TREM Lite." !important;
+}
+
+html[lang="tl-PH"] .reset .confirm-title::before {
+  content: "Sigurado ka bang gusto mong i-reset ang mga setting? Hindi ka na makakabalik pagkatapos mag-reset." !important;
+}
+
+html[lang="tl-PH"] .extendedOpen .confirm-title::before {
+  content: "Sigurado ka bang gusto mong paganahin ang " !important;
+}
+
+html[lang="tl-PH"] .extendedOpen .confirm-title::after {
+  content: " extension? Ang paggamit ng mga extension mula sa hindi kilalang o hindi pinagkakatiwalaang mga mapagkukunan ay maaaring malagay sa panganib ang seguridad ng iyong personal na impormasyon." !important;
+}
+
+html[lang="tl-PH"] .confirm-sure:empty::before {
+  content: "Oo naman" !important;
+}
+
+html[lang="tl-PH"] .confirm-sure:not(:empty)::after {
+  content: " segundo" !important;
+}
+
+html[lang="tl-PH"] .confirm-cancel::before {
+  content: "Kanselahin" !important;
+}
+
+html[lang="tl-PH"] .current:empty:before {
+  content: "Hindi nakatakda" !important;
+}
+
+html[lang="tl-PH"] .extended-list-button[for="extended-state-list"]:before {
+  content: "Pinalawak na Katayuan" !important;
+}
+
+html[lang="tl-PH"] .extended-list-button[for="extended-installed-list"]:before {
+  content: "Pinalawak na Listahan" !important;
+}
+
+html[lang="tl-PH"] .extended-list-button[for="extended-store-list"]:before {
+  content: "Pinahabang Tindahan" !important;
+}
+
+html[lang="tl-PH"] .eew-1::before {
+  content: "EEW (kapag natanggap ang babala ng lindol)" !important;
+}
+
+html[lang="tl-PH"] .copy-debug-log:before {
+  content: "Kopyahin ang debug log" !important;
+}
+
+html[lang="tl-PH"] .success-copy.message-box:before {
+  content: "Matagumpay ang pagkopya!" !important;
+}
+
+html[lang="tl-PH"] .success-failed.message-box:before {
+  content: "Pagkabigo sa Kopya!" !important;
+}
+
+html[lang="tl-PH"] .eew-2::before {
+  content: "EEW2 (kapag ang tinantyang intensity ay " !important;
+}
+
+html[lang="tl-PH"] .eew-2 .special-text:before {
+  content: "5-" !important;
+}
+
+html[lang="tl-PH"] .eew-2::after {
+  content: " o mas mataas)" !important;
+}
+
+html[lang="tl-PH"] .pga-1::before {
+  content: "PGA1 (kapag ang peak ground acceleration ay " !important;
+}
+
+html[lang="tl-PH"] .pga-1 .special-text:before {
+  content: "8 gal" !important;
+}
+
+html[lang="tl-PH"] .pga-1::after {
+  content: " o mas mataas)" !important;
+}
+
+html[lang="tl-PH"] .pga-2::before {
+  content: "PGA2 (kapag ang peak ground acceleration ay " !important;
+}
+
+html[lang="tl-PH"] .pga-2 .special-text:before {
+  content: "200 gal" !important;
+}
+
+html[lang="tl-PH"] .pga-2::after {
+  content: " o mas mataas)" !important;
+}
+
+html[lang="tl-PH"] .shindo-0::before {
+  content: "Shindo0 (kapag ang tinantyang intensity ay " !important;
+}
+
+html[lang="tl-PH"] .shindo-0 .special-text:before {
+  content: "0" !important;
+}
+
+html[lang="tl-PH"] .shindo-0::after {
+  content: " o mas mataas)" !important;
+}
+
+html[lang="tl-PH"] .shindo-1::before {
+  content: "Shindo1 (kapag ang tinantyang intensity ay " !important;
+}
+
+html[lang="tl-PH"] .shindo-1 .special-text:before {
+  content: "2" !important;
+}
+
+html[lang="tl-PH"] .shindo-1::after {
+  content: " o mas mataas)" !important;
+}
+
+html[lang="tl-PH"] .shindo-2::before {
+  content: "Shindo2 (kapag ang tinantyang intensity ay " !important;
+}
+
+html[lang="tl-PH"] .shindo-2 .special-text:before {
+  content: "4" !important;
+}
+
+html[lang="tl-PH"] .shindo-2::after {
+  content: " o mas mataas)" !important;
 }

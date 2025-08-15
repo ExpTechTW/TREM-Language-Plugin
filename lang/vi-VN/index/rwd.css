@@ -1,44 +1,38 @@
-html[lang="vi-VN"] {
-  @media (max-width: 980px) {
-    .info-intensity::after {
-      content: "Ước tính tối đa" !important;
-    }
+@media (max-width: 980px) {
+  html[lang="vi-VN"] .info-intensity::after {
+    content: "Ước tính tối đa" !important;
+  }
 
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 10px !important;
-      }
-    }
+  html[lang="vi-VN"] .report-box-item-wrapper:first-child .report-intensity-text {
+    font-size: 10px !important;
+  }
 
-    .report-intensity-val {
-      height: 40px !important;
-      width: 43px !important;
-    }
+  html[lang="vi-VN"] .report-intensity-val {
+    height: 40px !important;
+    width: 43px !important;
+  }
 
-    .current-station-info {
-      width: 145px !important;
-    }
+  html[lang="vi-VN"] .current-station-info {
+    width: 145px !important;
+  }
 
-    .current-station-pga {
-      width: 190px !important;
-    }
+  html[lang="vi-VN"] .current-station-pga {
+    width: 190px !important;
+  }
 
-    .max-intensity {
-      width: auto;
-    }
+  html[lang="vi-VN"] .max-intensity {
+    width: auto;
+  }
 
-    .rts-intensity-list-wrapper {
-      right: 17rem;
-    }
+  html[lang="vi-VN"] .rts-intensity-list-wrapper {
+    right: 17rem;
+  }
 
-    .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(130%) !important;
-    }
+  html[lang="vi-VN"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+    transform: translateX(130%) !important;
+  }
 
-    .report-box-item-wrapper.survey:first-child {
-      .report-loc {
-        font-size: 19px !important;
-      }
-    }
+  html[lang="vi-VN"] .report-box-item-wrapper.survey:first-child .report-loc {
+    font-size: 19px !important;
   }
 }

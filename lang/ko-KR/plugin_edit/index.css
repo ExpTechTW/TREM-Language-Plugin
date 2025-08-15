@@ -1,32 +1,39 @@
-html[lang="ko-KR"] {
-  .visual-editor-title:before {
-    content: "비주얼 편집기" !important;
-  }
-  .btn-remove:before {
-    content: "삭제" !important;
-  }
-  .btn-add:before {
-    content: "항목 추가" !important;
-  }
-  .root::before {
-    content: "새로운 루트 레벨 필드" !important;
-  }
-  .json-error:before {
-    content: "JSON 형식 오류" !important;
-  }
-  .yaml-transfer-error:before {
-    content: "YAML 변환 오류" !important;
-  }
-  .yaml-extract-error:before {
-    content: "YAML 구문 분석 오류" !important;
-  }
-  .auto-save-success:before {
-    content: "자동 저장 성공" !important;
-  }
-  .auto-save-error:before {
-    content: "자동 저장 실패" !important;
-  }
-  .load-error:before {
-    content: "읽기 오류" !important;
-  }
+html[lang="ko-KR"] .visual-editor-title:before {
+  content: "비주얼 편집기" !important;
+}
+
+html[lang="ko-KR"] .btn-remove:before {
+  content: "삭제" !important;
+}
+
+html[lang="ko-KR"] .btn-add:before {
+  content: "항목 추가" !important;
+}
+
+html[lang="ko-KR"] .root::before {
+  content: "새로운 루트 레벨 필드" !important;
+}
+
+html[lang="ko-KR"] .json-error:before {
+  content: "JSON 형식 오류" !important;
+}
+
+html[lang="ko-KR"] .yaml-transfer-error:before {
+  content: "YAML 변환 오류" !important;
+}
+
+html[lang="ko-KR"] .yaml-extract-error:before {
+  content: "YAML 구문 분석 오류" !important;
+}
+
+html[lang="ko-KR"] .auto-save-success:before {
+  content: "자동 저장 성공" !important;
+}
+
+html[lang="ko-KR"] .auto-save-error:before {
+  content: "자동 저장 실패" !important;
+}
+
+html[lang="ko-KR"] .load-error:before {
+  content: "읽기 오류" !important;
 }

@@ -1,268 +1,259 @@
 @import url("./rwd.css");
 
-html[lang="vi-VN"] {
-  /** Version Check **/
-  .version-check-text::before {
-    content: "Phiên bản mới" !important;
-  }
+/** Version Check **/
+html[lang="vi-VN"] .version-check-text::before {
+  content: "Phiên bản mới" !important;
+}
 
-  /** Info Box **/
-  .info-number {
-    &:not(:empty)::before {
-      content: "#" !important;
-    }
-    &:not(:empty)::after {
-      content: "" !important;
-    }
-  }
+/** Info Box **/
+html[lang="vi-VN"] .info-number:not(:empty)::before {
+  content: "#" !important;
+}
 
-  .cancel-title span::before {
-    content: "Hủy bỏ" !important;
-  }
+html[lang="vi-VN"] .info-number:not(:empty)::after {
+  content: "" !important;
+}
 
-  .cancel-body span::before {
-    content: "Cảnh báo động đất này đã được hủy bỏ." !important;
-  }
+html[lang="vi-VN"] .cancel-title span::before {
+  content: "Hủy bỏ" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "Thấp " !important;
-  }
+html[lang="vi-VN"] .cancel-body span::before {
+  content: "Cảnh báo động đất này đã được hủy bỏ." !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "Phản ứng yếu của động đất " !important;
-  }
+html[lang="vi-VN"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "Thấp " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "Phát hiện động đất mạnh " !important;
-  }
+html[lang="vi-VN"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "Phản ứng yếu của động đất " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "Hủy bỏ " !important;
-  }
+html[lang="vi-VN"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "Phát hiện động đất mạnh " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "Cảnh báo " !important;
-  }
+html[lang="vi-VN"] .eew-cancel .info-unit::before {
+  content: "Hủy bỏ " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "Cảnh báo cảnh báo " !important;
-  }
+html[lang="vi-VN"] .eew-warn .info-unit::before {
+  content: "Cảnh báo " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "Phát hiện động đất một điểm " !important;
-  }
+html[lang="vi-VN"] .eew-alert .info-unit::before {
+  content: "Cảnh báo cảnh báo " !important;
+}
 
-  .info-cancel-last::after {
-    content: "(Hủy bỏ)" !important;
-  }
+html[lang="vi-VN"] .eew-rts .info-unit::before {
+  content: "Phát hiện động đất một điểm " !important;
+}
 
-  .info-number-last::after {
-    content: "(Cuối cùng)" !important;
-  }
+html[lang="vi-VN"] .info-cancel-last::after {
+  content: "(Hủy bỏ)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "Không có cảnh báo động đất hiện tại" !important;
-  }
+html[lang="vi-VN"] .info-number-last::after {
+  content: "(Cuối cùng)" !important;
+}
 
-  .info-intensity::after {
-    content: "Ước tính cường độ tối đa" !important;
-  }
+html[lang="vi-VN"] .no-eew .info-unit::after {
+  content: "Không có cảnh báo động đất hiện tại" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE" !important;
-  }
+html[lang="vi-VN"] .info-intensity::before {
+  content: "Ước tính" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "kích cỡ" !important;
-    width: 6.5rem;
-    font-size: 20px;
-  }
+html[lang="vi-VN"] .info-intensity::after {
+  content: "cường độ tối đa" !important;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "Độ sâu" !important;
-    font-size: 20px;
-  }
+html[lang="vi-VN"] .info-nsspe span::before {
+  content: "NSSPE" !important;
+}
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
+html[lang="vi-VN"] .info-mag-text::after,
+html[lang="vi-VN"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "kích cỡ" !important;
+  width: 6.5rem;
+  font-size: 20px;
+}
 
-  .info-time::after {
-    content: "";
-  }
+html[lang="vi-VN"] .info-depth-text::after,
+html[lang="vi-VN"] .report-depth-text::after {
+  content: "Độ sâu" !important;
+  font-size: 20px;
+}
 
-  .info-time::before {
-    content: "Diễn ra vào ngày ";
-  }
+html[lang="vi-VN"] .intensity-0:not(#max-intensity,
+  #max-pga,
+  #current-station-intensity,
+  .rts-intensity)::after {
+  content: "?";
+}
 
-  .info-wrapper {
-    .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
+html[lang="vi-VN"] .info-time::after {
+  content: "";
+}
 
-  /** Station Pga Info **/
-  .current-station-intensity-text::before {
-    content: "Cường độ" !important;
-  }
-  .current-station-pga-text::before {
-    content: "PGA" !important;
-  }
+html[lang="vi-VN"] .info-time::before {
+  content: "Diễn ra vào ngày ";
+}
 
-  .max-pga-text::before {
-    content: "PGA tối đa" !important;
-  }
+html[lang="vi-VN"] .info-wrapper .info-title-wrapper .info-intensity {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1px !important;
+}
 
-  .max-intensity-text::before {
-    content: "Cường độ tối đa" !important;
-  }
+/** Station Pga Info **/
+html[lang="vi-VN"] .current-station-intensity-text::before {
+  content: "Cường độ" !important;
+}
 
-  .station-pga-wrapper {
-    left: 8rem;
-  }
+html[lang="vi-VN"] .current-station-pga-text::before {
+  content: "PGA" !important;
+}
 
-  .current-station-pga {
-    width: 206px;
-  }
+html[lang="vi-VN"] .max-pga-text::before {
+  content: "PGA tối đa" !important;
+}
 
-  .current-station-info {
-    margin-right: -4px;
-  }
+html[lang="vi-VN"] .max-intensity-text::before {
+  content: "Cường độ tối đa" !important;
+}
 
-  .current-station-loc {
-    font-size: 15px;
-  }
+html[lang="vi-VN"] .station-pga-wrapper {
+  left: 8rem;
+}
 
-  .current-station-intensity-pga {
-    font-size: 12px;
-  }
+html[lang="vi-VN"] .current-station-pga {
+  width: 206px;
+}
 
-  /** Fab Button **/
-  .intensity-report::before {
-    content: "Báo cáo cường độ" !important;
-  }
+html[lang="vi-VN"] .current-station-info {
+  margin-right: -4px;
+}
 
-  .source-report::before {
-    content: "Báo cáo tâm chấn động đất" !important;
-  }
+html[lang="vi-VN"] .current-station-loc {
+  font-size: 15px;
+}
 
-  .earthquake-report::before {
-    content: "Báo cáo động đất" !important;
-  }
+html[lang="vi-VN"] .current-station-intensity-pga {
+  font-size: 12px;
+}
 
-  .tsunami-warning::before {
-    content: "Cảnh báo sóng thần" !important;
-  }
+/** Fab Button **/
+html[lang="vi-VN"] .intensity-report::before {
+  content: "Báo cáo cường độ" !important;
+}
 
-  .earthquake-warning::before {
-    content: "Cảnh báo động đất" !important;
-  }
+html[lang="vi-VN"] .source-report::before {
+  content: "Báo cáo tâm chấn động đất" !important;
+}
 
-  /** Report **/
-  .report-intensity-text::before {
-    content: "Cường độ tối đa" !important;
-  }
+html[lang="vi-VN"] .earthquake-report::before {
+  content: "Báo cáo động đất" !important;
+}
 
-  .web-detection::before {
-    content: "Phát hiện" !important;
-  }
+html[lang="vi-VN"] .tsunami-warning::before {
+  content: "Cảnh báo sóng thần" !important;
+}
 
-  .web-report::before {
-    content: "Báo cáo" !important;
-  }
+html[lang="vi-VN"] .earthquake-warning::before {
+  content: "Cảnh báo động đất" !important;
+}
 
-  .report-replay::before {
-    content: "Phát lại" !important;
-  }
+/** Report **/
+html[lang="vi-VN"] .report-intensity-text::before {
+  content: "Cường độ tối đa" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "Tâm chấn đang được đánh giá" !important;
-  }
+html[lang="vi-VN"] .web-detection::before {
+  content: "Phát hiện" !important;
+}
 
-  .rts-intensity-list-wrapper {
-    width: 13rem !important;
-  }
+html[lang="vi-VN"] .web-report::before {
+  content: "Báo cáo" !important;
+}
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(153%);
-  }
+html[lang="vi-VN"] .report-replay::before {
+  content: "Phát lại" !important;
+}
 
-  .report-wrapper {
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 10px;
-      }
-      .report-info-box {
-        .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
+html[lang="vi-VN"] .report-box-items .survey .report-loc:before {
+  content: "Tâm chấn đang được đánh giá" !important;
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "Xếp hạng cường độ theo địa chấn" !important;
-  }
+html[lang="vi-VN"] .rts-intensity-list-wrapper {
+  width: 13rem !important;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "Lỗi kết nối mạng" !important;
-  }
+html[lang="vi-VN"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+  transform: translateX(153%);
+}
 
-  .unstable .title:before {
-    content: "Không ổn định" !important;
-  }
+html[lang="vi-VN"] .report-wrapper .report-box-item-wrapper:first-child .report-intensity-text {
+  font-size: 10px;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Các điểm quan sát có thể không" !important;
-    }
-    &:nth-child(2)::before {
-      content: "ổn định do hoạt động địa chấn" !important;
-    }
-  }
+html[lang="vi-VN"] .report-wrapper .report-box-item-wrapper:first-child .report-info-box .report-info-item .report-loc {
+  font-size: 24px;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Lỗi kết nối mạng" !important;
-    }
-    &:nth-child(2)::before {
-      content: "vui lòng thử lại sau" !important;
-    }
-  }
+/** Intensity List **/
+html[lang="vi-VN"] .rts-intenisty-list-text::before {
+  content: "Xếp hạng cường độ theo địa chấn" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "Sóng P" !important;
-  }
+/** Warning Message Box **/
+html[lang="vi-VN"] .internet-error .title:before {
+  content: "Lỗi kết nối mạng" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "Sóng S" !important;
-  }
+html[lang="vi-VN"] .unstable .title:before {
+  content: "Không ổn định" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "Đến" !important;
-  }
+html[lang="vi-VN"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "Các điểm quan sát có thể không" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "giây" !important;
-  }
+html[lang="vi-VN"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "ổn định do hoạt động địa chấn" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "Cường độ" !important;
-  }
+html[lang="vi-VN"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "Lỗi kết nối mạng" !important;
+}
+
+html[lang="vi-VN"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "vui lòng thử lại sau" !important;
+}
+
+/** Count Down Plugin **/
+html[lang="vi-VN"] .current-location-pwave-text:before {
+  content: "Sóng P" !important;
+}
+
+html[lang="vi-VN"] .current-location-swave-text:before {
+  content: "Sóng S" !important;
+}
+
+html[lang="vi-VN"] .current-location-pwave-val.arrive:before,
+html[lang="vi-VN"] .current-location-swave-val.arrive:before {
+  content: "Đến" !important;
+}
+
+html[lang="vi-VN"] .current-location-pwave-val:not(:empty):after,
+html[lang="vi-VN"] .current-location-swave-val:not(:empty):after {
+  content: "giây" !important;
+}
+
+html[lang="vi-VN"] .current-location-intensity-text:before {
+  content: "Cường độ" !important;
 }

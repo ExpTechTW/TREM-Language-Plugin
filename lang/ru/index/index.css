@@ -1,274 +1,256 @@
 @import url("./rwd.css");
 
-html[lang="ru"] {
-  /** Version Check **/
-  .version-check-text::before {
-    content: "Новая версия" !important;
-  }
+/** Version Check **/
+html[lang="ru"] .version-check-text::before {
+  content: "Новая версия" !important;
+}
 
-  /** Info Box **/
-  .info-number {
-    &:not(:empty)::before {
-      content: "#" !important;
-    }
-    &:not(:empty)::after {
-      content: "" !important;
-    }
-  }
+/** Info Box **/
+html[lang="ru"] .info-number:not(:empty)::before {
+  content: "#" !important;
+}
 
-  .cancel-title span::before {
-    content: "Отмена" !important;
-  }
+html[lang="ru"] .info-number:not(:empty)::after {
+  content: "" !important;
+}
 
-  .cancel-body span::before {
-    content: "Предупреждение о землетрясении отменено." !important;
-  }
+html[lang="ru"] .cancel-title span::before {
+  content: "Отмена" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "Низко " !important;
-  }
+html[lang="ru"] .cancel-body span::before {
+  content: "Предупреждение о землетрясении отменено." !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "Earthquake weak response " !important;
-  }
+html[lang="ru"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "Низко " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "Strong earthquake detection " !important;
-  }
+html[lang="ru"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "Earthquake weak response " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "Отмена " !important;
-  }
+html[lang="ru"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "Strong earthquake detection " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "Предупреждение " !important;
-  }
+html[lang="ru"] .eew-cancel .info-unit::before {
+  content: "Отмена " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "Предупреждающее оповещение " !important;
-  }
+html[lang="ru"] .eew-warn .info-unit::before {
+  content: "Предупреждение " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "Одноточечное обнаружение землетрясений " !important;
-  }
+html[lang="ru"] .eew-alert .info-unit::before {
+  content: "Предупреждающее оповещение " !important;
+}
 
-  .info-cancel-last::after {
-    content: "(Отмена)" !important;
-  }
+html[lang="ru"] .eew-rts .info-unit::before {
+  content: "Одноточечное обнаружение землетрясений " !important;
+}
 
-  .info-number-last::after {
-    content: "(Финал)" !important;
-  }
+html[lang="ru"] .info-cancel-last::after {
+  content: "(Отмена)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "Нет предупреждения о землетрясении" !important;
-  }
+html[lang="ru"] .info-number-last::after {
+  content: "(Финал)" !important;
+}
 
-  .info-intensity::after {
-    content: "Макс." !important;
-  }
+html[lang="ru"] .no-eew .info-unit::after {
+  content: "Нет предупреждения о землетрясении" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE" !important;
-  }
+html[lang="ru"] .info-intensity::after {
+  content: "Макс." !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "величина" !important;
-  }
+html[lang="ru"] .info-nsspe span::before {
+  content: "NSSPE" !important;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "Глубина" !important;
-  }
+html[lang="ru"] .info-mag-text::after,
+html[lang="ru"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "величина" !important;
+}
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
+html[lang="ru"] .info-depth-text::after,
+html[lang="ru"] .report-depth-text::after {
+  content: "Глубина" !important;
+}
 
-  .info-time::before {
-    content: "Происходит ";
-  }
+html[lang="ru"] .intensity-0:not(#max-intensity,
+  #max-pga,
+  #current-station-intensity,
+  .rts-intensity)::after {
+  content: "?";
+}
 
-  .info-time::after {
-    content: "";
-  }
+html[lang="ru"] .info-time::before {
+  content: "Происходит ";
+}
 
-  .info-wrapper {
-    .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
+html[lang="ru"] .info-time::after {
+  content: "";
+}
 
-  /** Station Pga Info **/
-  .station-pga-wrapper {
-    margin-left: 20px;
-  }
+html[lang="ru"] .info-wrapper .info-title-wrapper .info-intensity {
+  font-size: 10px;
+}
 
-  .current-station-intensity-text::before {
-    content: "Интенсивность" !important;
-  }
+/** Station Pga Info **/
+html[lang="ru"] .station-pga-wrapper {
+  margin-left: 20px;
+}
 
-  .current-station-pga-text::before {
-    content: "PGA" !important;
-  }
+html[lang="ru"] .current-station-intensity-text::before {
+  content: "Интенсивность" !important;
+}
 
-  .current-station-intensity-pga {
-    display: flex !important;
-    flex-direction: column !important;
-  }
+html[lang="ru"] .current-station-pga-text::before {
+  content: "PGA" !important;
+}
 
-  .max-intensity-text {
-    display: flex !important;
-    flex-direction: column !important;
-  }
+html[lang="ru"] .current-station-intensity-pga {
+  display: flex !important;
+  flex-direction: column !important;
+}
 
-  .current-station-pga {
-    display: flex !important;
-    align-items: center !important;
-    width: 200px !important;
-  }
+html[lang="ru"] .max-intensity-text {
+  display: flex !important;
+  flex-direction: column !important;
+}
 
-  .current-station-info {
-    width: auto !important;
-  }
+html[lang="ru"] .current-station-pga {
+  display: flex !important;
+  align-items: center !important;
+  width: 200px !important;
+}
 
-  /** Fab Button **/
-  .intensity-report::before {
-    content: "Отчет об интенсивности" !important;
-  }
+html[lang="ru"] .current-station-info {
+  width: auto !important;
+}
 
-  .source-report::before {
-    content: "Отчет о гипоцентре землетрясения" !important;
-  }
+/** Fab Button **/
+html[lang="ru"] .intensity-report::before {
+  content: "Отчет об интенсивности" !important;
+}
 
-  .earthquake-report::before {
-    content: "Отчет о землетрясении" !important;
-  }
+html[lang="ru"] .source-report::before {
+  content: "Отчет о гипоцентре землетрясения" !important;
+}
 
-  .tsunami-warning::before {
-    content: "Предупреждение о цунами" !important;
-  }
+html[lang="ru"] .earthquake-report::before {
+  content: "Отчет о землетрясении" !important;
+}
 
-  .earthquake-warning::before {
-    content: "Предупреждение о землетрясении" !important;
-  }
+html[lang="ru"] .tsunami-warning::before {
+  content: "Предупреждение о цунами" !important;
+}
 
-  /** Report **/
-  .report-intensity-text::before {
-    content: "Макс" !important;
-  }
+html[lang="ru"] .earthquake-warning::before {
+  content: "Предупреждение о землетрясении" !important;
+}
 
-  .web-detection::before {
-    content: "Обнаружение" !important;
-  }
+/** Report **/
+html[lang="ru"] .report-intensity-text::before {
+  content: "Макс" !important;
+}
 
-  .web-report::before {
-    content: "Отчет" !important;
-  }
+html[lang="ru"] .web-detection::before {
+  content: "Обнаружение" !important;
+}
 
-  .report-replay::before {
-    content: "Повторить" !important;
-  }
+html[lang="ru"] .web-report::before {
+  content: "Отчет" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "Эпицентр в стадии оценки" !important;
-  }
+html[lang="ru"] .report-replay::before {
+  content: "Повторить" !important;
+}
 
-  .max-intensity-text::before {
-    content: "Макс" !important;
-  }
+html[lang="ru"] .report-box-items .survey .report-loc:before {
+  content: "Эпицентр в стадии оценки" !important;
+}
 
-  .max-intensity-text::after {
-    content: "Интенсивность" !important;
-  }
+html[lang="ru"] .max-intensity-text::before {
+  content: "Макс" !important;
+}
 
-  .max-pga-text::before {
-    content: "Макс. PGA" !important;
-  }
+html[lang="ru"] .max-intensity-text::after {
+  content: "Интенсивность" !important;
+}
 
-  .rts-intensity-list-wrapper {
-    width: 13rem !important;
-  }
+html[lang="ru"] .max-pga-text::before {
+  content: "Макс. PGA" !important;
+}
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(153%);
-  }
+html[lang="ru"] .rts-intensity-list-wrapper {
+  width: 13rem !important;
+}
 
-  .report-wrapper {
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-      .report-info-box {
-        .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
+html[lang="ru"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+  transform: translateX(153%);
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "Рейтинг интенсивности по сейсмичности" !important;
-  }
+html[lang="ru"] .report-wrapper .report-box-item-wrapper:first-child .report-intensity-text {
+  font-size: 12px;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "Ошибка сетевого подключения" !important;
-  }
+html[lang="ru"] .report-wrapper .report-box-item-wrapper:first-child .report-info-box .report-info-item .report-loc {
+  font-size: 24px;
+}
 
-  .unstable .title:before {
-    content: "Нестабильный" !important;
-  }
+/** Intensity List **/
+html[lang="ru"] .rts-intenisty-list-text::before {
+  content: "Рейтинг интенсивности по сейсмичности" !important;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Пункты наблюдения могут быть" !important;
-    }
-    &:nth-child(2)::before {
-      content: "нестабильны из-за сейсмической активности" !important;
-    }
-  }
+/** Warning Message Box **/
+html[lang="ru"] .internet-error .title:before {
+  content: "Ошибка сетевого подключения" !important;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Ошибка сетевого подключения" !important;
-    }
-    &:nth-child(2)::before {
-      content: "повторите попытку позже" !important;
-    }
-  }
+html[lang="ru"] .unstable .title:before {
+  content: "Нестабильный" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "Зубец P" !important;
-  }
+html[lang="ru"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "Пункты наблюдения могут быть" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "Зубец S" !important;
-  }
+html[lang="ru"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "нестабильны из-за сейсмической активности" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "Прибытие" !important;
-  }
+html[lang="ru"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "Ошибка сетевого подключения" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "секунд" !important;
-  }
+html[lang="ru"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "повторите попытку позже" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "Интенсивность" !important;
-  }
+/** Count Down Plugin **/
+html[lang="ru"] .current-location-pwave-text:before {
+  content: "Зубец P" !important;
+}
+
+html[lang="ru"] .current-location-swave-text:before {
+  content: "Зубец S" !important;
+}
+
+html[lang="ru"] .current-location-pwave-val.arrive:before,
+html[lang="ru"] .current-location-swave-val.arrive:before {
+  content: "Прибытие" !important;
+}
+
+html[lang="ru"] .current-location-pwave-val:not(:empty):after,
+html[lang="ru"] .current-location-swave-val:not(:empty):after {
+  content: "секунд" !important;
+}
+
+html[lang="ru"] .current-location-intensity-text:before {
+  content: "Интенсивность" !important;
 }

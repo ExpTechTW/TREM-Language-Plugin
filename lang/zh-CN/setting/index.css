@@ -1,303 +1,379 @@
-html[lang="zh-CN"] {
-  .button[for="general"]:before,
-  .general .setting-page-header-title::before {
-    content: "一般" !important;
-  }
-  .button[for="graphics"]:before,
-  .graphics-header-title:before {
-    content: "图形" !important;
-  }
-  .button[for="sound-effects"]:before,
-  .sound-effects-header-title::before {
-    content: "音效" !important;
-  }
-  .button[for="extended"]:before,
-  .extended-header-title:before {
-    content: "扩充" !important;
-  }
-  .button[for="info"]:before,
-  .info-header-title::before {
-    content: "关于" !important;
-  }
-  .location-title::before {
-    content: "所在地" !important;
-  }
-  .location-description::before {
-    content: "设置所在地可以在地震发生时预估你所在区域的地震震度。" !important;
-  }
-  .rts-station-title::before {
-    content: "即时测站" !important;
-  }
-  .rts-station-description::before {
-    content: "显示于主画面左上方的即时测站。" !important;
-  }
-  .warning-title::before {
-    content: "预警条件" !important;
-  }
-  .warning-description::before {
-    content: "即时测站(任一站)为触发时任一站震度门槛，预估震度(所在地)为地震预警时所在地震度门槛，达到下方任一条件后软件将会发出音效及弹出视窗。" !important;
-  }
-  .current-realtime-station::before {
-    content: "即时测站（任一站）" !important;
-  }
-  .current-estimate-intensity::before {
-    content: "预估震度（所在地）" !important;
-  }
-  .show-window-title::before {
-    content: "显示视窗" !important;
-  }
-  .show-window-description::before {
-    content: "软件自动弹窗时机。" !important;
-  }
-  .trem-eew-title::before {
-    content: "TREM EEW" !important;
-  }
-  .trem-eew-description::before {
-    content: "TREM-EEW是利用TREM-Net观测网计算的地震预警信息，即时数据为非公开，一般使用者在开启后可在重播(震后5分钟)中看到效果。" !important;
-  }
-  .other-function-title::before {
-    content: "其他功能" !important;
-  }
-  .other-function-description::before {
-    content: "TREM Lite不常用的小功能都在这里。" !important;
-  }
-  .auto-start::before {
-    content: "开机自动启动（Windows）" !important;
-  }
-  .tts::before {
-    content: "语音播报（繁体中文）" !important;
-  }
-  .earthquake-eew::before {
-    content: "地震预警" !important;
-  }
-  .earthquake-report::before {
-    content: "地震报告" !important;
-  }
-  .earthquake-detect::before {
-    content: "地震检知" !important;
-  }
-  .rts-intensity::before {
-    content: "近即时震度" !important;
-  }
-  .get-trem-eew::before {
-    content: "接收TREM EEW" !important;
-  }
-  .reset-button::before,
-  .reset-setting-title::before {
-    content: "重设" !important;
-  }
-  .reset-setting::before {
-    content: "重置所有设置" !important;
-  }
-  .auto-zoom-title::before {
-    content: "地图自动缩放" !important;
-  }
-  .auto-zoom-description::before {
-    content: "预设地图自动缩放为禁用状态。" !important;
-  }
-  .block-auto-zoom::before {
-    content: "禁用地图自动缩放" !important;
-  }
-  .effects-dong-title::before {
-    content: "预警播报" !important;
-  }
-  .effects-dong-description::before {
-    content: "地震发生时播报所在地预估震度以及地震波抵达剩馀秒数。" !important;
-  }
-  .dong-dong::before {
-    content: "咚咚咚音效(仅在有倒数情况下生效)" !important;
-  }
-  .sound-effects-list-title::before {
-    content: "音效列表" !important;
-  }
-  .sound-effects-list-description::before {
-    content: "开启或关闭特定的音效" !important;
-  }
-  .extended-setting-button::before {
-    content: "设置" !important;
-  }
-  .extended-list-title:before {
-    content: "扩充功能" !important;
-  }
-  .extended-list-description:empty::before,
-  .extended-info .extended-info-warning:empty::before {
-    content: "使用来源不明或无法信任的扩充可能危及您的个人信息安全，请谨慎使用。" !important;
-  }
-  .verified-badge::before {
-    content: "已验证" !important;
-  }
-  .unverified-badge::before {
-    content: "未验证" !important;
-  }
-  .loaded-badge::before {
-    content: "已加载" !important;
-  }
-  .unloaded-badge::before {
-    content: "未加载" !important;
-  }
-  .success.message-box:before {
-    content: "操作成功，关闭设定视窗后生效！" !important;
-  }
-  .failed.message-box:before {
-    content: "操作失败！!" !important;
-  }
-  .success-download.message-box:before {
-    content: "下载成功，关闭设定视窗后生效！" !important;
-  }
-  .extended-store:before {
-    content: "TREM 扩充商店" !important;
-  }
-  .extended-download-button:before {
-    content: "下载" !important;
-  }
-  .extended-download-button.downloading::before {
-    content: "下载中..." !important;
-  }
-  .extended-download-button.downloaded::before {
-    content: "下载成功" !important;
-  }
-  .eew-1::before {
-    content: "EEW（收到地震预警时播放）" !important;
-  }
-  .p-alert::before {
-    content: "P-Alert（收到近即时震度时播放）" !important;
-  }
-  .report::after {
-    content: "Report（收到地震报告时播放）" !important;
-  }
-  .update::before {
-    content: "Update（地震预警更正时播放）" !important;
-  }
-  .info-trem-lite::before {
-    content: "关于 TREM Lite" !important;
-  }
-  .info-trem-description::before {
-    content: "TREM-Lite 是一款开源地震速报软件，提供给您即时的地震信息，利用自製的测站，显示各地的即时震度，在地震发生的第一时间取得各管道发布的强震即时警报信息。" !important;
-  }
-  .system-os-title::before {
-    content: "系统版本" !important;
-  }
-  .source-title::before {
-    content: "数据来源" !important;
-  }
-  .source-eew::before {
-    content: "地震预警" !important;
-  }
-  .source-cwa::before {
-    content: "交通部中央气象署 (CWA)" !important;
-  }
-  .source-trem::before {
-    content: "臺湾即时地震监测 (TREM)" !important;
-  }
-  .contributor-title::before {
-    content: "贡献者" !important;
-  }
-  .contributor-description::before {
-    content: "感谢以下的贡献者们，因为有了他们的贡献， TREM Lite 才得以实现。" !important;
-  }
-  .reset .confirm-title::before {
-    content: "您确定要重置设置吗？重设后将无法返回。" !important;
-  }
+html[lang="zh-CN"] .button[for="general"]:before,
+html[lang="zh-CN"] .general .setting-page-header-title::before {
+  content: "一般" !important;
+}
 
-  .extendedOpen .confirm-title::before {
-    content: "您确定要启用 " !important;
-  }
-  .extendedOpen .confirm-title::after {
-    content: " 扩充吗，若使用来源不明或无法信任的扩充可能危及您的个人信息安全。" !important;
-  }
-  .confirm-sure:empty::before {
-    content: "确定" !important;
-  }
-  .intensity-0::after {
-    content: "0" !important;
-    font-size: Not set !important;
-  }
-  .current:empty:before {
-    content: "未设置" !important;
-  }
-  .extended-list-button[for="extended-state-list"]:before {
-    content: "扩充状态" !important;
-  }
-  .extended-list-button[for="extended-installed-list"]:before {
-    content: "扩充列表" !important;
-  }
-  .extended-list-button[for="extended-store-list"]:before {
-    content: "扩充商店" !important;
-  }
-  .copy-debug-log:before {
-    content: "复制除错日志" !important;
-  }
-  .success-copy.message-box:before {
-    content: "复制成功！" !important;
-  }
-  .success-failed.message-box:before {
-    content: "复制失败！" !important;
-  }
+html[lang="zh-CN"] .button[for="graphics"]:before,
+html[lang="zh-CN"] .graphics-header-title:before {
+  content: "图形" !important;
+}
 
-  .eew-2 {
-    &::before {
-      content: "EEW2（最大预估" !important;
-    }
-    .special-text:before {
-      content: "震度5弱" !important;
-    }
-    &::after {
-      content: "以上播放）" !important;
-    }
-  }
-  .pga-1 {
-    &::before {
-      content: "PGA1（PGA >" !important;
-    }
-    .special-text:before {
-      content: "8 gal" !important;
-    }
-    &::after {
-      content: "时播放）" !important;
-    }
-  }
-  .pga-2 {
-    &::before {
-      content: "PGA2（PGA >" !important;
-    }
-    .special-text:before {
-      content: "200 gal" !important;
-    }
-    &::after {
-      content: "时播放）" !important;
-    }
-  }
-  .shindo-0 {
-    &::before {
-      content: "Shindo0（地震检知" !important;
-    }
-    .special-text:before {
-      content: "震度0级" !important;
-    }
-    &::after {
-      content: "以上播放）" !important;
-    }
-  }
-  .shindo-1 {
-    &::before {
-      content: "Shindo1（地震检知" !important;
-    }
-    .special-text:before {
-      content: "震度2级" !important;
-    }
-    &::after {
-      content: "以上播放）" !important;
-    }
-  }
-  .shindo-2 {
-    &::before {
-      content: "Shindo2（地震检知" !important;
-    }
-    .special-text:before {
-      content: "震度4级" !important;
-    }
-    &::after {
-      content: "以上播放）" !important;
-    }
-  }
+html[lang="zh-CN"] .button[for="sound-effects"]:before,
+html[lang="zh-CN"] .sound-effects-header-title::before {
+  content: "音效" !important;
+}
+
+html[lang="zh-CN"] .button[for="extended"]:before,
+html[lang="zh-CN"] .extended-header-title:before {
+  content: "扩充" !important;
+}
+
+html[lang="zh-CN"] .button[for="info"]:before,
+html[lang="zh-CN"] .info-header-title::before {
+  content: "关于" !important;
+}
+
+html[lang="zh-CN"] .location-title::before {
+  content: "所在地" !important;
+}
+
+html[lang="zh-CN"] .location-description::before {
+  content: "设置所在地可以在地震发生时预估你所在区域的地震震度。" !important;
+}
+
+html[lang="zh-CN"] .rts-station-title::before {
+  content: "即时测站" !important;
+}
+
+html[lang="zh-CN"] .rts-station-description::before {
+  content: "显示于主画面左上方的即时测站。" !important;
+}
+
+html[lang="zh-CN"] .warning-title::before {
+  content: "预警条件" !important;
+}
+
+html[lang="zh-CN"] .warning-description::before {
+  content: "即时测站(任一站)为触发时任一站震度门槛，预估震度(所在地)为地震预警时所在地震度门槛，达到下方任一条件后软件将会发出音效及弹出视窗。" !important;
+}
+
+html[lang="zh-CN"] .current-realtime-station::before {
+  content: "即时测站（任一站）" !important;
+}
+
+html[lang="zh-CN"] .current-estimate-intensity::before {
+  content: "预估震度（所在地）" !important;
+}
+
+html[lang="zh-CN"] .show-window-title::before {
+  content: "显示视窗" !important;
+}
+
+html[lang="zh-CN"] .show-window-description::before {
+  content: "软件自动弹窗时机。" !important;
+}
+
+html[lang="zh-CN"] .trem-eew-title::before {
+  content: "TREM EEW" !important;
+}
+
+html[lang="zh-CN"] .trem-eew-description::before {
+  content: "TREM-EEW是利用TREM-Net观测网计算的地震预警信息，即时数据为非公开，一般使用者在开启后可在重播(震后5分钟)中看到效果。" !important;
+}
+
+html[lang="zh-CN"] .other-function-title::before {
+  content: "其他功能" !important;
+}
+
+html[lang="zh-CN"] .other-function-description::before {
+  content: "TREM Lite不常用的小功能都在这里。" !important;
+}
+
+html[lang="zh-CN"] .auto-start::before {
+  content: "开机自动启动（Windows）" !important;
+}
+
+html[lang="zh-CN"] .tts::before {
+  content: "语音播报（繁体中文）" !important;
+}
+
+html[lang="zh-CN"] .earthquake-eew::before {
+  content: "地震预警" !important;
+}
+
+html[lang="zh-CN"] .earthquake-report::before {
+  content: "地震报告" !important;
+}
+
+html[lang="zh-CN"] .earthquake-detect::before {
+  content: "地震检知" !important;
+}
+
+html[lang="zh-CN"] .rts-intensity::before {
+  content: "近即时震度" !important;
+}
+
+html[lang="zh-CN"] .get-trem-eew::before {
+  content: "接收TREM EEW" !important;
+}
+
+html[lang="zh-CN"] .reset-button::before,
+html[lang="zh-CN"] .reset-setting-title::before {
+  content: "重设" !important;
+}
+
+html[lang="zh-CN"] .reset-setting::before {
+  content: "重置所有设置" !important;
+}
+
+html[lang="zh-CN"] .auto-zoom-title::before {
+  content: "地图自动缩放" !important;
+}
+
+html[lang="zh-CN"] .auto-zoom-description::before {
+  content: "预设地图自动缩放为禁用状态。" !important;
+}
+
+html[lang="zh-CN"] .block-auto-zoom::before {
+  content: "禁用地图自动缩放" !important;
+}
+
+html[lang="zh-CN"] .effects-dong-title::before {
+  content: "预警播报" !important;
+}
+
+html[lang="zh-CN"] .effects-dong-description::before {
+  content: "地震发生时播报所在地预估震度以及地震波抵达剩馀秒数。" !important;
+}
+
+html[lang="zh-CN"] .dong-dong::before {
+  content: "咚咚咚音效(仅在有倒数情况下生效)" !important;
+}
+
+html[lang="zh-CN"] .sound-effects-list-title::before {
+  content: "音效列表" !important;
+}
+
+html[lang="zh-CN"] .sound-effects-list-description::before {
+  content: "开启或关闭特定的音效" !important;
+}
+
+html[lang="zh-CN"] .extended-setting-button::before {
+  content: "设置" !important;
+}
+
+html[lang="zh-CN"] .extended-list-title:before {
+  content: "扩充功能" !important;
+}
+
+html[lang="zh-CN"] .extended-list-description:empty::before,
+html[lang="zh-CN"] .extended-info .extended-info-warning:empty::before {
+  content: "使用来源不明或无法信任的扩充可能危及您的个人信息安全，请谨慎使用。" !important;
+}
+
+html[lang="zh-CN"] .verified-badge::before {
+  content: "已验证" !important;
+}
+
+html[lang="zh-CN"] .unverified-badge::before {
+  content: "未验证" !important;
+}
+
+html[lang="zh-CN"] .loaded-badge::before {
+  content: "已加载" !important;
+}
+
+html[lang="zh-CN"] .unloaded-badge::before {
+  content: "未加载" !important;
+}
+
+html[lang="zh-CN"] .success.message-box:before {
+  content: "操作成功，关闭设定视窗后生效！" !important;
+}
+
+html[lang="zh-CN"] .failed.message-box:before {
+  content: "操作失败！!" !important;
+}
+
+html[lang="zh-CN"] .success-download.message-box:before {
+  content: "下载成功，关闭设定视窗后生效！" !important;
+}
+
+html[lang="zh-CN"] .extended-store:before {
+  content: "TREM 扩充商店" !important;
+}
+
+html[lang="zh-CN"] .extended-download-button:before {
+  content: "下载" !important;
+}
+
+html[lang="zh-CN"] .extended-download-button.downloading::before {
+  content: "下载中..." !important;
+}
+
+html[lang="zh-CN"] .extended-download-button.downloaded::before {
+  content: "下载成功" !important;
+}
+
+html[lang="zh-CN"] .eew-1::before {
+  content: "EEW（收到地震预警时播放）" !important;
+}
+
+html[lang="zh-CN"] .p-alert::before {
+  content: "P-Alert（收到近即时震度时播放）" !important;
+}
+
+html[lang="zh-CN"] .report::after {
+  content: "Report（收到地震报告时播放）" !important;
+}
+
+html[lang="zh-CN"] .update::before {
+  content: "Update（地震预警更正时播放）" !important;
+}
+
+html[lang="zh-CN"] .info-trem-lite::before {
+  content: "关于 TREM Lite" !important;
+}
+
+html[lang="zh-CN"] .info-trem-description::before {
+  content: "TREM-Lite 是一款开源地震速报软件，提供给您即时的地震信息，利用自製的测站，显示各地的即时震度，在地震发生的第一时间取得各管道发布的强震即时警报信息。" !important;
+}
+
+html[lang="zh-CN"] .system-os-title::before {
+  content: "系统版本" !important;
+}
+
+html[lang="zh-CN"] .source-title::before {
+  content: "数据来源" !important;
+}
+
+html[lang="zh-CN"] .source-eew::before {
+  content: "地震预警" !important;
+}
+
+html[lang="zh-CN"] .source-cwa::before {
+  content: "交通部中央气象署 (CWA)" !important;
+}
+
+html[lang="zh-CN"] .source-trem::before {
+  content: "臺湾即时地震监测 (TREM)" !important;
+}
+
+html[lang="zh-CN"] .contributor-title::before {
+  content: "贡献者" !important;
+}
+
+html[lang="zh-CN"] .contributor-description::before {
+  content: "感谢以下的贡献者们，因为有了他们的贡献， TREM Lite 才得以实现。" !important;
+}
+
+html[lang="zh-CN"] .reset .confirm-title::before {
+  content: "您确定要重置设置吗？重设后将无法返回。" !important;
+}
+
+html[lang="zh-CN"] .extendedOpen .confirm-title::before {
+  content: "您确定要启用 " !important;
+}
+
+html[lang="zh-CN"] .extendedOpen .confirm-title::after {
+  content: " 扩充吗，若使用来源不明或无法信任的扩充可能危及您的个人信息安全。" !important;
+}
+
+html[lang="zh-CN"] .confirm-sure:empty::before {
+  content: "确定" !important;
+}
+
+html[lang="zh-CN"] .intensity-0::after {
+  content: "0" !important;
+  font-size: Not set !important;
+}
+
+html[lang="zh-CN"] .current:empty:before {
+  content: "未设置" !important;
+}
+
+html[lang="zh-CN"] .extended-list-button[for="extended-state-list"]:before {
+  content: "扩充状态" !important;
+}
+
+html[lang="zh-CN"] .extended-list-button[for="extended-installed-list"]:before {
+  content: "扩充列表" !important;
+}
+
+html[lang="zh-CN"] .extended-list-button[for="extended-store-list"]:before {
+  content: "扩充商店" !important;
+}
+
+html[lang="zh-CN"] .copy-debug-log:before {
+  content: "复制除错日志" !important;
+}
+
+html[lang="zh-CN"] .success-copy.message-box:before {
+  content: "复制成功！" !important;
+}
+
+html[lang="zh-CN"] .success-failed.message-box:before {
+  content: "复制失败！" !important;
+}
+
+html[lang="zh-CN"] .eew-2::before {
+  content: "EEW2（最大预估" !important;
+}
+
+html[lang="zh-CN"] .eew-2 .special-text:before {
+  content: "震度5弱" !important;
+}
+
+html[lang="zh-CN"] .eew-2::after {
+  content: "以上播放）" !important;
+}
+
+html[lang="zh-CN"] .pga-1::before {
+  content: "PGA1（PGA >" !important;
+}
+
+html[lang="zh-CN"] .pga-1 .special-text:before {
+  content: "8 gal" !important;
+}
+
+html[lang="zh-CN"] .pga-1::after {
+  content: "时播放）" !important;
+}
+
+html[lang="zh-CN"] .pga-2::before {
+  content: "PGA2（PGA >" !important;
+}
+
+html[lang="zh-CN"] .pga-2 .special-text:before {
+  content: "200 gal" !important;
+}
+
+html[lang="zh-CN"] .pga-2::after {
+  content: "时播放）" !important;
+}
+
+html[lang="zh-CN"] .shindo-0::before {
+  content: "Shindo0（地震检知" !important;
+}
+
+html[lang="zh-CN"] .shindo-0 .special-text:before {
+  content: "震度0级" !important;
+}
+
+html[lang="zh-CN"] .shindo-0::after {
+  content: "以上播放）" !important;
+}
+
+html[lang="zh-CN"] .shindo-1::before {
+  content: "Shindo1（地震检知" !important;
+}
+
+html[lang="zh-CN"] .shindo-1 .special-text:before {
+  content: "震度2级" !important;
+}
+
+html[lang="zh-CN"] .shindo-1::after {
+  content: "以上播放）" !important;
+}
+
+html[lang="zh-CN"] .shindo-2::before {
+  content: "Shindo2（地震检知" !important;
+}
+
+html[lang="zh-CN"] .shindo-2 .special-text:before {
+  content: "震度4级" !important;
+}
+
+html[lang="zh-CN"] .shindo-2::after {
+  content: "以上播放）" !important;
 }

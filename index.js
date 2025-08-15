@@ -164,21 +164,26 @@ class Plugin {
   async getLanguagePath(currentPath, lang) {
     const langPath = path.resolve(__dirname, `lang/${lang}/`);
     const paths = {
-      index: `${langPath}/index/index.css`,
-      setting: `${langPath}/setting/index.css`,
-      pluginEdit: `${langPath}/plugin_edit/index.css`,
+      index: `${langPath}index/index.css`,
+      index_rwd: `${langPath}index/rwd.css`,
+      setting: `${langPath}setting/index.css`,
+      setting_rwd: `${langPath}setting/rwd.css`,
+      pluginEdit: `${langPath}plugin_edit/index.css`,
+      pluginEdit_rwd: `${langPath}plugin_edit/rwd.css`,
     };
 
-    if (currentPath.includes("/index")) {
-      await this.loadCSS(paths.index);
-    } else if (currentPath.includes("/setting")) {
-      await this.loadCSS(paths.setting);
+    if (currentPath.includes("/setting")) {
       const pluginStatus =
         JSON.parse(localStorage.getItem("plugin-status")) || [];
       this.generatePluginStatusCSS(this.lang, pluginStatus);
+      return await this.loadCSS(paths.setting);
+      return await this.loadCSS(paths.index_rwd);
     } else if (currentPath.includes("/yaml")) {
-      await this.loadCSS(paths.pluginEdit);
+      return await this.loadCSS(paths.pluginEdit);
+      return await this.loadCSS(paths.pluginEdit_rwd);
     }
+    await this.loadCSS(paths.index);
+    await this.loadCSS(paths.index_rwd);
   }
 
   generatePluginStatusCSS(lang, pluginStatus) {
@@ -231,28 +236,108 @@ class Plugin {
   }
 
   loadCSS(href) {
-    return new Promise((resolve, reject) => {
-      const link = document.createElement("link");
-      link.rel = "stylesheet";
-      link.href = href;
-      link.setAttribute("rel", "preload");
-      link.setAttribute("as", "style");
-      if (!href.includes("main")) {
-        link.setAttribute("data-type", "plugin-lang");
+    return new Promise(async (resolve, reject) => {
+      try {
+        const response = await fetch(href);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const blob = await response.blob();
+        const blobUrl = URL.createObjectURL(blob);
+
+        const link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = blobUrl;
+        link.setAttribute("rel", "preload");
+        link.setAttribute("as", "style");
+        if (!href.includes("main")) {
+          link.setAttribute("data-type", "plugin-lang");
+        }
+        link.onload = () => {
+          link.setAttribute("rel", "stylesheet");
+          resolve();
+        };
+        link.onerror = (err) => {
+          reject(err);
+        };
+        document.head.appendChild(link);
+      } catch (error) {
+        reject(error);
       }
-      link.onload = () => {
-        link.setAttribute("rel", "stylesheet");
-        resolve();
-      };
-      link.onerror = reject;
-      document.head.appendChild(link);
     });
   }
 
+  addLanguageSettingUI() {
+    const settingButtons = document.querySelector(".setting-buttons");
+    const settingContent = document.querySelector(".setting-content");
+
+    if (settingButtons && settingContent) {
+      const button = document.createElement("div");
+      button.className = "button language-setting";
+      button.setAttribute("for", "language-setting-page");
+      button.textContent = "Language";
+      settingButtons.appendChild(button);
+
+      const options = this.supportLanguages
+        .map(
+          ({ value, text }) => `
+          <div>
+            <span>${text}</span>
+            <label class="switch">
+              <input 
+                name="lang-plugin-option"
+                class="lang-radio" 
+                type="radio" 
+                value="${value}"
+                ${this.lang === value ? "checked" : ""}
+              >
+              <div class="slider round"></div>
+            </label>
+          </div>
+        `
+        )
+        .join("");
+
+      const element = document.createElement("div");
+      element.classList.add("setting-options-page", "language-setting-page");
+      element.innerHTML = `
+        <div class="setting-page-header-title">語言選擇</div>
+        <div class="setting-item-wrapper">
+          <div class="setting-item-content">
+            <span class="setting-item-title">選擇語言</span>
+            <span class="description">更改插件顯示語言</span>
+            <div class="setting-option">
+              ${options}
+            </div>
+          </div>
+        </div>`;
+      settingContent.appendChild(element);
+
+      const radios = element.querySelectorAll(".lang-radio");
+      radios.forEach((radio) => {
+        radio.addEventListener("change", async () => {
+          if (radio.checked) {
+            await this.updateLanguage(radio.value);
+          }
+        });
+      });
+
+      button.addEventListener("click", () => {
+        document
+          .querySelectorAll(".setting-options-page")
+          .forEach((p) => p.classList.remove("active"));
+        document
+          .querySelectorAll(".setting-buttons .button")
+          .forEach((b) => b.classList.remove("on"));
+        element.classList.add("active");
+        button.classList.add("on");
+      });
+    }
+  }
+
   addDropDown() {
-    const thisElement = document.querySelector(
-      "#plugin-language .extended-list-buttons"
-    );
+    const thisElement = document.querySelector(".extended-list-buttons");
+    console.log(thisElement);
     if (thisElement) {
       const box = document.createElement("div");
       box.className = "select-language-box";
@@ -300,7 +385,8 @@ class Plugin {
       const currentPath = window.location.pathname;
       await this.getLanguagePath(currentPath, this.lang);
       await this.loadCSS(this.Main);
-      this.addDropDown();
+      this.addLanguageSettingUI();
+      // this.addDropDown();
       this.init();
     } catch (error) {
       console.error("CSS 載入失敗:", error);

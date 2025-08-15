@@ -1,245 +1,234 @@
 @import url("./rwd.css");
 
-html[lang="en-US"] {
-  /** Version Check **/
-  .version-check-text::before {
-    content: "New version" !important;
-  }
+html[lang="en-US"] .version-check-text::before {
+  content: "New version" !important;
+}
 
-  /** Info Box **/
-  .info-number {
-    &:not(:empty)::before {
-      content: "#" !important;
-    }
-    &:not(:empty)::after {
-      content: "" !important;
-    }
-  }
+html[lang="en-US"] .info-number:not(:empty)::before {
+  content: "#" !important;
+}
 
-  .cancel-title span::before {
-    content: "Cancel" !important;
-  }
+html[lang="en-US"] .info-number:not(:empty)::after {
+  content: "" !important;
+}
 
-  .cancel-body span::before {
-    content: "This earthquake warning canceled." !important;
-  }
+html[lang="en-US"] .cancel-title span::before {
+  content: "Cancel" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "Low " !important;
-  }
+html[lang="en-US"] .cancel-body span::before {
+  content: "This earthquake warning canceled." !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "Earthquake weak response " !important;
-  }
+html[lang="en-US"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "Low " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "Strong earthquake detection " !important;
-  }
+html[lang="en-US"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "Earthquake weak response " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "Cancel " !important;
-  }
+html[lang="en-US"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "Strong earthquake detection " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "Warning " !important;
-  }
+html[lang="en-US"] .eew-cancel .info-unit::before {
+  content: "Cancel " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "Warning alert " !important;
-  }
+html[lang="en-US"] .eew-warn .info-unit::before {
+  content: "Warning " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "Single-Point earthquake detection " !important;
-  }
+html[lang="en-US"] .eew-alert .info-unit::before {
+  content: "Warning alert " !important;
+}
 
-  .info-cancel-last::after {
-    content: "(Cancel)" !important;
-  }
+html[lang="en-US"] .eew-rts .info-unit::before {
+  content: "Single-Point earthquake detection " !important;
+}
 
-  .info-number-last::after {
-    content: "(Final)" !important;
-  }
+html[lang="en-US"] .info-cancel-last::after {
+  content: "(Cancel)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "No earthquake warning" !important;
-  }
+html[lang="en-US"] .info-number-last::after {
+  content: "(Final)" !important;
+}
 
-  .info-intensity::after {
-    content: "Est. maximum intensity" !important;
-  }
+html[lang="en-US"] .no-eew .info-unit::after {
+  content: "No earthquake warning" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE" !important;
-  }
+html[lang="en-US"] .info-intensity::before {
+  content: "Est. maximum" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "Mag." !important;
-  }
+html[lang="en-US"] .info-intensity::after {
+  content: "intensity" !important;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "Depth" !important;
-  }
+html[lang="en-US"] .info-nsspe span::before {
+  content: "NSSPE" !important;
+}
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
+html[lang="en-US"] .info-mag-text::after,
+html[lang="en-US"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "Mag." !important;
+}
 
-  .info-time::before {
-    content: "Occurs on ";
-  }
+html[lang="en-US"] .info-depth-text::after,
+html[lang="en-US"] .report-depth-text::after {
+  content: "Depth" !important;
+}
 
-  .info-time::after {
-    content: "";
-  }
+html[lang="en-US"] .intensity-0:not(#max-intensity,
+  #max-pga,
+  #current-station-intensity,
+  .rts-intensity)::after {
+  content: "?";
+}
 
-  .info-wrapper {
-    .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
+html[lang="en-US"] .info-time::before {
+  content: "Occurs on ";
+}
 
-  /** Station Pga Info **/
-  .current-station-intensity-text::before {
-    content: "Intensity" !important;
-  }
-  .current-station-pga-text::before {
-    content: "PGA" !important;
-  }
+html[lang="en-US"] .info-time::after {
+  content: "";
+}
 
-  /** Fab Button **/
-  .intensity-report::before {
-    content: "Intensity report" !important;
-  }
+html[lang="en-US"] .info-wrapper .info-title-wrapper .info-intensity {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1px !important;
+}
 
-  .source-report::before {
-    content: "Earthquake hypocenter report" !important;
-  }
+/** Station Pga Info **/
+html[lang="en-US"] .current-station-intensity-text::before {
+  content: "Intensity" !important;
+}
 
-  .earthquake-report::before {
-    content: "Earthquake report" !important;
-  }
+html[lang="en-US"] .current-station-pga-text::before {
+  content: "PGA" !important;
+}
 
-  .tsunami-warning::before {
-    content: "Tsunami warning" !important;
-  }
+/** Fab Button **/
+html[lang="en-US"] .intensity-report::before {
+  content: "Intensity report" !important;
+}
 
-  .earthquake-warning::before {
-    content: "Earthquake warning" !important;
-  }
+html[lang="en-US"] .source-report::before {
+  content: "Earthquake hypocenter report" !important;
+}
 
-  /** Report **/
-  .report-intensity-text::before {
-    content: "Max Intensity" !important;
-  }
+html[lang="en-US"] .earthquake-report::before {
+  content: "Earthquake report" !important;
+}
 
-  .web-detection::before {
-    content: "Detection" !important;
-  }
+html[lang="en-US"] .tsunami-warning::before {
+  content: "Tsunami warning" !important;
+}
 
-  .web-report::before {
-    content: "Report" !important;
-  }
+html[lang="en-US"] .earthquake-warning::before {
+  content: "Earthquake warning" !important;
+}
 
-  .report-replay::before {
-    content: "Replay" !important;
-  }
+/** Report **/
+html[lang="en-US"] .report-intensity-text::before {
+  content: "Max Intensity" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "Epicenter under assessment" !important;
-  }
+html[lang="en-US"] .web-detection::before {
+  content: "Detection" !important;
+}
 
-  .max-intensity-text::before {
-    content: "Max Intensity" !important;
-  }
+html[lang="en-US"] .web-report::before {
+  content: "Report" !important;
+}
 
-  .max-pga-text::before {
-    content: "Max PGA" !important;
-  }
+html[lang="en-US"] .report-replay::before {
+  content: "Replay" !important;
+}
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(144%);
-  }
+html[lang="en-US"] .report-box-items .survey .report-loc:before {
+  content: "Epicenter under assessment" !important;
+}
 
-  .report-wrapper {
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-      .report-info-box {
-        .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
+html[lang="en-US"] .max-intensity-text::before {
+  content: "Max Intensity" !important;
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "Intensity ranking by seismicity" !important;
-  }
+html[lang="en-US"] .max-pga-text::before {
+  content: "Max PGA" !important;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "Network connection error" !important;
-  }
+html[lang="en-US"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+  transform: translateX(144%);
+}
 
-  .unstable .title:before {
-    content: "Unstable" !important;
-  }
+html[lang="en-US"] .report-wrapper .report-box-item-wrapper:first-child .report-intensity-text {
+  font-size: 12px;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Observation points may be" !important;
-    }
-    &:nth-child(2)::before {
-      content: "unstable due to seismic activity" !important;
-    }
-  }
+html[lang="en-US"] .report-wrapper .report-box-item-wrapper:first-child .report-info-box .report-info-item .report-loc {
+  font-size: 24px;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Network connection error" !important;
-    }
-    &:nth-child(2)::before {
-      content: "please try again later" !important;
-    }
-  }
+/** Intensity List **/
+html[lang="en-US"] .rts-intenisty-list-text::before {
+  content: "Intensity ranking by seismicity" !important;
+}
 
-  .station-pga-wrapper {
-    left: 7.1rem;
-  }
+/** Warning Message Box **/
+html[lang="en-US"] .internet-error .title:before {
+  content: "Network connection error" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "P Wave" !important;
-  }
+html[lang="en-US"] .unstable .title:before {
+  content: "Unstable" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "S Wave" !important;
-  }
+html[lang="en-US"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "Observation points may be" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "Arrival" !important;
-  }
+html[lang="en-US"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "unstable due to seismic activity" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "s" !important;
-  }
+html[lang="en-US"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "Network connection error" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "Intensity" !important;
-  }
+html[lang="en-US"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "please try again later" !important;
+}
+
+html[lang="en-US"] .station-pga-wrapper {
+  left: 7.1rem;
+}
+
+/** Count Down Plugin **/
+html[lang="en-US"] .current-location-pwave-text:before {
+  content: "P Wave" !important;
+}
+
+html[lang="en-US"] .current-location-swave-text:before {
+  content: "S Wave" !important;
+}
+
+html[lang="en-US"] .current-location-pwave-val.arrive:before,
+html[lang="en-US"] .current-location-swave-val.arrive:before {
+  content: "Arrival" !important;
+}
+
+html[lang="en-US"] .current-location-pwave-val:not(:empty):after,
+html[lang="en-US"] .current-location-swave-val:not(:empty):after {
+  content: "s" !important;
+}
+
+html[lang="en-US"] .current-location-intensity-text:before {
+  content: "Intensity" !important;
 }

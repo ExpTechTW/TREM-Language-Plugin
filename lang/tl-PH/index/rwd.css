@@ -1,33 +1,34 @@
-html[lang="tl-PH"] {
-  @media (max-width: 980px) {
-    .info-intensity::after {
-      content: "Tantyahin ang maximum" !important;
-    }
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 11px !important;
-      }
-    }
-    .report-intensity-val {
-      height: 40px !important;
-      width: 43px !important;
-    }
-    .current-station-info {
-      width: 145px !important;
-    }
-    .current-station-pga {
-      width: 190px !important;
-    }
-    .max-intensity {
-      width: 76px;
-    }
-    .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(129%) !important;
-    }
-    .report-box-item-wrapper.survey:first-child {
-      .report-loc {
-        font-size: 19px !important;
-      }
-    }
+@media (max-width: 980px) {
+  html[lang="tl-PH"] .info-intensity::after {
+    content: "Tantyahin ang maximum" !important;
+  }
+
+  html[lang="tl-PH"] .report-box-item-wrapper:first-child .report-intensity-text {
+    font-size: 11px !important;
+  }
+
+  html[lang="tl-PH"] .report-intensity-val {
+    height: 40px !important;
+    width: 43px !important;
+  }
+
+  html[lang="tl-PH"] .current-station-info {
+    width: 145px !important;
+  }
+
+  html[lang="tl-PH"] .current-station-pga {
+    width: 190px !important;
+  }
+
+  html[lang="tl-PH"] .max-intensity {
+    width: 76px;
+  }
+
+  html[lang="tl-PH"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+    transform: translateX(129%) !important;
+  }
+
+  html[lang="tl-PH"] .report-box-item-wrapper.survey:first-child .report-loc {
+    font-size: 19px !important;
   }
 }

@@ -1,249 +1,240 @@
 @import url("./rwd.css");
 
-html[lang="tl-PH"] {
-  /** Version Check Text **/
-  .version-check-text::before {
-    content: "Bagong bersyon" !important;
-  }
+/** Version Check Text **/
+html[lang="tl-PH"] .version-check-text::before {
+  content: "Bagong bersyon" !important;
+}
 
-  /** Info Number **/
-  .info-number {
-    &:not(:empty)::before {
-      content: "#" !important;
-    }
-    &:not(:empty)::after {
-      content: "" !important;
-    }
-  }
+/** Info Number **/
+html[lang="tl-PH"] .info-number:not(:empty)::before {
+  content: "#" !important;
+}
 
-  .cancel-title span::before {
-    content: "Kanselahin" !important;
-  }
+html[lang="tl-PH"] .info-number:not(:empty)::after {
+  content: "" !important;
+}
 
-  .cancel-body span::before {
-    content: "Kinansela ang babala ng lindol na ito." !important;
-  }
+html[lang="tl-PH"] .cancel-title span::before {
+  content: "Kanselahin" !important;
+}
 
-  .no-eew.rts-trigger-low .info-unit::after {
-    content: "Mababa " !important;
-  }
+html[lang="tl-PH"] .cancel-body span::before {
+  content: "Kinansela ang babala ng lindol na ito." !important;
+}
 
-  .no-eew.rts-trigger-middle .info-unit::after {
-    content: "Mahinang tugon ng lindol " !important;
-  }
+html[lang="tl-PH"] .no-eew.rts-trigger-low .info-unit::after {
+  content: "Mababa " !important;
+}
 
-  .no-eew.rts-trigger-high .info-unit::after {
-    content: "Malakas na pagtuklas ng lindol " !important;
-  }
+html[lang="tl-PH"] .no-eew.rts-trigger-middle .info-unit::after {
+  content: "Mahinang tugon ng lindol " !important;
+}
 
-  .eew-cancel .info-unit::before {
-    content: "Kanselahin " !important;
-  }
+html[lang="tl-PH"] .no-eew.rts-trigger-high .info-unit::after {
+  content: "Malakas na pagtuklas ng lindol " !important;
+}
 
-  .eew-warn .info-unit::before {
-    content: "Babala " !important;
-  }
+html[lang="tl-PH"] .eew-cancel .info-unit::before {
+  content: "Kanselahin " !important;
+}
 
-  .eew-alert .info-unit::before {
-    content: "Alerto ng babala " !important;
-  }
+html[lang="tl-PH"] .eew-warn .info-unit::before {
+  content: "Babala " !important;
+}
 
-  .eew-rts .info-unit::before {
-    content: "Single-Point na pagtukoy ng lindol " !important;
-  }
+html[lang="tl-PH"] .eew-alert .info-unit::before {
+  content: "Alerto ng babala " !important;
+}
 
-  .info-cancel-last::after {
-    content: "(Kanselahin)" !important;
-  }
+html[lang="tl-PH"] .eew-rts .info-unit::before {
+  content: "Single-Point na pagtukoy ng lindol " !important;
+}
 
-  .info-number-last::after {
-    content: "(Pangwakas)" !important;
-  }
+html[lang="tl-PH"] .info-cancel-last::after {
+  content: "(Kanselahin)" !important;
+}
 
-  .no-eew .info-unit::after {
-    content: "Walang babala sa lindol" !important;
-  }
+html[lang="tl-PH"] .info-number-last::after {
+  content: "(Pangwakas)" !important;
+}
 
-  .info-intensity::after {
-    content: "Tantyahin ang maximum" !important;
-  }
+html[lang="tl-PH"] .no-eew .info-unit::after {
+  content: "Walang babala sa lindol" !important;
+}
 
-  .info-nsspe span::before {
-    content: "NSSPE" !important;
-  }
+html[lang="tl-PH"] .info-intensity::before {
+  content: "Tantyahin ang" !important;
+}
 
-  .info-mag-text::after,
-  .report-box-item-wrapper:first-child .report-mag-text::after {
-    content: "Mag." !important;
-  }
+html[lang="tl-PH"] .info-intensity::after {
+  content: "maximum" !important;
+}
 
-  .info-depth-text::after,
-  .report-depth-text::after {
-    content: "Lalim" !important;
-  }
+html[lang="tl-PH"] .info-nsspe span::before {
+  content: "NSSPE" !important;
+}
 
-  .intensity-0:not(
-      #max-intensity,
-      #max-pga,
-      #current-station-intensity,
-      .rts-intensity
-    )::after {
-    content: "?";
-  }
+html[lang="tl-PH"] .info-mag-text::after,
+html[lang="tl-PH"] .report-box-item-wrapper:first-child .report-mag-text::after {
+  content: "Mag." !important;
+}
 
-  .info-time::after {
-    content: "";
-  }
+html[lang="tl-PH"] .info-depth-text::after,
+html[lang="tl-PH"] .report-depth-text::after {
+  content: "Lalim" !important;
+}
 
-  .info-time::before {
-    content: "Mangyayari sa ";
-  }
+html[lang="tl-PH"] .intensity-0:not(#max-intensity,
+  #max-pga,
+  #current-station-intensity,
+  .rts-intensity)::after {
+  content: "?";
+}
 
-  .info-wrapper {
-    .info-title-wrapper {
-      .info-intensity {
-        font-size: 10px;
-      }
-    }
-  }
+html[lang="tl-PH"] .info-time::after {
+  content: "";
+}
 
-  /** Station Pga Info **/
-  .current-station-intensity-text::before {
-    content: "Intensity" !important;
-  }
-  .current-station-pga-text::before {
-    content: "PGA" !important;
-  }
+html[lang="tl-PH"] .info-time::before {
+  content: "Mangyayari sa ";
+}
 
-  .max-intensity-text::before {
-    content: "Max Intensity" !important;
-  }
+html[lang="tl-PH"] .info-wrapper .info-title-wrapper .info-intensity {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1px !important;
+}
 
-  .station-pga-wrapper {
-    left: 7.1rem;
-  }
+/** Station Pga Info **/
+html[lang="tl-PH"] .current-station-intensity-text::before {
+  content: "Intensity" !important;
+}
 
-  .max-pga-text::before {
-    content: "Max PGA" !important;
-  }
+html[lang="tl-PH"] .current-station-pga-text::before {
+  content: "PGA" !important;
+}
 
-  /** Fab Button **/
-  .intensity-report::before {
-    content: "Ulat ng intensity" !important;
-  }
+html[lang="tl-PH"] .max-intensity-text::before {
+  content: "Max Intensity" !important;
+}
 
-  .source-report::before {
-    content: "Ulat sa hypocenter ng lindol" !important;
-  }
+html[lang="tl-PH"] .station-pga-wrapper {
+  left: 7.1rem;
+}
 
-  .earthquake-report::before {
-    content: "Ulat ng lindol" !important;
-  }
+html[lang="tl-PH"] .max-pga-text::before {
+  content: "Max PGA" !important;
+}
 
-  .tsunami-warning::before {
-    content: "Babala sa tsunami" !important;
-  }
+/** Fab Button **/
+html[lang="tl-PH"] .intensity-report::before {
+  content: "Ulat ng intensity" !important;
+}
 
-  .earthquake-warning::before {
-    content: "Babala sa lindol" !important;
-  }
+html[lang="tl-PH"] .source-report::before {
+  content: "Ulat sa hypocenter ng lindol" !important;
+}
 
-  .report-intensity-text::before {
-    content: "Max Intensity" !important;
-  }
+html[lang="tl-PH"] .earthquake-report::before {
+  content: "Ulat ng lindol" !important;
+}
 
-  /** Report **/
-  .web-detection::before {
-    content: "Pagtuklas" !important;
-  }
+html[lang="tl-PH"] .tsunami-warning::before {
+  content: "Babala sa tsunami" !important;
+}
 
-  .web-report::before {
-    content: "Ulat" !important;
-  }
+html[lang="tl-PH"] .earthquake-warning::before {
+  content: "Babala sa lindol" !important;
+}
 
-  .report-replay::before {
-    content: "I-replay" !important;
-  }
+html[lang="tl-PH"] .report-intensity-text::before {
+  content: "Max Intensity" !important;
+}
 
-  .report-box-items .survey .report-loc:before {
-    content: "Epicenter sa ilalim ng pagtatasa" !important;
-  }
+/** Report **/
+html[lang="tl-PH"] .web-detection::before {
+  content: "Pagtuklas" !important;
+}
 
-  .rts-intensity-list-wrapper {
-    width: 13rem !important;
-  }
+html[lang="tl-PH"] .web-report::before {
+  content: "Ulat" !important;
+}
 
-  .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-    transform: translateX(153%);
-  }
+html[lang="tl-PH"] .report-replay::before {
+  content: "I-replay" !important;
+}
 
-  .report-wrapper {
-    .report-box-item-wrapper:first-child {
-      .report-intensity-text {
-        font-size: 12px;
-      }
-      .report-info-box {
-        .report-info-item {
-          .report-loc {
-            font-size: 24px;
-          }
-        }
-      }
-    }
-  }
+html[lang="tl-PH"] .report-box-items .survey .report-loc:before {
+  content: "Epicenter sa ilalim ng pagtatasa" !important;
+}
 
-  /** Intensity List **/
-  .rts-intenisty-list-text::before {
-    content: "Intensity ranking ayon sa seismicity" !important;
-  }
+html[lang="tl-PH"] .rts-intensity-list-wrapper {
+  width: 13rem !important;
+}
 
-  /** Warning Message Box **/
-  .internet-error .title:before {
-    content: "Error sa koneksyon sa network" !important;
-  }
+html[lang="tl-PH"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+  transform: translateX(153%);
+}
 
-  .unstable .title:before {
-    content: "Hindi matatag" !important;
-  }
+html[lang="tl-PH"] .report-wrapper .report-box-item-wrapper:first-child .report-intensity-text {
+  font-size: 12px;
+}
 
-  .unstable .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Ang mga punto ng pagmamasid ay maaaring" !important;
-    }
-    &:nth-child(2)::before {
-      content: "hindi matatag dahil sa aktibidad ng seismic" !important;
-    }
-  }
+html[lang="tl-PH"] .report-wrapper .report-box-item-wrapper:first-child .report-info-box .report-info-item .report-loc {
+  font-size: 24px;
+}
 
-  .internet-error .warning-message-text span {
-    &:nth-child(1)::before {
-      content: "Error sa koneksyon sa network" !important;
-    }
-    &:nth-child(2)::before {
-      content: "pakisubukang muli mamaya" !important;
-    }
-  }
+/** Intensity List **/
+html[lang="tl-PH"] .rts-intenisty-list-text::before {
+  content: "Intensity ranking ayon sa seismicity" !important;
+}
 
-  /** Count Down Plugin **/
-  .current-location-pwave-text:before {
-    content: "P wave" !important;
-  }
+/** Warning Message Box **/
+html[lang="tl-PH"] .internet-error .title:before {
+  content: "Error sa koneksyon sa network" !important;
+}
 
-  .current-location-swave-text:before {
-    content: "S wave" !important;
-  }
+html[lang="tl-PH"] .unstable .title:before {
+  content: "Hindi matatag" !important;
+}
 
-  .current-location-pwave-val.arrive:before,
-  .current-location-swave-val.arrive:before {
-    content: "Pagdating" !important;
-  }
+html[lang="tl-PH"] .unstable .warning-message-text span:nth-child(1)::before {
+  content: "Ang mga punto ng pagmamasid ay maaaring" !important;
+}
 
-  .current-location-pwave-val:not(:empty):after,
-  .current-location-swave-val:not(:empty):after {
-    content: "segundo" !important;
-  }
+html[lang="tl-PH"] .unstable .warning-message-text span:nth-child(2)::before {
+  content: "hindi matatag dahil sa aktibidad ng seismic" !important;
+}
 
-  .current-location-intensity-text:before {
-    content: "Intensity" !important;
-  }
+html[lang="tl-PH"] .internet-error .warning-message-text span:nth-child(1)::before {
+  content: "Error sa koneksyon sa network" !important;
+}
+
+html[lang="tl-PH"] .internet-error .warning-message-text span:nth-child(2)::before {
+  content: "pakisubukang muli mamaya" !important;
+}
+
+/** Count Down Plugin **/
+html[lang="tl-PH"] .current-location-pwave-text:before {
+  content: "P wave" !important;
+}
+
+html[lang="tl-PH"] .current-location-swave-text:before {
+  content: "S wave" !important;
+}
+
+html[lang="tl-PH"] .current-location-pwave-val.arrive:before,
+html[lang="tl-PH"] .current-location-swave-val.arrive:before {
+  content: "Pagdating" !important;
+}
+
+html[lang="tl-PH"] .current-location-pwave-val:not(:empty):after,
+html[lang="tl-PH"] .current-location-swave-val:not(:empty):after {
+  content: "segundo" !important;
+}
+
+html[lang="tl-PH"] .current-location-intensity-text:before {
+  content: "Intensity" !important;
 }

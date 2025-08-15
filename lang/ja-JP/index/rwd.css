@@ -1,7 +1,5 @@
-html[lang="ja-JP"] {
-  @media (max-width: 980px) {
-    .report-wrapper.hidden ~ .rts-intensity-list-wrapper {
-      transform: translateX(135%) !important;
-    }
+@media (max-width: 980px) {
+  html[lang="ja-JP"] .report-wrapper.hidden~.rts-intensity-list-wrapper {
+    transform: translateX(135%) !important;
   }
 }

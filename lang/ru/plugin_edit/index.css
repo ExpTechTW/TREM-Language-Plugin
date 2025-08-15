@@ -1,32 +1,39 @@
-html[lang="ru"] {
-  .visual-editor-title:before {
-    content: "Визуальный редактор" !important;
-  }
-  .btn-remove:before {
-    content: "Удалить" !important;
-  }
-  .btn-add:before {
-    content: "Добавить элемент" !important;
-  }
-  .root::before {
-    content: "Новые поля корневого уровня" !important;
-  }
-  .json-error:before {
-    content: "Ошибка формата JSON" !important;
-  }
-  .yaml-transfer-error:before {
-    content: "Ошибка преобразования YAML" !important;
-  }
-  .yaml-extract-error:before {
-    content: "Ошибка анализа YAML" !important;
-  }
-  .auto-save-success:before {
-    content: "Автосохранение выполнено успешно" !important;
-  }
-  .auto-save-error:before {
-    content: "Ошибка автоматического сохранения" !important;
-  }
-  .load-error:before {
-    content: "Ошибка чтения" !important;
-  }
+html[lang="ru"] .visual-editor-title:before {
+  content: "Визуальный редактор" !important;
+}
+
+html[lang="ru"] .btn-remove:before {
+  content: "Удалить" !important;
+}
+
+html[lang="ru"] .btn-add:before {
+  content: "Добавить элемент" !important;
+}
+
+html[lang="ru"] .root::before {
+  content: "Новые поля корневого уровня" !important;
+}
+
+html[lang="ru"] .json-error:before {
+  content: "Ошибка формата JSON" !important;
+}
+
+html[lang="ru"] .yaml-transfer-error:before {
+  content: "Ошибка преобразования YAML" !important;
+}
+
+html[lang="ru"] .yaml-extract-error:before {
+  content: "Ошибка анализа YAML" !important;
+}
+
+html[lang="ru"] .auto-save-success:before {
+  content: "Автосохранение выполнено успешно" !important;
+}
+
+html[lang="ru"] .auto-save-error:before {
+  content: "Ошибка автоматического сохранения" !important;
+}
+
+html[lang="ru"] .load-error:before {
+  content: "Ошибка чтения" !important;
 }
